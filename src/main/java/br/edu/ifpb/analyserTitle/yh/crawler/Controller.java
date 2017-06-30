@@ -11,7 +11,7 @@
  * 
  * @author <a href="https://github.com/JoseRafael97">Rafael Feitosa</a>
  */
-package crawler;
+package br.edu.ifpb.analyserTitle.yh.crawler;
 
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
