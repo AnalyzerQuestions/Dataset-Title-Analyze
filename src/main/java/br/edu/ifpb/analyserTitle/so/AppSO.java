@@ -14,6 +14,7 @@
 package br.edu.ifpb.analyserTitle.so;
 
 
+
 /**
  * 
  * <p>
@@ -33,7 +34,8 @@ public class AppSO {
 	 */
 	public static void main(String[] args) {
 		
-
+				
+	
 	}
 
 }

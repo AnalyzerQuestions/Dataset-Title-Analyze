@@ -24,6 +24,9 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
+import br.edu.ifpb.analyserTitle.entities.Question;
+import br.edu.ifpb.analyserTitle.util.StringTokenizerUtils;
+
 
 /**
  * 
@@ -72,14 +75,14 @@ public class ReaderQuestions {
 			for (int i = 1; i < csvRecords.size(); i++) {
 				CSVRecord record = csvRecords.get(i);
 
-				Question question = new Question(
-						record.get(TITLE), 
-						record.get(DESCRICAO), 
-						record.get(DESCRICAO_HTML), 
-						this.parseToList(record.get(TAGS)),
-						this.parseToBoolean(record.get(FOI_RESPONDIDA)));
-				
-				questions.add(question);
+//				Question question = new Question(
+//						record.get(TITLE), 
+//						record.get(DESCRICAO), 
+//						record.get(DESCRICAO_HTML), 
+//						this.parseToList(record.get(TAGS)),
+//						this.parseToBoolean(record.get(FOI_RESPONDIDA)));
+//				
+//				questions.add(question);
 			}
 			
 			return questions;

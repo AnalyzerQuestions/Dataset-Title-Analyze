@@ -20,7 +20,7 @@ import java.util.List;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 
-import br.edu.ifpb.analyserTitle.so.QuestionPojo;
+import br.edu.ifpb.analyserTitle.entities.Question;
 
 
 /**
@@ -67,10 +67,7 @@ public class CSVUtils {
 			for (Question q : list) {
 		    	List recordQuestions = new ArrayList();
 		    	recordQuestions.add(String.valueOf(q.getTitle()));
-				recordQuestions.add(String.valueOf(q.getDescription()));
-				recordQuestions.add(String.valueOf(q.getDescritptionHtml()));
-				recordQuestions.add(String.valueOf(q.getTags()));
-				recordQuestions.add(String.valueOf(q.isAnswered()));
+			
 		
 				csvPrinter.printRecord(recordQuestions);
 			}

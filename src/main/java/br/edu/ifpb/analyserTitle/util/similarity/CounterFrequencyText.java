@@ -15,6 +15,9 @@ package br.edu.ifpb.analyserTitle.util.similarity;
 import java.util.HashMap;
 import java.util.Map;
 
+import br.edu.ifpb.analyserTitle.util.LuceneUtil;
+import br.edu.ifpb.analyserTitle.util.StringUtil;
+
 
 /**
  * 
