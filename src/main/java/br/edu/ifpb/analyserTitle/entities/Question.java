@@ -35,13 +35,16 @@ public class Question implements Serializable{
 	private String title;
 	private String body;
 	private String link;
+	private String answersNumber;
 	
 	public Question() {
 	}
 
-	public Question(String title, String body) {
+	public Question(String title, String body, String link, String answersNumber) {
 		this.title = title;
 		this.body = body;
+		this.link = link;
+		this.answersNumber = answersNumber;
 	}
 
 	public Long getId() {
@@ -76,9 +79,29 @@ public class Question implements Serializable{
 		this.link = link;
 	}
 
+	
+	/**
+	 * @return the answersNumber
+	 */
+	public String getAnswersNumber() {
+		return answersNumber;
+	}
+
+	/**
+	 * @param answersNumber the answersNumber to set
+	 */
+	public void setAnswersNumber(String answersNumber) {
+		this.answersNumber = answersNumber;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
 	@Override
 	public String toString() {
-		return "Question [id=" + id + ", title=" + title + ", body=" + body
-				+ ", link=" + link + "]";
+		return "Question [id=" + id + ", title=" + title + ", body=" + body + ", link=" + link + ", answersNumber="
+				+ answersNumber + "]";
 	}
+
+	
 }

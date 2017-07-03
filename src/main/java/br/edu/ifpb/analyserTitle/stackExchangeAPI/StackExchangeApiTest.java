@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.types.Question;
-import br.edu.ifpb.analyserTitle.util.data.CSVUtils;
 
 
 public class StackExchangeApiTest {

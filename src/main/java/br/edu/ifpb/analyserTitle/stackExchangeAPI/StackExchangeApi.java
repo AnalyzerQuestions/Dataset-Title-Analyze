@@ -84,7 +84,7 @@ public class StackExchangeApi {
      * @param site
      * @return
      */
-    public StackExchangeSite getSiteService(final String site, String nameParam, String value) {
+    public StackExchangeSite getSiteService(final String site, final String nameParam, final String value) {
         return builder
             .setRequestInterceptor(new RequestInterceptor() {
                 public void intercept(RequestFacade request) {
@@ -98,7 +98,7 @@ public class StackExchangeApi {
             .create(StackExchangeSite.class);
     }
     
-    public StackExchangeSite getSiteService(final String site, String tagged) {
+    public StackExchangeSite getSiteService(final String site, final String tagged) {
         return builder
             .setRequestInterceptor(new RequestInterceptor() {
                 public void intercept(RequestFacade request) {
