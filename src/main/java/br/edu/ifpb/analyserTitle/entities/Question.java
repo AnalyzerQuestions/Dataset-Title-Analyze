@@ -35,16 +35,18 @@ public class Question implements Serializable{
 	private String title;
 	private String body;
 	private String link;
-	private String answersNumber;
+	private boolean acceptedAnswers;
+	private Integer answersNumber;
 	
 	public Question() {
 	}
 
-	public Question(String title, String body, String link, String answersNumber) {
+	public Question(String title, String body, String link, Integer answersNumber, boolean acceptedAnswers) {
 		this.title = title;
 		this.body = body;
 		this.link = link;
 		this.answersNumber = answersNumber;
+		this.acceptedAnswers = acceptedAnswers;
 	}
 
 	public Long getId() {
@@ -83,15 +85,31 @@ public class Question implements Serializable{
 	/**
 	 * @return the answersNumber
 	 */
-	public String getAnswersNumber() {
+	public Integer getAnswersNumber() {
 		return answersNumber;
 	}
 
 	/**
 	 * @param answersNumber the answersNumber to set
 	 */
-	public void setAnswersNumber(String answersNumber) {
+	public void setAnswersNumber(Integer answersNumber) {
 		this.answersNumber = answersNumber;
+	}
+	
+	
+
+	/**
+	 * @return the acceptedAnswers
+	 */
+	public boolean isAcceptedAnswers() {
+		return acceptedAnswers;
+	}
+
+	/**
+	 * @param acceptedAnswers the acceptedAnswers to set
+	 */
+	public void setAcceptedAnswers(boolean acceptedAnswers) {
+		this.acceptedAnswers = acceptedAnswers;
 	}
 
 	/* (non-Javadoc)
@@ -99,9 +117,12 @@ public class Question implements Serializable{
 	 */
 	@Override
 	public String toString() {
-		return "Question [id=" + id + ", title=" + title + ", body=" + body + ", link=" + link + ", answersNumber="
-				+ answersNumber + "]";
+		return "Question [id=" + id + ", title=" + title + ", body=" + body + ", link=" + link + ", acceptedAnswers="
+				+ acceptedAnswers + ", answersNumber=" + answersNumber + "]";
 	}
+
+	
+	
 
 	
 }
