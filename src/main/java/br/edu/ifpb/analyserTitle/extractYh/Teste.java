@@ -11,7 +11,7 @@
  * 
  * @author <a href="https://github.com/JoseRafael97">Rafael Feitosa</a>
  */
-package br.edu.ifpb.analyserTitle.yh.crawler;
+package br.edu.ifpb.analyserTitle.extractYh;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

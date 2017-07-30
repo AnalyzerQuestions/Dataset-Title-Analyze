@@ -13,6 +13,8 @@
 package br.edu.ifpb.analyserTitle.entities;
 
 import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 
@@ -37,16 +39,21 @@ public class Question implements Serializable{
 	private String link;
 	private boolean acceptedAnswers;
 	private Integer answersNumber;
+	private List<String> tags;
+	private Date createDate;
 	
 	public Question() {
 	}
 
-	public Question(String title, String body, String link, Integer answersNumber, boolean acceptedAnswers) {
+	public Question(String title, String body, String link, Integer answersNumber, boolean acceptedAnswers,
+			List<String> tags, Date createDate) {
 		this.title = title;
 		this.body = body;
 		this.link = link;
+		this.tags = tags;
 		this.answersNumber = answersNumber;
 		this.acceptedAnswers = acceptedAnswers;
+		this.createDate = createDate;
 	}
 
 	public Long getId() {
@@ -80,8 +87,24 @@ public class Question implements Serializable{
 	public void setLink(String link) {
 		this.link = link;
 	}
+	
+	
 
 	
+	/**
+	 * @return the tags
+	 */
+	public List<String> getTags() {
+		return tags;
+	}
+
+	/**
+	 * @param tags the tags to set
+	 */
+	public void setTags(List<String> tags) {
+		this.tags = tags;
+	}
+
 	/**
 	 * @return the answersNumber
 	 */
@@ -111,6 +134,22 @@ public class Question implements Serializable{
 	public void setAcceptedAnswers(boolean acceptedAnswers) {
 		this.acceptedAnswers = acceptedAnswers;
 	}
+	
+	
+
+	/**
+	 * @return the createDate
+	 */
+	public Date getCreateDate() {
+		return createDate;
+	}
+
+	/**
+	 * @param createDate the createDate to set
+	 */
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	}
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
@@ -118,10 +157,10 @@ public class Question implements Serializable{
 	@Override
 	public String toString() {
 		return "Question [id=" + id + ", title=" + title + ", body=" + body + ", link=" + link + ", acceptedAnswers="
-				+ acceptedAnswers + ", answersNumber=" + answersNumber + "]";
+				+ acceptedAnswers + ", answersNumber=" + answersNumber + ", tags=" + tags + ", createDate=" + createDate
+				+ "]";
 	}
 
-	
 	
 
 	

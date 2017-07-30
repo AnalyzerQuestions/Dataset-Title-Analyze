@@ -1,17 +1,19 @@
 
-package br.edu.ifpb.analyserTitle.yh.crawler;
+package br.edu.ifpb.analyserTitle.extractYh;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import br.edu.ifpb.analyserTitle.entities.Question;
-import br.edu.ifpb.analyserTitle.yh.crawler.enumation.QuestionType;
+import br.edu.ifpb.analyserTitle.extractYh.enumarations.QuestionType;
 
 /**
  * 
@@ -40,23 +42,44 @@ public class MappedQuestionYa {
 		initListOfCategory();
 	}
 
+	/**
+	 * Search questions not answered in the Yahoo Answers
+	 * @param numberQuestion - number of question 
+	 * @return List of questions
+	 */
 	public List<Question> questionsNotAnswered(Integer numberQuestion) {
 		return visitPages(QuestionType.NOT_ANSWERED, numberQuestion);
 	}
 
+	/**
+	 * Search questions with answer in the Yahoo Answers
+	 * @param numberQuestion
+	 * @return
+	 */
 	public List<Question> questionsAnswered(Integer numberQuestion) {
 		return visitPages(QuestionType.ANSWER, numberQuestion);
 	}
 
+	/**
+	 * Search questions with accepted answer in the Yahoo Answers
+	 * @param numberQuestion
+	 * @return
+	 */
 	public List<Question> questionsWithAcceptedAnswer(Integer numberQuestion) {
 		return visitPages(QuestionType.JUST_WITH_ANSWERED_ANSWER, numberQuestion);
 	}
 
+	/**
+	 * Search questions in the Yahoo Answers
+	 * @param numberQuestion
+	 * @return
+	 */
 	public List<Question> allQuestions(Integer numberQuestion) {
 		return visitPages(null, numberQuestion);
 	}
 
 	/**
+	 * Visit pages with category and question for extract information in the Yahoo Answers.
 	 * 
 	 * @param questionType
 	 * @return
@@ -79,7 +102,6 @@ public class MappedQuestionYa {
 						if (questionsYahoo.size() >= numberQuestion) {
 							return questionsYahoo;
 						}
-
 						Question question = extractQuestionYh(URL_PAGE + questionsLinks.get(j).attr("href"));
 
 						if (validateInsertQuestionInList(questionType, question)) {
@@ -97,7 +119,7 @@ public class MappedQuestionYa {
 	}
 
 	/**
-	 * 
+	 * Validate Filter of question type.
 	 * @param questionType
 	 * @param question
 	 * @return
@@ -170,14 +192,16 @@ public class MappedQuestionYa {
 
 		if (link.contains("question") && link.contains("qid")) {
 
-			Document doc = Jsoup.connect(link).get();
+			document = Jsoup.connect(link).get();
 
-			String title = doc.getElementsByClass("Fz-24 Fw-300 Mb-10").text();
-			String description = doc.getElementsByClass("ya-q-text").text();
-			String numberAnswers = doc.getElementsByClass("Mend-10 Fz-13 Fw-n D-ib").text();
-			
-			Boolean acceptedAnswer = doc.getElementsByClass("ya-ba-title Fw-b").text().equals("Melhor resposta:");
+			String title = document.getElementsByClass("Fz-24 Fw-300 Mb-10").text();
+			String description = document.getElementsByClass("ya-q-text").text();
+			String numberAnswers = document.getElementsByClass("Mend-10 Fz-13 Fw-n D-ib").text();
+			Boolean acceptedAnswer = document.getElementsByClass("ya-ba-title Fw-b").text().equals("Melhor resposta:");
 			Integer numberAnswersInt = 0;
+			List<String> tags = extractTagsQuestionYh();
+		
+			
 			if (numberAnswers.trim().length() > 0) {
 				
 				if (numberAnswers.trim().length() < 14) {
@@ -193,11 +217,27 @@ public class MappedQuestionYa {
 				numberAnswersInt = Integer.parseInt(numberAnswers);
 			}
 
-			return new Question(title, description, link, numberAnswersInt, acceptedAnswer);
+			return new Question(title, description, link, numberAnswersInt, acceptedAnswer, tags, new Date());
 
 		}
 
 		return null;
+	}
+	
+	/**
+	 * Extract tags of question page Yahoo Answers
+	 * @return
+	 */
+	public List<String> extractTagsQuestionYh(){
+		List<String> tags = new ArrayList<>();
+		
+		Elements element = document.getElementsByClass("Clr-b").select("[title]");
+		
+		for(int i = 0; i < element.size(); i++){
+			tags.add(element.get(i).attr("title"));
+		}
+		
+		return tags;
 	}
 
 	/**
@@ -235,6 +275,6 @@ public class MappedQuestionYa {
 	public static void main(String[] args) throws IOException {
 		MappedQuestionYa mappedQuestionYa = new MappedQuestionYa();
 
-		System.out.println("NUMERO QUESTION: " + mappedQuestionYa.questionsNotAnswered(200).size());
+		System.out.println("NUMERO QUESTION: " + mappedQuestionYa.allQuestions(3).size());
 	}
 }
