@@ -3,7 +3,7 @@ package br.edu.ifpb.analyserTitle.extractYh;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Date;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -44,7 +44,9 @@ public class MappedQuestionYa {
 
 	/**
 	 * Search questions not answered in the Yahoo Answers
-	 * @param numberQuestion - number of question 
+	 * 
+	 * @param numberQuestion
+	 *            - number of question
 	 * @return List of questions
 	 */
 	public List<Question> questionsNotAnswered(Integer numberQuestion) {
@@ -53,6 +55,7 @@ public class MappedQuestionYa {
 
 	/**
 	 * Search questions with answer in the Yahoo Answers
+	 * 
 	 * @param numberQuestion
 	 * @return
 	 */
@@ -62,6 +65,7 @@ public class MappedQuestionYa {
 
 	/**
 	 * Search questions with accepted answer in the Yahoo Answers
+	 * 
 	 * @param numberQuestion
 	 * @return
 	 */
@@ -71,6 +75,7 @@ public class MappedQuestionYa {
 
 	/**
 	 * Search questions in the Yahoo Answers
+	 * 
 	 * @param numberQuestion
 	 * @return
 	 */
@@ -79,7 +84,8 @@ public class MappedQuestionYa {
 	}
 
 	/**
-	 * Visit pages with category and question for extract information in the Yahoo Answers.
+	 * Visit pages with category and question for extract information in the
+	 * Yahoo Answers.
 	 * 
 	 * @param questionType
 	 * @return
@@ -120,6 +126,7 @@ public class MappedQuestionYa {
 
 	/**
 	 * Validate Filter of question type.
+	 * 
 	 * @param questionType
 	 * @param question
 	 * @return
@@ -192,6 +199,8 @@ public class MappedQuestionYa {
 
 		if (link.contains("question") && link.contains("qid")) {
 
+		
+			
 			document = Jsoup.connect(link).get();
 
 			String title = document.getElementsByClass("Fz-24 Fw-300 Mb-10").text();
@@ -200,43 +209,50 @@ public class MappedQuestionYa {
 			Boolean acceptedAnswer = document.getElementsByClass("ya-ba-title Fw-b").text().equals("Melhor resposta:");
 			Integer numberAnswersInt = 0;
 			List<String> tags = extractTagsQuestionYh();
-		
 			
+			int year = Integer.parseInt(link.substring(48,  52));
+			int month =  Integer.parseInt(link.substring(52, 54));
+			int day =  Integer.parseInt(link.substring(54,56));
+			
+			Calendar c = Calendar.getInstance();
+			c.set(year, month, day, 0, 0); 
+
 			if (numberAnswers.trim().length() > 0) {
-				
+
 				if (numberAnswers.trim().length() < 14) {
 					numberAnswers = numberAnswers.substring(0, 2).trim();
-				
+
 				} else if (numberAnswers.trim().length() < 16) {
 					numberAnswers = numberAnswers.substring(0, 3).trim();
-				
+
 				} else {
 					numberAnswers = numberAnswers.substring(0, 4).trim();
 				}
-				
+
 				numberAnswersInt = Integer.parseInt(numberAnswers);
 			}
 
-			return new Question(title, description, link, numberAnswersInt, acceptedAnswer, tags, new Date());
+			return new Question(title, description, link, numberAnswersInt, acceptedAnswer, tags, c.getTime());
 
 		}
 
 		return null;
 	}
-	
+
 	/**
 	 * Extract tags of question page Yahoo Answers
+	 * 
 	 * @return
 	 */
-	public List<String> extractTagsQuestionYh(){
+	public List<String> extractTagsQuestionYh() {
 		List<String> tags = new ArrayList<>();
-		
+
 		Elements element = document.getElementsByClass("Clr-b").select("[title]");
-		
-		for(int i = 0; i < element.size(); i++){
+
+		for (int i = 0; i < element.size(); i++) {
 			tags.add(element.get(i).attr("title"));
 		}
-		
+
 		return tags;
 	}
 
