@@ -41,6 +41,8 @@ public class Question implements Serializable{
 	private Integer answersNumber;
 	private List<String> tags;
 	private Date createDate;
+	private Date firstAnswer;
+	private Long timeInHourForFisrtAnswer;
 	
 	public Question() {
 	}
@@ -150,18 +152,30 @@ public class Question implements Serializable{
 	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
 	}
+	
+	
 
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
+	public Date getFirstAnswer() {
+		return firstAnswer;
+	}
+
+	public void setFirstAnswer(Date firstAnswer) {
+		this.firstAnswer = firstAnswer;
+	}
+
+	public Long getTimeInHourForFisrtAnswer() {
+		return timeInHourForFisrtAnswer;
+	}
+
+	public void setTimeInHourForFisrtAnswer(Long timeInHourForFisrtAnswer) {
+		this.timeInHourForFisrtAnswer = timeInHourForFisrtAnswer;
+	}
+
 	@Override
 	public String toString() {
 		return "Question [id=" + id + ", title=" + title + ", body=" + body + ", link=" + link + ", acceptedAnswers="
 				+ acceptedAnswers + ", answersNumber=" + answersNumber + ", tags=" + tags + ", createDate=" + createDate
-				+ "]";
+				+ ", firstAnswer=" + firstAnswer + ", timeInHourForFisrtAnswer=" + timeInHourForFisrtAnswer + "]";
 	}
-
-	
-
 	
 }

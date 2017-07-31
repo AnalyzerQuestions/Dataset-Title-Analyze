@@ -2,12 +2,15 @@
 package br.edu.ifpb.analyserTitle.extractYh;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -98,19 +101,36 @@ public class MappedQuestionYa {
 			try {
 
 				Elements linkSubCategory = extractLinkSubCategoryYh(entry.getValue());
+				
 
 				for (int i = 0; i < linkSubCategory.size(); i++) {
-
+					
 					Elements questionsLinks = extractLinkQuestionYh(URL_PAGE + linkSubCategory.get(i).attr("href"));
 
+					Elements dateCreate = extractPostDateQuestionYh();
+					
 					for (int j = 0; j < questionsLinks.size(); j++) {
-
+						
+						Integer time = Integer.parseInt(dateCreate.get(j).text().substring(14,16).trim());
+						Date createDate =  extractDate(dateCreate.get(j).text(), time);
+						
 						if (questionsYahoo.size() >= numberQuestion) {
 							return questionsYahoo;
 						}
+						
 						Question question = extractQuestionYh(URL_PAGE + questionsLinks.get(j).attr("href"));
+						question.setCreateDate(createDate);
+						
+						LocalDateTime date = extractDateToFirstAnswerQuestionYh();
+						LocalDateTime createDate2 = LocalDateTime.ofInstant(question.getCreateDate().toInstant(), ZoneId.systemDefault());
+						
+						Date out = Date.from(date.atZone(ZoneId.systemDefault()).toInstant());
+						question.setFirstAnswer(out);
+						question.setTimeInHourForFisrtAnswer(ChronoUnit.HOURS.between(createDate2,date));
 
+									
 						if (validateInsertQuestionInList(questionType, question)) {
+							questionsYahoo.remove(question);
 							questionsYahoo.add(question);
 						}
 					}
@@ -122,6 +142,30 @@ public class MappedQuestionYa {
 
 		return questionsYahoo;
 
+	}
+	
+	/**
+	 * Extract date of the element pass
+	 * @param elements
+	 * @return
+	 */
+	private Date extractDate(String elementDate, Integer time){
+		
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(new Date());
+
+		if (elementDate.contains("horas")) {
+			cal.add(Calendar.HOUR_OF_DAY, -time);
+
+		} else if (elementDate.contains("dias")) {
+			cal.add(Calendar.DAY_OF_MONTH, -time);
+
+		} else if (elementDate.contains("min")) {
+			cal.add(Calendar.MINUTE, -time);
+
+		}
+		
+		return cal.getTime();
 	}
 
 	/**
@@ -180,9 +224,65 @@ public class MappedQuestionYa {
 
 		document = Jsoup.connect(link).get();
 
-		Elements questionsLinks = document.getElementsByClass("Fz-14 Fw-b Clr-b Wow-bw title").select("[href]");
-
+		Elements questionsLinks = document.getElementsByClass("Fz-14 Fw-b Clr-b Wow-bw title");
+		
 		return questionsLinks;
+
+	}
+	
+	/**
+	 * 
+	 */
+	private Elements extractPostDateQuestionYh(){
+		
+		Elements timeDate = document.getElementsByClass("Clr-888 Fz-12 Lh-18");
+
+		return timeDate;
+	}
+
+	/**
+	 * Extract Date for first answer in the question.
+	 * 
+	 * @param link
+	 *            - link of page with list of question
+	 * @return
+	 * @throws IOException
+	 */
+	private LocalDateTime extractDateToFirstAnswerQuestionYh() throws IOException {
+
+		Elements elements = document.getElementsByClass("Clr-88 ya-localtime");
+		Date date = null;
+
+		for (int i = 0; i < elements.size(); i++) {
+
+			Calendar cal = Calendar.getInstance();
+			cal.setTime(new Date());
+
+			Integer time = Integer.parseInt(elements.get(i).text().substring(2, 4).trim());
+
+			if (elements.get(i).text().contains("horas") || elements.get(i).text().contains("hora")) {
+				cal.add(Calendar.HOUR_OF_DAY, -time);
+
+			} else if (elements.get(i).text().contains("dias") || elements.get(i).text().contains("dia")) {
+				cal.add(Calendar.DAY_OF_MONTH, -time);
+
+			} else if (elements.get(i).text().contains("min")) {
+				cal.add(Calendar.MINUTE, -time);
+
+			}
+
+			if ((date != null && cal.getTime().after(date))) {
+				date = cal.getTime();
+			}
+
+			if (date == null) {
+				date = cal.getTime();
+			}
+		}
+		
+		LocalDateTime ldt = LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
+				
+		return ldt;
 
 	}
 
@@ -199,23 +299,13 @@ public class MappedQuestionYa {
 
 		if (link.contains("question") && link.contains("qid")) {
 
-		
-			
 			document = Jsoup.connect(link).get();
-
 			String title = document.getElementsByClass("Fz-24 Fw-300 Mb-10").text();
 			String description = document.getElementsByClass("ya-q-text").text();
 			String numberAnswers = document.getElementsByClass("Mend-10 Fz-13 Fw-n D-ib").text();
 			Boolean acceptedAnswer = document.getElementsByClass("ya-ba-title Fw-b").text().equals("Melhor resposta:");
 			Integer numberAnswersInt = 0;
 			List<String> tags = extractTagsQuestionYh();
-			
-			int year = Integer.parseInt(link.substring(48,  52));
-			int month =  Integer.parseInt(link.substring(52, 54));
-			int day =  Integer.parseInt(link.substring(54,56));
-			
-			Calendar c = Calendar.getInstance();
-			c.set(year, month, day, 0, 0); 
 
 			if (numberAnswers.trim().length() > 0) {
 
@@ -232,7 +322,7 @@ public class MappedQuestionYa {
 				numberAnswersInt = Integer.parseInt(numberAnswers);
 			}
 
-			return new Question(title, description, link, numberAnswersInt, acceptedAnswer, tags, c.getTime());
+			return new Question(title, description, link, numberAnswersInt, acceptedAnswer, tags, null);
 
 		}
 
@@ -291,6 +381,12 @@ public class MappedQuestionYa {
 	public static void main(String[] args) throws IOException {
 		MappedQuestionYa mappedQuestionYa = new MappedQuestionYa();
 
-		System.out.println("NUMERO QUESTION: " + mappedQuestionYa.allQuestions(3).size());
+		List<Question> listOfQuestion = mappedQuestionYa.allQuestions(1);
+		System.out.println("NUMERO QUESTION: " + listOfQuestion.size());
+		System.out.println(listOfQuestion.get(0).getLink());
+		System.out.println(listOfQuestion.get(0).getFirstAnswer());
+		System.out.println(listOfQuestion.get(0).getCreateDate());
+
+		System.out.println("List: "+listOfQuestion);
 	}
 }

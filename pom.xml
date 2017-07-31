@@ -4,7 +4,7 @@
 	<groupId>br.edu.ifpb</groupId>
 	<artifactId>analyzerTitle</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -46,6 +46,8 @@
 			<artifactId>htmlunit</artifactId>
 			<version>2.27</version>
 		</dependency>
+
+
 		<!-- DEPENDENCIES ANALYZER -->
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
