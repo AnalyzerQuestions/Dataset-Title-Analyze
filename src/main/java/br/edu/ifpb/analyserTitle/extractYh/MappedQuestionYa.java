@@ -15,7 +15,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import br.edu.ifpb.analyserTitle.entities.Question;
+import br.edu.ifpb.analyserTitle.extractYh.entities.QuestionYh;
 import br.edu.ifpb.analyserTitle.extractYh.enumarations.QuestionType;
 
 /**
@@ -52,7 +52,7 @@ public class MappedQuestionYa {
 	 *            - number of question
 	 * @return List of questions
 	 */
-	public List<Question> questionsNotAnswered(Integer numberQuestion) {
+	public List<QuestionYh> questionsNotAnswered(Integer numberQuestion) {
 		return visitPages(QuestionType.NOT_ANSWERED, numberQuestion);
 	}
 
@@ -62,7 +62,7 @@ public class MappedQuestionYa {
 	 * @param numberQuestion
 	 * @return
 	 */
-	public List<Question> questionsAnswered(Integer numberQuestion) {
+	public List<QuestionYh> questionsAnswered(Integer numberQuestion) {
 		return visitPages(QuestionType.ANSWER, numberQuestion);
 	}
 
@@ -72,7 +72,7 @@ public class MappedQuestionYa {
 	 * @param numberQuestion
 	 * @return
 	 */
-	public List<Question> questionsWithAcceptedAnswer(Integer numberQuestion) {
+	public List<QuestionYh> questionsWithAcceptedAnswer(Integer numberQuestion) {
 		return visitPages(QuestionType.JUST_WITH_ANSWERED_ANSWER, numberQuestion);
 	}
 
@@ -82,7 +82,7 @@ public class MappedQuestionYa {
 	 * @param numberQuestion
 	 * @return
 	 */
-	public List<Question> allQuestions(Integer numberQuestion) {
+	public List<QuestionYh> allQuestions(Integer numberQuestion) {
 		return visitPages(null, numberQuestion);
 	}
 
@@ -93,8 +93,8 @@ public class MappedQuestionYa {
 	 * @param questionType
 	 * @return
 	 */
-	public List<Question> visitPages(QuestionType questionType, Integer numberQuestion) {
-		List<Question> questionsYahoo = new ArrayList<Question>();
+	public List<QuestionYh> visitPages(QuestionType questionType, Integer numberQuestion) {
+		List<QuestionYh> questionsYahoo = new ArrayList<QuestionYh>();
 
 		for (Map.Entry<String, String> entry : mainCategoryList.entrySet()) {
 
@@ -119,7 +119,7 @@ public class MappedQuestionYa {
 							return questionsYahoo;
 						}
 						
-						Question question = extractQuestionYh(URL_PAGE + questionsLinks.get(j).attr("href"));
+						QuestionYh question = extractQuestionYh(URL_PAGE + questionsLinks.get(j).attr("href"));
 						question.setCreateDate(createDate);
 						
 						LocalDateTime date = extractDateToFirstAnswerQuestionYh();
@@ -178,7 +178,7 @@ public class MappedQuestionYa {
 	 * @param question
 	 * @return
 	 */
-	private boolean validateInsertQuestionInList(QuestionType questionType, Question question) {
+	private boolean validateInsertQuestionInList(QuestionType questionType, QuestionYh question) {
 
 		if (questionType == null) {
 			return true;
@@ -301,7 +301,7 @@ public class MappedQuestionYa {
 	 * @return Question
 	 * @throws IOException
 	 */
-	public Question extractQuestionYh(String link) throws IOException {
+	public QuestionYh extractQuestionYh(String link) throws IOException {
 
 		if (link.contains("question") && link.contains("qid")) {
 
@@ -321,7 +321,7 @@ public class MappedQuestionYa {
 				numberAnswersInt = Integer.parseInt(numberAnswers);
 			}
 
-			return new Question(title, description, link, numberAnswersInt, acceptedAnswer, tags, null);
+			return new QuestionYh(title, description, link, numberAnswersInt, acceptedAnswer, tags, null);
 
 		}
 

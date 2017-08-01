@@ -68,7 +68,6 @@ public class StackExchangeApi {
                     request.addQueryParam("todate", ate);
                     request.addQueryParam("sort", "creation");
                     request.addQueryParam("order", "desc");
-                    request.addQueryParam("tagged", "java");
                     request.addQueryParam("key", key);
                     request.addQueryParam("access_token", accessToken);
                     request.addQueryParam("filter", "c*65v.ppToRvQ1LyNaG30spXwQLmiAxD*("); //  filter questions

@@ -8,6 +8,7 @@ import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.types.User;
 public interface StackExchangeSite {
 
     public static final String STACK_OVERFLOW = "pt.stackoverflow";
+    public static final String PORTUGUESE_LENGUAGE_BETA = "portuguese.stackexchange.com";
 
     @GET("/users")
     Response<User> getUsers();

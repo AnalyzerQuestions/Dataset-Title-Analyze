@@ -1,4 +1,4 @@
-package br.edu.ifpb.analyserTitle.extractYh.utils;
+package br.edu.ifpb.analyserTitle.extractYh.data;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -8,13 +8,25 @@ import java.util.List;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 
-import br.edu.ifpb.analyserTitle.entities.Question;
+import br.edu.ifpb.analyserTitle.extractYh.entities.QuestionYh;
 
+/**
+ * 
+ * <p>
+ * <b> {@link CSVUtil} </b>
+ * </p>
+ *
+ * <p>
+ * Record informations questions in CSV file.
+ * </p>
+ * 
+ * @author <a href="https://github.com/JoseRafael97">Rafael Feitosa</a>
+ */
 public class CSVUtil {
 
 	 private static final String NEW_LINE_SEPARATOR = "\n";
 	    
-	    private List<Question> questions;
+	    private List<QuestionYh> questions;
 
 		private CSVPrinter csvPrinter;
 	    
@@ -45,7 +57,7 @@ public class CSVUtil {
 		};
 	    
 	    
-	    public void getQuestions(List<Question> questions){
+	    public void getQuestions(List<QuestionYh> questions){
 	    	this.questions = questions;
 	    }
 	    
@@ -67,7 +79,7 @@ public class CSVUtil {
 				csvPrinter.printRecord(FILE_HEADER);
 				System.out.println(questions.size());
 				
-				for (Question q : questions) {
+				for (QuestionYh q : questions) {
 					
 			    	List recordQuestions = new ArrayList();
 					recordQuestions.add(String.valueOf(q.getTitle()));

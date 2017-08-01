@@ -85,4 +85,13 @@ public class Response<T> implements Iterable<T> {
         this.type = type;
     }
 
+	@Override
+	public String toString() {
+		return "Response [backoff=" + backoff + ", hasMore=" + hasMore + ", items=" + items + ", quotaMax=" + quotaMax
+				+ ", quotaRemaining=" + quotaRemaining + ", page=" + page + ", pageSize=" + pageSize + ", total="
+				+ total + ", type=" + type + "]";
+	}
+    
+    
+
 }

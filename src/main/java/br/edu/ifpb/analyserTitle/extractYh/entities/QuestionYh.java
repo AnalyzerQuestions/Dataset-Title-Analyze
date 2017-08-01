@@ -10,7 +10,7 @@
  * 
  * @author <a href="https://github.com/JoseRafael97">Rafael Feitosa</a>
  */
-package br.edu.ifpb.analyserTitle.entities;
+package br.edu.ifpb.analyserTitle.extractYh.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 
  * <p>
- * <b> {@link Question} </b>
+ * <b> {@link QuestionYh} </b>
  * </p>
  *
  * <p>
@@ -28,7 +28,7 @@ import java.util.List;
  * 
  * @author <a href="https://github.com/JoseRafael97">Rafael Feitosa</a>
  */
-public class Question implements Serializable{
+public class QuestionYh implements Serializable{
 
 
 	private static final long serialVersionUID = 1L;
@@ -44,10 +44,10 @@ public class Question implements Serializable{
 	private Date firstAnswer;
 	private Long timeInHourForFisrtAnswer;
 	
-	public Question() {
+	public QuestionYh() {
 	}
 
-	public Question(String title, String body, String link, Integer answersNumber, boolean acceptedAnswers,
+	public QuestionYh(String title, String body, String link, Integer answersNumber, boolean acceptedAnswers,
 			List<String> tags, Date createDate) {
 		this.title = title;
 		this.body = body;
