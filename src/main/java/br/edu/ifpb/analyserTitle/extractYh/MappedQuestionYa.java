@@ -110,8 +110,9 @@ public class MappedQuestionYa {
 					Elements dateCreate = extractPostDateQuestionYh();
 					
 					for (int j = 0; j < questionsLinks.size(); j++) {
-						
-						Integer time = Integer.parseInt(dateCreate.get(j).text().substring(14,16).trim());
+						String timeStr = dateCreate.get(j).text().substring(14,dateCreate.get(j).text().length()).trim();
+						timeStr = timeStr.replaceAll("[^0-9.,]+","").replace(",,", "").replace(".", "");
+						Integer time = Integer.parseInt(timeStr);
 						Date createDate =  extractDate(dateCreate.get(j).text(), time);
 						
 						if (questionsYahoo.size() >= numberQuestion) {
@@ -154,17 +155,19 @@ public class MappedQuestionYa {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(new Date());
 
-		if (elementDate.contains("horas")) {
+		if (elementDate.contains("horas") || elementDate.contains("hora")) {
 			cal.add(Calendar.HOUR_OF_DAY, -time);
 
-		} else if (elementDate.contains("dias")) {
+		} else if (elementDate.contains("dias") || elementDate.contains("dia")) {
 			cal.add(Calendar.DAY_OF_MONTH, -time);
 
 		} else if (elementDate.contains("min")) {
 			cal.add(Calendar.MINUTE, -time);
+		}else if  (elementDate.contains("semanas") || elementDate.contains("semana")) {
+			
+			cal.add(Calendar.DAY_OF_MONTH, -(time*7));
 
 		}
-		
 		return cal.getTime();
 	}
 
@@ -258,7 +261,8 @@ public class MappedQuestionYa {
 			Calendar cal = Calendar.getInstance();
 			cal.setTime(new Date());
 
-			Integer time = Integer.parseInt(elements.get(i).text().substring(2, 4).trim());
+			String value = elements.get(i).text().substring(2, 4).trim().replaceAll("[^0-9.,]+","");
+			Integer time = Integer.parseInt(value);
 
 			if (elements.get(i).text().contains("horas") || elements.get(i).text().contains("hora")) {
 				cal.add(Calendar.HOUR_OF_DAY, -time);
@@ -269,6 +273,8 @@ public class MappedQuestionYa {
 			} else if (elements.get(i).text().contains("min")) {
 				cal.add(Calendar.MINUTE, -time);
 
+			}else if  (elements.contains("semanas") || elements.contains("semana")) {
+				cal.add(Calendar.DAY_OF_MONTH, -(time*7));
 			}
 
 			if ((date != null && cal.getTime().after(date))) {
@@ -307,18 +313,11 @@ public class MappedQuestionYa {
 			Integer numberAnswersInt = 0;
 			List<String> tags = extractTagsQuestionYh();
 
-			if (numberAnswers.trim().length() > 0) {
+			if (numberAnswers.trim().length() > 0) {				
+				numberAnswers = numberAnswers.substring(6, numberAnswers.length());
 
-				if (numberAnswers.trim().length() < 14) {
-					numberAnswers = numberAnswers.substring(0, 2).trim();
-
-				} else if (numberAnswers.trim().length() < 16) {
-					numberAnswers = numberAnswers.substring(0, 3).trim();
-
-				} else {
-					numberAnswers = numberAnswers.substring(0, 4).trim();
-				}
-
+				numberAnswers = numberAnswers.trim().replaceAll("[^0-9.,]+","");
+			
 				numberAnswersInt = Integer.parseInt(numberAnswers);
 			}
 
@@ -378,15 +377,4 @@ public class MappedQuestionYa {
 		mainCategoryList.put("Saúde", "https://br.answers.yahoo.com/dir/index?sid=396545018");
 	}
 
-	public static void main(String[] args) throws IOException {
-		MappedQuestionYa mappedQuestionYa = new MappedQuestionYa();
-
-		List<Question> listOfQuestion = mappedQuestionYa.allQuestions(1);
-		System.out.println("NUMERO QUESTION: " + listOfQuestion.size());
-		System.out.println(listOfQuestion.get(0).getLink());
-		System.out.println(listOfQuestion.get(0).getFirstAnswer());
-		System.out.println(listOfQuestion.get(0).getCreateDate());
-
-		System.out.println("List: "+listOfQuestion);
-	}
 }

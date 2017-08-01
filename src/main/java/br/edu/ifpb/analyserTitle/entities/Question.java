@@ -171,6 +171,8 @@ public class Question implements Serializable{
 		this.timeInHourForFisrtAnswer = timeInHourForFisrtAnswer;
 	}
 
+	
+	
 	@Override
 	public String toString() {
 		return "Question [id=" + id + ", title=" + title + ", body=" + body + ", link=" + link + ", acceptedAnswers="
