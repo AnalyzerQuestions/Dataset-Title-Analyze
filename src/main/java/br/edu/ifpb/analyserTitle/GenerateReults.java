@@ -51,12 +51,56 @@ public class GenerateReults {
 	 * @param questions
 	 * @return
 	 */
-	public List<QuestionPojo> generate(List<Question> questions){
+	public List<QuestionPojo> generateNotAnsweredQuestions(List<Question> questions, int questionAmount){
 		
 		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
 		
 		for (Question question : questions) {
 			if(question.getAnswerCount() <= 0){
+				
+				if(questionPojos.size() == questionAmount ){
+					return questionPojos;
+				}
+				
+				
+				QuestionPojo qp = new QuestionPojo();
+				
+					/**
+					 * metadados SO request to API
+					 */
+					qp.setColumnQuestion(question);
+					
+					/**
+					 * metadados of time asks
+					 */
+					qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
+					qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
+					qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
+					
+				
+					questionPojos.add(qp);
+			}
+		}
+		
+		return questionPojos;
+	}
+	
+	/**
+	 * 
+	 * @param questions
+	 * @return
+	 */
+	public List<QuestionPojo> generateAnswedQuestions(List<Question> questions, int questionAmount){
+		
+		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
+		
+		for (Question question : questions) {
+			if(question.getAnswerCount() > 0 && question.getAnswers() != null){
+				
+				if(questionPojos.size() == questionAmount ){
+					return questionPojos;
+				}
+				
 				QuestionPojo qp = new QuestionPojo();
 				
 					/**
@@ -119,12 +163,17 @@ public class GenerateReults {
 	private Long dateBetwenQuestionAnswer(Question question){
 		Long minutes = -1l;
 		Answer answer = null;
+
+		//question.getAnswers() != null add for merged questions example:
+		//https://pt.stackoverflow.com/questions/179644/como-enviar-e-mail-em-c
 		
-		if(isAnwend(question)){
+		if(isAnwend(question) && question.getAnswers() != null){
 			answer = question.getAnswers().get(0);
 			
 			minutes = this.minutesBetewn(question.getCreationDate(), answer.getCreationDate());
 		}
+		
+
 		return minutes;
 	}
 
@@ -135,6 +184,8 @@ public class GenerateReults {
 	 */
 	private Long dateBetwenCommentAnswer(Question question){
 		Long minutes = -1l;
+		
+		
 		
 		if(isAnwend(question) && isCommented(question)){
 			Answer answer = question.getAnswers().get(0);

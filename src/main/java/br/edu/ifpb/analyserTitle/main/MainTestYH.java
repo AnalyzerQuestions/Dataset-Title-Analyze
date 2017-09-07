@@ -11,18 +11,25 @@ public class MainTestYH {
 		
 		MappedQuestionYa mappedQuestionYa = new MappedQuestionYa();
 		
-		System.out.println("------------CRIANDO DATASET PERGUNTAS SEM RESPOSTAS----------");
-		csvUtil.getQuestions(mappedQuestionYa.questionsNotAnswered(200));
-		csvUtil.writeCSV("perguntas-sem-respostas-YH.csv");
-		
-		System.out.println("------------FINALIZADO----------");
+	
 		
 		System.out.println("------------CRIANDO DATASET PERGUNTAS COM RESPOSTAS ACEITAS----------");
-		csvUtil.getQuestions(mappedQuestionYa.questionsWithAcceptedAnswer(200));
+		
+		//passa quantidade de pergunta que você quer 
+	
+		csvUtil.getQuestions(mappedQuestionYa.questionsWithAcceptedAnswer(5));
+		
+		
 		csvUtil.writeCSV("perguntas-com-repostas-aceitas-YH.csv");
 		
 		System.out.println("------------FINALIZADO----------");
 		
+		System.out.println("------------CRIANDO DATASET PERGUNTAS SEM RESPOSTAS----------");
+		//passa quantidade de pergunta que você quer 
+		csvUtil.getQuestions(mappedQuestionYa.questionsNotAnswered(5));
+		csvUtil.writeCSV("perguntas-sem-respostas-YH.csv");
+		
+		System.out.println("------------FINALIZADO----------");
 		
 
 	}

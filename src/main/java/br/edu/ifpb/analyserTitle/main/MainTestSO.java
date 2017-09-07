@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import br.edu.ifpb.analyserTitle.GenerateReults;
-import br.edu.ifpb.analyserTitle.extractYh.MappedQuestionYa;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.Response;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeApi;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeSite;
@@ -99,8 +98,11 @@ public class MainTestSO {
 		dates.put("1481846400", "1483142400");
 		dates.put("1483228800", "1484352000");
 		dates.put("1484438400", "1485302400"); // 2017-01-25 <- parou aqui
+		dates.put("1485907200", "1493510400");// April
+		dates.put("1493596800", "1501459200");// july
+		dates.put("1501545600", "1504656000");// agust
 
-		StackExchangeSite siteService = api.getSiteService("portuguese.stackexchange.com");
+		StackExchangeSite siteService = api.getSiteService(StackExchangeSite.STACK_OVERFLOW);
 		Response<Question> response = null;
 		List<Question> itemsQuestions = new ArrayList<Question>();
 
@@ -110,24 +112,52 @@ public class MainTestSO {
 				response = siteService.getQuestions();
 
 				for (Question question : response.getItems()) {
-					System.out.println(question.getBody());
-
 					itemsQuestions.add(question);
 				}
 			}
 		}
+		
+
 		System.out.println("-----------------------------------------------> 200 OK");
-		System.out.println("------------------------------------------------> " + itemsQuestions.size() + " COUNT LIST");
+		System.out
+				.println("------------------------------------------------> " + itemsQuestions.size() + " COUNT LIST");
 		System.out.println("------------------------------------------------> Analyzing ...");
 
-		GenerateReults  generateReults = new GenerateReults();
+		GenerateReults generateReults = new GenerateReults();
 		CSVUtils csvUtils = new CSVUtils();
-		csvUtils.getQuestions(generateReults.generate(itemsQuestions));
-	
+
+		
+		System.out.println("--------------------------------------PERGUNTAS NÃO RESPONDIDAS------------------------------------------");
+		
+		csvUtils.getQuestions(generateReults.generateNotAnsweredQuestions(itemsQuestions, 100));
+
 		System.out.println("------------------------------------------------> writing ...");
 
 		csvUtils.writeCSV("perguntas-nao-respondidas-SO-PT.csv");
 
 		System.out.println("------------------------------------------------> ESCRITA CSV OK");
+
+		System.out.println("-----------------------------------------------> 200 OK");
+		System.out
+				.println("------------------------------------------------> " + itemsQuestions.size() + " COUNT LIST");
+		System.out.println("------------------------------------------------> Analyzing ...");
+
+		
+		System.out.println("-----------------------------------------------------------------------------------------------------");
+
+	
+		System.out.println("--------------------------------------PERGUNTAS RESPONDIDAS------------------------------------------");
+		
+
+		csvUtils.getQuestions(generateReults.generateAnswedQuestions(itemsQuestions, 100));
+
+		System.out.println("------------------------------------------------> writing ...");
+
+		csvUtils.writeCSV("perguntas-respondidas-SO-PT.csv");
+
+		System.out.println("------------------------------------------------> ESCRITA CSV OK");
+
+		System.out.println("-----------------------------------------------------------------------------------------------------");
+
 	}
 }

@@ -130,4 +130,17 @@ public class Comment {
 		this.upvoted = upvoted;
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Comment [body=" + body + ", bodyMarkdown=" + bodyMarkdown + ", canFlag=" + canFlag + ", commentId="
+				+ commentId + ", creationDate=" + creationDate + ", edited=" + edited + ", link=" + link + ", owner="
+				+ owner + ", postId=" + postId + ", postType=" + postType + ", replyToUser=" + replyToUser + ", score="
+				+ score + ", upvoted=" + upvoted + "]";
+	}
+	
+	
+
 }

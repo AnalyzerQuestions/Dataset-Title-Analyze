@@ -12,6 +12,19 @@ import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeSite;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.data.CSVUtils;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.types.Question;
 
+
+/**
+ * 
+ * <p>
+ * <b> {@link MainTestSO} </b>
+ * </p>
+ *
+ * <p>
+ * Generate DataSet with questions of PORTUGUESE_LENGUAGE_BETA .
+ * </p>
+ * 
+ * @author <a href="https://github.com/JoseRafael97">Rafael Feitosa</a>
+ */
 public class MainTestStackExchangePORT {
 	
 	public static void main(String[] args) {
@@ -22,8 +35,32 @@ public class MainTestStackExchangePORT {
 		Map<String, String> dates = new HashMap<String, String>();
 		
 		
-		dates.put("1494892800", "1501545600");
-
+		dates.put("1483228800", "1484438400");
+		dates.put("1484524800", "1485820800");//Janeiro 2017
+		
+		dates.put("1485907200", "1487116800");
+		dates.put("1487203200", "1488240000");//fevereiro 2017
+		
+		dates.put("1488326400", "1489536000");
+		dates.put("1489622400", "1490918400");//março 2017
+		
+		dates.put("1491004800", "1492214400");
+		dates.put("1492300800", "1493510400");//abril 2017
+		
+		dates.put("1493596800", "1494806400");
+		dates.put("1494892800", "1496188800");//maio 2017
+		
+		dates.put("1496275200", "1494806400");
+		dates.put("1497571200", "1498780800");//junho 2017
+				
+		dates.put("1498867200", "1500076800");
+		dates.put("1500163200", "1501459200");//julho 2017
+		
+		dates.put("1501545600", "1502755200");
+		dates.put("1502841600", "1504137600");//agosto 2017
+		
+		dates.put("1501545600", "1504656000");//setembro 2017
+						
 		StackExchangeSite siteService = api.getSiteService(StackExchangeSite.PORTUGUESE_LENGUAGE_BETA);
 		Response<Question> response = null;
 		List<Question> itemsQuestions = new ArrayList<Question>();
@@ -44,7 +81,9 @@ public class MainTestStackExchangePORT {
 
 		GenerateReults generateReults = new GenerateReults();
 		CSVUtils csvUtils = new CSVUtils();
-		csvUtils.getQuestions(generateReults.generate(itemsQuestions));
+		
+		//para coletar perguntas respondidas você deve muda esse método para ---> generateAnswedQuestions e mudar o nome do file .csv 
+		csvUtils.getQuestions(generateReults.generateNotAnsweredQuestions(itemsQuestions, 200));
 		
 		System.out.println("------------------------------------------------> writing ...");
 		

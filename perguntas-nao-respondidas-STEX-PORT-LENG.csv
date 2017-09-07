@@ -1,0 +1,299 @@
+ID PERGUNTA,ID RESPOSTA ACEITA,QUANTIDADE DE RESPOSTAS,FECHADA,DATA FECHAMENTO,QUANTIDADE COMENTÁRIO,DATA CRIAÇÃO,ÚLTIMA DATA DE EDIÇÃO,PONTOS,QUANTIDADE DE VISUALIZAÇÕES,TITLE,DESCRIÇAO,DESCRICAO HTML,TAGS,FOI RESPONDIDA,QUANTIDADADE DE VOTOS (down),FOI VOTADA (down),QUANTIDADE DE VOTOS (up),QUANTIDADE DE VOTOS DELETADOS,FOI VOTADA (up),TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO,TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA,TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA,TÍTULO TOTALMENTE EM CAIXA ALTA,TÍTULO PARCIALMENTE EM CAIXA ALTA,TÍTULO QUE RESUMA O PROBLEMA,TÍTULO CURTO (Até 3 palavras),TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras),TÍTULO COERENTE COM A DESCRIÇÃO,TÍTULO OBJETIVO,TÍTULO CLARO,TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA
+4266,0,0,false,null,2,Tue Feb 21 19:05:20 BRT 2017,null,1,40,"""pelo andar da carruagem..."" When and where did this saying originate?","To be honest, in my lifetime I've seen closed carriages only in films and museums, which  makes me suppose this expression was coined very long ago. Was it a foreign expression (French, for instance) which somebody translated into pt-PT and was brought to Brazil by the Portuguese?  Is it a genuine Portuguese saying? Or is it just a Brazilian expression?  Can you think of any contemporary expression in Portuguese having the same meaning?
+
+""pelo andar da carruagem"" translates as ""the way things are going..."" ","<p>To be honest, in my lifetime I've seen closed carriages only in films and museums, which  makes me suppose this expression was coined very long ago. Was it a foreign expression (French, for instance) which somebody translated into pt-PT and was brought to Brazil by the Portuguese?  Is it a genuine Portuguese saying? Or is it just a Brazilian expression?  Can you think of any contemporary expression in Portuguese having the same meaning?</p>
+
+<p>""pelo andar da carruagem"" translates as ""the way things are going..."" </p>
+",[expressões],false,0,false,0,0,false,835,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4627,0,0,false,null,8,Wed Jul 26 13:09:55 BRT 2017,Wed Jul 26 17:19:57 BRT 2017,6,66,Por que palavras de origem Tupi usam ⟨ç⟩ em vez de ⟨ss⟩?,"No vocabulário brasileiro existem muitas palavras que, no Tupi, possuiam o som de `/s/` e foram inseridas no dicionário português com o C-cedilha ⟨ç⟩ ou o C-palatalizado ⟨ce, ci⟩. Por exemplo: ""paçoca"", ""açai"", cipó, ""jacaré-açu"", ""minhocoçu"", cupuaçu (e várias outras palavras com o sufixo ""-açu/-oçu""). Pergunto por que, como no tupi não havia uma diferença fonética tal como a representada pelo ⟨s, c⟩ no Português, optaram por uma letra cujo som é sensível ao contexto (ca vs. ce) em vez da opção óbvia ⟨s⟩ ou ⟨ss⟩, que representa o mesmo som?
+
+Minhas opções são:
+
+ * Quando o tupi foi escrito, ainda havia a diferença na pronúncia entre o par ⟨ss, ç/c⟩ no dialeto dos portugueses colonizadores e/ou dos padres jesuítas que documentaram a língua local; daí preferiu-se usar a grafia ⟨ç⟩ por ser a grafia do português que melhor representava o som `/s/` tupi.
+ * O par ⟨ss, ç⟩ já era homófono aos colonizadores, mas preferiu-se grafar o tupi com ⟨ç⟩ por outro motivo qualquer (e qual seria?).
+
+Nesta [gramática tupi](https://archive.org/details/artedegrammatica01figu), do padre jesuíta Luis Figueira, publicada em Lisboa em 1687, usa-se a grafia ⟨ç⟩. O padre jesuíta José de Anchieta escreveu o seguinte, no primeiro parágrafo de seu [livro sobre a língua local](http://etnolinguistica.wdfiles.com/local--files/biblio%3Aanchieta-1595-arte/anchieta_1595_arte_mindlin.pdf):
+
+> Nesta lingoa do Brasil não ha f, l, s, z, rr dobrado nem muda com liquida, *ut* cra, pra, etc. Em lugar do s *in principio* ou *medio dictionis*, serve ç com zeura, *ut* Açô, çatâ. [sic]
+
+O que seria um ""s in principio ou medio dictiones"" e um ""ç com zeura""? E por que esse tal ""ç com zeura"" era diferente do ⟨ç⟩ normal?","<p>No vocabulário brasileiro existem muitas palavras que, no Tupi, possuiam o som de <code>/s/</code> e foram inseridas no dicionário português com o C-cedilha ⟨ç⟩ ou o C-palatalizado ⟨ce, ci⟩. Por exemplo: ""paçoca"", ""açai"", cipó, ""jacaré-açu"", ""minhocoçu"", cupuaçu (e várias outras palavras com o sufixo ""-açu/-oçu""). Pergunto por que, como no tupi não havia uma diferença fonética tal como a representada pelo ⟨s, c⟩ no Português, optaram por uma letra cujo som é sensível ao contexto (ca vs. ce) em vez da opção óbvia ⟨s⟩ ou ⟨ss⟩, que representa o mesmo som?</p>
+
+<p>Minhas opções são:</p>
+
+<ul>
+<li>Quando o tupi foi escrito, ainda havia a diferença na pronúncia entre o par ⟨ss, ç/c⟩ no dialeto dos portugueses colonizadores e/ou dos padres jesuítas que documentaram a língua local; daí preferiu-se usar a grafia ⟨ç⟩ por ser a grafia do português que melhor representava o som <code>/s/</code> tupi.</li>
+<li>O par ⟨ss, ç⟩ já era homófono aos colonizadores, mas preferiu-se grafar o tupi com ⟨ç⟩ por outro motivo qualquer (e qual seria?).</li>
+</ul>
+
+<p>Nesta <a href=""https://archive.org/details/artedegrammatica01figu"" rel=""nofollow noreferrer"">gramática tupi</a>, do padre jesuíta Luis Figueira, publicada em Lisboa em 1687, usa-se a grafia ⟨ç⟩. O padre jesuíta José de Anchieta escreveu o seguinte, no primeiro parágrafo de seu <a href=""http://etnolinguistica.wdfiles.com/local--files/biblio%3Aanchieta-1595-arte/anchieta_1595_arte_mindlin.pdf"" rel=""nofollow noreferrer"">livro sobre a língua local</a>:</p>
+
+<blockquote>
+  <p>Nesta lingoa do Brasil não ha f, l, s, z, rr dobrado nem muda com liquida, <em>ut</em> cra, pra, etc. Em lugar do s <em>in principio</em> ou <em>medio dictionis</em>, serve ç com zeura, <em>ut</em> Açô, çatâ. [sic]</p>
+</blockquote>
+
+<p>O que seria um ""s in principio ou medio dictiones"" e um ""ç com zeura""? E por que esse tal ""ç com zeura"" era diferente do ⟨ç⟩ normal?</p>
+","[ortografia, fonologia, empréstimos]",false,0,false,0,0,false,104,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4137,0,0,false,null,13,Thu Jan 26 08:45:49 BRT 2017,Thu Apr 13 09:53:39 BRT 2017,7,71,“O século está a expirar”—estar + a + infinitivo no Brasil,"Uma das diferenças mais marcantes entre o português do Brasil e de Portugal atuais é o uso em Portugal de *a* + infinitivo em vez do gerúndio do Brasil:
+>*Ele está a dormir* versus *ele está dormindo*.   
+
+>*Andaram a espalhar boatos* versus *andaram espalhando boatos*
+
+Foi então com alguma surpresa que me deparei com a “construção lusitana” no [*Dom Casmurro* (1899) de Machado de Assis][1]; alguns exemplos (ênfase minha)
+
+>Não me recorda um só dos argumentos que empreguei, nem talvez interesse conhecê-los, agora que o século **está a expirar**;
+
+>[…] mas Capitu, antes que o pai acabasse de entrar, fez um gesto inesperado, pousou a boca na minha boca, e deu de vontade o que **estava a recusar** à força
+
+>Como **estivesse a espiar** os peraltas da vizinhança, vi um destes que conversava com a minha amiga ao pé da janela.
+
+>Chegara ao último degrau, e uma idéia me entrou no cérebro, como se **estivesse a esperar** por mim, entre as grades da cancela.
+
+>Os ratos **continuam a infestar-me** a casa, que é o diabo
+
+Poder-se-ia pensar que isto fosse coisa do português antigo, que entretanto tivesse desaparecido no Brasil. Mas a resposta do Artefacto a [esta pergunta][2] sugere que o *estar* + gerúndio é a construção mais antiga no português, e que *estar* + a + infinitivo, mesmo em Portugal, só em finais do século XIX começou a dar os primeiros passos. As minhas leituras de autores portugueses do século XIX dão-me também essa impressão. Podemos também excluir outra explicação: aqueles exemplos vêm todos da voz, ou pena, do Bento, brasileiro filho de brasileiros; não é portanto um português acabado de chegar ao Brasil.
+
+Então a pergunta é: quão significativo foi o uso do *a* + infinitivo em vez do gerúndio no Brasil? Quando é que começou e até quando durou? Será que o [Machado de Assis (1839-1908, Wikipédia)][3] foi uma exceção? Se ele não foi exceção, põe-se uma outra questão bem mais complicada (e que se ninguém conseguir responder, eu já fico satisfeito com a resposta à questão anterior), que é: donde é que isto veio? Será que o *a* + infinitivo já era usado em vez do gerúndio há mais tempo, em Portugal e no Brasil, do que o artigo citado pelo Artefacto sugere? Se não, como é que surge em Portugal e no Brasil mais ou menos na mesma altura?
+
+
+  [1]: http://www.dominiopublico.gov.br/download/texto/bv00180a.pdf
+  [2]: https://portuguese.stackexchange.com/questions/874/porque-%C3%A9-que-em-ptpt-n%C3%A3o-se-usa-o-ger%C3%BAndio
+  [3]: https://pt.wikipedia.org/wiki/Machado_de_Assis","<p>Uma das diferenças mais marcantes entre o português do Brasil e de Portugal atuais é o uso em Portugal de <em>a</em> + infinitivo em vez do gerúndio do Brasil:</p>
+
+<blockquote>
+  <p><em>Ele está a dormir</em> versus <em>ele está dormindo</em>.   </p>
+  
+  <p><em>Andaram a espalhar boatos</em> versus <em>andaram espalhando boatos</em></p>
+</blockquote>
+
+<p>Foi então com alguma surpresa que me deparei com a “construção lusitana” no <a href=""http://www.dominiopublico.gov.br/download/texto/bv00180a.pdf"" rel=""nofollow noreferrer""><em>Dom Casmurro</em> (1899) de Machado de Assis</a>; alguns exemplos (ênfase minha)</p>
+
+<blockquote>
+  <p>Não me recorda um só dos argumentos que empreguei, nem talvez interesse conhecê-los, agora que o século <strong>está a expirar</strong>;</p>
+  
+  <p>[…] mas Capitu, antes que o pai acabasse de entrar, fez um gesto inesperado, pousou a boca na minha boca, e deu de vontade o que <strong>estava a recusar</strong> à força</p>
+  
+  <p>Como <strong>estivesse a espiar</strong> os peraltas da vizinhança, vi um destes que conversava com a minha amiga ao pé da janela.</p>
+  
+  <p>Chegara ao último degrau, e uma idéia me entrou no cérebro, como se <strong>estivesse a esperar</strong> por mim, entre as grades da cancela.</p>
+  
+  <p>Os ratos <strong>continuam a infestar-me</strong> a casa, que é o diabo</p>
+</blockquote>
+
+<p>Poder-se-ia pensar que isto fosse coisa do português antigo, que entretanto tivesse desaparecido no Brasil. Mas a resposta do Artefacto a <a href=""https://portuguese.stackexchange.com/questions/874/porque-%C3%A9-que-em-ptpt-n%C3%A3o-se-usa-o-ger%C3%BAndio"">esta pergunta</a> sugere que o <em>estar</em> + gerúndio é a construção mais antiga no português, e que <em>estar</em> + a + infinitivo, mesmo em Portugal, só em finais do século XIX começou a dar os primeiros passos. As minhas leituras de autores portugueses do século XIX dão-me também essa impressão. Podemos também excluir outra explicação: aqueles exemplos vêm todos da voz, ou pena, do Bento, brasileiro filho de brasileiros; não é portanto um português acabado de chegar ao Brasil.</p>
+
+<p>Então a pergunta é: quão significativo foi o uso do <em>a</em> + infinitivo em vez do gerúndio no Brasil? Quando é que começou e até quando durou? Será que o <a href=""https://pt.wikipedia.org/wiki/Machado_de_Assis"" rel=""nofollow noreferrer"">Machado de Assis (1839-1908, Wikipédia)</a> foi uma exceção? Se ele não foi exceção, põe-se uma outra questão bem mais complicada (e que se ninguém conseguir responder, eu já fico satisfeito com a resposta à questão anterior), que é: donde é que isto veio? Será que o <em>a</em> + infinitivo já era usado em vez do gerúndio há mais tempo, em Portugal e no Brasil, do que o artigo citado pelo Artefacto sugere? Se não, como é que surge em Portugal e no Brasil mais ou menos na mesma altura?</p>
+","[português-brasileiro, origem-histórica, sintaxe, gerúndios]",false,0,false,0,0,false,65,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4099,0,0,false,null,6,Tue Jan 17 09:18:57 BRT 2017,null,2,40,Palavra para contrato que está a sofrer rescisão,"Busco uma palavra que defina um ente legal (contrato) que esteja a sofrer um processo de rescisão.
+
+Meu processo de raciocínio até agora:
+
+ - Ao ente legal que rescinde chama-se **rescisória**.  
+ - Ao ente legal que sofreu rescisão (concluída) chama-se **rescindido**.
+ - O ato de causar rescisão a um ente legal (verbo) **rescindir**.
+
+Enquanto a ação rescisória está em curso, o ente legal alvo da rescisória encontra-se *válido*, logo não está (ainda) *rescindido*.
+
+Traçando um paralelo com o verbo **educar** temos:
+
+ - O que educa: *educador*
+ - O que recebeu educação *educado*
+ - O que *está a receber educação*: **educando**
+
+Logo o que busco seria correspondente à palavra **educando** mas para o verbo rescindir.
+
+
+Existe palavra para definir este estado como descrito acima?","<p>Busco uma palavra que defina um ente legal (contrato) que esteja a sofrer um processo de rescisão.</p>
+
+<p>Meu processo de raciocínio até agora:</p>
+
+<ul>
+<li>Ao ente legal que rescinde chama-se <strong>rescisória</strong>.  </li>
+<li>Ao ente legal que sofreu rescisão (concluída) chama-se <strong>rescindido</strong>.</li>
+<li>O ato de causar rescisão a um ente legal (verbo) <strong>rescindir</strong>.</li>
+</ul>
+
+<p>Enquanto a ação rescisória está em curso, o ente legal alvo da rescisória encontra-se <em>válido</em>, logo não está (ainda) <em>rescindido</em>.</p>
+
+<p>Traçando um paralelo com o verbo <strong>educar</strong> temos:</p>
+
+<ul>
+<li>O que educa: <em>educador</em></li>
+<li>O que recebeu educação <em>educado</em></li>
+<li>O que <em>está a receber educação</em>: <strong>educando</strong></li>
+</ul>
+
+<p>Logo o que busco seria correspondente à palavra <strong>educando</strong> mas para o verbo rescindir.</p>
+
+<p>Existe palavra para definir este estado como descrito acima?</p>
+","[palavra-para-ideia, neologismos, composições]",false,0,false,0,0,false,32,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4720,0,0,false,null,4,Sun Aug 27 17:42:28 BRT 2017,null,0,29,Cabelo volumoso significa cabelo com fios dispersados?,"Uma máscara para cabelos promove controle de volume. O que significa volume exactamente? O cabelo volumoso é o cabelo com fios dispersados ou o que?
+
+O contexto:
+RESHAPE LISS – Linha XY NewWay Professional. Máscara de remodelagem dos fios com alto poder de alisamento e hidratação. Seus ativos regeneradores e reconstrutores que agem sob o calor da prancha, promovem o controle do volume e a cauterização dos fios, deixando-os com uma beleza renovada.","<p>Uma máscara para cabelos promove controle de volume. O que significa volume exactamente? O cabelo volumoso é o cabelo com fios dispersados ou o que?</p>
+
+<p>O contexto:
+RESHAPE LISS – Linha XY NewWay Professional. Máscara de remodelagem dos fios com alto poder de alisamento e hidratação. Seus ativos regeneradores e reconstrutores que agem sob o calor da prancha, promovem o controle do volume e a cauterização dos fios, deixando-os com uma beleza renovada.</p>
+",[significado],false,0,false,0,0,false,1261,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4703,0,0,false,null,1,Wed Aug 23 15:44:49 BRT 2017,null,1,28,Estatísticas da língua portuguesa,"Onde podemos encontrar estatísticas da língua portuguesa? 
+
+Como exemplo, dentro do universo de palavras catalogadas (pelos dicionários): Quantidade de palavras por classe gramatical, quantidades de palavras com certas características como terminadas com certas letras, ou de certas origens, quantidade de verbos irregulares, verbos por sufixo, palavras por quantidade de sílabas, e assim por diante.
+
+Existem estas estatísticas ?","<p>Onde podemos encontrar estatísticas da língua portuguesa? </p>
+
+<p>Como exemplo, dentro do universo de palavras catalogadas (pelos dicionários): Quantidade de palavras por classe gramatical, quantidades de palavras com certas características como terminadas com certas letras, ou de certas origens, quantidade de verbos irregulares, verbos por sufixo, palavras por quantidade de sílabas, e assim por diante.</p>
+
+<p>Existem estas estatísticas ?</p>
+","[uso-de-palavras, vocabulário, classificação-de-palavras]",false,0,false,0,0,false,90,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4697,0,0,false,Wed Aug 23 12:30:21 BRT 2017,2,Tue Aug 22 11:42:46 BRT 2017,null,1,32,O que é preciso para criar um idioma ou língua falada?,"Suponha que faça um livro e queira tornar -lo mais: - Íntimo e vívido com seus personagens. Além da gramática: - O que é preciso? 
+
+Também suponha nesse caso, uma determinada razão: - ""Vindas e Idas"" ; isto é: - ""Migração"". Seria correto pensar: - Então, por trazer várias culturas diferentes, um idioma poderia seria criado como: o preencher desta falta de negociação? 
+
+Disto, deduzimos: Se existirem dificuldades assim, um idioma poderia resolver. Pois, na contraparte de seus habitantes, uma negociação seria feita ou seja um idioma. Isto é, máquinas tem que falar o mesmo idioma, caso não iriam funcionar.
+
+Tais afirmativas são apenas pressupostos de como é imaginado através de contos e não fatos reais de como nossos idiomas poderiam ser feitos. Seja um problema mais comum, como: negociação de bens ou migração ou até mesmo como uma questão de falta de entendimento.","<p>Suponha que faça um livro e queira tornar -lo mais: - Íntimo e vívido com seus personagens. Além da gramática: - O que é preciso? </p>
+
+<p>Também suponha nesse caso, uma determinada razão: - ""Vindas e Idas"" ; isto é: - ""Migração"". Seria correto pensar: - Então, por trazer várias culturas diferentes, um idioma poderia seria criado como: o preencher desta falta de negociação? </p>
+
+<p>Disto, deduzimos: Se existirem dificuldades assim, um idioma poderia resolver. Pois, na contraparte de seus habitantes, uma negociação seria feita ou seja um idioma. Isto é, máquinas tem que falar o mesmo idioma, caso não iriam funcionar.</p>
+
+<p>Tais afirmativas são apenas pressupostos de como é imaginado através de contos e não fatos reais de como nossos idiomas poderiam ser feitos. Seja um problema mais comum, como: negociação de bens ou migração ou até mesmo como uma questão de falta de entendimento.</p>
+","[significado, etimologia, gramática, sintaxe, significado-em-contexto]",false,0,false,0,0,false,7285,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4688,0,0,false,null,0,Fri Aug 18 10:51:22 BRT 2017,null,4,87,"De onde surgiu a expressão ""nasceu com o cu virado pra lua""?","As vezes quando uma pessoa tem muita sorte, mas muita sorte, algumas pessoas ainda dizem que ela ""nasceu com o cu virado para lua"". Um exemplo:
+
+> Joãozinho tem um emprego bom, namora uma menina linda e já ganhou 18
+> vezes no bingo. Acho que ele nasceu com o cu virado pra lua!
+
+Desde quando nascer com o ""cu virado para a lua"" pode ser considerado sorte? De onde surgiu essa expressão?","<p>As vezes quando uma pessoa tem muita sorte, mas muita sorte, algumas pessoas ainda dizem que ela ""nasceu com o cu virado para lua"". Um exemplo:</p>
+
+<blockquote>
+  <p>Joãozinho tem um emprego bom, namora uma menina linda e já ganhou 18
+  vezes no bingo. Acho que ele nasceu com o cu virado pra lua!</p>
+</blockquote>
+
+<p>Desde quando nascer com o ""cu virado para a lua"" pode ser considerado sorte? De onde surgiu essa expressão?</p>
+","[etimologia, expressões-idiomáticas]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4586,0,0,false,null,1,Sun Jul 02 05:20:52 BRT 2017,null,3,32,Vírgulas em ''além de'',"Gostaria de saber se a expressão **além de** é intercalada por vírgulas e qual é a sua função sintática.
+
+Colocando em contexto:
+
+>1) Gosto de gatos além de cachorros
+
+>2) Gosto de gatos, além de cachorros
+
+Qual das duas formas seria a correta?
+","<p>Gostaria de saber se a expressão <strong>além de</strong> é intercalada por vírgulas e qual é a sua função sintática.</p>
+
+<p>Colocando em contexto:</p>
+
+<blockquote>
+  <p>1) Gosto de gatos além de cachorros</p>
+  
+  <p>2) Gosto de gatos, além de cachorros</p>
+</blockquote>
+
+<p>Qual das duas formas seria a correta?</p>
+","[sintaxe, vírgula]",false,0,false,0,0,false,3245,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4720,0,0,false,null,4,Sun Aug 27 17:42:28 BRT 2017,null,0,29,Cabelo volumoso significa cabelo com fios dispersados?,"Uma máscara para cabelos promove controle de volume. O que significa volume exactamente? O cabelo volumoso é o cabelo com fios dispersados ou o que?
+
+O contexto:
+RESHAPE LISS – Linha XY NewWay Professional. Máscara de remodelagem dos fios com alto poder de alisamento e hidratação. Seus ativos regeneradores e reconstrutores que agem sob o calor da prancha, promovem o controle do volume e a cauterização dos fios, deixando-os com uma beleza renovada.","<p>Uma máscara para cabelos promove controle de volume. O que significa volume exactamente? O cabelo volumoso é o cabelo com fios dispersados ou o que?</p>
+
+<p>O contexto:
+RESHAPE LISS – Linha XY NewWay Professional. Máscara de remodelagem dos fios com alto poder de alisamento e hidratação. Seus ativos regeneradores e reconstrutores que agem sob o calor da prancha, promovem o controle do volume e a cauterização dos fios, deixando-os com uma beleza renovada.</p>
+",[significado],false,0,false,0,0,false,1261,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4703,0,0,false,null,1,Wed Aug 23 15:44:49 BRT 2017,null,1,28,Estatísticas da língua portuguesa,"Onde podemos encontrar estatísticas da língua portuguesa? 
+
+Como exemplo, dentro do universo de palavras catalogadas (pelos dicionários): Quantidade de palavras por classe gramatical, quantidades de palavras com certas características como terminadas com certas letras, ou de certas origens, quantidade de verbos irregulares, verbos por sufixo, palavras por quantidade de sílabas, e assim por diante.
+
+Existem estas estatísticas ?","<p>Onde podemos encontrar estatísticas da língua portuguesa? </p>
+
+<p>Como exemplo, dentro do universo de palavras catalogadas (pelos dicionários): Quantidade de palavras por classe gramatical, quantidades de palavras com certas características como terminadas com certas letras, ou de certas origens, quantidade de verbos irregulares, verbos por sufixo, palavras por quantidade de sílabas, e assim por diante.</p>
+
+<p>Existem estas estatísticas ?</p>
+","[uso-de-palavras, vocabulário, classificação-de-palavras]",false,0,false,0,0,false,90,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4697,0,0,false,Wed Aug 23 12:30:21 BRT 2017,2,Tue Aug 22 11:42:46 BRT 2017,null,1,32,O que é preciso para criar um idioma ou língua falada?,"Suponha que faça um livro e queira tornar -lo mais: - Íntimo e vívido com seus personagens. Além da gramática: - O que é preciso? 
+
+Também suponha nesse caso, uma determinada razão: - ""Vindas e Idas"" ; isto é: - ""Migração"". Seria correto pensar: - Então, por trazer várias culturas diferentes, um idioma poderia seria criado como: o preencher desta falta de negociação? 
+
+Disto, deduzimos: Se existirem dificuldades assim, um idioma poderia resolver. Pois, na contraparte de seus habitantes, uma negociação seria feita ou seja um idioma. Isto é, máquinas tem que falar o mesmo idioma, caso não iriam funcionar.
+
+Tais afirmativas são apenas pressupostos de como é imaginado através de contos e não fatos reais de como nossos idiomas poderiam ser feitos. Seja um problema mais comum, como: negociação de bens ou migração ou até mesmo como uma questão de falta de entendimento.","<p>Suponha que faça um livro e queira tornar -lo mais: - Íntimo e vívido com seus personagens. Além da gramática: - O que é preciso? </p>
+
+<p>Também suponha nesse caso, uma determinada razão: - ""Vindas e Idas"" ; isto é: - ""Migração"". Seria correto pensar: - Então, por trazer várias culturas diferentes, um idioma poderia seria criado como: o preencher desta falta de negociação? </p>
+
+<p>Disto, deduzimos: Se existirem dificuldades assim, um idioma poderia resolver. Pois, na contraparte de seus habitantes, uma negociação seria feita ou seja um idioma. Isto é, máquinas tem que falar o mesmo idioma, caso não iriam funcionar.</p>
+
+<p>Tais afirmativas são apenas pressupostos de como é imaginado através de contos e não fatos reais de como nossos idiomas poderiam ser feitos. Seja um problema mais comum, como: negociação de bens ou migração ou até mesmo como uma questão de falta de entendimento.</p>
+","[significado, etimologia, gramática, sintaxe, significado-em-contexto]",false,0,false,0,0,false,7285,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4688,0,0,false,null,0,Fri Aug 18 10:51:22 BRT 2017,null,4,87,"De onde surgiu a expressão ""nasceu com o cu virado pra lua""?","As vezes quando uma pessoa tem muita sorte, mas muita sorte, algumas pessoas ainda dizem que ela ""nasceu com o cu virado para lua"". Um exemplo:
+
+> Joãozinho tem um emprego bom, namora uma menina linda e já ganhou 18
+> vezes no bingo. Acho que ele nasceu com o cu virado pra lua!
+
+Desde quando nascer com o ""cu virado para a lua"" pode ser considerado sorte? De onde surgiu essa expressão?","<p>As vezes quando uma pessoa tem muita sorte, mas muita sorte, algumas pessoas ainda dizem que ela ""nasceu com o cu virado para lua"". Um exemplo:</p>
+
+<blockquote>
+  <p>Joãozinho tem um emprego bom, namora uma menina linda e já ganhou 18
+  vezes no bingo. Acho que ele nasceu com o cu virado pra lua!</p>
+</blockquote>
+
+<p>Desde quando nascer com o ""cu virado para a lua"" pode ser considerado sorte? De onde surgiu essa expressão?</p>
+","[etimologia, expressões-idiomáticas]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4581,0,0,false,Fri Jun 30 12:07:25 BRT 2017,5,Thu Jun 29 16:52:59 BRT 2017,null,3,40,Fiquem à vontade para tirar(em) dúvidas,"Qual o correto?
+
+> Fiquem à vontade para tirar dúvidas.
+
+ou
+
+    
+> Fiquem à vontade para tirarem dúvidas.","<p>Qual o correto?</p>
+
+<blockquote>
+  <p>Fiquem à vontade para tirar dúvidas.</p>
+</blockquote>
+
+<p>ou</p>
+
+<blockquote>
+  <p>Fiquem à vontade para tirarem dúvidas.</p>
+</blockquote>
+",[concordância-verbal],false,0,false,0,0,false,12,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4571,0,0,false,null,3,Mon Jun 26 08:33:55 BRT 2017,Tue Jun 27 15:10:41 BRT 2017,0,75,"De onde surgiu ""vou dar um pulo ali e já volto""?","Eis que já ouvi essa expressão. Exemplos:
+
+ >- Vou dar um pulo ali e já volto!
+ >- Vamos lá Jon Snow! Deixa de manha! É um pulo! Logo estaremos de volta.
+
+E um trecho  no livro [*Na palma da minha mão* (1998) de Leilah Assumpção][1]:
+
+> Era um bonito entardecer suave. Te chamei para dar um pulo ali pertinho, na avenida Montaigne.
+
+De onde surgiu ""vou dar um pulo ali e já volto""?
+
+
+  [1]: https://www.google.pt/search?num=50&biw=1366&bih=662&tbm=bks&q=%22Te%20chamei%20para%20dar%20um%20pulo%20ali%20pertinho%22&oq=%22Te%20chamei%20para%20dar%20um%20pulo%20ali%20pertinho%22&gs_l=serp.3...13625.16236.0.17348.2.2.0.0.0.0.406.471.1j4-1.2.0....0...1.1.64.serp..0.0.0.CrkU5bh9_yY","<p>Eis que já ouvi essa expressão. Exemplos:</p>
+
+<blockquote>
+  <ul>
+  <li>Vou dar um pulo ali e já volto!</li>
+  <li>Vamos lá Jon Snow! Deixa de manha! É um pulo! Logo estaremos de volta.</li>
+  </ul>
+</blockquote>
+
+<p>E um trecho  no livro <a href=""https://www.google.pt/search?num=50&amp;biw=1366&amp;bih=662&amp;tbm=bks&amp;q=%22Te%20chamei%20para%20dar%20um%20pulo%20ali%20pertinho%22&amp;oq=%22Te%20chamei%20para%20dar%20um%20pulo%20ali%20pertinho%22&amp;gs_l=serp.3...13625.16236.0.17348.2.2.0.0.0.0.406.471.1j4-1.2.0....0...1.1.64.serp..0.0.0.CrkU5bh9_yY"" rel=""nofollow noreferrer""><em>Na palma da minha mão</em> (1998) de Leilah Assumpção</a>:</p>
+
+<blockquote>
+  <p>Era um bonito entardecer suave. Te chamei para dar um pulo ali pertinho, na avenida Montaigne.</p>
+</blockquote>
+
+<p>De onde surgiu ""vou dar um pulo ali e já volto""?</p>
+","[expressões, origem-histórica]",false,0,false,0,0,false,1831,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4570,0,0,false,null,11,Sun Jun 25 23:57:33 BRT 2017,Mon Jun 26 00:11:37 BRT 2017,4,52,Existe um nome específico para a válvula de ar (ventil) de uma bola ou pneu?,"Durante as discussões sobre uma pergunta no [English SE](https://english.stackexchange.com/questions/395382/which-word-begins-with-y-and-looks-like-an-axe-in-this-picture) eu queria achar o termo em inglês para aquela válvula de ar por onde se enchem bolas e pneus.
+
+Eu sempre conheci esta peça pelo nome de *ventil* e para minha supresa ao colocá-la no [Google Translate](https://translate.google.com.br/m/translate?hl=pt-BR#pt/en/ventil) ele me perguntou se eu não queria traduzir do Alemão. Achando isto estranho resolvi procurar no [dlpo](https://www.priberam.pt/dlpo/Ventil) e para minha maior surpresa fui informado que tal palavra não existe! 
+
+Entendo que *válvula de ar* possa ser usado, mas me parece um termo mais genérico. Existe uma palavra que seria reconhecida tanto em PT_pt quanto PT_br para designar tal peça?","<p>Durante as discussões sobre uma pergunta no <a href=""https://english.stackexchange.com/questions/395382/which-word-begins-with-y-and-looks-like-an-axe-in-this-picture"">English SE</a> eu queria achar o termo em inglês para aquela válvula de ar por onde se enchem bolas e pneus.</p>
+
+<p>Eu sempre conheci esta peça pelo nome de <em>ventil</em> e para minha supresa ao colocá-la no <a href=""https://translate.google.com.br/m/translate?hl=pt-BR#pt/en/ventil"" rel=""nofollow noreferrer"">Google Translate</a> ele me perguntou se eu não queria traduzir do Alemão. Achando isto estranho resolvi procurar no <a href=""https://www.priberam.pt/dlpo/Ventil"" rel=""nofollow noreferrer"">dlpo</a> e para minha maior surpresa fui informado que tal palavra não existe! </p>
+
+<p>Entendo que <em>válvula de ar</em> possa ser usado, mas me parece um termo mais genérico. Existe uma palavra que seria reconhecida tanto em PT_pt quanto PT_br para designar tal peça?</p>
+",[palavra-para-ideia],false,0,false,0,0,false,14,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
