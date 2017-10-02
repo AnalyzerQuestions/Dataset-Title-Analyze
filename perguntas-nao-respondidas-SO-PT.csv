@@ -649,7 +649,7 @@ elif opcao == 6:
     le()
 </code></pre>
 ",[python-2.7],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225231,0,0,false,null,4,Sun Jul 30 13:08:17 BRT 2017,null,0,22,Forbidden para qualquer htaccess,"Estou usando o servidor portátil Uniform Server, já descomentei a linha para ativar o mod_rewrite do apache, porém estou recebendo o error **403 forbidden** para qualquer arquivo .htaccess que usar, este primeiro é do CodeIgniter:
+225231,0,0,false,null,4,Sun Jul 30 13:08:17 BRT 2017,null,0,25,Forbidden para qualquer htaccess,"Estou usando o servidor portátil Uniform Server, já descomentei a linha para ativar o mod_rewrite do apache, porém estou recebendo o error **403 forbidden** para qualquer arquivo .htaccess que usar, este primeiro é do CodeIgniter:
 
     RewriteEngine on
     RewriteCond $1 !^(index\.php|resources|robots\.txt)
@@ -691,7 +691,7 @@ RewriteRule . index.php [L]
 
 <p>Por que isso ocorre?</p>
 ","[php, htaccess, apache, uniform-server]",false,0,false,0,0,false,61,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225210,0,0,false,null,0,Sun Jul 30 11:11:31 BRT 2017,Sun Jul 30 11:40:06 BRT 2017,0,21,WooCommerce - Como adicionar uma taxa ao valor no checkout?,"Pretendo adicionar uma taxa (ao valor final) dependendo da escolha na finalização da encomenda:
+225210,0,0,false,null,0,Sun Jul 30 11:11:31 BRT 2017,Sun Jul 30 11:40:06 BRT 2017,0,24,WooCommerce - Como adicionar uma taxa ao valor no checkout?,"Pretendo adicionar uma taxa (ao valor final) dependendo da escolha na finalização da encomenda:
 
     add_action( 'woocommerce_cart_calculate_fees','escolha_taxa' );
     function escolha_taxa() {
@@ -771,7 +771,7 @@ $checkout-&gt;get_value( 'escolha' ));
 ","[php, woocommerce]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 225187,0,0,false,null,4,Sun Jul 30 04:43:29 BRT 2017,null,0,12,"Como acessar o gameObject, do Raycast do controle Gear VR?",Quero saber como posso ativar o laser vermelho do Gear VR e como posso saber informações do que o laser esta tocando ?,"<p>Quero saber como posso ativar o laser vermelho do Gear VR e como posso saber informações do que o laser esta tocando ?</p>
 ","[c#, unity3d, unity-5]",false,0,false,0,0,false,39254,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225182,0,0,false,null,2,Sun Jul 30 01:22:52 BRT 2017,Sun Jul 30 10:12:52 BRT 2017,0,26,Composer com Bootstrap?,"Como posso chamar o `bootstrap` utilizando o `composer`, tentei por algum tempo
+225182,0,0,false,null,2,Sun Jul 30 01:22:52 BRT 2017,Sun Jul 30 10:12:52 BRT 2017,0,31,Composer com Bootstrap?,"Como posso chamar o `bootstrap` utilizando o `composer`, tentei por algum tempo
 mas infelizmente não consegui alguém tem alguma ideia?
 
 
@@ -813,7 +813,7 @@ mas infelizmente não consegui alguém tem alguma ideia?</p>
 &lt;/html&gt;
 </code></pre>
 ","[php, twitter-bootstrap, composer]",false,0,false,0,0,false,542,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225174,0,0,false,null,0,Sat Jul 29 23:58:01 BRT 2017,Tue Aug 01 10:09:08 BRT 2017,0,11,Jquery DataTable não funciona,"Criei em meu sistema uma tabela utilizando a biblioteca jquery datatable, porém não está funcionando. Ao final da view fiz a declaração de código em javascript, porém o estilo não é aplicado.
+225174,0,0,false,null,0,Sat Jul 29 23:58:01 BRT 2017,Tue Aug 01 10:09:08 BRT 2017,0,12,Jquery DataTable não funciona,"Criei em meu sistema uma tabela utilizando a biblioteca jquery datatable, porém não está funcionando. Ao final da view fiz a declaração de código em javascript, porém o estilo não é aplicado.
 
 Segue código abaixo:
 
@@ -849,7 +849,7 @@ Obs: Uso 3 datatables, somente em uma não funciona e o código está idêntico 
 
 <p>Obs: Uso 3 datatables, somente em uma não funciona e o código está idêntico para os 3 casos.</p>
 ","[asp.net, jquery-datatables]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225162,0,0,false,Sun Aug 13 14:14:57 BRT 2017,0,Sat Jul 29 22:29:13 BRT 2017,null,1,15,ionic2 Acesso a câmera em uma Page,"Boa noite de tanto quebrar a cabeça, decidi postar aqui minha dúvida.
+225162,0,0,false,Sun Aug 13 14:14:57 BRT 2017,0,Sat Jul 29 22:29:13 BRT 2017,null,1,16,ionic2 Acesso a câmera em uma Page,"Boa noite de tanto quebrar a cabeça, decidi postar aqui minha dúvida.
 
 Tenho uma Page que acessa a câmera do dispositivo, porém a câmera utiliza a tela em full screen. 
 Gostaria de saber se alguém já conseguiu colocar a câmera em uma Page com tela dividida. Como na foto abaixo.
@@ -868,7 +868,7 @@ Gostaria de saber se alguém já conseguiu colocar a câmera em uma Page com tel
 
 <p><a href=""https://i.stack.imgur.com/jZRYH.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/jZRYH.png"" alt=""Dividir a tela do celular mostrando o texto e o que está sendo gravado.""></a></p>
 ",[ionic2],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225161,0,0,false,null,0,Sat Jul 29 22:23:25 BRT 2017,Sat Jul 29 22:28:49 BRT 2017,0,13,Como configurar corretamente a hora do servidor Apache (XAMPP) no Windows 10?,"Eu rodo no meu notebook o XAMPP com o Apache 2.? e o PHP 5.6.?. Para corrigir as informações da data/hora uso o date_default_timezone_set. Isso é suficiente para que a função date() funcione corretamente. Porém, quando uma página é gerada, o header ""Date"" do HTTP, por alguma razão, informa a data com +3:00. A saber, esse é o horário GMT 0:00 em relação.
+225161,0,0,false,null,0,Sat Jul 29 22:23:25 BRT 2017,Sat Jul 29 22:28:49 BRT 2017,0,22,Como configurar corretamente a hora do servidor Apache (XAMPP) no Windows 10?,"Eu rodo no meu notebook o XAMPP com o Apache 2.? e o PHP 5.6.?. Para corrigir as informações da data/hora uso o date_default_timezone_set. Isso é suficiente para que a função date() funcione corretamente. Porém, quando uma página é gerada, o header ""Date"" do HTTP, por alguma razão, informa a data com +3:00. A saber, esse é o horário GMT 0:00 em relação.
  
 Perceba que, para qualquer alteração que eu faça no servidor, valerá o timezone que setei no comando acima, mas os cookie gerados no cliente serão criados com +03:00. Como percebo que as operações do PHP que envolvem datas funcionam de maneira adequada, mas as páginas enviadas como resposta vão com a hora do timezone + 3:00, então imagino que o problema está na comunicação do Apache com o relógio do Windows.
 
@@ -921,7 +921,7 @@ Observação não consegui compreender o método de instalação descrito, gosta
 
 <p>Observação não consegui compreender o método de instalação descrito, gostaria muito do auxilio da comunidade.</p>
 ","[linux, raspberry-pi, iot]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225139,0,0,false,null,3,Sat Jul 29 19:44:33 BRT 2017,null,0,23,Ancoragem com jquery,"Criei uma ancoragem scroll com jquery porém só funciona na mesma página, como faço para funcionar com páginas diferentes?
+225139,0,0,false,null,3,Sat Jul 29 19:44:33 BRT 2017,null,0,24,Ancoragem com jquery,"Criei uma ancoragem scroll com jquery porém só funciona na mesma página, como faço para funcionar com páginas diferentes?
 
               
 
@@ -946,7 +946,7 @@ Obs.: a api minima é 15.
 ","<p>Quero mudar a cor da notification bar do meu aplicativo. Pesquisando em vários sites e fóruns, principalmente aqui. conseguir entender um pouco sobre o assunto, não tanto, mas foi o suficiente para fazer o código. No preview funciona, os de api maiores que 21 colorem e o app funciona na menores. O problema é que quando debugo o app em meu celular que tem api 22 ele não troca a cor. 
 Obs.: a api minima é 15.</p>
 ","[java, android, material-design]",false,0,false,0,0,false,90,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225125,0,0,false,null,0,Sat Jul 29 17:18:08 BRT 2017,Sat Jul 29 18:11:30 BRT 2017,0,19,"Chamada AJAX com plugin ""jquery-step""","Estou querendo enviar os dados de um formulário para minha servlet usando AJAX, como já fiz antes. O problema é que a chamada AJAX se recusa a funcionar quando está dentro do método de término do envio do formulário do jquery-steps. Abaixo está o script que escrevi para fazer essa chamada.
+225125,0,0,false,null,0,Sat Jul 29 17:18:08 BRT 2017,Sat Jul 29 18:11:30 BRT 2017,0,20,"Chamada AJAX com plugin ""jquery-step""","Estou querendo enviar os dados de um formulário para minha servlet usando AJAX, como já fiz antes. O problema é que a chamada AJAX se recusa a funcionar quando está dentro do método de término do envio do formulário do jquery-steps. Abaixo está o script que escrevi para fazer essa chamada.
 
     var contextPath;
     
@@ -1097,7 +1097,7 @@ estamos avaliando a migração para AngularJS, mas eu queria saber se posso ter 
 
 <p>Obrigado</p>
 ","[java, angularjs, jsf-2.2]",false,0,false,0,0,false,180,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225115,0,0,false,null,2,Sat Jul 29 16:22:00 BRT 2017,Sat Jul 29 16:50:09 BRT 2017,0,27,Habilitar metodo POST wordpress/woocommerce,"Estou tentando enviar um `POST` para o woocommerce/wordpress usando a API [woocommerce-api](https://www.npmjs.com/package/woocommerce-api), porém só recebo o erro `401` que diz:
+225115,0,0,false,null,2,Sat Jul 29 16:22:00 BRT 2017,Sat Jul 29 16:50:09 BRT 2017,0,33,Habilitar metodo POST wordpress/woocommerce,"Estou tentando enviar um `POST` para o woocommerce/wordpress usando a API [woocommerce-api](https://www.npmjs.com/package/woocommerce-api), porém só recebo o erro `401` que diz:
 
 > Fetch API cannot load http://wc-project.dev/wp-json/wc/v1/orders... Response for preflight has invalid HTTP status code 401
 
@@ -1338,7 +1338,7 @@ Tenho apenas um mês de programação em nodejs. Qualquer avanço ou comentário
 
 <p>Tenho apenas um mês de programação em nodejs. Qualquer avanço ou comentário seria de grande ajuda.</p>
 ","[mysql, node.js]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225103,0,0,false,null,4,Sat Jul 29 13:46:16 BRT 2017,null,0,21,inserção de saldo no db apenas apos confirmação,"Estou fazendo um sistema para controle de despesas/receitas, e quero saber como fazer os valores da receita ou despesa se somarem ao saldo apenas após a confirmação do pagamento.
+225103,0,0,false,null,4,Sat Jul 29 13:46:16 BRT 2017,null,0,22,inserção de saldo no db apenas apos confirmação,"Estou fazendo um sistema para controle de despesas/receitas, e quero saber como fazer os valores da receita ou despesa se somarem ao saldo apenas após a confirmação do pagamento.
 Ex: cadastro uma conta de luz para pagar no valor de R$ 100,00 no para daqui a uma semana. Meu saldo atual é de R$ 200,00, mas eu só quero que o valor da conta de luz seja descontado do saldo apenas quando eu marcar a conta de luz como paga. Como posso fazer isso usando apenas PHP?","<p>Estou fazendo um sistema para controle de despesas/receitas, e quero saber como fazer os valores da receita ou despesa se somarem ao saldo apenas após a confirmação do pagamento.
 Ex: cadastro uma conta de luz para pagar no valor de R$ 100,00 no para daqui a uma semana. Meu saldo atual é de R$ 200,00, mas eu só quero que o valor da conta de luz seja descontado do saldo apenas quando eu marcar a conta de luz como paga. Como posso fazer isso usando apenas PHP?</p>
 ","[php, mysqli, phpmyadmin]",false,0,false,0,0,false,12,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1554,7 +1554,7 @@ O que pode ser? Tens alguma ideia?","<p>Tenho este código:</p>
 
 <p>O que pode ser? Tens alguma ideia?</p>
 ","[php, ajax]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225068,0,0,false,null,0,Sat Jul 29 09:31:50 BRT 2017,Sat Jul 29 09:35:19 BRT 2017,0,40,Erro compileDebugKotlin,"Erro:
+225068,0,0,false,null,1,Sat Jul 29 09:31:50 BRT 2017,Sat Jul 29 09:35:19 BRT 2017,0,42,Erro compileDebugKotlin,"Erro:
 
 >Error:Execution failed for task ':app:compileDebugKotlin'.  
 Compilation error. See log for more details
@@ -1704,7 +1704,7 @@ Build.gradle Modulo App
 
 apply plugin: 'com.google.gms.google-services'
 </code></pre>
-","[android, android-studio, build, kotlin]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[android, android-studio, build, kotlin]",false,0,false,0,0,false,62719,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 225060,0,0,false,null,2,Sat Jul 29 06:34:31 BRT 2017,null,0,17,Erro Curl não segue requisição,"Estou criando um campo de doações do meu site interligado remotamente com outro porem estou tendo problemas no redirecionamento, envio post datas para a pagina: https://www.kickante.com.br/campanhas/pastor-de-ovelhas/apoiar e oque deveria acontecer é seguir a requisição até o conteúdo da pagina https://www.kickante.com.br/checkout/4242170  mais por algum erro está retornando o código de erro 404 not found meu código aparenta estar correto porem não funciona como deveria funcionar
 
 <!-- begin snippet: js hide: false console: true babel: false -->
@@ -2137,7 +2137,7 @@ public class MainActivity extends AppCompatActivity{
 }
 </code></pre>
 ","[java, android]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225053,0,0,false,null,2,Sat Jul 29 00:51:54 BRT 2017,Sat Jul 29 11:27:00 BRT 2017,0,36,jQuery timepicker com função efetuar em varios input,"Tenho um código em jQuery que utiliza o timepicker em todos os 35 input. segue abaixo o de segunda:
+225053,0,0,false,null,2,Sat Jul 29 00:51:54 BRT 2017,Sat Jul 29 11:27:00 BRT 2017,0,39,jQuery timepicker com função efetuar em varios input,"Tenho um código em jQuery que utiliza o timepicker em todos os 35 input. segue abaixo o de segunda:
 
 Abaixo meu `HTML`:
 
@@ -2531,7 +2531,7 @@ o primeiro valor, nao funciona pois está vazio, ja o segundo vai normalmente</p
 <pre><code>  crossroads.addRoute(':rest*:', on404, -Infinity)
 </code></pre>
 ",[javascript],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179693,0,0,false,null,6,Tue Jan 24 20:19:23 BRT 2017,Tue Jan 24 20:31:40 BRT 2017,0,56,"Codeigniter adicionando "".html"" após nome do controller","Não sei por qual motivo quando tento realizar uma chamada ajax para a url ""http://localhost/meusite/controller/metodo"" recebo um erro 404 dizendo o seguinte ""A url http://localhost/meusite/controller.html/metodo"" não foi encontrada no servidor(404). Não consigo encontrar de onde vem esse "".html"" que ele esta adicionando depois do nome do controller, a aplicação esta rodando perfeitamente em outro servidor.
+179693,0,0,false,null,6,Tue Jan 24 20:19:23 BRT 2017,Tue Jan 24 20:31:40 BRT 2017,0,57,"Codeigniter adicionando "".html"" após nome do controller","Não sei por qual motivo quando tento realizar uma chamada ajax para a url ""http://localhost/meusite/controller/metodo"" recebo um erro 404 dizendo o seguinte ""A url http://localhost/meusite/controller.html/metodo"" não foi encontrada no servidor(404). Não consigo encontrar de onde vem esse "".html"" que ele esta adicionando depois do nome do controller, a aplicação esta rodando perfeitamente em outro servidor.
 
 Não sei de onde vem o problema mas vou postar o .htaccess pra ver se é algum erro nele:
 
@@ -2913,13 +2913,13 @@ if($_POST)
 ?&gt;
 </code></pre>
 ","[php, javascript, html5]",false,0,false,0,0,false,7,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179649,0,0,false,null,1,Tue Jan 24 16:24:17 BRT 2017,null,0,42,Como buscar dados de dois bancos distintos em Ruby On Rails?,"Tenho uma aplicação em Ruby On Rails, já uso minha base de dados em PostgreSQL mas preciso trazer informações de outra base de dados em PostgreSQL. 
+179649,0,0,false,null,1,Tue Jan 24 16:24:17 BRT 2017,null,0,44,Como buscar dados de dois bancos distintos em Ruby On Rails?,"Tenho uma aplicação em Ruby On Rails, já uso minha base de dados em PostgreSQL mas preciso trazer informações de outra base de dados em PostgreSQL. 
 Tentei utilizar por este tutorial: https://blog.guilhermegarnier.com/2008/03/acessando-multiplos-bancos-de-dados-em-rails/  , só que em tão quando reinicio o servidor ele pede para roda as migrates da outra base que quero trazer, porém como tenho tabelas coincidentes dentro das duas bases o rails envia um erro de duplicação. Queria trazer informações da outra base de dados sem precisar rodar as migrations, alguém pode me ajudar? Agradeço desde já. ","<p>Tenho uma aplicação em Ruby On Rails, já uso minha base de dados em PostgreSQL mas preciso trazer informações de outra base de dados em PostgreSQL. 
 Tentei utilizar por este tutorial: <a href=""https://blog.guilhermegarnier.com/2008/03/acessando-multiplos-bancos-de-dados-em-rails/"" rel=""nofollow noreferrer"">https://blog.guilhermegarnier.com/2008/03/acessando-multiplos-bancos-de-dados-em-rails/</a>  , só que em tão quando reinicio o servidor ele pede para roda as migrates da outra base que quero trazer, porém como tenho tabelas coincidentes dentro das duas bases o rails envia um erro de duplicação. Queria trazer informações da outra base de dados sem precisar rodar as migrations, alguém pode me ajudar? Agradeço desde já. </p>
 ","[ruby-on-rails, active-record]",false,0,false,0,0,false,246123,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 179644,0,0,false,Wed Jan 25 07:33:36 BRT 2017,0,Tue Jan 24 16:15:17 BRT 2017,null,-1,55,Como enviar e-mail em C#,"De tanto que pesquisei, vi a grande dificuldade que as pessoas tem para o envio de e-mail, utilizando a plataforma C#, por isso estou aqui disponibilizando a forma que encontrei para a realização deste feito.","<p>De tanto que pesquisei, vi a grande dificuldade que as pessoas tem para o envio de e-mail, utilizando a plataforma C#, por isso estou aqui disponibilizando a forma que encontrei para a realização deste feito.</p>
 ","[c#, envio-de-email]",true,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179641,0,0,false,Tue Jan 24 18:34:16 BRT 2017,5,Tue Jan 24 15:55:18 BRT 2017,Tue Jan 24 16:55:16 BRT 2017,0,183,Como usar o inner join no php?,"Alguém poderia me ajudar? Eu estou com o seguinte problema: tenho 2 tabelas e nessas 2 tabelas eu tenho os nomes, sendo que na tabela de curso eu tenho `nome` e na tabela categoria eu também tenho o campo `nome`. Minha dúvida é a seguinte: como que eu faço isso no `PHP`? Estou tentando fazer assim:
+179641,0,0,false,Tue Jan 24 18:34:16 BRT 2017,5,Tue Jan 24 15:55:18 BRT 2017,Tue Jan 24 16:55:16 BRT 2017,0,208,Como usar o inner join no php?,"Alguém poderia me ajudar? Eu estou com o seguinte problema: tenho 2 tabelas e nessas 2 tabelas eu tenho os nomes, sendo que na tabela de curso eu tenho `nome` e na tabela categoria eu também tenho o campo `nome`. Minha dúvida é a seguinte: como que eu faço isso no `PHP`? Estou tentando fazer assim:
 
     $sql = mysqli_query($mysqli, ""SELECT cur.nome, cat.nome FROM cursos cur INNER JOIN categorias cat ON cur.id_curso = cat.id WHERE cat.id = '$id_categoria'"");
     $row = mysqli_fetch_array($sql);
@@ -3098,7 +3098,7 @@ public function handleSOAP() {
 
 <p>O que vocês acham que é ?</p>
 ","[php, zend, zend-framework-2]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179629,0,0,false,null,0,Tue Jan 24 15:21:24 BRT 2017,Fri May 26 16:16:59 BRT 2017,0,138,Alterar classe com JavaScript,"Uso [tag:zurb-foundation], ultima versão. E não estou conseguindo fazer funcionar para que o Magellan mude o backuground quando a pagina rola. Preciso que fique parecido com esse [site][1].
+179629,0,0,false,null,0,Tue Jan 24 15:21:24 BRT 2017,Fri May 26 16:16:59 BRT 2017,0,161,Alterar classe com JavaScript,"Uso [tag:zurb-foundation], ultima versão. E não estou conseguindo fazer funcionar para que o Magellan mude o backuground quando a pagina rola. Preciso que fique parecido com esse [site][1].
 
 O problema que estou enfrentando é que não está mudando a cor do background. E nem aplicando a classe `is-fixed` no código.
 
@@ -3270,7 +3270,7 @@ tenho
                net::ERR_CONNECTION_TIMED_OUT
 </code></pre>
 ","[ionic, ionic2, typescript]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179611,0,0,false,null,2,Tue Jan 24 14:12:56 BRT 2017,null,0,32,Arquivo anexo de email com file upload no django,"Preciso enviar um arquivo do request.FILES de um campo File como anexo no e-mail. Estou seguindo topicos que ensinam isso, mas nao está dando certo.[![inserir a descrição da imagem aqui][1]][1]
+179611,0,0,false,null,2,Tue Jan 24 14:12:56 BRT 2017,null,0,33,Arquivo anexo de email com file upload no django,"Preciso enviar um arquivo do request.FILES de um campo File como anexo no e-mail. Estou seguindo topicos que ensinam isso, mas nao está dando certo.[![inserir a descrição da imagem aqui][1]][1]
 
 O Django do meu projeto é 1.5
 
@@ -3404,7 +3404,7 @@ return msg.send(fail_silently)
 
 <p>Já tentei também com o attach_file, mas o resultado é o mesmo.</p>
 ",[django],false,0,false,0,0,false,305267,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179605,0,0,false,null,6,Tue Jan 24 13:52:04 BRT 2017,null,1,26,Exibir Imagem do Diretório,"Preciso exibir uma imagem na aplicação a qual fica em diretório externo a aplicação. Estou utilizando da seguinte forma, porem imagem não é exibida. Fica como se o caminho estivesse incorreto.
+179605,0,0,false,null,6,Tue Jan 24 13:52:04 BRT 2017,null,1,28,Exibir Imagem do Diretório,"Preciso exibir uma imagem na aplicação a qual fica em diretório externo a aplicação. Estou utilizando da seguinte forma, porem imagem não é exibida. Fica como se o caminho estivesse incorreto.
 
     public StreamedContent getImagem() {
     		DefaultStreamedContent defaultStreamedContent = null;
@@ -3439,7 +3439,7 @@ return msg.send(fail_silently)
 &lt;p:graphicImage value=""#{arquivo.imagem}"" width=""50"" height=""50"" cache=""false"" /&gt;
 </code></pre>
 ",[primefaces],false,0,false,0,0,false,1413,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179573,0,0,false,null,0,Tue Jan 24 12:34:52 BRT 2017,Thu Jan 26 11:04:00 BRT 2017,1,59,Como adicionar esse header ao SOAP?,"Olá,
+179573,0,0,false,null,0,Tue Jan 24 12:34:52 BRT 2017,Thu Jan 26 11:04:00 BRT 2017,1,61,Como adicionar esse header ao SOAP?,"Olá,
 
 Eu tenho que fazer uma verificação em um Web Service onde é enviado um CPF válido e me retorna um true ou false de acordo com a validação.
 
@@ -3605,7 +3605,7 @@ Segue código.
 </div>
 </p>
 ","[jquery, css]",false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179555,0,0,false,null,0,Tue Jan 24 11:44:39 BRT 2017,null,0,30,Auth0 - Melhores praticas: armazenar dados do usuário em minha base de dados ou somente no auth0?,"Eu tenho seguinte situação em uma aplicação para escolas:
+179555,0,0,false,null,0,Tue Jan 24 11:44:39 BRT 2017,null,0,33,Auth0 - Melhores praticas: armazenar dados do usuário em minha base de dados ou somente no auth0?,"Eu tenho seguinte situação em uma aplicação para escolas:
 
 O responsável pela escola cria uma conta. (Vamos descreve-lo aqui de dono).
 O dono da escola cadastra seus professores para acessarem o aplicativo.
@@ -3652,7 +3652,7 @@ ja tentei active, hover, focus e nada...
 
 <p>ja tentei active, hover, focus e nada...</p>
 ",[bootstrap],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179553,0,0,false,null,2,Tue Jan 24 11:40:54 BRT 2017,Sat Jan 28 14:01:26 BRT 2017,0,112,Formulário angular com laravel,"Eu tenho duas tabelas: Convites e Processo.
+179553,0,0,false,null,2,Tue Jan 24 11:40:54 BRT 2017,Sat Jan 28 14:01:26 BRT 2017,0,113,Formulário angular com laravel,"Eu tenho duas tabelas: Convites e Processo.
 
 Um processo pode ter um convite , assim como um convite pertence a um processo.
 
@@ -3986,7 +3986,7 @@ $scope.excluir = function(data){
 
 <p>Resolvi o problema de passar os dados, usei o #rootscope</p>
 ","[angularjs, laravel]",false,0,false,0,0,false,4124,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179517,0,0,false,null,0,Tue Jan 24 10:39:09 BRT 2017,Wed Jan 25 15:38:24 BRT 2017,0,33,Adicionar css transition em div no Flexslider,"Possuo um flexslider em um Projeto, nele tenho a imagem de fundo e dentro uma div com descrição e botão para link externo.
+179517,0,0,false,null,0,Tue Jan 24 10:39:09 BRT 2017,Wed Jan 25 15:38:24 BRT 2017,0,34,Adicionar css transition em div no Flexslider,"Possuo um flexslider em um Projeto, nele tenho a imagem de fundo e dentro uma div com descrição e botão para link externo.
 O que necessito fazer é que a cada mudança de slide, essa div tenha uma transição, como se fosse dar left 0 e até 3 segundos dar o left 400 por exemplo ou algo com opacidade.
 Alguém já precisou fazer alguma animação semelhante dentro do Flexslider?
 
@@ -4107,7 +4107,7 @@ Alguém já precisou fazer alguma animação semelhante dentro do Flexslider?</p
 
 <p>Caso possível, recomendar algum Slider com esta função já implementada também facilitaria.</p>
 ","[javascript, jquery, css, css3, flexslider]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179503,0,0,false,null,1,Tue Jan 24 10:08:35 BRT 2017,null,0,19,AngularJs 1.6.X + Flickr API exibir Albums de foto,"bom dia.
+179503,0,0,false,null,1,Tue Jan 24 10:08:35 BRT 2017,null,0,23,AngularJs 1.6.X + Flickr API exibir Albums de foto,"bom dia.
 
 Estou tentando criar uma página super simples com html + AngularJs + Flickr API. O que eu preciso fazer é, listar numa página Html os meus albums do flickr(thumbnail + titulo para cada album) e quando a pessoa clicar no album exibir as fotos dele(numa nova página ou modal ainda não sei rs).
 
@@ -4125,7 +4125,7 @@ Grande abraço.","<p>bom dia.</p>
 
 <p>Grande abraço.</p>
 ","[html, angularjs, web-service, api]",false,0,false,0,0,false,1599,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179502,0,0,false,null,0,Tue Jan 24 10:06:09 BRT 2017,null,0,54,Como iniciar uma aplicação Java web utilizando o Http Plataform Handler no IIS?,"Com base nesse artigo https://azure.microsoft.com/en-us/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/, segui o passo a passo para tentar subir a aplicação nesse servidor, porém sem sucesso. Já possuo um servidor com o IIS 10.0. O procedimento realizado foi o seguinte:
+179502,0,0,false,null,0,Tue Jan 24 10:06:09 BRT 2017,null,0,55,Como iniciar uma aplicação Java web utilizando o Http Plataform Handler no IIS?,"Com base nesse artigo https://azure.microsoft.com/en-us/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/, segui o passo a passo para tentar subir a aplicação nesse servidor, porém sem sucesso. Já possuo um servidor com o IIS 10.0. O procedimento realizado foi o seguinte:
 
  - Download e instalação do HttpPlataformHandler x64 - https://www.iis.net/downloads/microsoft/httpplatformhandler
  - Download do Tomcat 8 - http://tomcat.apache.org/download-80.cgi
@@ -4207,7 +4207,7 @@ Agradeço desde já qualquer sugestão. ","<p>Com base nesse artigo <a href=""ht
 
 <p>Agradeço desde já qualquer sugestão. </p>
 ","[java, servidor, tomcat, iis]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179484,0,0,false,null,2,Tue Jan 24 09:27:31 BRT 2017,Tue Jan 24 12:38:22 BRT 2017,0,136,Bootstrap File Input com asp.net MVC,"Estou utilizando o Bootstrap File Input (http://plugins.krajee.com/file-advanced-usage-demo) no meu projeto Asp.Net MVC mas ele possui um bug que quando adiciono algum arquivo e depois acrescento outro ele continua exibindo na tela todos mas só posta os últimos arquivos adicionados. Alguém já passou por isso e conseguiu solucionar ? O máximo que cheguei foi no método $(""#File"").fileinput('getFileStack') que retorna um array dos arquivos mas também não estou conseguindo postar esse array para o server. Fico no aguardo. Obrigado.
+179484,0,0,false,null,2,Tue Jan 24 09:27:31 BRT 2017,Tue Jan 24 12:38:22 BRT 2017,0,139,Bootstrap File Input com asp.net MVC,"Estou utilizando o Bootstrap File Input (http://plugins.krajee.com/file-advanced-usage-demo) no meu projeto Asp.Net MVC mas ele possui um bug que quando adiciono algum arquivo e depois acrescento outro ele continua exibindo na tela todos mas só posta os últimos arquivos adicionados. Alguém já passou por isso e conseguiu solucionar ? O máximo que cheguei foi no método $(""#File"").fileinput('getFileStack') que retorna um array dos arquivos mas também não estou conseguindo postar esse array para o server. Fico no aguardo. Obrigado.
 
 Abaixo segue o trecho da View onde está o upload.
 
@@ -4247,7 +4247,7 @@ E no server eu apanho os arquivos através do `Request.Files`. O problema ocorre
 
 <p>E no server eu apanho os arquivos através do <code>Request.Files</code>. O problema ocorre que quando adiciono arquivos e acrescento outros depois (Ex.: Adiciono 2 .pdf e depois mais 3 .pdf totalizando 3) ele só posta os últimos adicionados.</p>
 ","[file-upload, multiple-file-upload]",false,0,false,0,0,false,15,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179481,0,0,false,null,3,Tue Jan 24 09:22:21 BRT 2017,null,1,25,"Classes PHP que retorna ""alerts"" css","Estou desenvolvendo uma aplicação pequena que servirá para atualizar meus conhecimentos, porem, no desenvolvimento do mesmo me deparei com algumas situações inconsistentes.
+179481,0,0,false,null,3,Tue Jan 24 09:22:21 BRT 2017,null,1,26,"Classes PHP que retorna ""alerts"" css","Estou desenvolvendo uma aplicação pequena que servirá para atualizar meus conhecimentos, porem, no desenvolvimento do mesmo me deparei com algumas situações inconsistentes.
 Gostaria que meu ""CRUD"" retornasse um ""div"" que exibirá um ""alert"" css quando executado pelo browser, mas quando executo, somente o alert é exibido e todo o restante do formulário desaparece(executando na mesma página).
 
 database.class.php (projeto inicial, só retorna o erro)
@@ -4631,9 +4631,9 @@ João gostou de x post</p>
 
 <p>O meu problema e que nunca fiz algo parecido e não sei por onde começar em termos de criação de tabelas necessárias, preciso da vossa ajuda para ter uma ideia simples de fazer este tipo de sistema.</p>
 ",[php],false,0,false,0,0,false,19,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54240,0,0,false,Tue Mar 17 10:00:03 BRT 2015,1,Fri Mar 13 14:34:43 BRT 2015,null,2,195,Zend Framework e Symfony,"Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o `Symfony 2` e `Zend Framework 2`? ","<p>Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o <code>Symfony 2</code> e <code>Zend Framework 2</code>? </p>
+54240,0,0,false,Tue Mar 17 10:00:03 BRT 2015,1,Fri Mar 13 14:34:43 BRT 2015,null,2,199,Zend Framework e Symfony,"Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o `Symfony 2` e `Zend Framework 2`? ","<p>Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o <code>Symfony 2</code> e <code>Zend Framework 2</code>? </p>
 ","[zend, symfony]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54214,0,0,false,null,12,Fri Mar 13 10:14:56 BRT 2015,Tue Mar 31 14:36:45 BRT 2015,0,488,modal bootstrap,"1º duvida: Eu consigo tratar variáveis em php + MySQL dentro da janela modal?
+54214,0,0,false,null,12,Fri Mar 13 10:14:56 BRT 2015,Tue Mar 31 14:36:45 BRT 2015,0,489,modal bootstrap,"1º duvida: Eu consigo tratar variáveis em php + MySQL dentro da janela modal?
 
 Estou tentando chamar um modal na minha pagina *index* e não esta funcionando, já procurei pela solução e também não consegui achar.
 
@@ -5120,7 +5120,7 @@ Se alguem puder ajudar agradeço.</p>
 
 <p>Link da video aula: <a href=""https://www.youtube.com/watch?v=rdYQOqxq9F0"" rel=""nofollow"">https://www.youtube.com/watch?v=rdYQOqxq9F0</a></p>
 ","[java, hibernate, spring]",false,0,false,0,0,false,36,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54175,0,0,false,null,2,Thu Mar 12 23:18:30 BRT 2015,null,2,113,"Desenvolvimento de jogos - OpenGl, Directx","Estou começando a estudar APIs para desenvolvimento gráfico e estou com uma dúvida pertinente. Quando jogos são desenvolvidos, necessariamente são utilizadas APIs. Minha dúvida é em relação ao desenvolvimento do mesmo jogo com APIs diferentes, com finalidade de aumentar a compatibilidade do jogo. Os jogos são desenvolvidos novamente com outra API ou é possível ""converter"" de uma API para outra?","<p>Estou começando a estudar APIs para desenvolvimento gráfico e estou com uma dúvida pertinente. Quando jogos são desenvolvidos, necessariamente são utilizadas APIs. Minha dúvida é em relação ao desenvolvimento do mesmo jogo com APIs diferentes, com finalidade de aumentar a compatibilidade do jogo. Os jogos são desenvolvidos novamente com outra API ou é possível ""converter"" de uma API para outra?</p>
+54175,0,0,false,null,2,Thu Mar 12 23:18:30 BRT 2015,null,2,114,"Desenvolvimento de jogos - OpenGl, Directx","Estou começando a estudar APIs para desenvolvimento gráfico e estou com uma dúvida pertinente. Quando jogos são desenvolvidos, necessariamente são utilizadas APIs. Minha dúvida é em relação ao desenvolvimento do mesmo jogo com APIs diferentes, com finalidade de aumentar a compatibilidade do jogo. Os jogos são desenvolvidos novamente com outra API ou é possível ""converter"" de uma API para outra?","<p>Estou começando a estudar APIs para desenvolvimento gráfico e estou com uma dúvida pertinente. Quando jogos são desenvolvidos, necessariamente são utilizadas APIs. Minha dúvida é em relação ao desenvolvimento do mesmo jogo com APIs diferentes, com finalidade de aumentar a compatibilidade do jogo. Os jogos são desenvolvidos novamente com outra API ou é possível ""converter"" de uma API para outra?</p>
 ","[api, opengl, directx]",false,0,false,0,0,false,242,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 54154,0,0,false,Thu Mar 12 18:24:40 BRT 2015,5,Thu Mar 12 17:48:45 BRT 2015,Thu Mar 12 18:01:45 BRT 2015,1,20,Preciso gerar páginas separadas para cada anúncio ter uma URL sem parâmetros?,"Estou a desenvolver um site de classificados. Para cada registo na base de dados é necessário gerar uma página para o anúncio em questão, como nos sites de classificados normais.
 
@@ -5929,7 +5929,7 @@ angular.module('starter.controllers', [])
 })
 </code></pre>
 ","[javascript, angularjs, ionic]",false,0,false,0,0,false,6685,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128503,0,0,false,null,0,Sat May 14 00:33:35 BRT 2016,Sat May 14 13:26:55 BRT 2016,1,163,document.getElementById não encontra elemento manualmente inserido no DOM,"Olá, eu estou uma dificuldade em obter um elemento através do id de uma Classe com `document.getElementById(id)` do `DOM` usando `Javascript`
+128503,0,0,false,null,0,Sat May 14 00:33:35 BRT 2016,Sat May 14 13:26:55 BRT 2016,1,166,document.getElementById não encontra elemento manualmente inserido no DOM,"Olá, eu estou uma dificuldade em obter um elemento através do id de uma Classe com `document.getElementById(id)` do `DOM` usando `Javascript`
 
 e tenho um estilo de painel em `css`
 
@@ -6127,7 +6127,7 @@ alert(""ID: ""+painel.id); // irá mostrar ""ID: painel""
 
 <p>não aparece nada</p>
 ","[javascript, dom]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128492,0,0,false,null,4,Fri May 13 21:46:28 BRT 2016,Sat May 14 00:52:41 BRT 2016,1,93,Realizar um SELECT através do C# para um banco Access,"       
+128492,0,0,false,null,4,Fri May 13 21:46:28 BRT 2016,Sat May 14 00:52:41 BRT 2016,1,98,Realizar um SELECT através do C# para um banco Access,"       
     private void button1_Click(object sender, EventArgs e)
     {
         OleDbConnection Con = new OleDbConnection();
@@ -6259,7 +6259,7 @@ mov rbx, 0
 int 0x80
 </code></pre>
 ",[assembly],false,0,false,0,0,false,108,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128466,0,0,false,null,6,Fri May 13 18:56:48 BRT 2016,Sun Sep 18 11:39:50 BRT 2016,1,46,Erro ao escolher o tema para formulario,"Estou fazendo um formulário e ao escolher o tema Dialog ele informa que:
+128466,0,0,false,null,6,Fri May 13 18:56:48 BRT 2016,Sun Sep 18 11:39:50 BRT 2016,1,47,Erro ao escolher o tema para formulario,"Estou fazendo um formulário e ao escolher o tema Dialog ele informa que:
 Missing styles. Is the correct theme chosen for this layout?
 conforme vocês podem ver abaixo. Se é que não possa realmente utilizar este tema, tem outra maneira de deixar o formulário com aparência mais amigável? 
 
@@ -6365,7 +6365,7 @@ C:\ProgramData\Oracle\lava\javapath\javaw.exe
 C:\ProgramData\Oracle\Java\javapath\javaw.exe -vmargs -DosgisequiredlavaVersion=1.8 -Xms256m -Xmx1024m -jar C:\ Eclipse-mais-atual \ eclipse\\pluginstorg.eclipse.equinox.launcher_1.3.100.v201 50511-1540.jar OK • 
 </code></pre>
 ","[java, eclipse]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128299,0,0,false,null,1,Thu May 12 22:47:00 BRT 2016,Fri May 13 00:49:37 BRT 2016,1,63,Redirecionamento do Login em diferentes páginas no meu tema Woocommerce,"Estou desenvolvendo meu próprio tema de Woocommerce, e agora preciso fazer um redirecionamento após efetuar o login em uma determinada página onde estou usando o formulário de login do Woocommerce.
+128299,0,0,false,null,1,Thu May 12 22:47:00 BRT 2016,Fri May 13 00:49:37 BRT 2016,1,65,Redirecionamento do Login em diferentes páginas no meu tema Woocommerce,"Estou desenvolvendo meu próprio tema de Woocommerce, e agora preciso fazer um redirecionamento após efetuar o login em uma determinada página onde estou usando o formulário de login do Woocommerce.
 
 Para isso adicionei a seguinte função na functions.php
 <pre>
@@ -6621,7 +6621,7 @@ at crm.controller.LoginController.main(LoginController.java:27)
 
 <p>Queria ajuda para resolver esse erro. Agradeço desde agora.</p>
 ","[java, arraylist]",false,0,false,0,0,false,9,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235156,0,0,false,null,0,Tue Sep 05 20:22:56 BRT 2017,null,0,20,Manter parte da página HTML,"Tenho uma aplicação que já está funcionando a algum tempo, rodando com Django no backend, e jQuery no frontend.
+235156,0,0,false,null,0,Tue Sep 05 20:22:56 BRT 2017,null,0,26,Manter parte da página HTML,"Tenho uma aplicação que já está funcionando a algum tempo, rodando com Django no backend, e jQuery no frontend.
 
 Desenvolvemos um sistema de notificação para integrar com a nossa aplicação utilizando websocket.
 
@@ -6935,11 +6935,7 @@ $("".btn-bet.green"").click();
 }, 800000);
 </code></pre>
 ",[javascript],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235143,0,0,false,null,0,Tue Sep 05 19:46:49 BRT 2017,null,0,9,Custom Post Types Wordpress,"Fala galera uma luz por favor, comecei a desenvolver em Wordpress e não consigo encontrar uma solução para o problema que tive, fiz um site one page e migrei para Wordpress, criei o tema tudo certinho, a function, header, footer e o index.
-O site está funcionando tranquilo, só que precisava deixar dinâmico ai eu criei os post type tudo beleza, criou no menu o ícone e tal criei as metabox para o cliente preencher os campos e tal, só que quando é criado os post types é gerado uma nova url para aquele post types e todas as informações inseridas pelo cliente alteram apenas aquela url ou seja www.meusite.com.br/categorias/categorias e como é one page só tem uma página o endereço www.meusite.com.br não recebem as alterações e sim perdem elas, pois foram apagadas porque foi substituído pela variável que recebe o conteúdo, ficou meio confuso eu acho, mas qual a maneira certa de deixar dinâmico a página principal?","<p>Fala galera uma luz por favor, comecei a desenvolver em Wordpress e não consigo encontrar uma solução para o problema que tive, fiz um site one page e migrei para Wordpress, criei o tema tudo certinho, a function, header, footer e o index.
-O site está funcionando tranquilo, só que precisava deixar dinâmico ai eu criei os post type tudo beleza, criou no menu o ícone e tal criei as metabox para o cliente preencher os campos e tal, só que quando é criado os post types é gerado uma nova url para aquele post types e todas as informações inseridas pelo cliente alteram apenas aquela url ou seja www.meusite.com.br/categorias/categorias e como é one page só tem uma página o endereço www.meusite.com.br não recebem as alterações e sim perdem elas, pois foram apagadas porque foi substituído pela variável que recebe o conteúdo, ficou meio confuso eu acho, mas qual a maneira certa de deixar dinâmico a página principal?</p>
-","[php, wordpress, wordpress-theme]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235138,0,0,false,null,1,Tue Sep 05 19:30:03 BRT 2017,Wed Sep 06 08:22:18 BRT 2017,0,23,Como escurecer o segundo plano quando esta div estiver ativa?,"    <!DOCTYPE html>
+235138,0,0,false,null,1,Tue Sep 05 19:30:03 BRT 2017,Wed Sep 06 08:22:18 BRT 2017,0,28,Como escurecer o segundo plano quando esta div estiver ativa?,"    <!DOCTYPE html>
     <html lang="""">
        <head>
           <meta charset=""utf-8"">
@@ -7090,7 +7086,7 @@ O site está funcionando tranquilo, só que precisava deixar dinâmico ai eu cri
 &lt;/html&gt;
 </code></pre>
 ","[javascript, css, html5]",false,0,false,0,0,false,2576,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235137,0,0,false,null,3,Tue Sep 05 19:19:47 BRT 2017,Tue Sep 05 20:03:15 BRT 2017,-2,19,Array de um select,"Preciso fazer um ARRAY de um Select do banco de dados..
+235137,0,0,false,Thu Sep 07 20:31:37 BRT 2017,2,Tue Sep 05 19:19:47 BRT 2017,Tue Sep 05 20:03:15 BRT 2017,-2,19,Array de um select,"Preciso fazer um ARRAY de um Select do banco de dados..
 
 O exemplo que tenho abaixo monta um array assim, como faço para fazer, me confundi aqui..pois nunca havia pego um array como este:
 
@@ -7111,306 +7107,7 @@ O exemplo que tenho abaixo monta um array assim, como faço para fazer, me confu
    'preco' =&gt; $preco);
 </code></pre>
 ",[php],false,0,false,0,0,false,9,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235132,0,0,false,Wed Sep 06 19:48:03 BRT 2017,1,Tue Sep 05 18:36:14 BRT 2017,Tue Sep 05 19:18:26 BRT 2017,0,11,Problema com rotas no VUE e Laravel,"Sou iniciante com laravel. Desde a semana passada estou implementando VUE no meu projeto. Estou apanhando muito. Agora empaquei na seguinte etapa: tenho uma tabela onde listo meus usuários, e em uma das celulas da tabela eu tenho um botão de editar.
-
-Com o código assim não parece nada na minha tela:
-
-    <a href=""{{route('admin.users.edit',['id'=>u.id])}}"" class=""btn btn-primary""><span class=""fa fa-pencil-square-o""> Editar</span></a>
-
-Se eu tirar esse código `{{route('admin.users.edit',['id'=>u.id])}}""`, a tela aparece 
-","<p>Sou iniciante com laravel. Desde a semana passada estou implementando VUE no meu projeto. Estou apanhando muito. Agora empaquei na seguinte etapa: tenho uma tabela onde listo meus usuários, e em uma das celulas da tabela eu tenho um botão de editar.</p>
-
-<p>Com o código assim não parece nada na minha tela:</p>
-
-<pre><code>&lt;a href=""{{route('admin.users.edit',['id'=&gt;u.id])}}"" class=""btn btn-primary""&gt;&lt;span class=""fa fa-pencil-square-o""&gt; Editar&lt;/span&gt;&lt;/a&gt;
-</code></pre>
-
-<p>Se eu tirar esse código <code>{{route('admin.users.edit',['id'=&gt;u.id])}}""</code>, a tela aparece </p>
-","[php, laravel, vue]",false,0,false,0,0,false,76,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235130,0,0,false,null,0,Tue Sep 05 18:25:57 BRT 2017,Wed Sep 06 15:13:45 BRT 2017,1,16,App parar de funcionar após push notification com firebase no ionic 3,"Estou tentando fazer um `push notification` usando o `cloudSettings` com firebase, porém quando envio uma mensagem o app para de funcionar e aparece a seguinte mensagem:
-
-[![inserir a descrição da imagem aqui][1]][1]
-
-
-app.module.ts:
-
-    const cloudSettings: CloudSettings = {
-      'core': {
-        'app_id': 'APP_ID',
-      },
-      'push': {
-        'sender_id': 'SENDER_ID',
-        'pluginConfig': {
-          'ios': {
-            'badge': true,
-            'sound': true
-          },
-          'android': {
-            'iconColor': '#343434'
-          }
-        }
-      }
-    };
-    ...
-    imports: [
-        BrowserModule,
-        HttpModule,
-        CloudModule.forRoot(cloudSettings)
-    ]
-    ...
-
-app.component.ts:
-
-    ....
-    initialize(){
-     this.registerDeviceToken();
-     this.handlerNotifications();
-    }
-    
-    registerDeviceToken() {
-        this.push.register().then((t: PushToken) => {
-          return this.push.saveToken(t);
-        }).then((t: PushToken) => {
-          console.log('Token saved: ', t.token);
-        });
-      }
-    
-    handlerNotifications() {
-        this.push.rx.notification()
-          .subscribe((msg) => {
-            alert(msg.title + ': ' + msg.text);
-         });
-    }
-
-
-No meu package.json a lib está definida da seguinte forma:
-
-    ""phonegap-plugin-push"": {
-                    ""SENDER_ID"": ""SENDER_ID"",
-                    ""variables"": ""[object Object]""
-    }
-
-E no config.xml:
-
-    <plugin name=""phonegap-plugin-push"" spec=""^2.0.0"">
-            <variable name=""SENDER_ID"" value=""SENDER_ID"" />
-            <variable name=""variables"" value=""[object Object]"" />
-    </plugin>
-
-**Ionic info:**
-
-local packages:
-
-    @ionic/app-scripts : 2.0.1
-    Cordova Platforms  : android 6.2.3
-    Ionic Framework    : ionic-angular 3.5.0
-
-System:
-
-    Android SDK Tools : 26.0.2
-    Node              : v6.10.3
-    OS                : Linux 3.13
-    npm               : 3.10.10
-
-Log do erro:
-
-> 09-06 15:09:51.634  2829 22829 I ActivityManager: Start proc
-> 19365:br.com.app/u0a138 for activity br.com.app/.MainActivity 09-06
-> 15:09:51.675 19365 19365 W System  : ClassLoader referenced unknown
-> path: /data/app/br.com.app-1/lib/arm 09-06 15:09:51.709 19365 19365 I
-> FA      :   adb shell setprop debug.firebase.analytics.app br.com.app
-> 09-06 15:09:52.024   637   637 D SFPerfTracer:        layers: (5:8)
-> (StatusBar (0xa987ec00): 20:31344)
-> (com.android.systemui.ImageWallpaper (0xa9d49400): 20:20506) (Sprite
-> (0xa987b000): 0:34)* (DimLayerController/Stack=0 (0xa9d4a800):
-> 0:1353)* (animation background stackId=1 (0xa987d800): 0:112)*
-> (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
-> (0xa9d4bc00): 20:298) (NavigationBar (0xa987c400): 20:46) (Starting
-> br.com.app (0xa986bc00): 20:24)  09-06 15:09:52.164  2829  4059 I
-> WindowManager: Switching to real app window: Window{da0e6a u0
-> br.com.app/br.com.app.MainActivity} 09-06 15:09:52.222  2829  2881 I
-> LaunchCheckinHandler: Displayed br.com.app/.MainActivity,cp,ca,600
-> 09-06 15:09:52.223  2829  2881 I ActivityManager: Displayed
-> br.com.app/.MainActivity: +600ms 09-06 15:09:54.942   637   637 D
-> SFPerfTracer:        layers: (5:11) (StatusBar (0xa987ec00): 9:31376)
-> (com.android.systemui.ImageWallpaper (0xa9d49400): 9:20538)* (Sprite
-> (0xa987b000): 0:34)* (DimLayerController/Stack=0 (0xa9d4a800):
-> 0:1353)* (animation background stackId=1 (0xa987d800): 0:112)*
-> (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
-> (0xa9d4bc00): 0:309)- (NavigationBar (0xa987c400): 9:78) (Starting
-> br.com.app (0xa986bc00): 0:45)- (br.com.app/br.com.app.MainActivity
-> (0xa9d48000): 10:30) (br.com.app/br.com.app.MainActivity (0xa81d5000):
-> 125:163) (br.com.app/br.com.app.MainActivity (0xa81d6400): 28:45) 
-> 09-06 15:10:11.599 19365 19365 E AndroidRuntime: Process: br.com.app,
-> PID: 19365 09-06 15:10:11.599 19365 19365 E AndroidRuntime:
-> java.lang.NoSuchMethodError: No static method
-> zzJU()Lcom/google/firebase/iid/zzq; in class
-> Lcom/google/firebase/iid/zzq; or its super classes (declaration of
-> 'com.google.firebase.iid.zzq' appears in
-> /data/app/br.com.app-1/base.apk) 09-06 15:10:11.601  2829  3751 W
-> ActivityManager:   Force finishing activity br.com.app/.MainActivity
-> 09-06 15:10:12.110  2829  2848 W ActivityManager: Activity pause
-> timeout for ActivityRecord{6c0658b u0 br.com.app/.MainActivity t98 f}
-> 09-06 15:10:13.786  2829  3751 W ActivityManager:   Force finishing
-> activity br.com.app/.MainActivity 09-06 15:10:13.797   637   637 D
-> SFPerfTracer:        layers: (6:11) (StatusBar (0xa987ec00): 0:31453)
-> (com.android.systemui.ImageWallpaper (0xa9d49400): 0:20613) (Sprite
-> (0xa987b000): 0:34)* (DimLayerController/Stack=0 (0xa9d4a800): 0:1362)
-> (animation background stackId=1 (0xa987d800): 0:112)* (NavigationBar
-> (0xa987c400): 0:165) (br.com.app/br.com.app.MainActivity (0xa9d48000):
-> 0:39)- (br.com.app/br.com.app.MainActivity (0xa81d5000): 0:165)-
-> (br.com.app/br.com.app.MainActivity (0xa81d6400): 0:122)* (Application
-> Error: br.com.app (0xa9d48000): 3:70)
-> (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
-> (0xa81d5000): 0:31)  09-06 15:10:13.809  2829  3751 I ActivityManager:
-> Killing 19365:br.com.app/u0a138 (adj 0): crash
-
-
-  [1]: https://i.stack.imgur.com/4OtTZ.png","<p>Estou tentando fazer um <code>push notification</code> usando o <code>cloudSettings</code> com firebase, porém quando envio uma mensagem o app para de funcionar e aparece a seguinte mensagem:</p>
-
-<p><a href=""https://i.stack.imgur.com/4OtTZ.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/4OtTZ.png"" alt=""inserir a descrição da imagem aqui""></a></p>
-
-<p>app.module.ts:</p>
-
-<pre><code>const cloudSettings: CloudSettings = {
-  'core': {
-    'app_id': 'APP_ID',
-  },
-  'push': {
-    'sender_id': 'SENDER_ID',
-    'pluginConfig': {
-      'ios': {
-        'badge': true,
-        'sound': true
-      },
-      'android': {
-        'iconColor': '#343434'
-      }
-    }
-  }
-};
-...
-imports: [
-    BrowserModule,
-    HttpModule,
-    CloudModule.forRoot(cloudSettings)
-]
-...
-</code></pre>
-
-<p>app.component.ts:</p>
-
-<pre><code>....
-initialize(){
- this.registerDeviceToken();
- this.handlerNotifications();
-}
-
-registerDeviceToken() {
-    this.push.register().then((t: PushToken) =&gt; {
-      return this.push.saveToken(t);
-    }).then((t: PushToken) =&gt; {
-      console.log('Token saved: ', t.token);
-    });
-  }
-
-handlerNotifications() {
-    this.push.rx.notification()
-      .subscribe((msg) =&gt; {
-        alert(msg.title + ': ' + msg.text);
-     });
-}
-</code></pre>
-
-<p>No meu package.json a lib está definida da seguinte forma:</p>
-
-<pre><code>""phonegap-plugin-push"": {
-                ""SENDER_ID"": ""SENDER_ID"",
-                ""variables"": ""[object Object]""
-}
-</code></pre>
-
-<p>E no config.xml:</p>
-
-<pre><code>&lt;plugin name=""phonegap-plugin-push"" spec=""^2.0.0""&gt;
-        &lt;variable name=""SENDER_ID"" value=""SENDER_ID"" /&gt;
-        &lt;variable name=""variables"" value=""[object Object]"" /&gt;
-&lt;/plugin&gt;
-</code></pre>
-
-<p><strong>Ionic info:</strong></p>
-
-<p>local packages:</p>
-
-<pre><code>@ionic/app-scripts : 2.0.1
-Cordova Platforms  : android 6.2.3
-Ionic Framework    : ionic-angular 3.5.0
-</code></pre>
-
-<p>System:</p>
-
-<pre><code>Android SDK Tools : 26.0.2
-Node              : v6.10.3
-OS                : Linux 3.13
-npm               : 3.10.10
-</code></pre>
-
-<p>Log do erro:</p>
-
-<blockquote>
-  <p>09-06 15:09:51.634  2829 22829 I ActivityManager: Start proc
-  19365:br.com.app/u0a138 for activity br.com.app/.MainActivity 09-06
-  15:09:51.675 19365 19365 W System  : ClassLoader referenced unknown
-  path: /data/app/br.com.app-1/lib/arm 09-06 15:09:51.709 19365 19365 I
-  FA      :   adb shell setprop debug.firebase.analytics.app br.com.app
-  09-06 15:09:52.024   637   637 D SFPerfTracer:        layers: (5:8)
-  (StatusBar (0xa987ec00): 20:31344)
-  (com.android.systemui.ImageWallpaper (0xa9d49400): 20:20506) (Sprite
-  (0xa987b000): 0:34)* (DimLayerController/Stack=0 (0xa9d4a800):
-  0:1353)* (animation background stackId=1 (0xa987d800): 0:112)*
-  (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
-  (0xa9d4bc00): 20:298) (NavigationBar (0xa987c400): 20:46) (Starting
-  br.com.app (0xa986bc00): 20:24)  09-06 15:09:52.164  2829  4059 I
-  WindowManager: Switching to real app window: Window{da0e6a u0
-  br.com.app/br.com.app.MainActivity} 09-06 15:09:52.222  2829  2881 I
-  LaunchCheckinHandler: Displayed br.com.app/.MainActivity,cp,ca,600
-  09-06 15:09:52.223  2829  2881 I ActivityManager: Displayed
-  br.com.app/.MainActivity: +600ms 09-06 15:09:54.942   637   637 D
-  SFPerfTracer:        layers: (5:11) (StatusBar (0xa987ec00): 9:31376)
-  (com.android.systemui.ImageWallpaper (0xa9d49400): 9:20538)* (Sprite
-  (0xa987b000): 0:34)* (DimLayerController/Stack=0 (0xa9d4a800):
-  0:1353)* (animation background stackId=1 (0xa987d800): 0:112)*
-  (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
-  (0xa9d4bc00): 0:309)- (NavigationBar (0xa987c400): 9:78) (Starting
-  br.com.app (0xa986bc00): 0:45)- (br.com.app/br.com.app.MainActivity
-  (0xa9d48000): 10:30) (br.com.app/br.com.app.MainActivity (0xa81d5000):
-  125:163) (br.com.app/br.com.app.MainActivity (0xa81d6400): 28:45) 
-  09-06 15:10:11.599 19365 19365 E AndroidRuntime: Process: br.com.app,
-  PID: 19365 09-06 15:10:11.599 19365 19365 E AndroidRuntime:
-  java.lang.NoSuchMethodError: No static method
-  zzJU()Lcom/google/firebase/iid/zzq; in class
-  Lcom/google/firebase/iid/zzq; or its super classes (declaration of
-  'com.google.firebase.iid.zzq' appears in
-  /data/app/br.com.app-1/base.apk) 09-06 15:10:11.601  2829  3751 W
-  ActivityManager:   Force finishing activity br.com.app/.MainActivity
-  09-06 15:10:12.110  2829  2848 W ActivityManager: Activity pause
-  timeout for ActivityRecord{6c0658b u0 br.com.app/.MainActivity t98 f}
-  09-06 15:10:13.786  2829  3751 W ActivityManager:   Force finishing
-  activity br.com.app/.MainActivity 09-06 15:10:13.797   637   637 D
-  SFPerfTracer:        layers: (6:11) (StatusBar (0xa987ec00): 0:31453)
-  (com.android.systemui.ImageWallpaper (0xa9d49400): 0:20613) (Sprite
-  (0xa987b000): 0:34)* (DimLayerController/Stack=0 (0xa9d4a800): 0:1362)
-  (animation background stackId=1 (0xa987d800): 0:112)* (NavigationBar
-  (0xa987c400): 0:165) (br.com.app/br.com.app.MainActivity (0xa9d48000):
-  0:39)- (br.com.app/br.com.app.MainActivity (0xa81d5000): 0:165)-
-  (br.com.app/br.com.app.MainActivity (0xa81d6400): 0:122)* (Application
-  Error: br.com.app (0xa9d48000): 3:70)
-  (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL
-  (0xa81d5000): 0:31)  09-06 15:10:13.809  2829  3751 I ActivityManager:
-  Killing 19365:br.com.app/u0a138 (adj 0): crash</p>
-</blockquote>
-","[ionic, apache-cordova, firebase, push-notification, ionic3]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235128,0,0,false,null,0,Tue Sep 05 18:23:50 BRT 2017,null,0,7,Como automatizar a geração de uma branch a partir de outras branchs com Jenkins ou GitLab,"Imaginem que eu tenho as seguintes branchs
+235128,0,0,false,null,0,Tue Sep 05 18:23:50 BRT 2017,null,0,9,Como automatizar a geração de uma branch a partir de outras branchs com Jenkins ou GitLab,"Imaginem que eu tenho as seguintes branchs
 
 --- features/logs
 
@@ -7434,7 +7131,7 @@ Preciso que esse processo seja simples para que um cara que não conhece o proje
 <p>Existe como automatizar isso com Jenkins ou Gitlab ?
 Preciso que esse processo seja simples para que um cara que não conhece o projeto possa fazer</p>
 ","[jenkins, integração-contínua, gitlab]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235118,0,0,false,null,0,Tue Sep 05 17:54:29 BRT 2017,null,0,7,"Fazer tipo um dir base, como se faz na web tem como fazer com xamarin?","Quando trabalhamos com web, muitas vezes setamos o dir base, assim:
+235118,0,0,false,null,0,Tue Sep 05 17:54:29 BRT 2017,null,0,10,"Fazer tipo um dir base, como se faz na web tem como fazer com xamarin?","Quando trabalhamos com web, muitas vezes setamos o dir base, assim:
 
     ../minhapasta/meu_arquivo.extensão
 
@@ -7454,7 +7151,7 @@ Tem como eu fazer isso com xamarin.forms, sem que eu sete o path completo do min
 
 <p>Tem como eu fazer isso com xamarin.forms, sem que eu sete o path completo do minha imagem ou outro arquivo?</p>
 ","[android, xamarin, xamarin-forms]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235100,0,0,false,null,0,Tue Sep 05 17:16:30 BRT 2017,Tue Sep 05 17:30:06 BRT 2017,0,10,Problemas com Hibernate (hbm.xml). Insira a falsa atualização falsa em uma relação muito-para-um,"estou enfrentando um problema com mapeamento de classes no hibernate.
+235100,0,0,false,null,0,Tue Sep 05 17:16:30 BRT 2017,Tue Sep 05 17:30:06 BRT 2017,0,13,Problemas com Hibernate (hbm.xml). Insira a falsa atualização falsa em uma relação muito-para-um,"estou enfrentando um problema com mapeamento de classes no hibernate.
 Estou tentando fazer uma relação many-to-one utilizando um composite-id.
 e o mapeamento esta retornando 
 
@@ -7554,7 +7251,7 @@ segue os arquivos hbm.</p>
 &lt;/hibernate-mapping&gt;
 </code></pre>
 ","[java, xml, hibernate]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235082,0,0,false,null,1,Tue Sep 05 16:39:51 BRT 2017,Tue Sep 05 17:11:00 BRT 2017,1,13,A utilização da função handler esta pulando os ids. Como faço para isso não acontecer?,"Veja o exemplo:
+235082,0,0,false,null,1,Tue Sep 05 16:39:51 BRT 2017,Tue Sep 05 17:11:00 BRT 2017,1,14,A utilização da função handler esta pulando os ids. Como faço para isso não acontecer?,"Veja o exemplo:
 
     create table time(
     id int not null primary key auto_increment,
@@ -7601,18 +7298,7 @@ select * from time;
 
 <p>Por exemplo: se eu tentar inserir brasil 5 vezes ele insere a primeira e da erro nas outras. Mas depois quando eu for inserir ""mexico"" ele insere corretamente mas no id = 6.</p>
 ","[mysql, handler]",false,0,false,0,0,false,106,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235078,0,0,false,Tue Sep 05 18:23:21 BRT 2017,1,Tue Sep 05 16:26:42 BRT 2017,null,-1,16,associar serviço a uma porta no ubunu,"Estou tentando fazer um serviço gerado a partir de um .exe, programa que eu mesmo desenvolvi, à porta localhost:8181, o meu serviço já aparece no mapeamento feito com o comando #service --status-all
-[![inserir a descrição da imagem aqui][1]][1]
-
-
-  [1]: https://i.stack.imgur.com/vBGRt.png
-
-O serviço que quero associar a porta 8181 é o ***ceos-agent.***. Vale ressaltar que o programa já roda em outra máquina, porem a pessoa que configurou o serviço já não se encontra aqui. alguém pode me ajudar?","<p>Estou tentando fazer um serviço gerado a partir de um .exe, programa que eu mesmo desenvolvi, à porta localhost:8181, o meu serviço já aparece no mapeamento feito com o comando #service --status-all
-<a href=""https://i.stack.imgur.com/vBGRt.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/vBGRt.png"" alt=""inserir a descrição da imagem aqui""></a></p>
-
-<p>O serviço que quero associar a porta 8181 é o <strong><em>ceos-agent.</em></strong>. Vale ressaltar que o programa já roda em outra máquina, porem a pessoa que configurou o serviço já não se encontra aqui. alguém pode me ajudar?</p>
-","[linux, ubuntu]",false,0,false,0,0,false,28,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235075,0,0,false,null,0,Tue Sep 05 16:22:27 BRT 2017,null,0,17,Ler o conteúdo de uma página externa (...E executar um js antes),"É o seguinte, eu sempre fiz a leitura de uma pagina externa com um componente tipo AspHTTP.Conn, Dynu.HTTP, MSXML2.XMLHTTP, Microsoft.XMLHTTP. Basicamente:
+235075,0,0,false,null,0,Tue Sep 05 16:22:27 BRT 2017,null,0,25,Ler o conteúdo de uma página externa (...E executar um js antes),"É o seguinte, eu sempre fiz a leitura de uma pagina externa com um componente tipo AspHTTP.Conn, Dynu.HTTP, MSXML2.XMLHTTP, Microsoft.XMLHTTP. Basicamente:
 
     <%
     Set XMLHttp = Server.CreateObject(""Microsoft.XMLHTTP"")
@@ -7712,7 +7398,7 @@ function downloadFile()
 &lt;/script&gt;
 </code></pre>
 ","[javascript, asp.net-mvc, asp.net, asp, xmlhttprequest]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235061,0,0,false,null,0,Tue Sep 05 15:54:55 BRT 2017,null,0,8,Pesquisa usando um array no MongoDB?,"Estou salvando os emails da minha aplicação em HapiJS no MongoDB, e a cada vez que eu fizer a busca no provedor quero comparar tudo o que vem dele com o que tenho no DB e quero salvar somente os emails diferentes, aqueles que ainda não estiverem cadastrados no DB.
+235061,0,0,false,null,0,Tue Sep 05 15:54:55 BRT 2017,null,0,12,Pesquisa usando um array no MongoDB?,"Estou salvando os emails da minha aplicação em HapiJS no MongoDB, e a cada vez que eu fizer a busca no provedor quero comparar tudo o que vem dele com o que tenho no DB e quero salvar somente os emails diferentes, aqueles que ainda não estiverem cadastrados no DB.
 
 O resultado da requisição ao provedor é tratada previamente e é feito um array de objetos. Quero que para cada objeto seja percorrido todo o a collection do Mongo, porém não estou conseguindo fazer, segue código:
 
@@ -7828,7 +7514,7 @@ O resultado da requisição ao provedor é tratada previamente e é feito um arr
 
 <p>});</p>
 ","[javascript, array, email, mongodb, hapijs]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235057,0,0,false,null,2,Tue Sep 05 15:48:30 BRT 2017,Wed Sep 06 17:24:07 BRT 2017,2,28,Tratando a lógica e exeções - jQuery,"Eu tenho alguns botões do qual no `onclick` dos mesmos trabalham com duas requisições Ajax para um arquivo externo que adicionam produtos, mas isso não é de extrema importância nessa questão. O meu problema é o seguinte: se o botão comprar for clicado, o produto é adicionado, porém se a página for atualizada o mesmo estará lá, mas eu só posso ter um produto do mesmo de cada vez e se depois da página atualizada o botão comprar for clicado novamente, outro produto é adicionado e isso não pode acontecer, pois o que já estiver adicionado deve ser retirado a partir da função `removeCartaotoCart` para que o novo seja adicionado, para que eu tenha somente um produto por vez.
+235057,0,0,false,null,9,Tue Sep 05 15:48:30 BRT 2017,Tue Sep 12 13:24:02 BRT 2017,3,63,Tratando a lógica e exeções - jQuery,"Eu tenho alguns botões do qual no `onclick` dos mesmos trabalham com duas requisições Ajax para um arquivo externo que adicionam produtos, mas isso não é de extrema importância nessa questão. O meu problema é o seguinte: se o botão comprar for clicado, o produto é adicionado, porém se a página for atualizada o mesmo estará lá, mas eu só posso ter um produto do mesmo de cada vez e se depois da página atualizada o botão comprar for clicado novamente, outro produto é adicionado e isso não pode acontecer, pois o que já estiver adicionado deve ser retirado a partir da função `removeCartaotoCart` para que o novo seja adicionado, para que eu tenha somente um produto por vez.
 
 <b>Código dos botões:</b>
 
@@ -7914,7 +7600,7 @@ O resultado da requisição ao provedor é tratada previamente e é feito um arr
                     });
                 }
 
-<b>Observação: A partir da variável `productSelected`, eu consigo tratar uma exceção: se o botão comprar for clicado e já houver um produto adicionado, o mesmo é removido para o novo ser adicionado, porém essa outra exceção com relação a atualizar a página não sei como devo prosseguir para soluciona-lá.</b>","<p>Eu tenho alguns botões do qual no <code>onclick</code> dos mesmos trabalham com duas requisições Ajax para um arquivo externo que adicionam produtos, mas isso não é de extrema importância nessa questão. O meu problema é o seguinte: se o botão comprar for clicado, o produto é adicionado, porém se a página for atualizada o mesmo estará lá, mas eu só posso ter um produto do mesmo de cada vez e se depois da página atualizada o botão comprar for clicado novamente, outro produto é adicionado e isso não pode acontecer, pois o que já estiver adicionado deve ser retirado a partir da função <code>removeCartaotoCart</code> para que o novo seja adicionado, para que eu tenha somente um produto por vez.</p>
+<b>Observação: A partir da variável `productSelected`, eu consigo tratar uma exceção: se o botão comprar for clicado e já houver um produto adicionado, o mesmo é removido para o novo ser adicionado, porém essa outra exceção com relação a atualizar a página não sei como devo prosseguir para soluciona-lá. Acho que o correto a se fazer é na atualização da página ele remover o produto que foi adicionado segundo o botão comprar, a partir do seu id.</b>","<p>Eu tenho alguns botões do qual no <code>onclick</code> dos mesmos trabalham com duas requisições Ajax para um arquivo externo que adicionam produtos, mas isso não é de extrema importância nessa questão. O meu problema é o seguinte: se o botão comprar for clicado, o produto é adicionado, porém se a página for atualizada o mesmo estará lá, mas eu só posso ter um produto do mesmo de cada vez e se depois da página atualizada o botão comprar for clicado novamente, outro produto é adicionado e isso não pode acontecer, pois o que já estiver adicionado deve ser retirado a partir da função <code>removeCartaotoCart</code> para que o novo seja adicionado, para que eu tenha somente um produto por vez.</p>
 
 <p><b>Código dos botões:</b></p>
 
@@ -8002,22 +7688,9 @@ O resultado da requisição ao provedor é tratada previamente e é feito um arr
             }
 </code></pre>
 
-<p><b>Observação: A partir da variável <code>productSelected</code>, eu consigo tratar uma exceção: se o botão comprar for clicado e já houver um produto adicionado, o mesmo é removido para o novo ser adicionado, porém essa outra exceção com relação a atualizar a página não sei como devo prosseguir para soluciona-lá.</b></p>
+<p><b>Observação: A partir da variável <code>productSelected</code>, eu consigo tratar uma exceção: se o botão comprar for clicado e já houver um produto adicionado, o mesmo é removido para o novo ser adicionado, porém essa outra exceção com relação a atualizar a página não sei como devo prosseguir para soluciona-lá. Acho que o correto a se fazer é na atualização da página ele remover o produto que foi adicionado segundo o botão comprar, a partir do seu id.</b></p>
 ","[javascript, jquery, ajax]",false,0,false,0,0,false,21,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235051,0,0,false,Tue Sep 05 16:28:52 BRT 2017,1,Tue Sep 05 15:35:39 BRT 2017,null,-4,15,Tratativa para mensagem de erro,"No eclipse galileu, todo o projeto funciona, exceto um pacote. 
-
-internal compiler error [![inserir a descrição da imagem aqui][1]][1]
-
-
-  [1]: https://i.stack.imgur.com/NJVMJ.png
-
-alguem pode me ajudar?","<p>No eclipse galileu, todo o projeto funciona, exceto um pacote. </p>
-
-<p>internal compiler error <a href=""https://i.stack.imgur.com/NJVMJ.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/NJVMJ.png"" alt=""inserir a descrição da imagem aqui""></a></p>
-
-<p>alguem pode me ajudar?</p>
-",[html],false,0,false,0,0,false,13,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235048,0,0,false,null,0,Tue Sep 05 15:32:08 BRT 2017,Tue Sep 05 15:48:43 BRT 2017,1,19,Clique duplo em botão primefaces para executar método,"Estou desenvolvendo uma aplicação em JavaWeb com o framework BootsFaces e PrimeFaces.  
+235048,0,0,false,null,0,Tue Sep 05 15:32:08 BRT 2017,Tue Sep 05 15:48:43 BRT 2017,1,35,Clique duplo em botão primefaces para executar método,"Estou desenvolvendo uma aplicação em JavaWeb com o framework BootsFaces e PrimeFaces.  
 
 Em uma das minhas telas tenho um form com um datatable do BootsFaces que ao clicar em uma de suas linhas aciona o método selecionaUsuario() que atualiza o formulário de alteração, porém quando chamo o método alteraUsuario() neste mesmo formulário(teste) necessito clicar mais de uma vez no botão para o método ser executado. 
 
@@ -8292,63 +7965,7 @@ public class BeanUsuario implements Serializable {
 }
 </code></pre>
 ","[java, primefaces]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235037,0,0,false,Tue Sep 05 15:22:02 BRT 2017,2,Tue Sep 05 15:20:25 BRT 2017,Tue Sep 05 15:21:48 BRT 2017,0,12,Error no PHP7 syntax,"Quando acesso minha página feita em PHP7 aparece essa mensagem de erro : 
-
->'Parse error: syntax error, unexpected 'echo' (T_ECHO) in C:\wamp64\www\exercicios\operacao.php on line 14'
-
-Segue o eu código (operacao.php):
-
-    <!DOCTYPE html>
-    <html lang=""pt-br"">
-    <head>
-    	<title>Operação</title>
-    	<meta charset=""utf-8"">
-    	<link rel=""stylesheet"" href=""css/style.css""/>
-    </head>
-    <body>
-    	<?php  
-    		$n1 = $_GET[""a""];
-    		$n2 = $_GET[""b""];
-    		$t = $_GET[""t""]
-    		//n1 & n2 = Número 1 e 2 | t = tipo
-    		echo ""Os valores passados foram : $n1 e $n2 <br/>"";
-    	?>
-    </body>
-    </html>
-
-
-OBS : sou leigo em PHP,
-Obrigado.","<p>Quando acesso minha página feita em PHP7 aparece essa mensagem de erro : </p>
-
-<blockquote>
-  <p>'Parse error: syntax error, unexpected 'echo' (T_ECHO) in C:\wamp64\www\exercicios\operacao.php on line 14'</p>
-</blockquote>
-
-<p>Segue o eu código (operacao.php):</p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang=""pt-br""&gt;
-&lt;head&gt;
-    &lt;title&gt;Operação&lt;/title&gt;
-    &lt;meta charset=""utf-8""&gt;
-    &lt;link rel=""stylesheet"" href=""css/style.css""/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;?php  
-        $n1 = $_GET[""a""];
-        $n2 = $_GET[""b""];
-        $t = $_GET[""t""]
-        //n1 &amp; n2 = Número 1 e 2 | t = tipo
-        echo ""Os valores passados foram : $n1 e $n2 &lt;br/&gt;"";
-    ?&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-
-<p>OBS : sou leigo em PHP,
-Obrigado.</p>
-",[php],false,0,false,0,0,false,1,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235024,0,0,false,null,2,Tue Sep 05 15:03:02 BRT 2017,Wed Sep 06 12:21:01 BRT 2017,1,12,Plotando diferentes dados em uma mesma figura usando Python,"Olá, eu preciso fazer alguns plots usando o Python. Eu preciso basicamente carregar diferentes arquivos (730 de um diretório A e 730 de um diretório B) e plotá-los em um mesmo gráfico.
+235024,0,0,false,null,2,Tue Sep 05 15:03:02 BRT 2017,Wed Sep 06 12:21:01 BRT 2017,1,23,Plotando diferentes dados em uma mesma figura usando Python,"Olá, eu preciso fazer alguns plots usando o Python. Eu preciso basicamente carregar diferentes arquivos (730 de um diretório A e 730 de um diretório B) e plotá-los em um mesmo gráfico.
 
 Os arquivos representam valores modelados estando no diretório A. Os valores de controle estao em um diretório B e deveriam aparecer no gráfico como pontos vermelhos (Algo como se fosse parecido com o hold on do matlab).
 
@@ -8545,21 +8162,637 @@ for k in directory:
                 plt.close()
 </code></pre>
 ","[python, matplotlib]",false,0,false,0,0,false,0,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235022,0,0,false,Wed Sep 06 13:52:10 BRT 2017,1,Tue Sep 05 14:56:55 BRT 2017,null,0,23,COBOL - Arquivos extensão dat,"Boa tarde, tenho uma base de dados legada .DAT de uma aplicação COBOL antiga da qual eu não tenho acesso.
+235019,0,0,false,null,13,Tue Sep 05 14:42:22 BRT 2017,Thu Sep 07 12:17:32 BRT 2017,0,65,Refatorar um banco de dados utilizando VIEWS,"Tenho a tarefa de refatorar um banco de dados e gostaria de saber se `VIEWs` são viáveis para a tarefa.  
+Minha estratégia é criar uma `VIEW` imitando a nova estrutura da suposta tabela, pelo menos o nome da tabela (nome da `VIEW`) e dos campos (aliases das colunas), até que se confirmem as mudanças e eu possa criar a `TABLE` de fato.  
+A preocupação que eu tenho é quanto a performance e viabilidade de integrar as `VIEWS` com a camada `DAO`, a qual também ainda estou implementando.  
+A camada de `DAO` vou implementar de qualquer forma, seja refletindo as `VIEWS` ou `TABLES`, e escolhi `VIEWS` para justamente impactá-la em pouco ou mesmo nada.  
 
-Tenho acesso a uma parte do BD, sendo assim eu sei os campos e tamanhos de cada registro.
+Gostaria de saber se alguém já fez algo parecido e se essa estratégia com `VIEWs` é viável para refatorar um banco de dados conforme a situação descrita.
+  
+PS1:
+Pretendo construir as `VIEWs` seguindo as instruções dessa [parte da documentação](https://dev.mysql.com/doc/refman/5.7/en/view-updatability.html), que define quando as `VIEWs` são _insertable_/_updatable_.   
+O BD atual conta com 150+ tabelas, e algumas tabelas chegam a ter 50+ colunas. O sistema é escrito em PHP sem nenhum padrão ou arquitetura. Há vários `JOINs`, uns fazem sentido e outros não, e a intenção vai ser reescrever grande parte das queries, pois a performance delas é deplorável.  
+O banco não segue nenhum padrão de normalização, mas como é uma estrutura enorme, creio que vá gerar uma estrutura um tanto quanto complexa nesses termos depois de remodelá-la.  
+Outra coisa para considerar, vai ser que a nova estrutura e a velha vão habitar o mesmo banco de dados, só vou poder me desfazer da antiga estrutura no final do projeto, quanto ela já estiver completamente obsoleta.  
+O DAO idealmente deveria suportar tanto as tabelas físicas como as `VIEWs`, mas creio que eu poderia criar um DAO para cada caso.
 
-O arquivo possui o cabeçalho RMKF e é parcialmente encriptado, pois consigo ler os registros em ASCII abrindo pelo notepad++  porém com uma infinidade de caracteres não ASCII.
+PS2: A biblioteca pretendida para se usar vai ser a [ActiveRecord](https://github.com/jpfuentes2/php-activerecord/)  
+DDL de parte de uma tabela atual:  
 
-Alguem sabe se tem como escrever um código simples para ler o arquivo? (contando que sei a estrutura do mesmo).
+    CREATE TABLE Usuarios {
+        `id` int(11) NOT NULL AUTO_INCREMENT,
+        `user_name` varchar(16) NOT NULL DEFAULT '',
+        `user_pass` varchar(255) NOT NULL,
+        `flag_ativo` varchar(255) NOT NULL DEFAULT 'ON' #ativo ou nao varia entre ON e OFF, respectivamente
+    }
+Exemplo de uma `VIEW`, onde o resultado refletiria a tabela reestruturada:  
 
-Obs.: O programa Siber Data Viewer abre ele perfeitamente, porém custa cinco mil dólares.","<p>Boa tarde, tenho uma base de dados legada .DAT de uma aplicação COBOL antiga da qual eu não tenho acesso.</p>
+    SELECT
+	    `Usuarios`.`id` AS `cd_usuario`,
+	    `Usuarios`.`user_name` AS `de_usuario`,
+	    `Usuarios`.`user_pass` AS `de_senha`,
+        IF ((`Usuarios`.`flag_ativo` = 'ON'), 1, 0) AS `fl_ativo`
+    FROM
+	    `Usuarios`
 
-<p>Tenho acesso a uma parte do BD, sendo assim eu sei os campos e tamanhos de cada registro.</p>
+Um DAO pretendido, refletindo a `VIEW` que seria a tabela real já remodela:  
 
-<p>O arquivo possui o cabeçalho RMKF e é parcialmente encriptado, pois consigo ler os registros em ASCII abrindo pelo notepad++  porém com uma infinidade de caracteres não ASCII.</p>
+    class Usuarios extends ActiveRecord\Model {
+        //table_name é um atributo da ActiveRecord\Model
+    	static $table_name = 'tb_usuarios';
+	
+	    //Também atributo da ActiveRecord\Model
+    	static $primary_key = 'cd_usuario';
 
-<p>Alguem sabe se tem como escrever um código simples para ler o arquivo? (contando que sei a estrutura do mesmo).</p>
+        //De uso interno da classe, faria isso para cada campo
+	    static $de_usuario = 'de_usuario';
+	
+     	static $de_senha = 'de_senha';
 
-<p>Obs.: O programa Siber Data Viewer abre ele perfeitamente, porém custa cinco mil dólares.</p>
-",[cobol],false,0,false,0,0,false,18,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+        static $fl_ativo = 'fl_ativo';
+
+	    public function validaLogin($user, $pass) {
+		    $usuario = self::first(
+                         array('conditions' => 
+                             array(
+                                 self::$de_usuario.' = ? AND '.
+                                 self::$de_senha.' = ? AND '.
+                                 self::$fl_ativo.' = ?', 
+                                 $user, 
+                                 md5($pass),
+                                 1
+                             )
+                         )
+            );
+            return $usuario !== null;
+	    }
+    }","<p>Tenho a tarefa de refatorar um banco de dados e gostaria de saber se <code>VIEWs</code> são viáveis para a tarefa.<br>
+Minha estratégia é criar uma <code>VIEW</code> imitando a nova estrutura da suposta tabela, pelo menos o nome da tabela (nome da <code>VIEW</code>) e dos campos (aliases das colunas), até que se confirmem as mudanças e eu possa criar a <code>TABLE</code> de fato.<br>
+A preocupação que eu tenho é quanto a performance e viabilidade de integrar as <code>VIEWS</code> com a camada <code>DAO</code>, a qual também ainda estou implementando.<br>
+A camada de <code>DAO</code> vou implementar de qualquer forma, seja refletindo as <code>VIEWS</code> ou <code>TABLES</code>, e escolhi <code>VIEWS</code> para justamente impactá-la em pouco ou mesmo nada.  </p>
+
+<p>Gostaria de saber se alguém já fez algo parecido e se essa estratégia com <code>VIEWs</code> é viável para refatorar um banco de dados conforme a situação descrita.</p>
+
+<p>PS1:
+Pretendo construir as <code>VIEWs</code> seguindo as instruções dessa <a href=""https://dev.mysql.com/doc/refman/5.7/en/view-updatability.html"" rel=""nofollow noreferrer"">parte da documentação</a>, que define quando as <code>VIEWs</code> são <em>insertable</em>/<em>updatable</em>.<br>
+O BD atual conta com 150+ tabelas, e algumas tabelas chegam a ter 50+ colunas. O sistema é escrito em PHP sem nenhum padrão ou arquitetura. Há vários <code>JOINs</code>, uns fazem sentido e outros não, e a intenção vai ser reescrever grande parte das queries, pois a performance delas é deplorável.<br>
+O banco não segue nenhum padrão de normalização, mas como é uma estrutura enorme, creio que vá gerar uma estrutura um tanto quanto complexa nesses termos depois de remodelá-la.<br>
+Outra coisa para considerar, vai ser que a nova estrutura e a velha vão habitar o mesmo banco de dados, só vou poder me desfazer da antiga estrutura no final do projeto, quanto ela já estiver completamente obsoleta.<br>
+O DAO idealmente deveria suportar tanto as tabelas físicas como as <code>VIEWs</code>, mas creio que eu poderia criar um DAO para cada caso.</p>
+
+<p>PS2: A biblioteca pretendida para se usar vai ser a <a href=""https://github.com/jpfuentes2/php-activerecord/"" rel=""nofollow noreferrer"">ActiveRecord</a><br>
+DDL de parte de uma tabela atual:  </p>
+
+<pre><code>CREATE TABLE Usuarios {
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `user_name` varchar(16) NOT NULL DEFAULT '',
+    `user_pass` varchar(255) NOT NULL,
+    `flag_ativo` varchar(255) NOT NULL DEFAULT 'ON' #ativo ou nao varia entre ON e OFF, respectivamente
+}
+</code></pre>
+
+<p>Exemplo de uma <code>VIEW</code>, onde o resultado refletiria a tabela reestruturada:  </p>
+
+<pre><code>SELECT
+    `Usuarios`.`id` AS `cd_usuario`,
+    `Usuarios`.`user_name` AS `de_usuario`,
+    `Usuarios`.`user_pass` AS `de_senha`,
+    IF ((`Usuarios`.`flag_ativo` = 'ON'), 1, 0) AS `fl_ativo`
+FROM
+    `Usuarios`
+</code></pre>
+
+<p>Um DAO pretendido, refletindo a <code>VIEW</code> que seria a tabela real já remodela:  </p>
+
+<pre><code>class Usuarios extends ActiveRecord\Model {
+    //table_name é um atributo da ActiveRecord\Model
+    static $table_name = 'tb_usuarios';
+
+    //Também atributo da ActiveRecord\Model
+    static $primary_key = 'cd_usuario';
+
+    //De uso interno da classe, faria isso para cada campo
+    static $de_usuario = 'de_usuario';
+
+    static $de_senha = 'de_senha';
+
+    static $fl_ativo = 'fl_ativo';
+
+    public function validaLogin($user, $pass) {
+        $usuario = self::first(
+                     array('conditions' =&gt; 
+                         array(
+                             self::$de_usuario.' = ? AND '.
+                             self::$de_senha.' = ? AND '.
+                             self::$fl_ativo.' = ?', 
+                             $user, 
+                             md5($pass),
+                             1
+                         )
+                     )
+        );
+        return $usuario !== null;
+    }
+}
+</code></pre>
+","[php, mysql, banco-de-dados, refatoração, padrão-dao]",false,0,false,0,0,false,238,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235016,0,0,false,null,3,Tue Sep 05 14:34:56 BRT 2017,Tue Sep 05 14:45:57 BRT 2017,3,27,Como separo meus arrays por indice?,"São geradas as caixas de texto correspondentes ao número que o usuário inseriu, cada caixa de texto vem acompanhada de vários checkbox pra escolher o tipo de texto. 
+
+Porém sai assim :
+
+    Array ( [0] => 0 ) object(ElementosDTO)#7 (2) { [""texto"":""ElementosDTO"":private]=> array(2) { [1]=> string(5) ""fdsfs"" [2]=> string(4) ""sfsd"" } [""idTipoElemento"":""ElementosDTO"":private]=> array(2) { [1]=> string(1) ""3"" [2]=> string(1) ""3"" } } 
+
+como faço pra juntar os índices? Por exemplo, cada texto com seu id tipo elemento??","<p>São geradas as caixas de texto correspondentes ao número que o usuário inseriu, cada caixa de texto vem acompanhada de vários checkbox pra escolher o tipo de texto. </p>
+
+<p>Porém sai assim :</p>
+
+<pre><code>Array ( [0] =&gt; 0 ) object(ElementosDTO)#7 (2) { [""texto"":""ElementosDTO"":private]=&gt; array(2) { [1]=&gt; string(5) ""fdsfs"" [2]=&gt; string(4) ""sfsd"" } [""idTipoElemento"":""ElementosDTO"":private]=&gt; array(2) { [1]=&gt; string(1) ""3"" [2]=&gt; string(1) ""3"" } } 
+</code></pre>
+
+<p>como faço pra juntar os índices? Por exemplo, cada texto com seu id tipo elemento??</p>
+","[array, for]",false,0,false,0,0,false,63,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235004,0,0,false,null,1,Tue Sep 05 14:09:47 BRT 2017,Tue Sep 05 14:12:20 BRT 2017,0,12,Visualização de pdf a partir de um base64 em Angular 2,"Tenho uma aplicação em Angular 2 aonde tenho um cenário que preciso salvar e retornar arquivos em pdf.
+
+Pra 'Salvar' esta ok, no evento change do fileUpload converto pra base64:  
+
+
+    var reader = new FileReader();
+
+    await reader.readAsDataURL(file);
+
+    reader.onload = (e) => {
+      this.anexo = reader.result;
+    };
+    reader.onerror = function (error) {
+      console.log('Error: ', error);
+    };
+
+O problema esta na visualização.Estou retornando um base64 e convertendo ele pra um array de byte:
+
+    convertDataURIToBinary(dataURI) {
+    
+        var base64Index = dataURI.indexOf(this.BASE64_MARKER) + this.BASE64_MARKER.length;
+        var base64 = dataURI.substring(base64Index);
+        var raw = window.atob(base64);
+        var rawLength = raw.length;
+        var array = new Uint8Array(new ArrayBuffer(rawLength));
+    
+        for (var i = 0; i < rawLength; i++) {
+          array[i] = raw.charCodeAt(i);
+        }
+        return array;
+      }
+
+Mas na hora de enviar ele para o browser q esta conflitando:
+
+    getDocument(data) {
+        let url = this.router.url + '/appPdf/';
+        this.http.get(url, { responseType: ResponseContentType.ArrayBuffer }).map(
+          (res) => {
+            var file = new Blob([data], { type: 'application/pdf' });
+            var fileURL = URL.createObjectURL(file);
+            window.open(fileURL);
+          });
+      }
+
+Não sei se as config. q estou passando estão corretas
+
+","<p>Tenho uma aplicação em Angular 2 aonde tenho um cenário que preciso salvar e retornar arquivos em pdf.</p>
+
+<p>Pra 'Salvar' esta ok, no evento change do fileUpload converto pra base64:  </p>
+
+<pre><code>var reader = new FileReader();
+
+await reader.readAsDataURL(file);
+
+reader.onload = (e) =&gt; {
+  this.anexo = reader.result;
+};
+reader.onerror = function (error) {
+  console.log('Error: ', error);
+};
+</code></pre>
+
+<p>O problema esta na visualização.Estou retornando um base64 e convertendo ele pra um array de byte:</p>
+
+<pre><code>convertDataURIToBinary(dataURI) {
+
+    var base64Index = dataURI.indexOf(this.BASE64_MARKER) + this.BASE64_MARKER.length;
+    var base64 = dataURI.substring(base64Index);
+    var raw = window.atob(base64);
+    var rawLength = raw.length;
+    var array = new Uint8Array(new ArrayBuffer(rawLength));
+
+    for (var i = 0; i &lt; rawLength; i++) {
+      array[i] = raw.charCodeAt(i);
+    }
+    return array;
+  }
+</code></pre>
+
+<p>Mas na hora de enviar ele para o browser q esta conflitando:</p>
+
+<pre><code>getDocument(data) {
+    let url = this.router.url + '/appPdf/';
+    this.http.get(url, { responseType: ResponseContentType.ArrayBuffer }).map(
+      (res) =&gt; {
+        var file = new Blob([data], { type: 'application/pdf' });
+        var fileURL = URL.createObjectURL(file);
+        window.open(fileURL);
+      });
+  }
+</code></pre>
+
+<p>Não sei se as config. q estou passando estão corretas</p>
+","[angular-2, base64]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235002,0,0,false,null,3,Tue Sep 05 13:49:29 BRT 2017,null,-1,23,Características Glassfish,"Boa tarde,
+estou fazendo um trabalho e um dos tópicos é dizer quais as vantagens do servidor de aplicação Glassfish diante aos outros servidores, não consigo achar muita coisa, está confuso pra mim, ainda mais que não conheço os outros servidores. Alguém tem algum material que poderia disponibilizar pra eu dar uma pesquisada ou alguma informação que seja útil? Obrigada!","<p>Boa tarde,
+estou fazendo um trabalho e um dos tópicos é dizer quais as vantagens do servidor de aplicação Glassfish diante aos outros servidores, não consigo achar muita coisa, está confuso pra mim, ainda mais que não conheço os outros servidores. Alguém tem algum material que poderia disponibilizar pra eu dar uma pesquisada ou alguma informação que seja útil? Obrigada!</p>
+","[glassfish, código-aberto, servidor-de-aplicação]",false,0,false,0,0,false,11,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234988,0,0,false,Sun Sep 10 17:23:51 BRT 2017,2,Tue Sep 05 13:03:11 BRT 2017,Tue Sep 05 13:37:18 BRT 2017,1,31,"Como usar o ""self"" de forma correta em Python?","Tentei fazer uso do _self_ ao gerar classes, mas ocorre erro. Como devo utilizar de forma correta?
+
+
+    class DataBase:
+
+    def __init__(self,path = """",file = ""public-stash-tabs.db""): #'esse foi o unico que usei até agora' -- 'that's only one i used' 
+
+
+        database = sqlite3.connect(path+file)
+        cursor = database.cursor()
+
+
+
+    def create(table, fields): #Create a table -- (Name of table, info about table fields) *fields need be a dict
+        error = 0
+
+        if type(table) != type(""""):
+            error = 1
+            print(""Error : The name of table need be a str"")
+
+        if type(table) != type({""q"": '2'}):
+            error = 1
+            print(""Error : The data to use on the table need be a Dict"")
+
+        if error == 0:
+
+            for field in fields:
+                string = ' ('
+                for x in range(len(fields)):
+                    print(type(field))
+                    string = string + field + ' ' + fields[field] + ','
+                string = 'CREATE IF NOR EXIST ' + table + string + ')'
+                DataBase.__init__.cursor.execute(string)
+
+
+    def insert(table,fields):  #Insert data into a table -- (Name of table, data) *data need be a list into a list
+
+        for field in fields:
+            string = ' ('
+            for x in range(len(fields)):
+
+                for y in range(len(field)):
+                    #print(type(field))
+                    string = string + x + ',' + fields[field] + ','
+            string = 'INSERT INTO ' + table + string + ')'
+            DataBase.__init__.cursor.execute(string)
+
+            DataBase.__init__.database.commit()
+
+    def end(self):
+
+        DataBase.__init__.database.close()
+
+
+
+    ","<p>Tentei fazer uso do <em>self</em> ao gerar classes, mas ocorre erro. Como devo utilizar de forma correta?</p>
+
+<pre><code>class DataBase:
+
+def __init__(self,path = """",file = ""public-stash-tabs.db""): #'esse foi o unico que usei até agora' -- 'that's only one i used' 
+
+
+    database = sqlite3.connect(path+file)
+    cursor = database.cursor()
+
+
+
+def create(table, fields): #Create a table -- (Name of table, info about table fields) *fields need be a dict
+    error = 0
+
+    if type(table) != type(""""):
+        error = 1
+        print(""Error : The name of table need be a str"")
+
+    if type(table) != type({""q"": '2'}):
+        error = 1
+        print(""Error : The data to use on the table need be a Dict"")
+
+    if error == 0:
+
+        for field in fields:
+            string = ' ('
+            for x in range(len(fields)):
+                print(type(field))
+                string = string + field + ' ' + fields[field] + ','
+            string = 'CREATE IF NOR EXIST ' + table + string + ')'
+            DataBase.__init__.cursor.execute(string)
+
+
+def insert(table,fields):  #Insert data into a table -- (Name of table, data) *data need be a list into a list
+
+    for field in fields:
+        string = ' ('
+        for x in range(len(fields)):
+
+            for y in range(len(field)):
+                #print(type(field))
+                string = string + x + ',' + fields[field] + ','
+        string = 'INSERT INTO ' + table + string + ')'
+        DataBase.__init__.cursor.execute(string)
+
+        DataBase.__init__.database.commit()
+
+def end(self):
+
+    DataBase.__init__.database.close()
+</code></pre>
+","[python, python-3.x, self]",false,0,false,0,0,false,21,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234986,0,0,false,null,0,Tue Sep 05 13:01:14 BRT 2017,Tue Sep 05 13:08:32 BRT 2017,0,5,colocar uma imagem abaixo de colunas no Bootstrap,"A estrutura esta correta, o problema, quando eu tento colocar uma imagem, a imagem vai lá para baixo junto com o `footer`, esse print que postei, é como é para ficar o resultado final. O código que estou postando está igual o print, exceto a imagem.
+
+Código [PasteBin][1]
+
+SRC para adicionar a imagem: 
+
+`src=""http://placehold.it/450x150""`
+
+[![inserir a descrição da imagem aqui][2]][2]
+
+Tem alguma classe do *bootstrap* para adicionar a imagem em baixo da coluna 1 e coluna 2 ou tenho que fazer pelo *css*??
+
+
+  [1]: https://pastebin.com/5gp6x6t5
+  [2]: https://i.stack.imgur.com/MWPAK.png","<p>A estrutura esta correta, o problema, quando eu tento colocar uma imagem, a imagem vai lá para baixo junto com o <code>footer</code>, esse print que postei, é como é para ficar o resultado final. O código que estou postando está igual o print, exceto a imagem.</p>
+
+<p>Código <a href=""https://pastebin.com/5gp6x6t5"" rel=""nofollow noreferrer"">PasteBin</a></p>
+
+<p>SRC para adicionar a imagem: </p>
+
+<p><code>src=""http://placehold.it/450x150""</code></p>
+
+<p><a href=""https://i.stack.imgur.com/MWPAK.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/MWPAK.png"" alt=""inserir a descrição da imagem aqui""></a></p>
+
+<p>Tem alguma classe do <em>bootstrap</em> para adicionar a imagem em baixo da coluna 1 e coluna 2 ou tenho que fazer pelo <em>css</em>??</p>
+","[bootstrap-3, front-end]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234972,0,0,false,Tue Sep 05 12:01:02 BRT 2017,1,Tue Sep 05 11:57:58 BRT 2017,Tue Sep 05 12:01:45 BRT 2017,-1,15,"Erro no php Warning: mysqli_query() expects at least 2 parameters, 1 given in","Não consigo resolver o erro abaixo:
+
+>  mysqli_query() expects at least 2 parameters, 1 given in C:\xampp\htdocs\www\esse\cadastrausuario.php on line 105.
+
+segue o código cadastrausuario.php
+
+   
+
+    <!DOCTYPE HTML>
+    
+    <html lang=""br"" class=""no-js"">
+    
+    <head>
+    
+    <meta charset=""utf-8"">
+    <title>Sistema de Login e Senha Criptografados</title>
+    <link href=""style.css"" rel=""stylesheet"" />
+    
+    </head>
+    
+    <body>
+    
+    <div id=""conteudo"">
+    
+    <h1>Sistema de login e senha criptografados</h1>
+    
+    <div class=""borda""></div>
+    
+    <!-- Recebendo e gravando os dados -->
+    <?php
+    
+    include ""conexao.php"";
+    
+    //URL para a qual o usuário será enviado após ter preenchido todos os campos corretamente
+    $urlAcesso = ""exclusivo/index.php"";
+    
+    //Recebendo os dados e tratando os mesmos para inserção no banco
+    $recebeSeuNome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+    $confereSeuNome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_MAGIC_QUOTES);
+    $recebeNomeUsuario = filter_input(INPUT_POST, 'nomeUsuario', FILTER_SANITIZE_SPECIAL_CHARS);
+    $confereNomeUsuario = filter_input(INPUT_POST, 'nomeUsuario', FILTER_SANITIZE_MAGIC_QUOTES);
+    $recebeEmail = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $recebeSenha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_SPECIAL_CHARS);
+    
+    //Nesse if, faço uma conferência em relação ao e-mail informado; se não for um e-mail validado pelo filtro, ele retornará a mensagem abaixo.
+    //Se o email for válido, ele passa para a segunda parte da verificação
+    if ($recebeEmail == NULL ) {
+    echo ""<p>Retorne e digite um e-mail válido por favor!"";
+    echo ""<p><a href='javascript:history.back();'>Voltar</a></p>"";
+    return false;
+    }
+    
+    //Nesse if, faço uma conferência em relação à senha informada. Se não for informada nenhuma, retorno a mensagem para que o usuário informe algo!
+    if ($recebeSenha == NULL ) {
+    echo ""<p>Retorne e informe uma senha por favor!"";
+    echo ""<p><a href='javascript:history.back();'>Voltar</a></p>"";
+    return false;
+    }
+    
+    //Aqui faço a segunda parte da verificação: vejo se no nome de usuário foi utilizado algum caractere especial
+    //Isso serve para evitar uma possível invasão sql no banco de dados, possibilitando assim a proteção e integridade dos dados
+    //Nesse caso, eu comparo os nomes. Se forem iguais, após passarem pelos filtros, eu inicio a criptografia. Se não forem, peço que volte à página anterior
+    else if ($confereNomeUsuario != $recebeNomeUsuario) {
+    echo ""<p>Você informou o seguinte Nome de Usuário: <strong>$recebeNomeUsuario</strong> .</p>"";
+    echo ""<p>Por favor, não utilize caracteres especiais (tais como aspas simples ou duplas, assim como barras!) no campo <strong>Nome de Usuário</strong>.</p>"";
+    echo ""<p><a href='javascript:history.back();'>Volte</a> para a página anterior e tente novamente! Obrigado!</p>"";
+    return false;
+    
+    }
+    else if ($confereSeuNome != $recebeSeuNome) {
+    echo ""<p>Você informou o Seu Nome como: <strong>$confereSeuNome</strong> .</p>"";
+    echo ""<p>Por favor, não utilize caracteres especiais (tais como aspas simples ou duplas, assim como barras!) no campo <strong>Seu Nome</strong>.</p>"";
+    echo ""<p><a href='javascript:history.back();'>Volte</a> para a página anterior e tente novamente! Obrigado!</p>"";
+    return false;
+    }
+    
+    else {
+    
+    //Aqui vou agora, criptografar as informações antes de enviá-las ao banco de dados
+    echo ""<h3>Cadastrando informações em nosso banco de dados</h3>"";
+    
+    //Aqui vamos criar a função que vai criptografar os dados.
+    //Serão necessários criptografar apenas o endereço de e-mail e a senha informada
+    
+    //Função para criptografar a senha
+    function criptoSenha($criptoSenha){
+    return sha1(md5($criptoSenha));
+    }
+    //Função para criptografar o e-mail
+    function criptoNomeUsuario($criptoNomeUsuario){
+    return sha1(md5($criptoNomeUsuario));
+    }
+    //Aqui realizo a criptografia do endereço de e-mail
+    $criptoNomeUsuario = criptoNomeUsuario(filter_input(INPUT_POST, 'nomeUsuario', FILTER_SANITIZE_MAGIC_QUOTES));
+    //Aqui realizo a criptografia da senha informada do usuário
+    $criptoSenha = criptoSenha(filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_SPECIAL_CHARS));
+    
+    //Aqui eu vou realizar minha PRIMEIRA VERIFICAÇÃO DE CRIPTOGRAFIA no banco de dados
+    //Se o endereço de e-mail for válido, eu preciso verificar se o e-mail cadastrado já consta na base de dados.
+    //Como desejo que o e-mail seja um campo único, preciso verificar se o mesmo já foi ou não cadastrado no banco.
+    //A consulta segue abaixo:
+    $consultaBanco = mysqli_query(""SELECT * FROM usuario WHERE email = '$recebeEmail'"") or die (mysqli_error());
+    $verificaBanco = mysqli_num_rows($consultaBanco);
+    
+    if($verificaBanco == 1){
+    
+    echo ""<p>Prezado(a) <strong>$confereSeuNome</strong>, o endereço de e-mail informado (<strong><em>$recebeEmail</em></strong>) já consta em nossa base de dados!</p>"";
+    echo ""<p><a href='javascript:history.back();'>Volte</a> para a página anterior e informe um novo endereço! Obrigado!</p>"";
+    return false;
+    }
+    
+    //Agora vamos inserir os dados no banco
+    $insereDados = mysqli_query(""INSERT INTO usuario (id_usuario, nome, email, userlogin, passlogin, ativo) VALUES ('NULL', '$confereSeuNome', '$recebeEmail', '$criptoNomeUsuario', '$criptoSenha', 'sim')"") or die (mysql_error());
+    
+    echo ""<p>Seu cadastro foi efetuado com sucesso!</p>"";
+    echo ""<p>Aguarde enquanto lhe encaminhamos para a página de acesso ao <strong>Conteúdo Exclusivo</strong>!"";
+    echo ""<meta http-equiv=\""refresh\"" content=\""5;URL="".$urlAcesso.""\"">"";
+    }
+    
+    ?>
+    
+    </div>
+    
+    </body>
+    
+    </html>","<p>Não consigo resolver o erro abaixo:</p>
+
+<blockquote>
+  <p>mysqli_query() expects at least 2 parameters, 1 given in C:\xampp\htdocs\www\esse\cadastrausuario.php on line 105.</p>
+</blockquote>
+
+<p>segue o código cadastrausuario.php</p>
+
+<pre><code>&lt;!DOCTYPE HTML&gt;
+
+&lt;html lang=""br"" class=""no-js""&gt;
+
+&lt;head&gt;
+
+&lt;meta charset=""utf-8""&gt;
+&lt;title&gt;Sistema de Login e Senha Criptografados&lt;/title&gt;
+&lt;link href=""style.css"" rel=""stylesheet"" /&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div id=""conteudo""&gt;
+
+&lt;h1&gt;Sistema de login e senha criptografados&lt;/h1&gt;
+
+&lt;div class=""borda""&gt;&lt;/div&gt;
+
+&lt;!-- Recebendo e gravando os dados --&gt;
+&lt;?php
+
+include ""conexao.php"";
+
+//URL para a qual o usuário será enviado após ter preenchido todos os campos corretamente
+$urlAcesso = ""exclusivo/index.php"";
+
+//Recebendo os dados e tratando os mesmos para inserção no banco
+$recebeSeuNome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+$confereSeuNome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_MAGIC_QUOTES);
+$recebeNomeUsuario = filter_input(INPUT_POST, 'nomeUsuario', FILTER_SANITIZE_SPECIAL_CHARS);
+$confereNomeUsuario = filter_input(INPUT_POST, 'nomeUsuario', FILTER_SANITIZE_MAGIC_QUOTES);
+$recebeEmail = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+$recebeSenha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_SPECIAL_CHARS);
+
+//Nesse if, faço uma conferência em relação ao e-mail informado; se não for um e-mail validado pelo filtro, ele retornará a mensagem abaixo.
+//Se o email for válido, ele passa para a segunda parte da verificação
+if ($recebeEmail == NULL ) {
+echo ""&lt;p&gt;Retorne e digite um e-mail válido por favor!"";
+echo ""&lt;p&gt;&lt;a href='javascript:history.back();'&gt;Voltar&lt;/a&gt;&lt;/p&gt;"";
+return false;
+}
+
+//Nesse if, faço uma conferência em relação à senha informada. Se não for informada nenhuma, retorno a mensagem para que o usuário informe algo!
+if ($recebeSenha == NULL ) {
+echo ""&lt;p&gt;Retorne e informe uma senha por favor!"";
+echo ""&lt;p&gt;&lt;a href='javascript:history.back();'&gt;Voltar&lt;/a&gt;&lt;/p&gt;"";
+return false;
+}
+
+//Aqui faço a segunda parte da verificação: vejo se no nome de usuário foi utilizado algum caractere especial
+//Isso serve para evitar uma possível invasão sql no banco de dados, possibilitando assim a proteção e integridade dos dados
+//Nesse caso, eu comparo os nomes. Se forem iguais, após passarem pelos filtros, eu inicio a criptografia. Se não forem, peço que volte à página anterior
+else if ($confereNomeUsuario != $recebeNomeUsuario) {
+echo ""&lt;p&gt;Você informou o seguinte Nome de Usuário: &lt;strong&gt;$recebeNomeUsuario&lt;/strong&gt; .&lt;/p&gt;"";
+echo ""&lt;p&gt;Por favor, não utilize caracteres especiais (tais como aspas simples ou duplas, assim como barras!) no campo &lt;strong&gt;Nome de Usuário&lt;/strong&gt;.&lt;/p&gt;"";
+echo ""&lt;p&gt;&lt;a href='javascript:history.back();'&gt;Volte&lt;/a&gt; para a página anterior e tente novamente! Obrigado!&lt;/p&gt;"";
+return false;
+
+}
+else if ($confereSeuNome != $recebeSeuNome) {
+echo ""&lt;p&gt;Você informou o Seu Nome como: &lt;strong&gt;$confereSeuNome&lt;/strong&gt; .&lt;/p&gt;"";
+echo ""&lt;p&gt;Por favor, não utilize caracteres especiais (tais como aspas simples ou duplas, assim como barras!) no campo &lt;strong&gt;Seu Nome&lt;/strong&gt;.&lt;/p&gt;"";
+echo ""&lt;p&gt;&lt;a href='javascript:history.back();'&gt;Volte&lt;/a&gt; para a página anterior e tente novamente! Obrigado!&lt;/p&gt;"";
+return false;
+}
+
+else {
+
+//Aqui vou agora, criptografar as informações antes de enviá-las ao banco de dados
+echo ""&lt;h3&gt;Cadastrando informações em nosso banco de dados&lt;/h3&gt;"";
+
+//Aqui vamos criar a função que vai criptografar os dados.
+//Serão necessários criptografar apenas o endereço de e-mail e a senha informada
+
+//Função para criptografar a senha
+function criptoSenha($criptoSenha){
+return sha1(md5($criptoSenha));
+}
+//Função para criptografar o e-mail
+function criptoNomeUsuario($criptoNomeUsuario){
+return sha1(md5($criptoNomeUsuario));
+}
+//Aqui realizo a criptografia do endereço de e-mail
+$criptoNomeUsuario = criptoNomeUsuario(filter_input(INPUT_POST, 'nomeUsuario', FILTER_SANITIZE_MAGIC_QUOTES));
+//Aqui realizo a criptografia da senha informada do usuário
+$criptoSenha = criptoSenha(filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_SPECIAL_CHARS));
+
+//Aqui eu vou realizar minha PRIMEIRA VERIFICAÇÃO DE CRIPTOGRAFIA no banco de dados
+//Se o endereço de e-mail for válido, eu preciso verificar se o e-mail cadastrado já consta na base de dados.
+//Como desejo que o e-mail seja um campo único, preciso verificar se o mesmo já foi ou não cadastrado no banco.
+//A consulta segue abaixo:
+$consultaBanco = mysqli_query(""SELECT * FROM usuario WHERE email = '$recebeEmail'"") or die (mysqli_error());
+$verificaBanco = mysqli_num_rows($consultaBanco);
+
+if($verificaBanco == 1){
+
+echo ""&lt;p&gt;Prezado(a) &lt;strong&gt;$confereSeuNome&lt;/strong&gt;, o endereço de e-mail informado (&lt;strong&gt;&lt;em&gt;$recebeEmail&lt;/em&gt;&lt;/strong&gt;) já consta em nossa base de dados!&lt;/p&gt;"";
+echo ""&lt;p&gt;&lt;a href='javascript:history.back();'&gt;Volte&lt;/a&gt; para a página anterior e informe um novo endereço! Obrigado!&lt;/p&gt;"";
+return false;
+}
+
+//Agora vamos inserir os dados no banco
+$insereDados = mysqli_query(""INSERT INTO usuario (id_usuario, nome, email, userlogin, passlogin, ativo) VALUES ('NULL', '$confereSeuNome', '$recebeEmail', '$criptoNomeUsuario', '$criptoSenha', 'sim')"") or die (mysql_error());
+
+echo ""&lt;p&gt;Seu cadastro foi efetuado com sucesso!&lt;/p&gt;"";
+echo ""&lt;p&gt;Aguarde enquanto lhe encaminhamos para a página de acesso ao &lt;strong&gt;Conteúdo Exclusivo&lt;/strong&gt;!"";
+echo ""&lt;meta http-equiv=\""refresh\"" content=\""5;URL="".$urlAcesso.""\""&gt;"";
+}
+
+?&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+",[php],false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
