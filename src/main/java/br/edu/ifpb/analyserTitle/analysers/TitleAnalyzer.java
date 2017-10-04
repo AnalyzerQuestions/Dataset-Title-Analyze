@@ -21,7 +21,7 @@ public class TitleAnalyzer {
 		String str = StringUtil.removeConnective(title);
 		str = StringUtil.removeCharacterSpecial(str);
 		String[] strPart = StringTokenizerUtils.parseToken(str);
-
+		
 		if (strPart.length > 2 && strPart.length <= 8)
 			return 1;
 		else
@@ -32,7 +32,7 @@ public class TitleAnalyzer {
 		String str = StringUtil.removeConnective(title);
 		str = StringUtil.removeCharacterSpecial(str);
 		String[] strPart = StringTokenizerUtils.parseToken(str);
-
+		
 		if (strPart.length <= 3)
 			return 1;
 		else
@@ -59,12 +59,13 @@ public class TitleAnalyzer {
 		int cont = 0;
 		
 		for(String s: strPart){
+						
 			if(s.equals(s.toUpperCase())){
 				cont++;
 			}
 		}
 		
-		if(cont >= 2){
+		if(cont >= 2 && cont < strPart.length){
 			return 1;
 		}
 		
@@ -73,7 +74,11 @@ public class TitleAnalyzer {
 
 	public Integer containsHelpOrUrgent(String title){
 		
-		boolean result = title.contains("ajuda") || title.contains("urgente");
+		title = title.toLowerCase();
+		
+		boolean result = title.contains("ajuda") || 
+				title.contains("urgente") || 
+				title.contains("socorro");
 		
 		if(result == true){
 			return 1;
@@ -81,4 +86,5 @@ public class TitleAnalyzer {
 		
 		return 0;
 	}
+	
 }

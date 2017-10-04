@@ -1,5 +1,5 @@
-ID PERGUNTA,ID RESPOSTA ACEITA,QUANTIDADE DE RESPOSTAS,FECHADA,DATA FECHAMENTO,QUANTIDADE COMENTÁRIO,DATA CRIAÇÃO,ÚLTIMA DATA DE EDIÇÃO,PONTOS,QUANTIDADE DE VISUALIZAÇÕES,TITLE,DESCRIÇAO,DESCRICAO HTML,TAGS,FOI RESPONDIDA,QUANTIDADADE DE VOTOS (down),FOI VOTADA (down),QUANTIDADE DE VOTOS (up),QUANTIDADE DE VOTOS DELETADOS,FOI VOTADA (up),TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO,TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA,TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA,TÍTULO TOTALMENTE EM CAIXA ALTA,TÍTULO PARCIALMENTE EM CAIXA ALTA,TÍTULO QUE RESUMA O PROBLEMA,TÍTULO CURTO (Até 3 palavras),TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras),TÍTULO COERENTE COM A DESCRIÇÃO,TÍTULO OBJETIVO,TÍTULO CLARO,TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA
-225279,0,0,false,null,0,Sun Jul 30 20:14:14 BRT 2017,null,0,11,Erro ao tentar executar script node pelo Notepad++ (NppExec),"Boa noite. Eu estou testando alguns scripts (desenvolvendo pelo Notepad++ e executando via NppExec), e particularmente esse (que eu peguei [da página npm][1] do plugin prompt-sync) não está rodando, recebo esse erro:
+ID PERGUNTA,ID RESPOSTA ACEITA,QUANTIDADE DE RESPOSTAS,FECHADA,DATA FECHAMENTO,QUANTIDADE COMENTÁRIO,DATA CRIAÇÃO,ÚLTIMA DATA DE EDIÇÃO,PONTOS,QUANTIDADE DE VISUALIZAÇÕES,TITLE,DESCRIÇAO,DESCRICAO HTML,TAGS,FOI RESPONDIDA,QUANTIDADADE DE VOTOS (down),FOI VOTADA (down),QUANTIDADE DE VOTOS (up),QUANTIDADE DE VOTOS DELETADOS,FOI VOTADA (up),TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO,TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA,TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA,TÍTULO TOTALMENTE EM CAIXA ALTA,TÍTULO PARCIALMENTE EM CAIXA ALTA,TÍTULO CURTO (Até 3 palavras),TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras),TÍTULO CONTEM 'AJUDA' OU 'URGENTE'
+225279,0,0,false,null,0,Sun Jul 30 20:14:14 BRT 2017,null,0,13,Erro ao tentar executar script node pelo Notepad++ (NppExec),"Boa noite. Eu estou testando alguns scripts (desenvolvendo pelo Notepad++ e executando via NppExec), e particularmente esse (que eu peguei [da página npm][1] do plugin prompt-sync) não está rodando, recebo esse erro:
 
     C:\Users\vico\node_modules\prompt-sync\index.js:66
         if (!wasRaw) { process.stdin.setRawMode(true); }
@@ -48,11 +48,11 @@ TypeError: process.stdin.setRawMode is not a function
 <p>Pelo cmd roda normalmente.</p>
 
 <p>Existe alguma forma de fazer esse script rodar pelo NppExec?</p>
-","[node.js, cmd, notepad++]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225257,0,0,false,null,2,Sun Jul 30 16:55:54 BRT 2017,null,0,13,Como definir widht 100% apenas para o col-xs?,Olá. No col-md e col-lg o widht está 50% e que eu quero mais. Porém no col-xs e col-sm os blocos ficam lado a lado e não abaixo do outro como quero. Como resolver?,"<p>Olá. No col-md e col-lg o widht está 50% e que eu quero mais. Porém no col-xs e col-sm os blocos ficam lado a lado e não abaixo do outro como quero. Como resolver?</p>
-",[bootstrap-3],false,0,false,0,0,false,16,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[node.js, cmd, notepad++]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225257,0,0,false,null,2,Sun Jul 30 16:55:54 BRT 2017,null,0,15,Como definir widht 100% apenas para o col-xs?,Olá. No col-md e col-lg o widht está 50% e que eu quero mais. Porém no col-xs e col-sm os blocos ficam lado a lado e não abaixo do outro como quero. Como resolver?,"<p>Olá. No col-md e col-lg o widht está 50% e que eu quero mais. Porém no col-xs e col-sm os blocos ficam lado a lado e não abaixo do outro como quero. Como resolver?</p>
+",[bootstrap-3],false,0,false,0,0,false,16,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225255,0,0,false,Sun Jul 30 16:49:42 BRT 2017,0,Sun Jul 30 16:42:25 BRT 2017,null,0,29,É possível criar um programa com interface gráfica em C?,"Eu sei de alguma coisa em C, porém, estive pensando em aprender em ""C"" por completo para criar softwares. É possível isso? Caso for possível, alguém poderia enviar um link de tutoriais.","<p>Eu sei de alguma coisa em C, porém, estive pensando em aprender em ""C"" por completo para criar softwares. É possível isso? Caso for possível, alguém poderia enviar um link de tutoriais.</p>
-",[c],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[c],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225254,0,0,false,Mon Jul 31 12:37:33 BRT 2017,10,Sun Jul 30 16:26:14 BRT 2017,Sun Jul 30 20:03:36 BRT 2017,0,36,Como limpar o cache do IE 10 e 11 através de uma função javascript?,"Como limpar o *cache* do IE através de uma função javascript?
 
 Eu quero que toda vez que clicar em um determinado botão, rode uma função que limpe o *cache* do IE 10 e 11.
@@ -83,8 +83,8 @@ Mas ele não limpa o *cache*.","<p>Como limpar o <em>cache</em> do IE através d
 </code></pre>
 
 <p>Mas ele não limpa o <em>cache</em>.</p>
-","[javascript, jquery, internet-explorer]",false,0,false,0,0,false,6,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225251,0,0,false,null,2,Sun Jul 30 16:18:26 BRT 2017,null,0,23,Ordenando um SortedMap pelo atributo do objeto,"Boa tarde colegas programadores de plantão. Estou desenvolvendo um aplicativo que cria de um formúlário através das informações contidas em um arquivo tabulato.txt. Consegui desenvolver toda a rotina de criação do formúlario, agora preciso ordená-lo, de acordo com o atributo ""geopólitico""(bairros). Segue abaixo o código:
+","[javascript, jquery, internet-explorer]",false,0,false,0,0,false,6,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225251,0,0,false,null,2,Sun Jul 30 16:18:26 BRT 2017,null,0,24,Ordenando um SortedMap pelo atributo do objeto,"Boa tarde colegas programadores de plantão. Estou desenvolvendo um aplicativo que cria de um formúlário através das informações contidas em um arquivo tabulato.txt. Consegui desenvolver toda a rotina de criação do formúlario, agora preciso ordená-lo, de acordo com o atributo ""geopólitico""(bairros). Segue abaixo o código:
 
 CLASSE DE CRIAÇÃO DO MAP:
 
@@ -262,8 +262,8 @@ public int compareTo(Clientes o) {
 <p>}</p>
 
 <p>Conseguiria facilmente organizar com o Collections.sort se utiliza-se uma List, entretanto os dados do arquivo.txt se repetem e por isso a escolha do Map. Varias cabeças pensam melhor que uma. Alguma luz?? abraço!</p>
-",[java],false,0,false,0,0,false,113,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225236,0,0,false,null,0,Sun Jul 30 13:16:50 BRT 2017,null,0,11,Como chamar a função menu(),"class Dados_Pessoais():
+",[java],false,0,false,0,0,false,113,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225236,0,0,false,null,0,Sun Jul 30 13:16:50 BRT 2017,null,0,14,Como chamar a função menu(),"class Dados_Pessoais():
     def __init__ (self, nome, cpf, rg, contato):
         self.nome = nome
         self.cpf = cpf
@@ -648,8 +648,8 @@ elif opcao == 5:
 elif opcao == 6:
     le()
 </code></pre>
-",[python-2.7],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225231,0,0,false,null,4,Sun Jul 30 13:08:17 BRT 2017,null,0,25,Forbidden para qualquer htaccess,"Estou usando o servidor portátil Uniform Server, já descomentei a linha para ativar o mod_rewrite do apache, porém estou recebendo o error **403 forbidden** para qualquer arquivo .htaccess que usar, este primeiro é do CodeIgniter:
+",[python-2.7],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225231,0,0,false,null,4,Sun Jul 30 13:08:17 BRT 2017,null,0,28,Forbidden para qualquer htaccess,"Estou usando o servidor portátil Uniform Server, já descomentei a linha para ativar o mod_rewrite do apache, porém estou recebendo o error **403 forbidden** para qualquer arquivo .htaccess que usar, este primeiro é do CodeIgniter:
 
     RewriteEngine on
     RewriteCond $1 !^(index\.php|resources|robots\.txt)
@@ -690,8 +690,8 @@ RewriteRule . index.php [L]
 <p>OBS: também já substitui <code>AllowOverride None</code>por <code>AllowOverride All</code></p>
 
 <p>Por que isso ocorre?</p>
-","[php, htaccess, apache, uniform-server]",false,0,false,0,0,false,61,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225210,0,0,false,null,0,Sun Jul 30 11:11:31 BRT 2017,Sun Jul 30 11:40:06 BRT 2017,0,24,WooCommerce - Como adicionar uma taxa ao valor no checkout?,"Pretendo adicionar uma taxa (ao valor final) dependendo da escolha na finalização da encomenda:
+","[php, htaccess, apache, uniform-server]",false,0,false,0,0,false,61,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225210,0,0,false,null,0,Sun Jul 30 11:11:31 BRT 2017,Sun Jul 30 11:40:06 BRT 2017,0,26,WooCommerce - Como adicionar uma taxa ao valor no checkout?,"Pretendo adicionar uma taxa (ao valor final) dependendo da escolha na finalização da encomenda:
 
     add_action( 'woocommerce_cart_calculate_fees','escolha_taxa' );
     function escolha_taxa() {
@@ -768,10 +768,10 @@ woocommerce_form_field( 'escolha', array(
 $checkout-&gt;get_value( 'escolha' ));
 }
 </code></pre>
-","[php, woocommerce]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225187,0,0,false,null,4,Sun Jul 30 04:43:29 BRT 2017,null,0,12,"Como acessar o gameObject, do Raycast do controle Gear VR?",Quero saber como posso ativar o laser vermelho do Gear VR e como posso saber informações do que o laser esta tocando ?,"<p>Quero saber como posso ativar o laser vermelho do Gear VR e como posso saber informações do que o laser esta tocando ?</p>
-","[c#, unity3d, unity-5]",false,0,false,0,0,false,39254,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225182,0,0,false,null,2,Sun Jul 30 01:22:52 BRT 2017,Sun Jul 30 10:12:52 BRT 2017,0,31,Composer com Bootstrap?,"Como posso chamar o `bootstrap` utilizando o `composer`, tentei por algum tempo
+","[php, woocommerce]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225187,0,0,false,null,4,Sun Jul 30 04:43:29 BRT 2017,null,0,13,"Como acessar o gameObject, do Raycast do controle Gear VR?",Quero saber como posso ativar o laser vermelho do Gear VR e como posso saber informações do que o laser esta tocando ?,"<p>Quero saber como posso ativar o laser vermelho do Gear VR e como posso saber informações do que o laser esta tocando ?</p>
+","[c#, unity3d, unity-5]",false,0,false,0,0,false,39254,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225182,0,0,false,null,2,Sun Jul 30 01:22:52 BRT 2017,Sun Jul 30 10:12:52 BRT 2017,0,40,Composer com Bootstrap?,"Como posso chamar o `bootstrap` utilizando o `composer`, tentei por algum tempo
 mas infelizmente não consegui alguém tem alguma ideia?
 
 
@@ -812,8 +812,8 @@ mas infelizmente não consegui alguém tem alguma ideia?</p>
    &lt;div class=""alert alert-danger"" role=""alert""&gt;...&lt;/div&gt;
 &lt;/html&gt;
 </code></pre>
-","[php, twitter-bootstrap, composer]",false,0,false,0,0,false,542,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225174,0,0,false,null,0,Sat Jul 29 23:58:01 BRT 2017,Tue Aug 01 10:09:08 BRT 2017,0,12,Jquery DataTable não funciona,"Criei em meu sistema uma tabela utilizando a biblioteca jquery datatable, porém não está funcionando. Ao final da view fiz a declaração de código em javascript, porém o estilo não é aplicado.
+","[php, twitter-bootstrap, composer]",false,0,false,0,0,false,542,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+225174,0,0,false,null,0,Sat Jul 29 23:58:01 BRT 2017,Tue Aug 01 10:09:08 BRT 2017,0,13,Jquery DataTable não funciona,"Criei em meu sistema uma tabela utilizando a biblioteca jquery datatable, porém não está funcionando. Ao final da view fiz a declaração de código em javascript, porém o estilo não é aplicado.
 
 Segue código abaixo:
 
@@ -848,7 +848,7 @@ Obs: Uso 3 datatables, somente em uma não funciona e o código está idêntico 
 </code></pre>
 
 <p>Obs: Uso 3 datatables, somente em uma não funciona e o código está idêntico para os 3 casos.</p>
-","[asp.net, jquery-datatables]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[asp.net, jquery-datatables]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225162,0,0,false,Sun Aug 13 14:14:57 BRT 2017,0,Sat Jul 29 22:29:13 BRT 2017,null,1,16,ionic2 Acesso a câmera em uma Page,"Boa noite de tanto quebrar a cabeça, decidi postar aqui minha dúvida.
 
 Tenho uma Page que acessa a câmera do dispositivo, porém a câmera utiliza a tela em full screen. 
@@ -867,8 +867,8 @@ Gostaria de saber se alguém já conseguiu colocar a câmera em uma Page com tel
 <p>Desde já agradeço.</p>
 
 <p><a href=""https://i.stack.imgur.com/jZRYH.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/jZRYH.png"" alt=""Dividir a tela do celular mostrando o texto e o que está sendo gravado.""></a></p>
-",[ionic2],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225161,0,0,false,null,0,Sat Jul 29 22:23:25 BRT 2017,Sat Jul 29 22:28:49 BRT 2017,0,22,Como configurar corretamente a hora do servidor Apache (XAMPP) no Windows 10?,"Eu rodo no meu notebook o XAMPP com o Apache 2.? e o PHP 5.6.?. Para corrigir as informações da data/hora uso o date_default_timezone_set. Isso é suficiente para que a função date() funcione corretamente. Porém, quando uma página é gerada, o header ""Date"" do HTTP, por alguma razão, informa a data com +3:00. A saber, esse é o horário GMT 0:00 em relação.
+",[ionic2],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225161,0,0,false,null,0,Sat Jul 29 22:23:25 BRT 2017,Sat Jul 29 22:28:49 BRT 2017,0,27,Como configurar corretamente a hora do servidor Apache (XAMPP) no Windows 10?,"Eu rodo no meu notebook o XAMPP com o Apache 2.? e o PHP 5.6.?. Para corrigir as informações da data/hora uso o date_default_timezone_set. Isso é suficiente para que a função date() funcione corretamente. Porém, quando uma página é gerada, o header ""Date"" do HTTP, por alguma razão, informa a data com +3:00. A saber, esse é o horário GMT 0:00 em relação.
  
 Perceba que, para qualquer alteração que eu faça no servidor, valerá o timezone que setei no comando acima, mas os cookie gerados no cliente serão criados com +03:00. Como percebo que as operações do PHP que envolvem datas funcionam de maneira adequada, mas as páginas enviadas como resposta vão com a hora do timezone + 3:00, então imagino que o problema está na comunicação do Apache com o relógio do Windows.
 
@@ -881,9 +881,9 @@ Para resolver de maneira rápida, alterei o timezone do PHP para GMT e as horas 
 <p>Como experiência, alterei o timezone do Windows e aconteceu o esperado: as horas geradas como resposta do servidor condizem com a data exibida no relógio do Windows, mas as operações com o PHP geraram respostas de date() com o valor menor em 3:00.</p>
 
 <p>Para resolver de maneira rápida, alterei o timezone do PHP para GMT e as horas ficaram sincronizadas, mas condeno a elegância dessa solução pois, num servidor que eu não possua controle, não será possível resolver a falta de sincronia.</p>
-","[apache, xampp]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[apache, xampp]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225156,0,0,false,null,0,Sat Jul 29 21:48:44 BRT 2017,null,0,7,Como faço com que o listView imprima em um textView?,"É possível criar um listView tipo um mini dicionário e ao clicar fazer com que ele imprima no textView? Ou seja com que todas as palavras ao clicar uma por uma, exiba na mesma textView? Se tiver como alguém pode me dá uma luz de como criar pois sou novato em Programação. Obg a todos ","<p>É possível criar um listView tipo um mini dicionário e ao clicar fazer com que ele imprima no textView? Ou seja com que todas as palavras ao clicar uma por uma, exiba na mesma textView? Se tiver como alguém pode me dá uma luz de como criar pois sou novato em Programação. Obg a todos </p>
-","[listview, button, textview]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[listview, button, textview]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225154,0,0,false,null,0,Sat Jul 29 21:29:27 BRT 2017,null,0,8,Conexão Remota Oracle 11.2g EX,"Gostaria de uma pequena ajuda referente a conexão remota com Oracle 11.2g ex.
 
 A caráter de estudos, estou simulando um ambiente o mais profissional possível, Virtualizei em uma maquina o Windows server 2008R2 e instalei nele o Oracle 11.2g EX, em outra maquina (Desktop), instalei também o Oracle 11.2g, estou tentando acesso remoto ao DB do servidor pelo SQL developer do desktop, e me aparece o seguinte erro.
@@ -902,8 +902,8 @@ Obg!","<p>Gostaria de uma pequena ajuda referente a conexão remota com Oracle 1
 <p>O que poderia ser? Vi muitas respostas para esse erro, porém nem uma solução para meu caso.</p>
 
 <p>Obg!</p>
-",[oracle11g],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225151,0,0,false,null,0,Sat Jul 29 21:22:28 BRT 2017,Sat Jul 29 21:36:19 BRT 2017,0,9,Como instalar o componente Chart e Guages - Internet Speedtest no node red do Raspberry,"Estou desenvolvendo um projeto **IOT** com uma **Raspberry Pi 3** com o sistema operacional **Raspbian** e com a aplicação **Node Red** e neste projeto que quero criar uma rotina que faça teste de conexão de internet de hora em hora, e de tando pesquisar consegui encontrar componentes que fazem estas funcionalidades.
+",[oracle11g],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225151,0,0,false,null,0,Sat Jul 29 21:22:28 BRT 2017,Sat Jul 29 21:36:19 BRT 2017,0,11,Como instalar o componente Chart e Guages - Internet Speedtest no node red do Raspberry,"Estou desenvolvendo um projeto **IOT** com uma **Raspberry Pi 3** com o sistema operacional **Raspbian** e com a aplicação **Node Red** e neste projeto que quero criar uma rotina que faça teste de conexão de internet de hora em hora, e de tando pesquisar consegui encontrar componentes que fazem estas funcionalidades.
 
 [Internet Speedtest (with Charts and Guages)][1]
 
@@ -920,8 +920,8 @@ Observação não consegui compreender o método de instalação descrito, gosta
 <p>Gostaria de saber como faço para fazer a instalação deste componente no Node Red.</p>
 
 <p>Observação não consegui compreender o método de instalação descrito, gostaria muito do auxilio da comunidade.</p>
-","[linux, raspberry-pi, iot]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225139,0,0,false,null,3,Sat Jul 29 19:44:33 BRT 2017,null,0,24,Ancoragem com jquery,"Criei uma ancoragem scroll com jquery porém só funciona na mesma página, como faço para funcionar com páginas diferentes?
+","[linux, raspberry-pi, iot]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+225139,0,0,false,null,3,Sat Jul 29 19:44:33 BRT 2017,null,0,25,Ancoragem com jquery,"Criei uma ancoragem scroll com jquery porém só funciona na mesma página, como faço para funcionar com páginas diferentes?
 
               
 
@@ -939,14 +939,14 @@ Observação não consegui compreender o método de instalação descrito, gosta
     });
   });
 </code></pre>
-","[javascript, jquery]",false,0,false,0,0,false,65,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, jquery]",false,0,false,0,0,false,65,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 225137,0,0,false,Sun Jul 30 06:26:29 BRT 2017,1,Sat Jul 29 19:32:12 BRT 2017,null,0,12,Mudar cor Notification Bar - Preview # Debug,"Quero mudar a cor da notification bar do meu aplicativo. Pesquisando em vários sites e fóruns, principalmente aqui. conseguir entender um pouco sobre o assunto, não tanto, mas foi o suficiente para fazer o código. No preview funciona, os de api maiores que 21 colorem e o app funciona na menores. O problema é que quando debugo o app em meu celular que tem api 22 ele não troca a cor. 
 Obs.: a api minima é 15.
 
 ","<p>Quero mudar a cor da notification bar do meu aplicativo. Pesquisando em vários sites e fóruns, principalmente aqui. conseguir entender um pouco sobre o assunto, não tanto, mas foi o suficiente para fazer o código. No preview funciona, os de api maiores que 21 colorem e o app funciona na menores. O problema é que quando debugo o app em meu celular que tem api 22 ele não troca a cor. 
 Obs.: a api minima é 15.</p>
-","[java, android, material-design]",false,0,false,0,0,false,90,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225125,0,0,false,null,0,Sat Jul 29 17:18:08 BRT 2017,Sat Jul 29 18:11:30 BRT 2017,0,20,"Chamada AJAX com plugin ""jquery-step""","Estou querendo enviar os dados de um formulário para minha servlet usando AJAX, como já fiz antes. O problema é que a chamada AJAX se recusa a funcionar quando está dentro do método de término do envio do formulário do jquery-steps. Abaixo está o script que escrevi para fazer essa chamada.
+","[java, android, material-design]",false,0,false,0,0,false,90,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225125,0,0,false,null,0,Sat Jul 29 17:18:08 BRT 2017,Sat Jul 29 18:11:30 BRT 2017,0,21,"Chamada AJAX com plugin ""jquery-step""","Estou querendo enviar os dados de um formulário para minha servlet usando AJAX, como já fiz antes. O problema é que a chamada AJAX se recusa a funcionar quando está dentro do método de término do envio do formulário do jquery-steps. Abaixo está o script que escrevi para fazer essa chamada.
 
     var contextPath;
     
@@ -1088,16 +1088,16 @@ $(document).ready(function () {
 </code></pre>
 
 <p>O problema é que a servlet não está sendo chamada. Chequei ambos console e monitor de rede no navegador durante a chamada, e nada de errado lá. A console mostra a chamada do AJAX com todos os dados, mas a servlet nunca recebe a solicitação. O monitor de rede fica em branco e não exibe nada.</p>
-","[javascript, jquery, ajax]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225122,0,0,false,null,1,Sat Jul 29 16:48:50 BRT 2017,null,0,18,Convivencia de AngularJS com JSF(Primefaces) em uma aplicação WEB,"Amigos utilizamos atualmente em nossos produtos JSF2(Primefaces4),
+","[javascript, jquery, ajax]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225122,0,0,false,null,1,Sat Jul 29 16:48:50 BRT 2017,null,0,22,Convivencia de AngularJS com JSF(Primefaces) em uma aplicação WEB,"Amigos utilizamos atualmente em nossos produtos JSF2(Primefaces4),
 estamos avaliando a migração para AngularJS, mas eu queria saber se posso ter uma aplicação migrada gradativamente.
 
 Obrigado","<p>Amigos utilizamos atualmente em nossos produtos JSF2(Primefaces4),
 estamos avaliando a migração para AngularJS, mas eu queria saber se posso ter uma aplicação migrada gradativamente.</p>
 
 <p>Obrigado</p>
-","[java, angularjs, jsf-2.2]",false,0,false,0,0,false,180,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225115,0,0,false,null,2,Sat Jul 29 16:22:00 BRT 2017,Sat Jul 29 16:50:09 BRT 2017,0,33,Habilitar metodo POST wordpress/woocommerce,"Estou tentando enviar um `POST` para o woocommerce/wordpress usando a API [woocommerce-api](https://www.npmjs.com/package/woocommerce-api), porém só recebo o erro `401` que diz:
+","[java, angularjs, jsf-2.2]",false,0,false,0,0,false,180,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225115,0,0,false,null,2,Sat Jul 29 16:22:00 BRT 2017,Sat Jul 29 16:50:09 BRT 2017,0,38,Habilitar metodo POST wordpress/woocommerce,"Estou tentando enviar um `POST` para o woocommerce/wordpress usando a API [woocommerce-api](https://www.npmjs.com/package/woocommerce-api), porém só recebo o erro `401` que diz:
 
 > Fetch API cannot load http://wc-project.dev/wp-json/wc/v1/orders... Response for preflight has invalid HTTP status code 401
 
@@ -1164,8 +1164,8 @@ header(""Access-Control-Allow-Methods: *"");
 </code></pre>
 
 <p><strong><em>As chaves de <code>API</code> já possuem permissão e leitura e escrita.</em></strong></p>
-","[wordpress, woocommerce, react.js]",false,0,false,0,0,false,188,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225113,0,0,false,null,0,Sat Jul 29 15:36:34 BRT 2017,Sat Jul 29 15:46:06 BRT 2017,0,21,configurar texto usando Assembly,"Olá, estou programando em Assembly para o processador 8086 e preciso criar a seguinte interface gráfica:
+","[wordpress, woocommerce, react.js]",false,0,false,0,0,false,188,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225113,0,0,false,null,0,Sat Jul 29 15:36:34 BRT 2017,Sat Jul 29 15:46:06 BRT 2017,0,22,configurar texto usando Assembly,"Olá, estou programando em Assembly para o processador 8086 e preciso criar a seguinte interface gráfica:
 
 [![inserir a descrição da imagem aqui][1]][1]
 
@@ -1183,7 +1183,7 @@ Alguém sabe como?","<p>Olá, estou programando em Assembly para o processador 8
 Já procurei em vários lugares na internet e não consegui encontrar como fazer.</p>
 
 <p>Alguém sabe como?</p>
-","[assembly, x86, 8086, nasm]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[assembly, x86, 8086, nasm]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225111,0,0,false,null,0,Sat Jul 29 15:18:50 BRT 2017,Sat Aug 05 00:45:07 BRT 2017,1,45,"Natureza assíncrona do nodejs, loop for com querie mysql","Dentro de uma rota de upload no nodejs tenho isto: 
 
     router.post('/uploads',function(req,res){  
@@ -1337,12 +1337,12 @@ Tenho apenas um mês de programação em nodejs. Qualquer avanço ou comentário
 <p><strong>Sei que isso é da natureza assíncrona da linguagem, mas qual a abordagem correta para se resolver?</strong></p>
 
 <p>Tenho apenas um mês de programação em nodejs. Qualquer avanço ou comentário seria de grande ajuda.</p>
-","[mysql, node.js]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[mysql, node.js]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225103,0,0,false,null,4,Sat Jul 29 13:46:16 BRT 2017,null,0,22,inserção de saldo no db apenas apos confirmação,"Estou fazendo um sistema para controle de despesas/receitas, e quero saber como fazer os valores da receita ou despesa se somarem ao saldo apenas após a confirmação do pagamento.
 Ex: cadastro uma conta de luz para pagar no valor de R$ 100,00 no para daqui a uma semana. Meu saldo atual é de R$ 200,00, mas eu só quero que o valor da conta de luz seja descontado do saldo apenas quando eu marcar a conta de luz como paga. Como posso fazer isso usando apenas PHP?","<p>Estou fazendo um sistema para controle de despesas/receitas, e quero saber como fazer os valores da receita ou despesa se somarem ao saldo apenas após a confirmação do pagamento.
 Ex: cadastro uma conta de luz para pagar no valor de R$ 100,00 no para daqui a uma semana. Meu saldo atual é de R$ 200,00, mas eu só quero que o valor da conta de luz seja descontado do saldo apenas quando eu marcar a conta de luz como paga. Como posso fazer isso usando apenas PHP?</p>
-","[php, mysqli, phpmyadmin]",false,0,false,0,0,false,12,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225102,0,0,false,null,0,Sat Jul 29 13:43:14 BRT 2017,null,0,11,Como esconder arquivo PHP dos usuarios,"Vamos supor que eu tenha um método próprio de HASH(como uma [MD5][1]), e quero usar elas em autenticações comuns.
+","[php, mysqli, phpmyadmin]",false,0,false,0,0,false,12,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225102,0,0,false,null,0,Sat Jul 29 13:43:14 BRT 2017,null,0,13,Como esconder arquivo PHP dos usuarios,"Vamos supor que eu tenha um método próprio de HASH(como uma [MD5][1]), e quero usar elas em autenticações comuns.
 Gostaria de chamar a função da classe(*por exemplo `hash.php`*) para criar a HASH, porem não quero que nenhum usuário tenha acesso a esse arquivo, justamente para não ver o método que usei para criar a HASH.
 
 Caso não tenha como esconder o arquivo `.php`, mas haja uma forma de fazer em outra linguagem(*java ou javascript por exemplo*) eu aceito também.
@@ -1352,11 +1352,11 @@ Caso não tenha como esconder o arquivo `.php`, mas haja uma forma de fazer em o
 Gostaria de chamar a função da classe(<em>por exemplo <code>hash.php</code></em>) para criar a HASH, porem não quero que nenhum usuário tenha acesso a esse arquivo, justamente para não ver o método que usei para criar a HASH.</p>
 
 <p>Caso não tenha como esconder o arquivo <code>.php</code>, mas haja uma forma de fazer em outra linguagem(<em>java ou javascript por exemplo</em>) eu aceito também.</p>
-","[aplicação-web, classes]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[aplicação-web, classes]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225084,0,0,false,null,0,Sat Jul 29 11:21:48 BRT 2017,null,0,11,PHP/SQL - Passagem de valores de uma tabela sem precisar carregar outra pagina,"Estou construindo um sistema para agendar clientes, cuja tela inicial mostra um checkbox com todos os clientes agendados. Eu quero que, ao clicar no botão de submit, os dados dos clientes selecionados vão para outra tabela, cujas informações eu usarei para fazer o sistema financeiro. O que eu desejo saber é como passar esses dados dos clientes para a tabela na mesma página, sem precisar passar os valores para outra página que receba os dados e faça o insert. Gostaria de fazer o insert dentro da página inicial. 
 P.S = estou usando apenas php e o framework mdl(google), é possível realizar o que eu estou querendo?","<p>Estou construindo um sistema para agendar clientes, cuja tela inicial mostra um checkbox com todos os clientes agendados. Eu quero que, ao clicar no botão de submit, os dados dos clientes selecionados vão para outra tabela, cujas informações eu usarei para fazer o sistema financeiro. O que eu desejo saber é como passar esses dados dos clientes para a tabela na mesma página, sem precisar passar os valores para outra página que receba os dados e faça o insert. Gostaria de fazer o insert dentro da página inicial. 
 P.S = estou usando apenas php e o framework mdl(google), é possível realizar o que eu estou querendo?</p>
-","[php, mysql, phpmyadmin]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, mysql, phpmyadmin]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
 225076,0,0,false,null,12,Sat Jul 29 10:21:49 BRT 2017,Sat Jul 29 12:08:07 BRT 2017,0,28,É possível realizar um UPLOAD externo com ajax?,"Tenho este código:
 
     function uploadFile(x){
@@ -1553,8 +1553,8 @@ O que pode ser? Tens alguma ideia?","<p>Tenho este código:</p>
 <p>Já verifiquei tudo. Permissões de escrita no servidor remoto, tudo.</p>
 
 <p>O que pode ser? Tens alguma ideia?</p>
-","[php, ajax]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225068,0,0,false,null,1,Sat Jul 29 09:31:50 BRT 2017,Sat Jul 29 09:35:19 BRT 2017,0,42,Erro compileDebugKotlin,"Erro:
+","[php, ajax]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225068,0,0,false,null,1,Sat Jul 29 09:31:50 BRT 2017,Sat Jul 29 09:35:19 BRT 2017,0,43,Erro compileDebugKotlin,"Erro:
 
 >Error:Execution failed for task ':app:compileDebugKotlin'.  
 Compilation error. See log for more details
@@ -1704,8 +1704,8 @@ Build.gradle Modulo App
 
 apply plugin: 'com.google.gms.google-services'
 </code></pre>
-","[android, android-studio, build, kotlin]",false,0,false,0,0,false,62719,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225060,0,0,false,null,2,Sat Jul 29 06:34:31 BRT 2017,null,0,17,Erro Curl não segue requisição,"Estou criando um campo de doações do meu site interligado remotamente com outro porem estou tendo problemas no redirecionamento, envio post datas para a pagina: https://www.kickante.com.br/campanhas/pastor-de-ovelhas/apoiar e oque deveria acontecer é seguir a requisição até o conteúdo da pagina https://www.kickante.com.br/checkout/4242170  mais por algum erro está retornando o código de erro 404 not found meu código aparenta estar correto porem não funciona como deveria funcionar
+","[android, android-studio, build, kotlin]",false,0,false,0,0,false,62719,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+225060,0,0,false,null,2,Sat Jul 29 06:34:31 BRT 2017,null,0,18,Erro Curl não segue requisição,"Estou criando um campo de doações do meu site interligado remotamente com outro porem estou tendo problemas no redirecionamento, envio post datas para a pagina: https://www.kickante.com.br/campanhas/pastor-de-ovelhas/apoiar e oque deveria acontecer é seguir a requisição até o conteúdo da pagina https://www.kickante.com.br/checkout/4242170  mais por algum erro está retornando o código de erro 404 not found meu código aparenta estar correto porem não funciona como deveria funcionar
 
 <!-- begin snippet: js hide: false console: true babel: false -->
 
@@ -1755,7 +1755,7 @@ unset($ch);
 </div>
 </div>
 </p>
-","[php, curl, requisição]",false,0,false,0,0,false,117,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, curl, requisição]",false,0,false,0,0,false,117,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225057,0,0,false,Sat Jul 29 09:31:04 BRT 2017,0,Sat Jul 29 01:59:22 BRT 2017,Sat Jul 29 09:36:14 BRT 2017,0,9,Como verificar o evento de play de som e parar os outros?,"Gostaria de saber como verifico o evento de um som , tipo criei um app , onde tem 5 times , ao clicar em um botão ouço o hino do time , porém se clicar em outro botão também inicia o outro hino , ai pergunto como para os demais ao ouvir apenas um ?
 
 Segue o código :
@@ -2136,7 +2136,7 @@ public class MainActivity extends AppCompatActivity{
     }
 }
 </code></pre>
-","[java, android]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, android]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225053,0,0,false,null,2,Sat Jul 29 00:51:54 BRT 2017,Sat Jul 29 11:27:00 BRT 2017,0,39,jQuery timepicker com função efetuar em varios input,"Tenho um código em jQuery que utiliza o timepicker em todos os 35 input. segue abaixo o de segunda:
 
 Abaixo meu `HTML`:
@@ -2469,7 +2469,7 @@ calc.onclick = function(){
 <p>Estou começando a estudar jQuery e javascript, porem sou muito novato ainda, e não estou conseguindo resolver isso.</p>
 
 <p>Obrigado!</p>
-","[javascript, jquery, html]",false,0,false,0,0,false,607,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, jquery, html]",false,0,false,0,0,false,607,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179698,0,0,false,null,0,Tue Jan 24 20:36:58 BRT 2017,null,0,18,CrossroadsJS - Como adicionar mais de uma URL sendo uma em branco pelo addRoute,"Eu tenho este código:
 
      return new Router([{ 
@@ -2530,8 +2530,8 @@ o primeiro valor, nao funciona pois está vazio, ja o segundo vai normalmente</p
 
 <pre><code>  crossroads.addRoute(':rest*:', on404, -Infinity)
 </code></pre>
-",[javascript],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179693,0,0,false,null,6,Tue Jan 24 20:19:23 BRT 2017,Tue Jan 24 20:31:40 BRT 2017,0,57,"Codeigniter adicionando "".html"" após nome do controller","Não sei por qual motivo quando tento realizar uma chamada ajax para a url ""http://localhost/meusite/controller/metodo"" recebo um erro 404 dizendo o seguinte ""A url http://localhost/meusite/controller.html/metodo"" não foi encontrada no servidor(404). Não consigo encontrar de onde vem esse "".html"" que ele esta adicionando depois do nome do controller, a aplicação esta rodando perfeitamente em outro servidor.
+",[javascript],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+179693,0,0,false,null,6,Tue Jan 24 20:19:23 BRT 2017,Tue Jan 24 20:31:40 BRT 2017,0,59,"Codeigniter adicionando "".html"" após nome do controller","Não sei por qual motivo quando tento realizar uma chamada ajax para a url ""http://localhost/meusite/controller/metodo"" recebo um erro 404 dizendo o seguinte ""A url http://localhost/meusite/controller.html/metodo"" não foi encontrada no servidor(404). Não consigo encontrar de onde vem esse "".html"" que ele esta adicionando depois do nome do controller, a aplicação esta rodando perfeitamente em outro servidor.
 
 Não sei de onde vem o problema mas vou postar o .htaccess pra ver se é algum erro nele:
 
@@ -2613,7 +2613,7 @@ RewriteRule ^(.*)$ index.php/$1 [L]
 </code></pre>
 
 <p>Lembrando que estou usando Codeigniter 2, PHP5.6 e Apache2 num Linux Mint 18.</p>
-","[php, codeigniter, htaccess, php-5, codeigniter-2]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, codeigniter, htaccess, php-5, codeigniter-2]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179677,0,0,false,null,6,Tue Jan 24 18:37:28 BRT 2017,Tue Jan 24 18:46:56 BRT 2017,0,37,Problema no envio do formulário,"Estou com um problema para fazer esse pequeno formulário desse [site][1] funcionar ele está enviando o email
 no console ele da esse erro:
 [![inserir a descrição da imagem aqui][2]][2]
@@ -2912,14 +2912,14 @@ if($_POST)
 }
 ?&gt;
 </code></pre>
-","[php, javascript, html5]",false,0,false,0,0,false,7,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179649,0,0,false,null,1,Tue Jan 24 16:24:17 BRT 2017,null,0,44,Como buscar dados de dois bancos distintos em Ruby On Rails?,"Tenho uma aplicação em Ruby On Rails, já uso minha base de dados em PostgreSQL mas preciso trazer informações de outra base de dados em PostgreSQL. 
+","[php, javascript, html5]",false,0,false,0,0,false,7,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+179649,0,0,false,null,1,Tue Jan 24 16:24:17 BRT 2017,null,0,48,Como buscar dados de dois bancos distintos em Ruby On Rails?,"Tenho uma aplicação em Ruby On Rails, já uso minha base de dados em PostgreSQL mas preciso trazer informações de outra base de dados em PostgreSQL. 
 Tentei utilizar por este tutorial: https://blog.guilhermegarnier.com/2008/03/acessando-multiplos-bancos-de-dados-em-rails/  , só que em tão quando reinicio o servidor ele pede para roda as migrates da outra base que quero trazer, porém como tenho tabelas coincidentes dentro das duas bases o rails envia um erro de duplicação. Queria trazer informações da outra base de dados sem precisar rodar as migrations, alguém pode me ajudar? Agradeço desde já. ","<p>Tenho uma aplicação em Ruby On Rails, já uso minha base de dados em PostgreSQL mas preciso trazer informações de outra base de dados em PostgreSQL. 
 Tentei utilizar por este tutorial: <a href=""https://blog.guilhermegarnier.com/2008/03/acessando-multiplos-bancos-de-dados-em-rails/"" rel=""nofollow noreferrer"">https://blog.guilhermegarnier.com/2008/03/acessando-multiplos-bancos-de-dados-em-rails/</a>  , só que em tão quando reinicio o servidor ele pede para roda as migrates da outra base que quero trazer, porém como tenho tabelas coincidentes dentro das duas bases o rails envia um erro de duplicação. Queria trazer informações da outra base de dados sem precisar rodar as migrations, alguém pode me ajudar? Agradeço desde já. </p>
-","[ruby-on-rails, active-record]",false,0,false,0,0,false,246123,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[ruby-on-rails, active-record]",false,0,false,0,0,false,246123,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179644,0,0,false,Wed Jan 25 07:33:36 BRT 2017,0,Tue Jan 24 16:15:17 BRT 2017,null,-1,55,Como enviar e-mail em C#,"De tanto que pesquisei, vi a grande dificuldade que as pessoas tem para o envio de e-mail, utilizando a plataforma C#, por isso estou aqui disponibilizando a forma que encontrei para a realização deste feito.","<p>De tanto que pesquisei, vi a grande dificuldade que as pessoas tem para o envio de e-mail, utilizando a plataforma C#, por isso estou aqui disponibilizando a forma que encontrei para a realização deste feito.</p>
-","[c#, envio-de-email]",true,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179641,0,0,false,Tue Jan 24 18:34:16 BRT 2017,5,Tue Jan 24 15:55:18 BRT 2017,Tue Jan 24 16:55:16 BRT 2017,0,208,Como usar o inner join no php?,"Alguém poderia me ajudar? Eu estou com o seguinte problema: tenho 2 tabelas e nessas 2 tabelas eu tenho os nomes, sendo que na tabela de curso eu tenho `nome` e na tabela categoria eu também tenho o campo `nome`. Minha dúvida é a seguinte: como que eu faço isso no `PHP`? Estou tentando fazer assim:
+","[c#, envio-de-email]",true,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+179641,0,0,false,Tue Jan 24 18:34:16 BRT 2017,5,Tue Jan 24 15:55:18 BRT 2017,Tue Jan 24 16:55:16 BRT 2017,0,251,Como usar o inner join no php?,"Alguém poderia me ajudar? Eu estou com o seguinte problema: tenho 2 tabelas e nessas 2 tabelas eu tenho os nomes, sendo que na tabela de curso eu tenho `nome` e na tabela categoria eu também tenho o campo `nome`. Minha dúvida é a seguinte: como que eu faço isso no `PHP`? Estou tentando fazer assim:
 
     $sql = mysqli_query($mysqli, ""SELECT cur.nome, cat.nome FROM cursos cur INNER JOIN categorias cat ON cur.id_curso = cat.id WHERE cat.id = '$id_categoria'"");
     $row = mysqli_fetch_array($sql);
@@ -2931,7 +2931,7 @@ $row = mysqli_fetch_array($sql);
 </code></pre>
 
 <p>Após isso, não sei como que eu seleciono tanto o nome do curso quanto o nome da categoria. Alguém poderia me ajudar?</p>
-","[php, mysql, mysqli]",false,0,false,0,0,false,1,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, mysql, mysqli]",false,0,false,0,0,false,1,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179638,0,0,false,null,4,Tue Jan 24 15:42:30 BRT 2017,Tue Jan 24 15:49:28 BRT 2017,0,34,Não está conseguindo detectar o objeto,"Eu fiz um script de API, nesse script tem umas funções básicas bem utilizadas.
 Estou no momento trabalhando na edição do IntervalsAPI:
 
@@ -3019,7 +3019,7 @@ aparece a mensagem normalmente que foi adicionado o interval. Porém quando eu t
 </blockquote>
 
 <p>sendo que no interval.intervals tem o objeto { teste: ... } e não está retornando.</p>
-",[javascript],false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[javascript],false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179634,0,0,false,null,0,Tue Jan 24 15:30:36 BRT 2017,Tue Jan 24 15:35:53 BRT 2017,0,14,PHP Zend Framework - Uri Wsdl,"eu estou tentando implementar uma webService com zend e 
 estou rodando o serviço por php -S localhost:8090 e ao tentar abrir o serviço. Me retorna a seguinte mensagem.
 
@@ -3097,8 +3097,8 @@ public function handleSOAP() {
 <p>}</p>
 
 <p>O que vocês acham que é ?</p>
-","[php, zend, zend-framework-2]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179629,0,0,false,null,0,Tue Jan 24 15:21:24 BRT 2017,Fri May 26 16:16:59 BRT 2017,0,161,Alterar classe com JavaScript,"Uso [tag:zurb-foundation], ultima versão. E não estou conseguindo fazer funcionar para que o Magellan mude o backuground quando a pagina rola. Preciso que fique parecido com esse [site][1].
+","[php, zend, zend-framework-2]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179629,0,0,false,null,0,Tue Jan 24 15:21:24 BRT 2017,Fri May 26 16:16:59 BRT 2017,0,188,Alterar classe com JavaScript,"Uso [tag:zurb-foundation], ultima versão. E não estou conseguindo fazer funcionar para que o Magellan mude o backuground quando a pagina rola. Preciso que fique parecido com esse [site][1].
 
 O problema que estou enfrentando é que não está mudando a cor do background. E nem aplicando a classe `is-fixed` no código.
 
@@ -3226,8 +3226,8 @@ Segue código:
     })(jQuery);
     $(document).foundation();
 </code></pre>
-","[javascript, html, css, zurb-foundation]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179624,0,0,false,null,0,Tue Jan 24 15:12:14 BRT 2017,null,0,45,Requisitando ip do arduino + ionic 2,"Estou tentado requisitar ip do arduino seguinte forma: 
+","[javascript, html, css, zurb-foundation]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179624,0,0,false,null,0,Tue Jan 24 15:12:14 BRT 2017,null,0,47,Requisitando ip do arduino + ionic 2,"Estou tentado requisitar ip do arduino seguinte forma: 
 
     constructor(public http: Http) {
 
@@ -3269,7 +3269,7 @@ tenho
 <pre><code>seguinte erro: GET http://10.0.0.110:4000/
                net::ERR_CONNECTION_TIMED_OUT
 </code></pre>
-","[ionic, ionic2, typescript]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[ionic, ionic2, typescript]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 179611,0,0,false,null,2,Tue Jan 24 14:12:56 BRT 2017,null,0,33,Arquivo anexo de email com file upload no django,"Preciso enviar um arquivo do request.FILES de um campo File como anexo no e-mail. Estou seguindo topicos que ensinam isso, mas nao está dando certo.[![inserir a descrição da imagem aqui][1]][1]
 
 O Django do meu projeto é 1.5
@@ -3403,8 +3403,8 @@ return msg.send(fail_silently)
 </code></pre>
 
 <p>Já tentei também com o attach_file, mas o resultado é o mesmo.</p>
-",[django],false,0,false,0,0,false,305267,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179605,0,0,false,null,6,Tue Jan 24 13:52:04 BRT 2017,null,1,28,Exibir Imagem do Diretório,"Preciso exibir uma imagem na aplicação a qual fica em diretório externo a aplicação. Estou utilizando da seguinte forma, porem imagem não é exibida. Fica como se o caminho estivesse incorreto.
+",[django],false,0,false,0,0,false,305267,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179605,0,0,false,null,6,Tue Jan 24 13:52:04 BRT 2017,null,1,30,Exibir Imagem do Diretório,"Preciso exibir uma imagem na aplicação a qual fica em diretório externo a aplicação. Estou utilizando da seguinte forma, porem imagem não é exibida. Fica como se o caminho estivesse incorreto.
 
     public StreamedContent getImagem() {
     		DefaultStreamedContent defaultStreamedContent = null;
@@ -3438,8 +3438,8 @@ return msg.send(fail_silently)
 
 &lt;p:graphicImage value=""#{arquivo.imagem}"" width=""50"" height=""50"" cache=""false"" /&gt;
 </code></pre>
-",[primefaces],false,0,false,0,0,false,1413,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179573,0,0,false,null,0,Tue Jan 24 12:34:52 BRT 2017,Thu Jan 26 11:04:00 BRT 2017,1,61,Como adicionar esse header ao SOAP?,"Olá,
+",[primefaces],false,0,false,0,0,false,1413,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+179573,0,0,false,null,0,Tue Jan 24 12:34:52 BRT 2017,Thu Jan 26 11:04:00 BRT 2017,1,65,Como adicionar esse header ao SOAP?,"Olá,
 
 Eu tenho que fazer uma verificação em um Web Service onde é enviado um CPF válido e me retorna um true ou false de acordo com a validação.
 
@@ -3540,7 +3540,7 @@ $client-&gt;__setSoapHeaders($header);
 <p>Agora a minha dúvida é a seguinte, como se enviar os parâmetros corretamente ao header enviando também os parâmetros xmlns:wsa e wsa:To descrito no envelope SOAP?</p>
 
 <p>Me ajudem nessa. Obrigado</p>
-","[php, soap]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, soap]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179567,0,0,false,Tue Jan 24 12:29:00 BRT 2017,2,Tue Jan 24 12:22:19 BRT 2017,null,0,20,personalizar scroll no fire fox e IE,"Bom esse scroll funciona perfeitamente no chrome e safari. Queria saber como fazer a barra de rolagem igual no IE e Firefox.
 
 Segue código.
@@ -3604,8 +3604,8 @@ Segue código.
 </div>
 </div>
 </p>
-","[jquery, css]",false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179555,0,0,false,null,0,Tue Jan 24 11:44:39 BRT 2017,null,0,33,Auth0 - Melhores praticas: armazenar dados do usuário em minha base de dados ou somente no auth0?,"Eu tenho seguinte situação em uma aplicação para escolas:
+","[jquery, css]",false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179555,0,0,false,null,0,Tue Jan 24 11:44:39 BRT 2017,null,0,34,Auth0 - Melhores praticas: armazenar dados do usuário em minha base de dados ou somente no auth0?,"Eu tenho seguinte situação em uma aplicação para escolas:
 
 O responsável pela escola cria uma conta. (Vamos descreve-lo aqui de dono).
 O dono da escola cadastra seus professores para acessarem o aplicativo.
@@ -3643,16 +3643,16 @@ Os usuários professores registram os alunos e relacionam eles a uma turma.</p>
 <p>my table student [auth0_id, documents]</p>
 
 <p>Obervação: vou precisar consultar as informações de perfil do aluno com muita frequência.</p>
-","[autenticação, auth]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179554,0,0,false,null,0,Tue Jan 24 11:41:06 BRT 2017,null,0,20,Mudar cor Scrollspy (Bootstrap),"Nao estou conseguindo mudar a cor do background do menu que está em foco quando a pagina é rolada, ele so fica preto.
+","[autenticação, auth]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+179554,0,0,false,null,0,Tue Jan 24 11:41:06 BRT 2017,null,0,22,Mudar cor Scrollspy (Bootstrap),"Nao estou conseguindo mudar a cor do background do menu que está em foco quando a pagina é rolada, ele so fica preto.
 
 ja tentei active, hover, focus e nada...
 
 ","<p>Nao estou conseguindo mudar a cor do background do menu que está em foco quando a pagina é rolada, ele so fica preto.</p>
 
 <p>ja tentei active, hover, focus e nada...</p>
-",[bootstrap],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179553,0,0,false,null,2,Tue Jan 24 11:40:54 BRT 2017,Sat Jan 28 14:01:26 BRT 2017,0,113,Formulário angular com laravel,"Eu tenho duas tabelas: Convites e Processo.
+",[bootstrap],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179553,0,0,false,null,2,Tue Jan 24 11:40:54 BRT 2017,Sat Jan 28 14:01:26 BRT 2017,0,116,Formulário angular com laravel,"Eu tenho duas tabelas: Convites e Processo.
 
 Um processo pode ter um convite , assim como um convite pertence a um processo.
 
@@ -3985,8 +3985,8 @@ $scope.excluir = function(data){
 <p>um dos problemas eu resolvi, era um erro básico de fechamento de tag, mas agora eu não consigo passar os dados de um controller para outro, pois se coloco o input fora do procconvitController ele não pega os dados, mas também com o input dentro ele não passa para o convitesController.</p>
 
 <p>Resolvi o problema de passar os dados, usei o #rootscope</p>
-","[angularjs, laravel]",false,0,false,0,0,false,4124,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179517,0,0,false,null,0,Tue Jan 24 10:39:09 BRT 2017,Wed Jan 25 15:38:24 BRT 2017,0,34,Adicionar css transition em div no Flexslider,"Possuo um flexslider em um Projeto, nele tenho a imagem de fundo e dentro uma div com descrição e botão para link externo.
+","[angularjs, laravel]",false,0,false,0,0,false,4124,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179517,0,0,false,null,0,Tue Jan 24 10:39:09 BRT 2017,Wed Jan 25 15:38:24 BRT 2017,0,35,Adicionar css transition em div no Flexslider,"Possuo um flexslider em um Projeto, nele tenho a imagem de fundo e dentro uma div com descrição e botão para link externo.
 O que necessito fazer é que a cada mudança de slide, essa div tenha uma transição, como se fosse dar left 0 e até 3 segundos dar o left 400 por exemplo ou algo com opacidade.
 Alguém já precisou fazer alguma animação semelhante dentro do Flexslider?
 
@@ -4106,7 +4106,7 @@ Alguém já precisou fazer alguma animação semelhante dentro do Flexslider?</p
 <p>Algo semelhante a <a href=""http://www.ajarunthomas.com/jquery/ajSlider/demo/"" rel=""nofollow noreferrer"">este slider</a>.</p>
 
 <p>Caso possível, recomendar algum Slider com esta função já implementada também facilitaria.</p>
-","[javascript, jquery, css, css3, flexslider]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, jquery, css, css3, flexslider]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179503,0,0,false,null,1,Tue Jan 24 10:08:35 BRT 2017,null,0,23,AngularJs 1.6.X + Flickr API exibir Albums de foto,"bom dia.
 
 Estou tentando criar uma página super simples com html + AngularJs + Flickr API. O que eu preciso fazer é, listar numa página Html os meus albums do flickr(thumbnail + titulo para cada album) e quando a pessoa clicar no album exibir as fotos dele(numa nova página ou modal ainda não sei rs).
@@ -4124,8 +4124,8 @@ Grande abraço.","<p>bom dia.</p>
 <p>Agradeço desde já.</p>
 
 <p>Grande abraço.</p>
-","[html, angularjs, web-service, api]",false,0,false,0,0,false,1599,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179502,0,0,false,null,0,Tue Jan 24 10:06:09 BRT 2017,null,0,55,Como iniciar uma aplicação Java web utilizando o Http Plataform Handler no IIS?,"Com base nesse artigo https://azure.microsoft.com/en-us/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/, segui o passo a passo para tentar subir a aplicação nesse servidor, porém sem sucesso. Já possuo um servidor com o IIS 10.0. O procedimento realizado foi o seguinte:
+","[html, angularjs, web-service, api]",false,0,false,0,0,false,1599,Sem Resposta,Sem resposta/comentario,0,1,0,1,0
+179502,0,0,false,null,0,Tue Jan 24 10:06:09 BRT 2017,null,0,59,Como iniciar uma aplicação Java web utilizando o Http Plataform Handler no IIS?,"Com base nesse artigo https://azure.microsoft.com/en-us/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/, segui o passo a passo para tentar subir a aplicação nesse servidor, porém sem sucesso. Já possuo um servidor com o IIS 10.0. O procedimento realizado foi o seguinte:
 
  - Download e instalação do HttpPlataformHandler x64 - https://www.iis.net/downloads/microsoft/httpplatformhandler
  - Download do Tomcat 8 - http://tomcat.apache.org/download-80.cgi
@@ -4206,8 +4206,8 @@ Agradeço desde já qualquer sugestão. ","<p>Com base nesse artigo <a href=""ht
 <p>Como a request não me retorna nenhum erro, não consigo entender o que pode estar barrando essa requisição. </p>
 
 <p>Agradeço desde já qualquer sugestão. </p>
-","[java, servidor, tomcat, iis]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179484,0,0,false,null,2,Tue Jan 24 09:27:31 BRT 2017,Tue Jan 24 12:38:22 BRT 2017,0,139,Bootstrap File Input com asp.net MVC,"Estou utilizando o Bootstrap File Input (http://plugins.krajee.com/file-advanced-usage-demo) no meu projeto Asp.Net MVC mas ele possui um bug que quando adiciono algum arquivo e depois acrescento outro ele continua exibindo na tela todos mas só posta os últimos arquivos adicionados. Alguém já passou por isso e conseguiu solucionar ? O máximo que cheguei foi no método $(""#File"").fileinput('getFileStack') que retorna um array dos arquivos mas também não estou conseguindo postar esse array para o server. Fico no aguardo. Obrigado.
+","[java, servidor, tomcat, iis]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+179484,0,0,false,null,2,Tue Jan 24 09:27:31 BRT 2017,Tue Jan 24 12:38:22 BRT 2017,0,143,Bootstrap File Input com asp.net MVC,"Estou utilizando o Bootstrap File Input (http://plugins.krajee.com/file-advanced-usage-demo) no meu projeto Asp.Net MVC mas ele possui um bug que quando adiciono algum arquivo e depois acrescento outro ele continua exibindo na tela todos mas só posta os últimos arquivos adicionados. Alguém já passou por isso e conseguiu solucionar ? O máximo que cheguei foi no método $(""#File"").fileinput('getFileStack') que retorna um array dos arquivos mas também não estou conseguindo postar esse array para o server. Fico no aguardo. Obrigado.
 
 Abaixo segue o trecho da View onde está o upload.
 
@@ -4246,7 +4246,7 @@ E no server eu apanho os arquivos através do `Request.Files`. O problema ocorre
 </code></pre>
 
 <p>E no server eu apanho os arquivos através do <code>Request.Files</code>. O problema ocorre que quando adiciono arquivos e acrescento outros depois (Ex.: Adiciono 2 .pdf e depois mais 3 .pdf totalizando 3) ele só posta os últimos adicionados.</p>
-","[file-upload, multiple-file-upload]",false,0,false,0,0,false,15,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[file-upload, multiple-file-upload]",false,0,false,0,0,false,15,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 179481,0,0,false,null,3,Tue Jan 24 09:22:21 BRT 2017,null,1,26,"Classes PHP que retorna ""alerts"" css","Estou desenvolvendo uma aplicação pequena que servirá para atualizar meus conhecimentos, porem, no desenvolvimento do mesmo me deparei com algumas situações inconsistentes.
 Gostaria que meu ""CRUD"" retornasse um ""div"" que exibirá um ""alert"" css quando executado pelo browser, mas quando executo, somente o alert é exibido e todo o restante do formulário desaparece(executando na mesma página).
 
@@ -4337,7 +4337,7 @@ public function deleteDB($sql,$params=null){
 
 <p>Por fim, pensei em outras formas, ate mesmo em uma nova classe para tratar os erros, mas gostaria de algo simples como o exemplo mostrado acima.
 Se alguém puder me ajudar agradeço ;)</p>
-","[php, bootstrap-3, crud]",false,0,false,0,0,false,25,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, bootstrap-3, crud]",false,0,false,0,0,false,25,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 54371,0,0,false,null,12,Sat Mar 14 20:18:19 BRT 2015,Sat Mar 14 20:38:52 BRT 2015,1,49,preg_match retornando mag_glass,"<!-- language: lang-php -->
 
     function returnvalue($namearr,$exec){
@@ -4408,13 +4408,13 @@ return $result;
 <p><strong>Obs1:</strong> <em>$exec recebe mais coisas além do o que mostrei aqui, mas para fins de organização coloquei apenas a parte que importa.</em></p>
 
 <p><strong>Obs2:</strong> <em>fiz o teste a mão com regexr, para ver se chegava até o valor correto, e chegou, mas nesta função apenas para o name fb_dtsg o valor é diferente..</em></p>
-",[preg-match],false,0,false,0,0,false,22,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[preg-match],false,0,false,0,0,false,22,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 54364,0,0,false,null,2,Sat Mar 14 17:16:52 BRT 2015,Sat Mar 14 17:33:10 BRT 2015,0,22,Como utilizar o Qhull,"Vocês conhecem o *Qhull*? Ele faz uma triangulação *delaunay*. 
 
 Eu tenho um conjunto de pontos em uma arquivo e estou querendo gerar os vértices, mas não estou conseguindo colocar os comandos no programa.","<p>Vocês conhecem o <em>Qhull</em>? Ele faz uma triangulação <em>delaunay</em>. </p>
 
 <p>Eu tenho um conjunto de pontos em uma arquivo e estou querendo gerar os vértices, mas não estou conseguindo colocar os comandos no programa.</p>
-","[c++, qhull]",false,0,false,0,0,false,0,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[c++, qhull]",false,0,false,0,0,false,0,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 54353,0,0,false,null,17,Sat Mar 14 15:33:59 BRT 2015,Sat Mar 14 17:41:30 BRT 2015,1,81,Problema com join query PHP,"Boas,
 
 E o seguinte eu tenho uma `query` `JOIN` que me faz a consulta a 3 tabelas, que me busca no banco todas as notificações existentes dos seguidores do utilizador actualmente logado. O problema e que agora estava a tentar buscar as informações do utilizador que enviou a notificação, para mostrar na notificação mas a query deixa de me retornar dados. Pelo que pode ver ele retorna 500 error server.
@@ -4566,7 +4566,7 @@ echo json_encode($return);
  #0 /home/sabeonde/public_html/ajax/mostra_notificacoes.php(41): PDOStatement-&gt;execute()
  #1 {main}
 </code></pre>
-","[php, mysql]",false,0,false,0,0,false,92,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, mysql]",false,0,false,0,0,false,92,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 54309,0,0,false,null,10,Fri Mar 13 21:37:26 BRT 2015,null,0,43,WordPress alterando URL ao acessar links,"Tenho um domínio `www.dominio.com.br` que aponta para meu servidor e é redirecionado via `.htaccess` para a subpasta `www.dominio.com.br/novo` através do seguinte código:
 
     RewriteEngine on
@@ -4608,8 +4608,8 @@ RewriteRule . /novo/index.php [L]
 <p>Eu acredito que mudando esse código ou alguma configuração no WordPress eu resolva esse problemas, mas após algumas frustrantes tentativas, não obtive êxito.</p>
 
 <p>Como resolver?</p>
-","[wordpress, apache, htaccess, url, redirecionamento]",false,0,false,0,0,false,37,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54296,0,0,false,Fri Mar 13 22:13:28 BRT 2015,2,Fri Mar 13 19:05:38 BRT 2015,null,0,37,Sistema de notificações,"Boa noite,
+","[wordpress, apache, htaccess, url, redirecionamento]",false,0,false,0,0,false,37,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+54296,0,0,false,Fri Mar 13 22:13:28 BRT 2015,2,Fri Mar 13 19:05:38 BRT 2015,null,0,38,Sistema de notificações,"Boa noite,
 
 Eu tenho um sistema de seguidores, sistema de comentários, gostos e posts e preciso de criar agora um sistema de notificações em que o utilizador que estiver `logado` receba notificações da parte dos utilizadores que está a seguir como por exemplo:
 
@@ -4630,10 +4630,10 @@ João publicou um post
 João gostou de x post</p>
 
 <p>O meu problema e que nunca fiz algo parecido e não sei por onde começar em termos de criação de tabelas necessárias, preciso da vossa ajuda para ter uma ideia simples de fazer este tipo de sistema.</p>
-",[php],false,0,false,0,0,false,19,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54240,0,0,false,Tue Mar 17 10:00:03 BRT 2015,1,Fri Mar 13 14:34:43 BRT 2015,null,2,199,Zend Framework e Symfony,"Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o `Symfony 2` e `Zend Framework 2`? ","<p>Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o <code>Symfony 2</code> e <code>Zend Framework 2</code>? </p>
-","[zend, symfony]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54214,0,0,false,null,12,Fri Mar 13 10:14:56 BRT 2015,Tue Mar 31 14:36:45 BRT 2015,0,489,modal bootstrap,"1º duvida: Eu consigo tratar variáveis em php + MySQL dentro da janela modal?
+",[php],false,0,false,0,0,false,19,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+54240,0,0,false,Tue Mar 17 10:00:03 BRT 2015,1,Fri Mar 13 14:34:43 BRT 2015,null,2,201,Zend Framework e Symfony,"Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o `Symfony 2` e `Zend Framework 2`? ","<p>Comecei a estudar o Symfony 2 e percebi que ele é muito produtivo para o desenvolvimento de sistemas, mas tem pessoas que falam que o Zend Framework 2 é o melhor framework em PHP. Gostaria de saber quais são as principais diferenças entre o <code>Symfony 2</code> e <code>Zend Framework 2</code>? </p>
+","[zend, symfony]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+54214,0,0,false,null,12,Fri Mar 13 10:14:56 BRT 2015,Tue Mar 31 14:36:45 BRT 2015,0,493,modal bootstrap,"1º duvida: Eu consigo tratar variáveis em php + MySQL dentro da janela modal?
 
 Estou tentando chamar um modal na minha pagina *index* e não esta funcionando, já procurei pela solução e também não consegui achar.
 
@@ -4751,7 +4751,7 @@ No inicio da página já tenho um `include` com o cabeçalho e dentro do cabeça
     &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
-","[php, javascript, twitter-bootstrap]",false,0,false,0,0,false,4,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, javascript, twitter-bootstrap]",false,0,false,0,0,false,4,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
 54205,0,0,false,null,3,Fri Mar 13 09:29:06 BRT 2015,Tue May 23 09:37:29 BRT 2017,0,71,Estendendo a classe Filesystem no Laravel 5,"Estou tendo [alguns problemas](https://stackoverflow.com/questions/29023948/laravel-5-file-put-contents-exclusive-locks-are-not-supported-for-this-stre) com a classe Filesystem. Para resolver o meu problema, Eu quero alterar a função put() disso:
 
 
@@ -4785,7 +4785,7 @@ Qual a melhor maneira de fazer isso?","<p>Estou tendo <a href=""https://stackove
 </code></pre>
 
 <p>Qual a melhor maneira de fazer isso?</p>
-","[php, laravel]",false,0,false,0,0,false,3486,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, laravel]",false,0,false,0,0,false,3486,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 54204,0,0,false,null,3,Fri Mar 13 09:26:20 BRT 2015,null,0,47,Tentando exibir rand() apos inserir no db,"Olá,
 
 Estou tentando exibir um numero aleatório com rand() depois de inseri-lo no banco de dados.
@@ -4859,7 +4859,7 @@ if (insereProduto($conexao, $codigo, $produto, $valor, $pedido)) { ?&gt;
 </div>
 </div>
 </p>
-","[php, mysqli]",false,0,false,0,0,false,1,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, mysqli]",false,0,false,0,0,false,1,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 54188,0,0,false,null,2,Fri Mar 13 07:55:49 BRT 2015,Wed Dec 30 13:16:52 BRT 2015,0,68,Erro ao criar Bean SpringMVC,"Sou novo em Java e estou fazendo vários cursos online e tentando desenvolver por conta própria, pra ir treinando, mas me deparei com um erro que não faço idéia como resolver.
 Erro ao criar o bean:
 
@@ -5119,9 +5119,9 @@ public void setYearlevel(int yearlevel) {
 Se alguem puder ajudar agradeço.</p>
 
 <p>Link da video aula: <a href=""https://www.youtube.com/watch?v=rdYQOqxq9F0"" rel=""nofollow"">https://www.youtube.com/watch?v=rdYQOqxq9F0</a></p>
-","[java, hibernate, spring]",false,0,false,0,0,false,36,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, hibernate, spring]",false,0,false,0,0,false,36,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 54175,0,0,false,null,2,Thu Mar 12 23:18:30 BRT 2015,null,2,114,"Desenvolvimento de jogos - OpenGl, Directx","Estou começando a estudar APIs para desenvolvimento gráfico e estou com uma dúvida pertinente. Quando jogos são desenvolvidos, necessariamente são utilizadas APIs. Minha dúvida é em relação ao desenvolvimento do mesmo jogo com APIs diferentes, com finalidade de aumentar a compatibilidade do jogo. Os jogos são desenvolvidos novamente com outra API ou é possível ""converter"" de uma API para outra?","<p>Estou começando a estudar APIs para desenvolvimento gráfico e estou com uma dúvida pertinente. Quando jogos são desenvolvidos, necessariamente são utilizadas APIs. Minha dúvida é em relação ao desenvolvimento do mesmo jogo com APIs diferentes, com finalidade de aumentar a compatibilidade do jogo. Os jogos são desenvolvidos novamente com outra API ou é possível ""converter"" de uma API para outra?</p>
-","[api, opengl, directx]",false,0,false,0,0,false,242,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[api, opengl, directx]",false,0,false,0,0,false,242,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 54154,0,0,false,Thu Mar 12 18:24:40 BRT 2015,5,Thu Mar 12 17:48:45 BRT 2015,Thu Mar 12 18:01:45 BRT 2015,1,20,Preciso gerar páginas separadas para cada anúncio ter uma URL sem parâmetros?,"Estou a desenvolver um site de classificados. Para cada registo na base de dados é necessário gerar uma página para o anúncio em questão, como nos sites de classificados normais.
 
 Eu fiz uma página genérica que se recebesse um id, por parâmetro no url, imprimia os dados armazenados do anúncio de uma forma estruturada. Mas ao invés de um link como eu tenho, do gênero `/anuncio.php?id=1` eu vejo que outros sites têm algo do gênero `/1.php`,
@@ -5133,8 +5133,8 @@ ou seja, aparentemente têm uma pagina guardada para cada anúncio.
 ou seja, aparentemente têm uma pagina guardada para cada anúncio.</p>
 
 <p>É isso mesmo? Como posso gerar essas páginas individuais, ou fazer com que meus URLs funcionem como nos sites que mecionei?</p>
-","[php, url]",false,0,false,0,0,false,13,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128553,0,0,false,null,3,Sat May 14 16:25:25 BRT 2016,Tue Dec 06 15:55:00 BRT 2016,0,77,Indexamento de Vetor em C,"Tenho esta função que é chamada através de um menu de opções:
+","[php, url]",false,0,false,0,0,false,13,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+128553,0,0,false,null,3,Sat May 14 16:25:25 BRT 2016,Tue Dec 06 15:55:00 BRT 2016,0,84,Indexamento de Vetor em C,"Tenho esta função que é chamada através de um menu de opções:
 
     char cad_cliente()//cadastro de clientes
     {   
@@ -5412,8 +5412,8 @@ for(int i = 0; i &lt; MAX; i++)//ciclo de comparação de todos os cpfs cadastra
 return aux;//retorno o valor encontrado por aux.
 }
 </code></pre>
-","[c, array, for]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128542,0,0,false,null,7,Sat May 14 14:06:50 BRT 2016,null,0,35,Sistema de logging PHP,"Queria registar tudo o que acontece no meu site, desde logins, criação de registos (insert), atualização e eliminação. <br>
+","[c, array, for]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+128542,0,0,false,null,7,Sat May 14 14:06:50 BRT 2016,null,0,37,Sistema de logging PHP,"Queria registar tudo o que acontece no meu site, desde logins, criação de registos (insert), atualização e eliminação. <br>
 Parecido com isso: 
 
 > [14-05-2016 17:53] Utilizador andre fez login com IP: 111.111.111.111<br>
@@ -5510,8 +5510,8 @@ echo $output;
 
 <p>Ao colocar isso no <code>eliminar.php</code>, após executar a query na base de dados a página fica extremamente lenta e não regista a entrada.<br>
 Que fiz de errado?</p>
-",[php],false,0,false,0,0,false,103,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128539,0,0,false,null,14,Sat May 14 13:29:16 BRT 2016,null,1,67,Buscar dados PHP pelo Ajax,"estou com um script Ajax aqui que a função dele é a seguinte.. Tenho um sistema de notícias, que ao clicar no titulo vai abrir uma modal e me exibir os dados da noticia (titulo, texto, autor).. porem não sei o que colocar no PHP..
+",[php],false,0,false,0,0,false,103,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+128539,0,0,false,null,14,Sat May 14 13:29:16 BRT 2016,null,1,68,Buscar dados PHP pelo Ajax,"estou com um script Ajax aqui que a função dele é a seguinte.. Tenho um sistema de notícias, que ao clicar no titulo vai abrir uma modal e me exibir os dados da noticia (titulo, texto, autor).. porem não sei o que colocar no PHP..
 
 Este é o código js
 
@@ -5627,7 +5627,7 @@ echo( json_encode( $data ) );
 </code></pre>
 
 <p>Me ajudem!!</p>
-","[php, jquery, ajax, json]",false,0,false,0,0,false,79,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, jquery, ajax, json]",false,0,false,0,0,false,79,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 128537,0,0,false,null,1,Sat May 14 13:15:18 BRT 2016,null,1,28,Como fazer funcionar javascript que mostra div dependendo da opção select em Joomla?,"Tenho um código javascript que revela o conteúdo de uma div variante a selecção efectuada num menu drop/down. Este código funciona na perfeição em HTml, no entanto ao tentar implementar num site Joomla 3.0, ele não funciona.
 
 Dentro do php do joomla tenho este script:
@@ -5879,7 +5879,7 @@ defined ( '_JEXEC' ) or die ( 'Restricted access' );
 <p>Na versão 3.0 do joomla, temos de usar a expressão JQuery em vez de $ por defeito, caso seja utilizado o carregamento do Jquery pelo método normal -> JHtml::_('jquery.framework'); 
 O que também já tentei sem sucesso.
 Será a estrutura do javascript que terá de ser colocada de forma diferente?</p>
-","[jquery, joomla]",false,0,false,0,0,false,3126,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[jquery, joomla]",false,0,false,0,0,false,3126,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
 128508,0,0,false,null,1,Sat May 14 01:43:55 BRT 2016,Sat May 14 16:10:20 BRT 2016,1,23,Ionic - item não faz bind no nav-bar,"Tenho um ícone no nav-bar que deve exibir ou não conforme posição true/false do toggle. Testando na view funciona perfeitamente mas o resultado não funciona na nav bar. Ambas as páginas usam o mesmo controller.
 
 **index.html - nav-bar**
@@ -5928,8 +5928,8 @@ angular.module('starter.controllers', [])
   $scope.vaovivo = {'valor':false}
 })
 </code></pre>
-","[javascript, angularjs, ionic]",false,0,false,0,0,false,6685,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128503,0,0,false,null,0,Sat May 14 00:33:35 BRT 2016,Sat May 14 13:26:55 BRT 2016,1,166,document.getElementById não encontra elemento manualmente inserido no DOM,"Olá, eu estou uma dificuldade em obter um elemento através do id de uma Classe com `document.getElementById(id)` do `DOM` usando `Javascript`
+","[javascript, angularjs, ionic]",false,0,false,0,0,false,6685,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+128503,0,0,false,null,0,Sat May 14 00:33:35 BRT 2016,Sat May 14 13:26:55 BRT 2016,1,172,document.getElementById não encontra elemento manualmente inserido no DOM,"Olá, eu estou uma dificuldade em obter um elemento através do id de uma Classe com `document.getElementById(id)` do `DOM` usando `Javascript`
 
 e tenho um estilo de painel em `css`
 
@@ -6126,8 +6126,8 @@ alert(""ID: ""+painel.id); // irá mostrar ""ID: painel""
 </code></pre>
 
 <p>não aparece nada</p>
-","[javascript, dom]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128492,0,0,false,null,4,Fri May 13 21:46:28 BRT 2016,Sat May 14 00:52:41 BRT 2016,1,98,Realizar um SELECT através do C# para um banco Access,"       
+","[javascript, dom]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+128492,0,0,false,null,4,Fri May 13 21:46:28 BRT 2016,Sat May 14 00:52:41 BRT 2016,1,100,Realizar um SELECT através do C# para um banco Access,"       
     private void button1_Click(object sender, EventArgs e)
     {
         OleDbConnection Con = new OleDbConnection();
@@ -6195,7 +6195,7 @@ alert(""ID: ""+painel.id); // irá mostrar ""ID: painel""
       }
 }
 </code></pre>
-",[c#],false,0,false,0,0,false,11,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[c#],false,0,false,0,0,false,11,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 128471,0,0,false,null,1,Fri May 13 19:33:27 BRT 2016,null,1,39,Duvida se está certo meu código em Assembly,"Boa noite, estou começando a estudar assembly e tenho dúvidas sobre o exercício que estou resolvendo. O primeiro estou tentando criar uma seção de variáveis nao inicializadas, e as inicializadas e fazer as seguintes cópias
 n1 = v1
 n2 = v2
@@ -6258,7 +6258,7 @@ mov rax, 1
 mov rbx, 0
 int 0x80
 </code></pre>
-",[assembly],false,0,false,0,0,false,108,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[assembly],false,0,false,0,0,false,108,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 128466,0,0,false,null,6,Fri May 13 18:56:48 BRT 2016,Sun Sep 18 11:39:50 BRT 2016,1,47,Erro ao escolher o tema para formulario,"Estou fazendo um formulário e ao escolher o tema Dialog ele informa que:
 Missing styles. Is the correct theme chosen for this layout?
 conforme vocês podem ver abaixo. Se é que não possa realmente utilizar este tema, tem outra maneira de deixar o formulário com aparência mais amigável? 
@@ -6290,7 +6290,7 @@ conforme vocês podem ver abaixo. Se é que não possa realmente utilizar este t
 <p>e aqui é como esta meu formulario atualmente:</p>
 
 <p><a href=""https://i.stack.imgur.com/ZHjt6.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/ZHjt6.png"" alt=""erros""></a></p>
-","[android, android-layout]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[android, android-layout]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 128427,0,0,false,Fri May 13 16:20:06 BRT 2016,3,Fri May 13 16:16:40 BRT 2016,null,1,20,Qual é a finalidade do comando var quando utilizado na declaração de funções?,"Em JavaScript é possível escrever funções com ou sem a utilização da palavra chave `var`, veja abaixo duas funções que ilustram esta situação:
 
 <!-- begin snippet: js hide: false -->
@@ -6331,7 +6331,7 @@ window.alert(""Subtracao de 20 - 10 eh igual a: "" + subtrai(20, 10));</code></p
 </p>
 
 <p>Perceba que a função <code>soma()</code> utiliza a palavra chave <code>var</code> e a função <code>subtrai()</code> não a utiliza. Sendo assim, eu gostaria de saber qual é a finalidade da utilização da palavra chave <code>var</code> quando é utilizada na declarações de funções e se a utilização dela ou não implica em algo?</p>
-","[javascript, característica-linguagem]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, característica-linguagem]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 128425,0,0,false,null,2,Fri May 13 16:15:11 BRT 2016,null,0,27,UWP InkCanvas borracha média,"Estou fazendo uma aplicação UWP onde tenho o InkCanvas, e implementei a borracha para apagar os desenhos que fiz, mas o modo Erasing é como se fosse a borracha de traços do OneNote, no entanto o que eu preciso seria a Borracha Média do OneNote também, que apenas apagaria onde ela passasse por cima.
 
 [![inserir a descrição da imagem aqui][1]][1]
@@ -6340,8 +6340,8 @@ window.alert(""Subtracao de 20 - 10 eh igual a: "" + subtrai(20, 10));</code></p
   [1]: http://i.stack.imgur.com/5qtWB.jpg","<p>Estou fazendo uma aplicação UWP onde tenho o InkCanvas, e implementei a borracha para apagar os desenhos que fiz, mas o modo Erasing é como se fosse a borracha de traços do OneNote, no entanto o que eu preciso seria a Borracha Média do OneNote também, que apenas apagaria onde ela passasse por cima.</p>
 
 <p><a href=""https://i.stack.imgur.com/5qtWB.jpg"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/5qtWB.jpg"" alt=""inserir a descrição da imagem aqui""></a></p>
-","[c#, windows-10, uwp]",false,0,false,0,0,false,408954,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128344,0,0,false,Fri May 13 10:52:12 BRT 2016,4,Fri May 13 10:38:06 BRT 2016,null,0,31,Erro ao abrir o eclipse,"Esse problema está ocorrendo depois que eu alterei o jdk estava com o 1.7 e passei a usar o 1.8. Alguém sabe a solução?
+","[c#, windows-10, uwp]",false,0,false,0,0,false,408954,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+128344,0,0,false,Fri May 13 10:52:12 BRT 2016,4,Fri May 13 10:38:06 BRT 2016,null,0,32,Erro ao abrir o eclipse,"Esse problema está ocorrendo depois que eu alterei o jdk estava com o 1.7 e passei a usar o 1.8. Alguém sabe a solução?
 Segue mensagem ao tentar abrir o eclipse.
 
     java was started but returned exit code=13 
@@ -6364,7 +6364,7 @@ C:\ProgramData\Oracle\lava\javapath\javaw.exe
  -launcher C:\ Eclipse-mais-atual \ eclipse\ eclipse.exe -name Eclipse --launcher.library C:\ Eclipse-mais-atual \ eclipse\\pluginstorg.eclipse.equinox.launcher.win32.win32. x86_64_1.1.300.v20150602-1417 \ eclipse_1611.d11 -startup C:\ Eclipse-mais-atual \ eclipse\\pluginstorg.eclipse.equinox.launcher_1.3.100.v201 50511-1540.jar --launcher.appendVmargs -exitdata 1730_60 -product org.eclipsesepp.package.jee.product -vm 
 C:\ProgramData\Oracle\Java\javapath\javaw.exe -vmargs -DosgisequiredlavaVersion=1.8 -Xms256m -Xmx1024m -jar C:\ Eclipse-mais-atual \ eclipse\\pluginstorg.eclipse.equinox.launcher_1.3.100.v201 50511-1540.jar OK • 
 </code></pre>
-","[java, eclipse]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, eclipse]",false,0,false,0,0,false,2,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 128299,0,0,false,null,1,Thu May 12 22:47:00 BRT 2016,Fri May 13 00:49:37 BRT 2016,1,65,Redirecionamento do Login em diferentes páginas no meu tema Woocommerce,"Estou desenvolvendo meu próprio tema de Woocommerce, e agora preciso fazer um redirecionamento após efetuar o login em uma determinada página onde estou usando o formulário de login do Woocommerce.
 
 Para isso adicionei a seguinte função na functions.php
@@ -6402,8 +6402,8 @@ O formulário da minha-conta, continua redirecionando para a página minha-conta
 Do modo que está, todos meus formulários de login do Woocommerce estão redirecionando para a página finalizar-compra. A condicional não está sendo respeitada.</p>
 
 <p>Se alguém puder me ajudar, ficarei muito grata.</p>
-","[php, wordpress, woocommerce]",false,0,false,0,0,false,784,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128298,0,0,false,null,3,Thu May 12 22:37:16 BRT 2016,null,0,66,"Pool de conexão PHP:PDO com PostgreSQL, o que usar?","Pensando no seguinte esquema: <br>
+","[php, wordpress, woocommerce]",false,0,false,0,0,false,784,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+128298,0,0,false,null,3,Thu May 12 22:37:16 BRT 2016,null,0,68,"Pool de conexão PHP:PDO com PostgreSQL, o que usar?","Pensando no seguinte esquema: <br>
 Servidor linux (Pode ser Ubuntu Server) +<br>
 PHP utilizando PDO +<br>
 PostgreSQL +<br>
@@ -6423,7 +6423,7 @@ Algum pool de conexão<br>
 Gostaria de alguma dica de pool (que seja confiável) para gerenciar as conexões com o banco de dados. Não sei se PDO lida tao bem quanto um POOL de conexão.<br>
 <br>
 Grato desde já!</p>
-","[php, pdo, postgresql, apache, ubuntu]",false,0,false,0,0,false,483,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, pdo, postgresql, apache, ubuntu]",false,0,false,0,0,false,483,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 235161,0,0,false,null,3,Tue Sep 05 20:43:01 BRT 2017,Tue Sep 05 20:47:07 BRT 2017,0,22,"Erro ""ConcurrentModificationException"" ao modificar (inserir dados no) ArrayList","Estou tentando criar um pequeno sistema de login em Java.
 
 Tenho as seguintes classes:
@@ -6620,8 +6620,8 @@ at crm.controller.LoginController.main(LoginController.java:27)
 <p>Eu acho que seja algum erro no ArrayList. Eu estou tentando usar um único ArrayList para as duas classes.</p>
 
 <p>Queria ajuda para resolver esse erro. Agradeço desde agora.</p>
-","[java, arraylist]",false,0,false,0,0,false,9,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235156,0,0,false,null,0,Tue Sep 05 20:22:56 BRT 2017,null,0,26,Manter parte da página HTML,"Tenho uma aplicação que já está funcionando a algum tempo, rodando com Django no backend, e jQuery no frontend.
+","[java, arraylist]",false,0,false,0,0,false,9,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235156,0,0,false,null,0,Tue Sep 05 20:22:56 BRT 2017,null,0,27,Manter parte da página HTML,"Tenho uma aplicação que já está funcionando a algum tempo, rodando com Django no backend, e jQuery no frontend.
 
 Desenvolvemos um sistema de notificação para integrar com a nossa aplicação utilizando websocket.
 
@@ -6644,7 +6644,7 @@ Se simplesmente implementarmos algo para juntar o nosso frontend com o sistema d
 <p><strong>Pergunta:</strong></p>
 
 <p>Alguém conhece algo semelhante ao turbolinks que seja capaz de manter a conexão aberta nas trocas de página?</p>
-","[javascript, jquery, html, django]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, jquery, html, django]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 235150,0,0,false,Tue Sep 05 20:25:09 BRT 2017,0,Tue Sep 05 20:08:06 BRT 2017,Tue Sep 05 20:11:08 BRT 2017,-2,12,Ajuda para usar um return,"Olá estou fazendo um bot e sou novo no assunto, gostaria de um chamado para quando sair um green no site de apostas onde meu bot funciona voltar a base.
 
 
@@ -6934,8 +6934,8 @@ $(""input"").val(""13"");
 $("".btn-bet.green"").click();
 }, 800000);
 </code></pre>
-",[javascript],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235138,0,0,false,null,1,Tue Sep 05 19:30:03 BRT 2017,Wed Sep 06 08:22:18 BRT 2017,0,28,Como escurecer o segundo plano quando esta div estiver ativa?,"    <!DOCTYPE html>
+",[javascript],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235138,0,0,false,null,1,Tue Sep 05 19:30:03 BRT 2017,Wed Sep 06 08:22:18 BRT 2017,0,32,Como escurecer o segundo plano quando esta div estiver ativa?,"    <!DOCTYPE html>
     <html lang="""">
        <head>
           <meta charset=""utf-8"">
@@ -7085,7 +7085,7 @@ $("".btn-bet.green"").click();
    &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-","[javascript, css, html5]",false,0,false,0,0,false,2576,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, css, html5]",false,0,false,0,0,false,2576,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
 235137,0,0,false,Thu Sep 07 20:31:37 BRT 2017,2,Tue Sep 05 19:19:47 BRT 2017,Tue Sep 05 20:03:15 BRT 2017,-2,19,Array de um select,"Preciso fazer um ARRAY de um Select do banco de dados..
 
 O exemplo que tenho abaixo monta um array assim, como faço para fazer, me confundi aqui..pois nunca havia pego um array como este:
@@ -7106,8 +7106,8 @@ O exemplo que tenho abaixo monta um array assim, como faço para fazer, me confu
    'descricao' =&gt; $descricao,
    'preco' =&gt; $preco);
 </code></pre>
-",[php],false,0,false,0,0,false,9,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235128,0,0,false,null,0,Tue Sep 05 18:23:50 BRT 2017,null,0,9,Como automatizar a geração de uma branch a partir de outras branchs com Jenkins ou GitLab,"Imaginem que eu tenho as seguintes branchs
+",[php],false,0,false,0,0,false,9,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+235128,0,0,false,null,0,Tue Sep 05 18:23:50 BRT 2017,null,0,10,Como automatizar a geração de uma branch a partir de outras branchs com Jenkins ou GitLab,"Imaginem que eu tenho as seguintes branchs
 
 --- features/logs
 
@@ -7130,7 +7130,7 @@ Preciso que esse processo seja simples para que um cara que não conhece o proje
 
 <p>Existe como automatizar isso com Jenkins ou Gitlab ?
 Preciso que esse processo seja simples para que um cara que não conhece o projeto possa fazer</p>
-","[jenkins, integração-contínua, gitlab]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[jenkins, integração-contínua, gitlab]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
 235118,0,0,false,null,0,Tue Sep 05 17:54:29 BRT 2017,null,0,10,"Fazer tipo um dir base, como se faz na web tem como fazer com xamarin?","Quando trabalhamos com web, muitas vezes setamos o dir base, assim:
 
     ../minhapasta/meu_arquivo.extensão
@@ -7150,8 +7150,8 @@ Tem como eu fazer isso com xamarin.forms, sem que eu sete o path completo do min
 </code></pre>
 
 <p>Tem como eu fazer isso com xamarin.forms, sem que eu sete o path completo do minha imagem ou outro arquivo?</p>
-","[android, xamarin, xamarin-forms]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235100,0,0,false,null,0,Tue Sep 05 17:16:30 BRT 2017,Tue Sep 05 17:30:06 BRT 2017,0,13,Problemas com Hibernate (hbm.xml). Insira a falsa atualização falsa em uma relação muito-para-um,"estou enfrentando um problema com mapeamento de classes no hibernate.
+","[android, xamarin, xamarin-forms]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+235100,0,0,false,null,0,Tue Sep 05 17:16:30 BRT 2017,Tue Sep 05 17:30:06 BRT 2017,0,18,Problemas com Hibernate (hbm.xml). Insira a falsa atualização falsa em uma relação muito-para-um,"estou enfrentando um problema com mapeamento de classes no hibernate.
 Estou tentando fazer uma relação many-to-one utilizando um composite-id.
 e o mapeamento esta retornando 
 
@@ -7250,8 +7250,8 @@ segue os arquivos hbm.</p>
     &lt;/class&gt;
 &lt;/hibernate-mapping&gt;
 </code></pre>
-","[java, xml, hibernate]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235082,0,0,false,null,1,Tue Sep 05 16:39:51 BRT 2017,Tue Sep 05 17:11:00 BRT 2017,1,14,A utilização da função handler esta pulando os ids. Como faço para isso não acontecer?,"Veja o exemplo:
+","[java, xml, hibernate]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+235082,0,0,false,null,1,Tue Sep 05 16:39:51 BRT 2017,Tue Sep 05 17:11:00 BRT 2017,1,15,A utilização da função handler esta pulando os ids. Como faço para isso não acontecer?,"Veja o exemplo:
 
     create table time(
     id int not null primary key auto_increment,
@@ -7297,8 +7297,8 @@ select * from time;
 <p>Se eu ""chamar"" e inserir <em>brasil</em> novamente ele trava corretamente, até ai tudo ok. Mas quando vou inserir um time que ainda não existe ele insere corretamente, mas pula os ids nas respectivas vezes que tentei inserir brasil novamente e deu errado.</p>
 
 <p>Por exemplo: se eu tentar inserir brasil 5 vezes ele insere a primeira e da erro nas outras. Mas depois quando eu for inserir ""mexico"" ele insere corretamente mas no id = 6.</p>
-","[mysql, handler]",false,0,false,0,0,false,106,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235075,0,0,false,null,0,Tue Sep 05 16:22:27 BRT 2017,null,0,25,Ler o conteúdo de uma página externa (...E executar um js antes),"É o seguinte, eu sempre fiz a leitura de uma pagina externa com um componente tipo AspHTTP.Conn, Dynu.HTTP, MSXML2.XMLHTTP, Microsoft.XMLHTTP. Basicamente:
+","[mysql, handler]",false,0,false,0,0,false,106,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+235075,0,0,false,null,0,Tue Sep 05 16:22:27 BRT 2017,null,0,33,Ler o conteúdo de uma página externa (...E executar um js antes),"É o seguinte, eu sempre fiz a leitura de uma pagina externa com um componente tipo AspHTTP.Conn, Dynu.HTTP, MSXML2.XMLHTTP, Microsoft.XMLHTTP. Basicamente:
 
     <%
     Set XMLHttp = Server.CreateObject(""Microsoft.XMLHTTP"")
@@ -7397,8 +7397,8 @@ function downloadFile()
 }
 &lt;/script&gt;
 </code></pre>
-","[javascript, asp.net-mvc, asp.net, asp, xmlhttprequest]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235061,0,0,false,null,0,Tue Sep 05 15:54:55 BRT 2017,null,0,12,Pesquisa usando um array no MongoDB?,"Estou salvando os emails da minha aplicação em HapiJS no MongoDB, e a cada vez que eu fizer a busca no provedor quero comparar tudo o que vem dele com o que tenho no DB e quero salvar somente os emails diferentes, aqueles que ainda não estiverem cadastrados no DB.
+","[javascript, asp.net-mvc, asp.net, asp, xmlhttprequest]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235061,0,0,false,null,0,Tue Sep 05 15:54:55 BRT 2017,null,0,14,Pesquisa usando um array no MongoDB?,"Estou salvando os emails da minha aplicação em HapiJS no MongoDB, e a cada vez que eu fizer a busca no provedor quero comparar tudo o que vem dele com o que tenho no DB e quero salvar somente os emails diferentes, aqueles que ainda não estiverem cadastrados no DB.
 
 O resultado da requisição ao provedor é tratada previamente e é feito um array de objetos. Quero que para cada objeto seja percorrido todo o a collection do Mongo, porém não estou conseguindo fazer, segue código:
 
@@ -7513,8 +7513,8 @@ O resultado da requisição ao provedor é tratada previamente e é feito um arr
 </code></pre>
 
 <p>});</p>
-","[javascript, array, email, mongodb, hapijs]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235057,0,0,false,null,9,Tue Sep 05 15:48:30 BRT 2017,Tue Sep 12 13:24:02 BRT 2017,3,63,Tratando a lógica e exeções - jQuery,"Eu tenho alguns botões do qual no `onclick` dos mesmos trabalham com duas requisições Ajax para um arquivo externo que adicionam produtos, mas isso não é de extrema importância nessa questão. O meu problema é o seguinte: se o botão comprar for clicado, o produto é adicionado, porém se a página for atualizada o mesmo estará lá, mas eu só posso ter um produto do mesmo de cada vez e se depois da página atualizada o botão comprar for clicado novamente, outro produto é adicionado e isso não pode acontecer, pois o que já estiver adicionado deve ser retirado a partir da função `removeCartaotoCart` para que o novo seja adicionado, para que eu tenha somente um produto por vez.
+","[javascript, array, email, mongodb, hapijs]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235057,0,0,false,null,9,Tue Sep 05 15:48:30 BRT 2017,Tue Sep 12 13:24:02 BRT 2017,3,67,Tratando a lógica e exeções - jQuery,"Eu tenho alguns botões do qual no `onclick` dos mesmos trabalham com duas requisições Ajax para um arquivo externo que adicionam produtos, mas isso não é de extrema importância nessa questão. O meu problema é o seguinte: se o botão comprar for clicado, o produto é adicionado, porém se a página for atualizada o mesmo estará lá, mas eu só posso ter um produto do mesmo de cada vez e se depois da página atualizada o botão comprar for clicado novamente, outro produto é adicionado e isso não pode acontecer, pois o que já estiver adicionado deve ser retirado a partir da função `removeCartaotoCart` para que o novo seja adicionado, para que eu tenha somente um produto por vez.
 
 <b>Código dos botões:</b>
 
@@ -7689,283 +7689,8 @@ O resultado da requisição ao provedor é tratada previamente e é feito um arr
 </code></pre>
 
 <p><b>Observação: A partir da variável <code>productSelected</code>, eu consigo tratar uma exceção: se o botão comprar for clicado e já houver um produto adicionado, o mesmo é removido para o novo ser adicionado, porém essa outra exceção com relação a atualizar a página não sei como devo prosseguir para soluciona-lá. Acho que o correto a se fazer é na atualização da página ele remover o produto que foi adicionado segundo o botão comprar, a partir do seu id.</b></p>
-","[javascript, jquery, ajax]",false,0,false,0,0,false,21,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235048,0,0,false,null,0,Tue Sep 05 15:32:08 BRT 2017,Tue Sep 05 15:48:43 BRT 2017,1,35,Clique duplo em botão primefaces para executar método,"Estou desenvolvendo uma aplicação em JavaWeb com o framework BootsFaces e PrimeFaces.  
-
-Em uma das minhas telas tenho um form com um datatable do BootsFaces que ao clicar em uma de suas linhas aciona o método selecionaUsuario() que atualiza o formulário de alteração, porém quando chamo o método alteraUsuario() neste mesmo formulário(teste) necessito clicar mais de uma vez no botão para o método ser executado. 
-
-Já procurei aqui no stack e em outros fóruns, encotrei algumas respostas porém nenhuma solucionou meu problema.  Como posso resolver isto?
-
-    <h:body>
-            <h:form id=""frmPrincipal"">
-                <div class=""mainGrowl"">
-                    <p:growl id=""message"" class=""mainGrowl"" showDetail=""true"" sticky=""true""  />
-                </div>
-    
-                <div class=""change"" style=""width: 1230px;"">
-                    <b:dataTable value=""#{beanUsuario.usuarios}"" style=""width: 100%; "" id=""tabelaUsuario""
-                                 page-length=""5"" page-length-menu=""5,10,20,50,100"" var=""usuario""
-                                 widgetVar=""usuario"" customLangUrl=""json/Portuguese-Brasil.json"" 
-                                 select=""true"" selectionMode=""single"" 
-                                 onselect=""ajax:beanUsuario.selecionaUsuario(usuario);""
-                                 
-                                 >
-                        <b:dataTableColumn value=""#{usuario.usuarioNome}"" header-style=""text-align:center;border-right:none;"" 
-                                           content-style=""border:none; text-align:center;"" label=""Nome""/>
-                        <b:dataTableColumn value=""#{usuario.usuarioEmail}"" header-style=""text-align:center;"" 
-                                           content-style=""border:none; text-align:center;"" label=""Email""/>
-                        
-                    </b:dataTable>
-                </div>
-               
-                
-            </h:form>
-            <h:form id=""teste"">
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioNome}""/>
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioEmail}""/>
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioEnd}""/>
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioTel}""/>
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioDesc}""/>
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioSenha}""/>
-                <p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioTel}""/>
-                <p:commandButton actionListener=""#{beanUsuario.alteraUsuario}"" value=""alterar""/>
-            </h:form>
-
-Este é meu Bean:
-
-    package controller;
-    
-    import ejb.UsuarioFacadeLocal;
-    import java.io.Serializable;
-    import model.Usuario;
-    import javax.inject.Named;
-    import java.util.ArrayList;
-    import java.util.List;
-    import javax.annotation.PostConstruct;
-    import javax.ejb.EJB;
-    import javax.enterprise.context.SessionScoped;
-    import javax.faces.application.FacesMessage;
-    import javax.faces.context.FacesContext;
-    
-    import org.primefaces.context.RequestContext;
-    
-    @Named(value = ""beanUsuario"")
-    @SessionScoped
-    public class BeanUsuario implements Serializable {
-    
-        private Usuario usuarioSelecionado;
-        private List<Usuario> usuarios;
-        private Usuario usuario;
-        
-    
-        @EJB
-        UsuarioFacadeLocal usuarioEJB;
-    
-        @PostConstruct
-        public void init() {
-            usuarios = new ArrayList<Usuario>();
-            usuario = new Usuario();
-            usuarioSelecionado = new Usuario();
-        }
-    
-       
-    
-        public void selecionaUsuario(Usuario usuario1) {
-            RequestContext context = RequestContext.getCurrentInstance();//INSTANCIANDO VARIÁVEIS DE TELA
-            FacesContext fContext = FacesContext.getCurrentInstance();
-    
-            usuarioSelecionado = usuario1;
-    
-            context.update(""teste"");
-            
-            fContext.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, ""Selecionado!"", usuarioSelecionado.getUsuarioNome()));//ADICIONANDO MENSAGEM AO GROWL DA TELA
-            context.update(""frmPrincipal:message"");
-    
-            
-        }
-    
-        public void alteraUsuario() {
-            RequestContext context = RequestContext.getCurrentInstance();//INSTANCIANDO VARIÁVEIS DE TELA
-            
-                usuarioEJB.edit(usuarioSelecionado); //ENVIANDO INSTRUÇÃO PARA O BANCO
-                
-                usuarioSelecionado = new Usuario(); //RESETANDO O USUÁRIO 
-                
-                context.update(""teste"");
-              
-                context.update(""frmPrincipal"");
-        }
-    
-        public Usuario getUsuario() {
-            return usuario;
-        }
-    
-        public void setUsuario(Usuario usuario) {
-            this.usuario = usuario;
-        }
-    
-        public Usuario getUsuarioSelecionado() {
-            return usuarioSelecionado;
-        }
-    
-        public void setUsuarioSelecionado(Usuario usuarioSelecionado) {
-            this.usuarioSelecionado = usuarioSelecionado;
-        }
-    
-        public List<Usuario> getUsuarios() {
-            usuarios = usuarioEJB.findAll();
-            return usuarios;
-        }
-    
-        public void setUsuarios(ArrayList<Usuario> usuarios) {
-            this.usuarios = usuarios;
-        }
-    
-        public void setUsuarios(List<Usuario> usuarios) {
-            this.usuarios = usuarios;
-        } 
-    }
-
-
-","<p>Estou desenvolvendo uma aplicação em JavaWeb com o framework BootsFaces e PrimeFaces.  </p>
-
-<p>Em uma das minhas telas tenho um form com um datatable do BootsFaces que ao clicar em uma de suas linhas aciona o método selecionaUsuario() que atualiza o formulário de alteração, porém quando chamo o método alteraUsuario() neste mesmo formulário(teste) necessito clicar mais de uma vez no botão para o método ser executado. </p>
-
-<p>Já procurei aqui no stack e em outros fóruns, encotrei algumas respostas porém nenhuma solucionou meu problema.  Como posso resolver isto?</p>
-
-<pre><code>&lt;h:body&gt;
-        &lt;h:form id=""frmPrincipal""&gt;
-            &lt;div class=""mainGrowl""&gt;
-                &lt;p:growl id=""message"" class=""mainGrowl"" showDetail=""true"" sticky=""true""  /&gt;
-            &lt;/div&gt;
-
-            &lt;div class=""change"" style=""width: 1230px;""&gt;
-                &lt;b:dataTable value=""#{beanUsuario.usuarios}"" style=""width: 100%; "" id=""tabelaUsuario""
-                             page-length=""5"" page-length-menu=""5,10,20,50,100"" var=""usuario""
-                             widgetVar=""usuario"" customLangUrl=""json/Portuguese-Brasil.json"" 
-                             select=""true"" selectionMode=""single"" 
-                             onselect=""ajax:beanUsuario.selecionaUsuario(usuario);""
-
-                             &gt;
-                    &lt;b:dataTableColumn value=""#{usuario.usuarioNome}"" header-style=""text-align:center;border-right:none;"" 
-                                       content-style=""border:none; text-align:center;"" label=""Nome""/&gt;
-                    &lt;b:dataTableColumn value=""#{usuario.usuarioEmail}"" header-style=""text-align:center;"" 
-                                       content-style=""border:none; text-align:center;"" label=""Email""/&gt;
-
-                &lt;/b:dataTable&gt;
-            &lt;/div&gt;
-
-
-        &lt;/h:form&gt;
-        &lt;h:form id=""teste""&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioNome}""/&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioEmail}""/&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioEnd}""/&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioTel}""/&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioDesc}""/&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioSenha}""/&gt;
-            &lt;p:inputText value=""#{beanUsuario.usuarioSelecionado.usuarioTel}""/&gt;
-            &lt;p:commandButton actionListener=""#{beanUsuario.alteraUsuario}"" value=""alterar""/&gt;
-        &lt;/h:form&gt;
-</code></pre>
-
-<p>Este é meu Bean:</p>
-
-<pre><code>package controller;
-
-import ejb.UsuarioFacadeLocal;
-import java.io.Serializable;
-import model.Usuario;
-import javax.inject.Named;
-import java.util.ArrayList;
-import java.util.List;
-import javax.annotation.PostConstruct;
-import javax.ejb.EJB;
-import javax.enterprise.context.SessionScoped;
-import javax.faces.application.FacesMessage;
-import javax.faces.context.FacesContext;
-
-import org.primefaces.context.RequestContext;
-
-@Named(value = ""beanUsuario"")
-@SessionScoped
-public class BeanUsuario implements Serializable {
-
-    private Usuario usuarioSelecionado;
-    private List&lt;Usuario&gt; usuarios;
-    private Usuario usuario;
-
-
-    @EJB
-    UsuarioFacadeLocal usuarioEJB;
-
-    @PostConstruct
-    public void init() {
-        usuarios = new ArrayList&lt;Usuario&gt;();
-        usuario = new Usuario();
-        usuarioSelecionado = new Usuario();
-    }
-
-
-
-    public void selecionaUsuario(Usuario usuario1) {
-        RequestContext context = RequestContext.getCurrentInstance();//INSTANCIANDO VARIÁVEIS DE TELA
-        FacesContext fContext = FacesContext.getCurrentInstance();
-
-        usuarioSelecionado = usuario1;
-
-        context.update(""teste"");
-
-        fContext.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, ""Selecionado!"", usuarioSelecionado.getUsuarioNome()));//ADICIONANDO MENSAGEM AO GROWL DA TELA
-        context.update(""frmPrincipal:message"");
-
-
-    }
-
-    public void alteraUsuario() {
-        RequestContext context = RequestContext.getCurrentInstance();//INSTANCIANDO VARIÁVEIS DE TELA
-
-            usuarioEJB.edit(usuarioSelecionado); //ENVIANDO INSTRUÇÃO PARA O BANCO
-
-            usuarioSelecionado = new Usuario(); //RESETANDO O USUÁRIO 
-
-            context.update(""teste"");
-
-            context.update(""frmPrincipal"");
-    }
-
-    public Usuario getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
-    }
-
-    public Usuario getUsuarioSelecionado() {
-        return usuarioSelecionado;
-    }
-
-    public void setUsuarioSelecionado(Usuario usuarioSelecionado) {
-        this.usuarioSelecionado = usuarioSelecionado;
-    }
-
-    public List&lt;Usuario&gt; getUsuarios() {
-        usuarios = usuarioEJB.findAll();
-        return usuarios;
-    }
-
-    public void setUsuarios(ArrayList&lt;Usuario&gt; usuarios) {
-        this.usuarios = usuarios;
-    }
-
-    public void setUsuarios(List&lt;Usuario&gt; usuarios) {
-        this.usuarios = usuarios;
-    } 
-}
-</code></pre>
-","[java, primefaces]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235024,0,0,false,null,2,Tue Sep 05 15:03:02 BRT 2017,Wed Sep 06 12:21:01 BRT 2017,1,23,Plotando diferentes dados em uma mesma figura usando Python,"Olá, eu preciso fazer alguns plots usando o Python. Eu preciso basicamente carregar diferentes arquivos (730 de um diretório A e 730 de um diretório B) e plotá-los em um mesmo gráfico.
+","[javascript, jquery, ajax]",false,0,false,0,0,false,21,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235024,0,0,false,null,2,Tue Sep 05 15:03:02 BRT 2017,Wed Sep 06 12:21:01 BRT 2017,1,29,Plotando diferentes dados em uma mesma figura usando Python,"Olá, eu preciso fazer alguns plots usando o Python. Eu preciso basicamente carregar diferentes arquivos (730 de um diretório A e 730 de um diretório B) e plotá-los em um mesmo gráfico.
 
 Os arquivos representam valores modelados estando no diretório A. Os valores de controle estao em um diretório B e deveriam aparecer no gráfico como pontos vermelhos (Algo como se fosse parecido com o hold on do matlab).
 
@@ -8161,7 +7886,7 @@ for k in directory:
                 #time.sleep(5)
                 plt.close()
 </code></pre>
-","[python, matplotlib]",false,0,false,0,0,false,0,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[python, matplotlib]",false,0,false,0,0,false,0,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 235019,0,0,false,null,13,Tue Sep 05 14:42:22 BRT 2017,Thu Sep 07 12:17:32 BRT 2017,0,65,Refatorar um banco de dados utilizando VIEWS,"Tenho a tarefa de refatorar um banco de dados e gostaria de saber se `VIEWs` são viáveis para a tarefa.  
 Minha estratégia é criar uma `VIEW` imitando a nova estrutura da suposta tabela, pelo menos o nome da tabela (nome da `VIEW`) e dos campos (aliases das colunas), até que se confirmem as mudanças e eu possa criar a `TABLE` de fato.  
 A preocupação que eu tenho é quanto a performance e viabilidade de integrar as `VIEWS` com a camada `DAO`, a qual também ainda estou implementando.  
@@ -8295,7 +8020,7 @@ FROM
     }
 }
 </code></pre>
-","[php, mysql, banco-de-dados, refatoração, padrão-dao]",false,0,false,0,0,false,238,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, mysql, banco-de-dados, refatoração, padrão-dao]",false,0,false,0,0,false,238,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 235016,0,0,false,null,3,Tue Sep 05 14:34:56 BRT 2017,Tue Sep 05 14:45:57 BRT 2017,3,27,Como separo meus arrays por indice?,"São geradas as caixas de texto correspondentes ao número que o usuário inseriu, cada caixa de texto vem acompanhada de vários checkbox pra escolher o tipo de texto. 
 
 Porém sai assim :
@@ -8310,8 +8035,8 @@ como faço pra juntar os índices? Por exemplo, cada texto com seu id tipo eleme
 </code></pre>
 
 <p>como faço pra juntar os índices? Por exemplo, cada texto com seu id tipo elemento??</p>
-","[array, for]",false,0,false,0,0,false,63,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235004,0,0,false,null,1,Tue Sep 05 14:09:47 BRT 2017,Tue Sep 05 14:12:20 BRT 2017,0,12,Visualização de pdf a partir de um base64 em Angular 2,"Tenho uma aplicação em Angular 2 aonde tenho um cenário que preciso salvar e retornar arquivos em pdf.
+","[array, for]",false,0,false,0,0,false,63,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235004,0,0,false,null,1,Tue Sep 05 14:09:47 BRT 2017,Tue Sep 05 14:12:20 BRT 2017,0,14,Visualização de pdf a partir de um base64 em Angular 2,"Tenho uma aplicação em Angular 2 aonde tenho um cenário que preciso salvar e retornar arquivos em pdf.
 
 Pra 'Salvar' esta ok, no evento change do fileUpload converto pra base64:  
 
@@ -8404,12 +8129,12 @@ reader.onerror = function (error) {
 </code></pre>
 
 <p>Não sei se as config. q estou passando estão corretas</p>
-","[angular-2, base64]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235002,0,0,false,null,3,Tue Sep 05 13:49:29 BRT 2017,null,-1,23,Características Glassfish,"Boa tarde,
+","[angular-2, base64]",false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+235002,0,0,false,null,3,Tue Sep 05 13:49:29 BRT 2017,null,-1,24,Características Glassfish,"Boa tarde,
 estou fazendo um trabalho e um dos tópicos é dizer quais as vantagens do servidor de aplicação Glassfish diante aos outros servidores, não consigo achar muita coisa, está confuso pra mim, ainda mais que não conheço os outros servidores. Alguém tem algum material que poderia disponibilizar pra eu dar uma pesquisada ou alguma informação que seja útil? Obrigada!","<p>Boa tarde,
 estou fazendo um trabalho e um dos tópicos é dizer quais as vantagens do servidor de aplicação Glassfish diante aos outros servidores, não consigo achar muita coisa, está confuso pra mim, ainda mais que não conheço os outros servidores. Alguém tem algum material que poderia disponibilizar pra eu dar uma pesquisada ou alguma informação que seja útil? Obrigada!</p>
-","[glassfish, código-aberto, servidor-de-aplicação]",false,0,false,0,0,false,11,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-234988,0,0,false,Sun Sep 10 17:23:51 BRT 2017,2,Tue Sep 05 13:03:11 BRT 2017,Tue Sep 05 13:37:18 BRT 2017,1,31,"Como usar o ""self"" de forma correta em Python?","Tentei fazer uso do _self_ ao gerar classes, mas ocorre erro. Como devo utilizar de forma correta?
+","[glassfish, código-aberto, servidor-de-aplicação]",false,0,false,0,0,false,11,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+234988,0,0,false,Sun Sep 10 17:23:51 BRT 2017,2,Tue Sep 05 13:03:11 BRT 2017,Tue Sep 05 13:37:18 BRT 2017,1,32,"Como usar o ""self"" de forma correta em Python?","Tentei fazer uso do _self_ ao gerar classes, mas ocorre erro. Como devo utilizar de forma correta?
 
 
     class DataBase:
@@ -8516,33 +8241,7 @@ def end(self):
 
     DataBase.__init__.database.close()
 </code></pre>
-","[python, python-3.x, self]",false,0,false,0,0,false,21,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-234986,0,0,false,null,0,Tue Sep 05 13:01:14 BRT 2017,Tue Sep 05 13:08:32 BRT 2017,0,5,colocar uma imagem abaixo de colunas no Bootstrap,"A estrutura esta correta, o problema, quando eu tento colocar uma imagem, a imagem vai lá para baixo junto com o `footer`, esse print que postei, é como é para ficar o resultado final. O código que estou postando está igual o print, exceto a imagem.
-
-Código [PasteBin][1]
-
-SRC para adicionar a imagem: 
-
-`src=""http://placehold.it/450x150""`
-
-[![inserir a descrição da imagem aqui][2]][2]
-
-Tem alguma classe do *bootstrap* para adicionar a imagem em baixo da coluna 1 e coluna 2 ou tenho que fazer pelo *css*??
-
-
-  [1]: https://pastebin.com/5gp6x6t5
-  [2]: https://i.stack.imgur.com/MWPAK.png","<p>A estrutura esta correta, o problema, quando eu tento colocar uma imagem, a imagem vai lá para baixo junto com o <code>footer</code>, esse print que postei, é como é para ficar o resultado final. O código que estou postando está igual o print, exceto a imagem.</p>
-
-<p>Código <a href=""https://pastebin.com/5gp6x6t5"" rel=""nofollow noreferrer"">PasteBin</a></p>
-
-<p>SRC para adicionar a imagem: </p>
-
-<p><code>src=""http://placehold.it/450x150""</code></p>
-
-<p><a href=""https://i.stack.imgur.com/MWPAK.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/MWPAK.png"" alt=""inserir a descrição da imagem aqui""></a></p>
-
-<p>Tem alguma classe do <em>bootstrap</em> para adicionar a imagem em baixo da coluna 1 e coluna 2 ou tenho que fazer pelo <em>css</em>??</p>
-","[bootstrap-3, front-end]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[python, python-3.x, self]",false,0,false,0,0,false,21,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 234972,0,0,false,Tue Sep 05 12:01:02 BRT 2017,1,Tue Sep 05 11:57:58 BRT 2017,Tue Sep 05 12:01:45 BRT 2017,-1,15,"Erro no php Warning: mysqli_query() expects at least 2 parameters, 1 given in","Não consigo resolver o erro abaixo:
 
 >  mysqli_query() expects at least 2 parameters, 1 given in C:\xampp\htdocs\www\esse\cadastrausuario.php on line 105.
@@ -8795,4 +8494,115 @@ echo ""&lt;meta http-equiv=\""refresh\"" content=\""5;URL="".$urlAcesso.""\""&gt
 
 &lt;/html&gt;
 </code></pre>
-",[php],false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[php],false,0,false,0,0,false,3,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+234970,0,0,false,null,1,Tue Sep 05 11:52:07 BRT 2017,Tue Sep 05 11:54:18 BRT 2017,-2,24,Erro: unexpected character at line 1 column 1 of the J,"Usei o ChartJS para criar gráficos de barra; já baixei jQuery e todas outras bibliotecas e conectei com o MSSQL Server; também baixei as drivers necessários para que haja conecção com o SQL e na minha página de HTML deu-me este erro
+
+> SyntaxError: JSON.parse: unexpected character at line 1 column 1 of
+> the J
+
+Este éo codigo php que usei:
+
+    <?php
+    //setting header to json
+    header('Content-Type:application/json');
+    
+    /* Specify the server and connection string attributes. */  
+    $serverName = ""SILVIO-CSE"";  
+    
+    /* Get UID and PWD from application-specific files.  */  
+    $uid = ""sa"";  
+    $pwd = ""Admin.1234"";  
+    $connectionInfo = array( ""UID""=>$uid,  
+                             ""PWD""=>$pwd,  
+                             ""Database""=>""Spice""); 
+    
+    
+    /* Connect using SQL Server Authentication. */  
+    $conn = sqlsrv_connect( $serverName, $connectionInfo);  
+    if( $conn === false )  
+    {  
+         echo ""Unable to connect.</br>"";  
+         die( print_r( sqlsrv_errors(), true));  
+    }  
+    
+    /* Query SQL Server for the login of the user accessing the  
+    database. */  
+    $tsql = ""select YYYYMM, NumIncidentes from [dbo].[uv_tickets_countLast12Months]
+    order by YYYYMM"";  
+    $stmt = sqlsrv_query( $conn, $tsql);  
+    if( $stmt === false )  
+    {  
+         echo ""Error in executing query.</br>"";  
+         die( print_r( sqlsrv_errors(), true));  
+    }  
+    
+    /* Retrieve and display the results of the query. */  
+    $row = sqlsrv_fetch_array($stmt);  
+    echo ""User login: "".$row[0].""</br>"";  
+    
+    /* Free statement and connection resources. */  
+    sqlsrv_free_stmt( $stmt);  
+    sqlsrv_close( $conn);  
+    ?> 
+
+","<p>Usei o ChartJS para criar gráficos de barra; já baixei jQuery e todas outras bibliotecas e conectei com o MSSQL Server; também baixei as drivers necessários para que haja conecção com o SQL e na minha página de HTML deu-me este erro</p>
+
+<blockquote>
+  <p>SyntaxError: JSON.parse: unexpected character at line 1 column 1 of
+  the J</p>
+</blockquote>
+
+<p>Este éo codigo php que usei:</p>
+
+<pre><code>&lt;?php
+//setting header to json
+header('Content-Type:application/json');
+
+/* Specify the server and connection string attributes. */  
+$serverName = ""SILVIO-CSE"";  
+
+/* Get UID and PWD from application-specific files.  */  
+$uid = ""sa"";  
+$pwd = ""Admin.1234"";  
+$connectionInfo = array( ""UID""=&gt;$uid,  
+                         ""PWD""=&gt;$pwd,  
+                         ""Database""=&gt;""Spice""); 
+
+
+/* Connect using SQL Server Authentication. */  
+$conn = sqlsrv_connect( $serverName, $connectionInfo);  
+if( $conn === false )  
+{  
+     echo ""Unable to connect.&lt;/br&gt;"";  
+     die( print_r( sqlsrv_errors(), true));  
+}  
+
+/* Query SQL Server for the login of the user accessing the  
+database. */  
+$tsql = ""select YYYYMM, NumIncidentes from [dbo].[uv_tickets_countLast12Months]
+order by YYYYMM"";  
+$stmt = sqlsrv_query( $conn, $tsql);  
+if( $stmt === false )  
+{  
+     echo ""Error in executing query.&lt;/br&gt;"";  
+     die( print_r( sqlsrv_errors(), true));  
+}  
+
+/* Retrieve and display the results of the query. */  
+$row = sqlsrv_fetch_array($stmt);  
+echo ""User login: "".$row[0].""&lt;/br&gt;"";  
+
+/* Free statement and connection resources. */  
+sqlsrv_free_stmt( $stmt);  
+sqlsrv_close( $conn);  
+?&gt; 
+</code></pre>
+","[php, javascript, jquery, html, ajax]",false,0,false,0,0,false,11,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+234968,0,0,false,null,1,Tue Sep 05 11:45:44 BRT 2017,null,0,8,Erro ao abrir aplicação VS2005,"Bom dia, tudo bem? Preciso de ajuda... Acabei de instalar o Visual Studio 2005(não posso atualizar o projeto) e ocorreu um erro ao abrir o projeto ""The project type is not supported by this installation"" O C# esta ok, não consigo achar o link para download ou ajuda de correção para instalar o 349c5851-65df-11da-9384-00065b846f21
+
+
+<ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+","<p>Bom dia, tudo bem? Preciso de ajuda... Acabei de instalar o Visual Studio 2005(não posso atualizar o projeto) e ocorreu um erro ao abrir o projeto ""The project type is not supported by this installation"" O C# esta ok, não consigo achar o link para download ou ajuda de correção para instalar o 349c5851-65df-11da-9384-00065b846f21</p>
+
+<p>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</p>
+","[aplicação-web, visual-studio]",false,0,false,0,0,false,329,Sem Resposta,Sem resposta/comentario,0,0,0,1,0

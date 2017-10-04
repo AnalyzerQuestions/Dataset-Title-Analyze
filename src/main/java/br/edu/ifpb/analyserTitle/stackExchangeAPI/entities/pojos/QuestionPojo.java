@@ -23,7 +23,7 @@ public class QuestionPojo {
 	private Long columnDateBetwenQuestionAnswer;
 	private Long columnDateBetwenCommentAnswer;
 
-	private int columnCoerenciaTeD;
+	/*private int columnCoerenciaTeD;
 	private int columnTituloBemDefinido;
 	private int columnExemplo;
 	private int columnUsoNormaCultaLingua;
@@ -38,19 +38,24 @@ public class QuestionPojo {
 	private int columnAgradecimento;
 	private int columnPergBemDefinida;
 	private int columnObjetividade;
-	private int columnClareza;
-	private int colummLink;
+	private int columnClareza;*/
+	private int columnLink;
 	private int combLink;
+	private int columnTotallyUpperCase;
+	private int columnParciallyUpperCase;
+	private int columnContainsHelpOrUrgent;
+	private int columnMediumSizeTitle;
+	private int columnSmallSizeTitle;
 
 	public QuestionPojo() {
 	}
 
-	public int getColummLink() {
-		return colummLink;
+	public int getColumnLink() {
+		return columnLink;
 	}
 
-	public void setColummLink(int colummLink) {
-		this.colummLink = colummLink;
+	public void setColumnLink(int columnLink) {
+		this.columnLink = columnLink;
 	}
 
 	public int getCombLink() {
@@ -89,7 +94,51 @@ public class QuestionPojo {
 		return columnDateBetwenCommentAnswer;
 	}
 
-	public int getColumnAgradecimento() {
+	public void setColumnDateBetwenCommentAnswer(Long columnDateBetwenCommentAnswer) {
+		this.columnDateBetwenCommentAnswer = columnDateBetwenCommentAnswer;
+	}
+
+	public int getColumnTotallyUpperCase() {
+		return columnTotallyUpperCase;
+	}
+
+	public void setColumnTotallyUpperCase(int columnTotallyUpperCase) {
+		this.columnTotallyUpperCase = columnTotallyUpperCase;
+	}
+
+	public int getColumnParciallyUpperCase() {
+		return columnParciallyUpperCase;
+	}
+
+	public void setColumnParciallyUpperCase(int columnParciallyUpperCase) {
+		this.columnParciallyUpperCase = columnParciallyUpperCase;
+	}
+
+	public int getColumnContainsHelpOrUrgent() {
+		return columnContainsHelpOrUrgent;
+	}
+
+	public void setColumnContainsHelpOrUrgent(int columnContainsHelpOrUrgent) {
+		this.columnContainsHelpOrUrgent = columnContainsHelpOrUrgent;
+	}
+
+	public int getColumnMediumSizeTitle() {
+		return columnMediumSizeTitle;
+	}
+
+	public void setColumnMediumSizeTitle(int columnMediumSizeTitle) {
+		this.columnMediumSizeTitle = columnMediumSizeTitle;
+	}
+
+	public int getColumnSmallSizeTitle() {
+		return columnSmallSizeTitle;
+	}
+
+	public void setColumnSmallSizeTitle(int columnSmallSizeTitle) {
+		this.columnSmallSizeTitle = columnSmallSizeTitle;
+	}
+	
+	/*public int getColumnAgradecimento() {
 		return columnAgradecimento;
 	}
 
@@ -97,9 +146,6 @@ public class QuestionPojo {
 		this.columnAgradecimento = columnAgradecimento;
 	}
 
-	public void setColumnDateBetwenCommentAnswer(Long columnDateBetwenCommentAnswer) {
-		this.columnDateBetwenCommentAnswer = columnDateBetwenCommentAnswer;
-	}
 
 	public int getColumnCoerenciaTeD() {
 		return columnCoerenciaTeD;
@@ -219,6 +265,6 @@ public class QuestionPojo {
 
 	public void setColumnClareza(int columnClareza) {
 		this.columnClareza = columnClareza;
-	}
+	}*/
 
 }

@@ -1,5 +1,5 @@
-ID PERGUNTA,ID RESPOSTA ACEITA,QUANTIDADE DE RESPOSTAS,FECHADA,DATA FECHAMENTO,QUANTIDADE COMENTÁRIO,DATA CRIAÇÃO,ÚLTIMA DATA DE EDIÇÃO,PONTOS,QUANTIDADE DE VISUALIZAÇÕES,TITLE,DESCRIÇAO,DESCRICAO HTML,TAGS,FOI RESPONDIDA,QUANTIDADADE DE VOTOS (down),FOI VOTADA (down),QUANTIDADE DE VOTOS (up),QUANTIDADE DE VOTOS DELETADOS,FOI VOTADA (up),TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO,TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA,TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA,TÍTULO TOTALMENTE EM CAIXA ALTA,TÍTULO PARCIALMENTE EM CAIXA ALTA,TÍTULO QUE RESUMA O PROBLEMA,TÍTULO CURTO (Até 3 palavras),TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras),TÍTULO COERENTE COM A DESCRIÇÃO,TÍTULO OBJETIVO,TÍTULO CLARO,TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA
-225280,225286,1,false,null,7,Sun Jul 30 20:19:56 BRT 2017,Mon Aug 14 12:02:55 BRT 2017,0,70,Criando campo com formato peso com duas casas decimais e 3 casas antes da vírgula,"Estou tentando criar um campo ""peso"", porém estou com alguns problemas. 
+ID PERGUNTA,ID RESPOSTA ACEITA,QUANTIDADE DE RESPOSTAS,FECHADA,DATA FECHAMENTO,QUANTIDADE COMENTÁRIO,DATA CRIAÇÃO,ÚLTIMA DATA DE EDIÇÃO,PONTOS,QUANTIDADE DE VISUALIZAÇÕES,TITLE,DESCRIÇAO,DESCRICAO HTML,TAGS,FOI RESPONDIDA,QUANTIDADADE DE VOTOS (down),FOI VOTADA (down),QUANTIDADE DE VOTOS (up),QUANTIDADE DE VOTOS DELETADOS,FOI VOTADA (up),TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO,TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA,TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA,TÍTULO TOTALMENTE EM CAIXA ALTA,TÍTULO PARCIALMENTE EM CAIXA ALTA,TÍTULO CURTO (Até 3 palavras),TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras),TÍTULO CONTEM 'AJUDA' OU 'URGENTE'
+225280,225286,1,false,null,7,Sun Jul 30 20:19:56 BRT 2017,Mon Aug 14 12:02:55 BRT 2017,0,76,Criando campo com formato peso com duas casas decimais e 3 casas antes da vírgula,"Estou tentando criar um campo ""peso"", porém estou com alguns problemas. 
 
 O peso pode variar de 2 a 3 casas decimais antes do ponto. Por exemplo, poderia ser 80.00 Kg ou 100.00 Kg. Porém, da maneira que eu estou fazendo, ele me obriga a pôr as 3 casas antes do ponto.
 
@@ -101,8 +101,8 @@ class CampoPeso extends JFormattedTextField {
     }
 }
 </code></pre>
-","[java, swing, formatação]",true,0,false,0,0,false,1,60,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225278,225401,1,false,null,4,Sun Jul 30 20:12:58 BRT 2017,Sun Jul 30 20:22:29 BRT 2017,0,45,Falha de segmentação(imagem do nucleo gravada),"Estou fazendo um trabalho da faculdade, fiz o código, ele está funcionando normalmente no windows. No Ubuntu ele está compilando, quando eu começo a usar a função Insere, ele dá esse erro que está no assunto.
+","[java, swing, formatação]",true,0,false,0,0,false,1,60,59,0,0,0,0,0
+225278,225401,1,false,null,4,Sun Jul 30 20:12:58 BRT 2017,Sun Jul 30 20:22:29 BRT 2017,0,51,Falha de segmentação(imagem do nucleo gravada),"Estou fazendo um trabalho da faculdade, fiz o código, ele está funcionando normalmente no windows. No Ubuntu ele está compilando, quando eu começo a usar a função Insere, ele dá esse erro que está no assunto.
 
 Segue o meu código:
 
@@ -604,8 +604,8 @@ break;
 return 0;
 }
 </code></pre>
-",[c],true,0,false,0,0,false,6,965,958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225276,225283,2,false,null,2,Sun Jul 30 19:33:50 BRT 2017,Mon Jul 31 08:59:41 BRT 2017,0,37,Conexões de rede entre processos dentro de uma máquina,"ao dar o comando netstat -na no cmd do windows aparecem as conexões de rede que estão em andamento na máquina.
+",[c],true,0,false,0,0,false,6,965,958,0,0,0,1,0
+225276,225283,2,false,null,2,Sun Jul 30 19:33:50 BRT 2017,Mon Jul 31 08:59:41 BRT 2017,0,38,Conexões de rede entre processos dentro de uma máquina,"ao dar o comando netstat -na no cmd do windows aparecem as conexões de rede que estão em andamento na máquina.
 
 Na minha apareceram diversas conexões tendo como IP de origem e destino o ""127.0.0.1"" que é o endereço ""interno"", ou seja, comunicação da própria máquina com ela mesma. 
 
@@ -621,8 +621,8 @@ Alguém sabe porque o Windows faz isso? Ao invés de usar simplesmente (e soment
 <p>Alguém sabe porque o Windows faz isso? Ao invés de usar simplesmente (e somente) a comunicação entre processos? (Pipes, fifos, mensagens, sinais...)</p>
 
 <p><a href=""https://i.stack.imgur.com/KMTfa.jpg"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/KMTfa.jpg"" alt=""inserir a descrição da imagem aqui""></a></p>
-","[windows, cmd, redes, ip, tcp]",true,0,false,0,0,false,3,78,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225275,0,1,false,null,0,Sun Jul 30 19:22:41 BRT 2017,Sun Jul 30 19:36:56 BRT 2017,1,46,Automato Finito Deterministico de reconhecer e-mails,"Preciso implementar um programa em C que leia o código fonte da página ""Email address"" do Wikipédia colocado em um arquivo ""Entrada.txt"" no diretório do programa em C, (fopen..., ""r""), e imprima como resultado os e-mails válidos que estão no código, a partir de um automato finito deterministico, ou seja, com os estados em forma de função. Esse é código fonte: view-source:https://en.wikipedia.org/wiki/Email_address 
+","[windows, cmd, redes, ip, tcp]",true,0,false,0,0,false,3,78,74,0,0,0,1,0
+225275,0,1,false,null,0,Sun Jul 30 19:22:41 BRT 2017,Sun Jul 30 19:36:56 BRT 2017,1,50,Automato Finito Deterministico de reconhecer e-mails,"Preciso implementar um programa em C que leia o código fonte da página ""Email address"" do Wikipédia colocado em um arquivo ""Entrada.txt"" no diretório do programa em C, (fopen..., ""r""), e imprima como resultado os e-mails válidos que estão no código, a partir de um automato finito deterministico, ou seja, com os estados em forma de função. Esse é código fonte: view-source:https://en.wikipedia.org/wiki/Email_address 
 
 
 **Esse é o automato que usei:**
@@ -1365,8 +1365,8 @@ return 0;
 </code></pre>
 
 <p>Porém como saida está reconhecendo apenas uma linha ""DOCTYPEhtmlclassclient"" e nada mais; Além disso, não consegui chamar recursivamente as funções, pois transformei  os símbolos validos em uma string de 76959 caracteres a partir da função SelecionaSimbolosValidos e tentei aplicar o automato nessa string, repetindo o reconhecimento até o fim dela, caracter por caracter. Mas não tenho idéia do que pode estar errado, pois os AFD está certo. Alguma ajuda?</p>
-","[c, string, arquivo, email]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225274,0,1,false,null,6,Sun Jul 30 19:20:26 BRT 2017,Sun Jul 30 22:56:46 BRT 2017,0,43,Retorno getJSON,"Quando o getJSON, não encontra ele o que é retornado? Estou deixando como fazio, mas não da certo.
+","[c, string, arquivo, email]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225274,0,1,false,null,6,Sun Jul 30 19:20:26 BRT 2017,Sun Jul 30 22:56:46 BRT 2017,0,45,Retorno getJSON,"Quando o getJSON, não encontra ele o que é retornado? Estou deixando como fazio, mas não da certo.
 
     $(""#email"").focusout(function() {
                 emailDigitado = $(""#email"").val();
@@ -1435,8 +1435,8 @@ $json_encode = json_encode($Array);
 echo $json_encode;
 ?&gt;
 </code></pre>
-",[php],false,0,false,0,0,false,217,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225272,0,2,false,null,0,Sun Jul 30 18:55:05 BRT 2017,Sun Jul 30 20:19:29 BRT 2017,0,28,Como dimensionar aside e div central de acordo com a altura da tela,"Estou tentando dimensionar o menu lateral e a div de conteúdo entre o header e o footer de maneira que ela ocupe a tela toda, mesmo que não tenho muito conteúdo. caso tenha muito conteúdo, teria a barra de scroll.
+",[php],false,0,false,0,0,false,217,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+225272,0,2,false,null,0,Sun Jul 30 18:55:05 BRT 2017,Sun Jul 30 20:19:29 BRT 2017,0,32,Como dimensionar aside e div central de acordo com a altura da tela,"Estou tentando dimensionar o menu lateral e a div de conteúdo entre o header e o footer de maneira que ela ocupe a tela toda, mesmo que não tenho muito conteúdo. caso tenha muito conteúdo, teria a barra de scroll.
 
 **Como esta:**
 
@@ -1604,8 +1604,8 @@ echo $json_encode;
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-","[html, css, bootstrap]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225269,0,2,false,null,0,Sun Jul 30 18:22:47 BRT 2017,Mon Jul 31 09:07:54 BRT 2017,0,46,Validar campo após digitação,"Estou utilizando o [Bootstrap Validator][1], a validação do formulario esta funcionando muito bem. Porém, eu queria que a validação do campo `nome` seja executada somente quando o usuário terminar de digitar.
+","[html, css, bootstrap]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+225269,0,2,false,null,0,Sun Jul 30 18:22:47 BRT 2017,Mon Jul 31 09:07:54 BRT 2017,0,47,Validar campo após digitação,"Estou utilizando o [Bootstrap Validator][1], a validação do formulario esta funcionando muito bem. Porém, eu queria que a validação do campo `nome` seja executada somente quando o usuário terminar de digitar.
 
 A validação desse campo faz uma requisição `ajax` de forma síncrona, e isso faz dar umas travadas durante a digitação.
 
@@ -1715,8 +1715,8 @@ A validação desse campo faz uma requisição `ajax` de forma síncrona, e isso
 </div>
 </div>
 </p>
-","[javascript, bootstrap-validator]",true,0,false,0,0,false,Sem comentário,893,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225268,0,2,false,null,3,Sun Jul 30 18:14:14 BRT 2017,Mon Jul 31 09:14:18 BRT 2017,1,30,Imprimir div com appendChild,"Estou tentando imprimir com appendChild, sem que seja necessário montar utilizando document.createElement, sei que é possível mas não sei como, com o innerHTML funciona mas ele apaga tudo, segue abaixo:
+","[javascript, bootstrap-validator]",true,0,false,0,0,false,Sem comentário,893,Sem resposta/comentario,0,0,0,1,0
+225268,0,2,false,null,3,Sun Jul 30 18:14:14 BRT 2017,Mon Jul 31 09:14:18 BRT 2017,1,31,Imprimir div com appendChild,"Estou tentando imprimir com appendChild, sem que seja necessário montar utilizando document.createElement, sei que é possível mas não sei como, com o innerHTML funciona mas ele apaga tudo, segue abaixo:
 
     var div = ""<div id='teste'>valorqualquer</div>"";
     document.getElementsByTagName(""body"")[0].appendChild(div);
@@ -1817,7 +1817,7 @@ h3ElementAninhado.innerHTML = ""Campos com erro"";
 
 var divaninhadoaoh3acima = document.createElement(""div"");
 </code></pre>
-",[javascript],false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[javascript],false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225263,0,1,false,null,0,Sun Jul 30 17:21:53 BRT 2017,null,0,23,Como tornar uma variável global jquery?,"Tenho essa seguinte variável:
 
     Site = {
@@ -1853,7 +1853,7 @@ Como posso fazer isso?","<p>Tenho essa seguinte variável:</p>
 </code></pre>
 
 <p>Como posso fazer isso?</p>
-",[jquery],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[jquery],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
 225262,225267,1,false,null,8,Sun Jul 30 17:20:26 BRT 2017,Wed Aug 16 10:39:05 BRT 2017,1,27,Como remover listeners de acordo com estado do componente?,"Eu tenho um JLabel que recebe um evento, e gostaria de desativar esse evento quando o componente estiver desabilitado (setEnable = false), e só ativá-lo novamente quando o componente estiver habilitado. 
 
 o que eu fiz:
@@ -1980,8 +1980,8 @@ public class NovoClass extends JFrame {
     }
 }
 </code></pre>
-","[java, swing]",true,0,false,0,0,false,0,48,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225260,225270,1,false,null,2,Sun Jul 30 17:12:15 BRT 2017,Sun Jul 30 18:49:31 BRT 2017,0,92,Como pegar valor de uma td a partir do nome da coluna,"Teria como pegar o valor do td de uma tabela pelo nome da coluna.
+","[java, swing]",true,0,false,0,0,false,0,48,47,0,0,0,1,0
+225260,225270,1,false,null,2,Sun Jul 30 17:12:15 BRT 2017,Sun Jul 30 18:49:31 BRT 2017,0,111,Como pegar valor de uma td a partir do nome da coluna,"Teria como pegar o valor do td de uma tabela pelo nome da coluna.
 
 <!-- begin snippet: js hide: false console: true babel: false -->
 
@@ -2108,8 +2108,8 @@ public class NovoClass extends JFrame {
 </div>
 </div>
 </p>
-","[jquery, html]",true,0,false,0,0,false,64,76,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225253,225261,1,false,null,1,Sun Jul 30 16:26:01 BRT 2017,Sun Jul 30 17:27:20 BRT 2017,0,25,Javascript Chamada de função com parâmetro,"Preciso chamar uma função em Javascript onde um de seus parâmetros é uma função.  
+","[jquery, html]",true,0,false,0,0,false,64,76,11,0,0,0,1,0
+225253,225261,1,false,null,1,Sun Jul 30 16:26:01 BRT 2017,Sun Jul 30 17:27:20 BRT 2017,0,26,Javascript Chamada de função com parâmetro,"Preciso chamar uma função em Javascript onde um de seus parâmetros é uma função.  
 Neste caso, como faço para passar parâmetros dentro da chamada da função?  
 Ex: (Função que será chamada primeiro:
 
@@ -2175,7 +2175,7 @@ Ex: (Função que será chamada primeiro:</p>
 var marcas = [];
 getWS(data, preencheLista(data, marcas));
 </code></pre>
-",[javascript],true,0,false,0,0,false,158,47,-110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[javascript],true,0,false,0,0,false,158,47,-110,0,0,0,1,0
 225252,225259,1,false,null,0,Sun Jul 30 16:20:05 BRT 2017,null,0,29,Relacionamento de registros de uma tabela com ela mesma,"Estou tentando montar uma estrutura de arvore genealogica, porem ainda não consigo relacionar e deixar preparado para que o while percorra a tabela inteira e estruture a arvore de forma infinita, uma vez que a pessoa pode ter 'x' filhos.
 
 Então a tabela está 
@@ -2200,8 +2200,8 @@ Alguma Sugestão?","<p>Estou tentando montar uma estrutura de arvore genealogica
 <p>Então, eu consigo para poucos niveis colocar um while dentro de um while, porém, creio que exista uma forma mais fácil de garantir que o while percorra todo a tabela.</p>
 
 <p>Alguma Sugestão?</p>
-","[php, javascript]",true,0,false,0,0,false,Sem comentário,51,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225246,225248,1,false,null,6,Sun Jul 30 14:23:58 BRT 2017,Tue Aug 01 11:53:29 BRT 2017,2,55,"Retornar array de inteiros, exceto os 0. Como faço?","O método recebe dois números por parâmetro, e devolve um *array* com os números ímpares entre esses dois números.
+","[php, javascript]",true,0,false,0,0,false,Sem comentário,51,Sem resposta/comentario,0,0,0,1,0
+225246,225248,1,false,null,6,Sun Jul 30 14:23:58 BRT 2017,Tue Aug 01 11:53:29 BRT 2017,2,57,"Retornar array de inteiros, exceto os 0. Como faço?","O método recebe dois números por parâmetro, e devolve um *array* com os números ímpares entre esses dois números.
     
     public static int[] oddNumbers(int l, int r) {
         int odd[] = new int[r];
@@ -2235,8 +2235,8 @@ Como faço para retornar apenas as posições preenchidas? `3 5`","<p>O método 
 <p>No momento, se colocar <code>oddNumbers(2,5)</code>, o resultado irá ser: <code>0 3 0 5 0</code></p>
 
 <p>Como faço para retornar apenas as posições preenchidas? <code>3 5</code></p>
-","[java, array]",true,0,false,0,0,false,11,30,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225243,225245,1,false,null,0,Sun Jul 30 13:55:04 BRT 2017,null,1,26,Incrementar name de input dinâmico com jquery,"Tenho um tabela que gera a linha dinamicamente ao clicar em um botão. Preciso que os names sejam incrementados ao gerar uma nova linha. Ex: name=""product1"" name=""amount1"" name=""price1"" name=""total1"" mudando apenas o número(1, 2, 3...) Como poderia fazer esse incremento? Tentei usar split para pegar um valor colocado na primeira vez que o botão é clicado mas so conseguir incrementar uma vez.
+","[java, array]",true,0,false,0,0,false,11,30,19,0,0,0,1,0
+225243,225245,1,false,null,0,Sun Jul 30 13:55:04 BRT 2017,null,1,27,Incrementar name de input dinâmico com jquery,"Tenho um tabela que gera a linha dinamicamente ao clicar em um botão. Preciso que os names sejam incrementados ao gerar uma nova linha. Ex: name=""product1"" name=""amount1"" name=""price1"" name=""total1"" mudando apenas o número(1, 2, 3...) Como poderia fazer esse incremento? Tentei usar split para pegar um valor colocado na primeira vez que o botão é clicado mas so conseguir incrementar uma vez.
 
     <table class=""table m-0"" id=""products-table"">
     <thead>
@@ -2376,8 +2376,8 @@ AddTableRow = function() {
 
 &lt;/script&gt;
 </code></pre>
-","[javascript, jquery]",true,0,false,0,0,false,Sem comentário,11,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225237,0,2,false,null,0,Sun Jul 30 13:21:07 BRT 2017,Fri Aug 11 16:57:11 BRT 2017,0,35,Erro Multiple object sets per type are not supported,"Estou com um erro em minha aplicação. Estou trabalhando com `Identity` para autenticação de usuários porem ao chamar o `Controller` criado é me retornado o seguinte erro:
+","[javascript, jquery]",true,0,false,0,0,false,Sem comentário,11,Sem resposta/comentario,0,0,0,1,0
+225237,0,2,false,null,0,Sun Jul 30 13:21:07 BRT 2017,Fri Aug 11 16:57:11 BRT 2017,0,42,Erro Multiple object sets per type are not supported,"Estou com um erro em minha aplicação. Estou trabalhando com `Identity` para autenticação de usuários porem ao chamar o `Controller` criado é me retornado o seguinte erro:
 
 > Multiple object sets per type are not supported. The object sets 'Usuarios' and 'Users' can both contain instances of type 'Projeto01.Areas.Seguranca.Models.Usuario'.
 
@@ -2604,15 +2604,15 @@ Algum consegue enxergar alguma solução?
 </code></pre>
 
 <p>Alguem consegue enxergar alguma solução?</p>
-","[c#, asp.net, entity-framework]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225235,0,1,false,null,7,Sun Jul 30 13:16:07 BRT 2017,null,0,29,Mapear tabelas para guardar histórico de acesso,"Possuo um aplicativo, no qual preciso guardar ao menos uma vez no dia, a data e o horário que usuário acessou o aplicativo/sistema. Pois cobramos ao final do mês pelo número de dias que esse utilizou o app/software. 
+","[c#, asp.net, entity-framework]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+225235,0,1,false,null,7,Sun Jul 30 13:16:07 BRT 2017,null,0,31,Mapear tabelas para guardar histórico de acesso,"Possuo um aplicativo, no qual preciso guardar ao menos uma vez no dia, a data e o horário que usuário acessou o aplicativo/sistema. Pois cobramos ao final do mês pelo número de dias que esse utilizou o app/software. 
 
 Qual a melhor forma de mapear essa tabela?","<p>Possuo um aplicativo, no qual preciso guardar ao menos uma vez no dia, a data e o horário que usuário acessou o aplicativo/sistema. Pois cobramos ao final do mês pelo número de dias que esse utilizou o app/software. </p>
 
 <p>Qual a melhor forma de mapear essa tabela?</p>
-","[android, mysql, sql, banco-de-dados, mobile]",false,0,false,0,0,false,7,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225233,225239,1,false,null,0,Sun Jul 30 13:13:30 BRT 2017,null,0,14,Tags em uma tabela para cada?,"Eu tenho a tabela ""noticia""e eu vou fazer um sistema de tags, essas tags terá que ter uma tabela para cada ou apenas uma tabela ? ","<p>Eu tenho a tabela ""noticia""e eu vou fazer um sistema de tags, essas tags terá que ter uma tabela para cada ou apenas uma tabela ? </p>
-","[mysql, query, tabela-banco-de-dados, chave-estrangeira]",true,0,false,0,0,false,Sem comentário,7,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[android, mysql, sql, banco-de-dados, mobile]",false,0,false,0,0,false,7,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225233,225239,1,false,null,0,Sun Jul 30 13:13:30 BRT 2017,null,0,16,Tags em uma tabela para cada?,"Eu tenho a tabela ""noticia""e eu vou fazer um sistema de tags, essas tags terá que ter uma tabela para cada ou apenas uma tabela ? ","<p>Eu tenho a tabela ""noticia""e eu vou fazer um sistema de tags, essas tags terá que ter uma tabela para cada ou apenas uma tabela ? </p>
+","[mysql, query, tabela-banco-de-dados, chave-estrangeira]",true,0,false,0,0,false,Sem comentário,7,Sem resposta/comentario,0,0,0,1,0
 225232,225238,1,false,null,2,Sun Jul 30 13:08:59 BRT 2017,null,0,20,Como retornar o resultado de um select com prepared statement?,"Gente, não estou conseguindo retornar o resultado de uma busca com prepared statement.
 
 Eis o código:
@@ -2680,8 +2680,8 @@ Obrigado","<p>Gente, não estou conseguindo retornar o resultado de uma busca co
 <p>Alguma ajuda?</p>
 
 <p>Obrigado</p>
-","[php, mysql]",true,0,false,0,0,false,29,12,-17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225229,0,2,false,null,5,Sun Jul 30 12:46:24 BRT 2017,Sun Jul 30 12:47:19 BRT 2017,0,25,Como ignorar sentença e caso no .startsWith do Java,"Esse é meu codigo:
+","[php, mysql]",true,0,false,0,0,false,29,12,-17,0,0,0,1,0
+225229,0,2,false,null,5,Sun Jul 30 12:46:24 BRT 2017,Sun Jul 30 12:47:19 BRT 2017,0,26,Como ignorar sentença e caso no .startsWith do Java,"Esse é meu codigo:
 
     if(e.getMessage().startsWith(""/reciclar"") || e.getMessage().startsWith(""/ereciclar"")){
     e.setCancelled(true);
@@ -2698,8 +2698,8 @@ p.sendMessage(""§cComando Bloqueado/Em Manutenção!"");
 </code></pre>
 
 <p>Porém se usarem /RECICLAR maiúsculo ou em uma sentença diferente Tipo /ReciClaR funciona também, queria saber se da pra ignorar casos no startsWith de uma forma que entre no if()</p>
-","[java, if]",true,0,false,0,0,false,1,17,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225219,231522,1,false,null,1,Sun Jul 30 11:35:06 BRT 2017,null,0,26,Adicionar tooltip a button que veio direto do Php via Ajax,"No meu servidor PHP eu retorno alguns dados entre eles um button 
+","[java, if]",true,0,false,0,0,false,1,17,15,0,0,0,1,0
+225219,231522,1,false,null,1,Sun Jul 30 11:35:06 BRT 2017,null,0,27,Adicionar tooltip a button que veio direto do Php via Ajax,"No meu servidor PHP eu retorno alguns dados entre eles um button 
 
     $HTML = "" <button id=\""btnExcluir\""  style=\"" width: 55px !important;\"" onclick=\""Excluir();\"" type=\""button \""  data-toggle=\""tooltip\"" data-placement=\""top\"" title=\""	 Excluir itens selecionados\"" class=\""btn   btn-danger botaoExcluir\""> "" ;
 
@@ -2728,11 +2728,11 @@ echo $HTML;
 </code></pre>
 
 <p>Para conseguir estilizar o tooltip do meu buttom, porém ele não altera o tipo. Como é possivel adicionar esse estilo ao button?</p>
-","[php, jquery, ajax, tooltip]",true,0,false,0,0,false,47,34648,34601,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225215,225222,1,false,null,0,Sun Jul 30 11:30:35 BRT 2017,null,0,30,Como usar o textwatcher?,"Como usar o textwatcher para contar quantos caracteres tem em uma textview ,e mostrar em contagem regressiva , igual é feito no facebook limitando uma postagem.
+","[php, jquery, ajax, tooltip]",true,0,false,0,0,false,47,34648,34601,0,0,0,0,0
+225215,225222,1,false,null,0,Sun Jul 30 11:30:35 BRT 2017,null,0,37,Como usar o textwatcher?,"Como usar o textwatcher para contar quantos caracteres tem em uma textview ,e mostrar em contagem regressiva , igual é feito no facebook limitando uma postagem.
 Agradeço desde já!","<p>Como usar o textwatcher para contar quantos caracteres tem em uma textview ,e mostrar em contagem regressiva , igual é feito no facebook limitando uma postagem.
 Agradeço desde já!</p>
-",[android],true,0,false,0,0,false,Sem comentário,10,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[android],true,0,false,0,0,false,Sem comentário,10,Sem resposta/comentario,0,0,1,1,0
 225213,225218,1,false,null,0,Sun Jul 30 11:26:55 BRT 2017,null,1,22,Constrait unique Oracle,"Estou com uma dúvida, quando eu crio uma `CONSTRAINT` `UNIQUE` , ela avalia todas as colunas juntas? 
 
 Por exemplo,  eu quero que um pais não tenha **nomes** ou **siglas** iguais, nesse caso eu devo criar `CONSTRAINT` diferentes? 
@@ -2791,8 +2791,8 @@ CYCLE;
 CREATE OR REPLACE TRIGGER TRG_ID_PAIS BEFORE INSERT ON PAIS FOR EACH ROW BEGIN &lt;&lt;COLUMN_SEQUENCES&gt;&gt; BEGIN IF :NEW.IDPAIS IS NULL THEN SELECT SEQ_ID_PAIS.NEXTVAL INTO :NEW.IDPAIS FROM DUAL; END IF; END COLUMN_SEQUENCES; END;
 /
 </code></pre>
-","[sql, oracle, oracle11g]",true,0,false,0,0,false,Sem comentário,8,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225207,225214,1,false,null,1,Sun Jul 30 10:59:13 BRT 2017,null,0,21,Retorno de Json array,"O meu json retorna mais de um numero, como fazer pra receber todos e não um só...Gostaria de setar o retorno em um TextView,como fazer ele retornar todos os valores e não só o primeiro.
+","[sql, oracle, oracle11g]",true,0,false,0,0,false,Sem comentário,8,Sem resposta/comentario,0,0,1,1,0
+225207,225214,1,false,null,1,Sun Jul 30 10:59:13 BRT 2017,null,0,22,Retorno de Json array,"O meu json retorna mais de um numero, como fazer pra receber todos e não um só...Gostaria de setar o retorno em um TextView,como fazer ele retornar todos os valores e não só o primeiro.
 
  
           JSONObject json = new JSONObject(result);
@@ -2831,8 +2831,8 @@ CREATE OR REPLACE TRIGGER TRG_ID_PAIS BEFORE INSERT ON PAIS FOR EACH ROW BEGIN &
 
                 }
 </code></pre>
-","[java, android]",true,0,false,0,0,false,24,30,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225206,225225,1,false,null,3,Sun Jul 30 10:54:53 BRT 2017,null,1,52,Formas de Popular ListView com Retrofit 2,"Apesar de já existir uma pergunta semelhante, não esclareceu minha dúvida, meu problema é o seguinte, o código abaixo é do onResponse do Retrofit, estou começando agora em Java, gostaria de jogar o resultado do response.body no listView, eu consegui fazendo um for no código  stringList.add(countryList.get(i).getNome())) porem gostaria de saber se não teria uma maneira melhor de se fazer, vi alguns exemplos usando o Course, porem minhas requisições vão retornar cerca de 1400 linhas então não sei se usando for pode comprometer o desempenho, pensei se não poderia ter outra maneira mais elegante de se fazer, no codigo abaixo eu tentei jogar a Lista com o response.body() direto no ArrayAdapter, so que dessa forma o app retorna os dados assim:
+","[java, android]",true,0,false,0,0,false,24,30,5,0,0,1,1,0
+225206,225225,1,false,null,3,Sun Jul 30 10:54:53 BRT 2017,null,1,74,Formas de Popular ListView com Retrofit 2,"Apesar de já existir uma pergunta semelhante, não esclareceu minha dúvida, meu problema é o seguinte, o código abaixo é do onResponse do Retrofit, estou começando agora em Java, gostaria de jogar o resultado do response.body no listView, eu consegui fazendo um for no código  stringList.add(countryList.get(i).getNome())) porem gostaria de saber se não teria uma maneira melhor de se fazer, vi alguns exemplos usando o Course, porem minhas requisições vão retornar cerca de 1400 linhas então não sei se usando for pode comprometer o desempenho, pensei se não poderia ter outra maneira mais elegante de se fazer, no codigo abaixo eu tentei jogar a Lista com o response.body() direto no ArrayAdapter, so que dessa forma o app retorna os dados assim:
 [![inserir a descrição da imagem aqui][1]][1]
 
 <!-- begin snippet: js hide: false console: true babel: false -->
@@ -2994,7 +2994,7 @@ Call &lt; List &lt; Funcionarios &gt;&gt; getFunc(@Query(""empresa"") String emp
 </div>
 </div>
 </p>
-","[android, listview, retrofit]",true,0,false,0,0,false,54,73,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[android, listview, retrofit]",true,0,false,0,0,false,54,73,19,0,0,0,1,0
 225204,225226,1,false,null,1,Sun Jul 30 10:46:02 BRT 2017,null,0,24,Autenticação de login,"Gostaria que meu codigo fizesse a comparacao do email tambem se nao existir,mas ele so faz a comparacao da senha , como fazer a comparacao dos dois juntos ?
 
        if (mEmail.equals(email)) {
@@ -3075,7 +3075,7 @@ Call &lt; List &lt; Funcionarios &gt;&gt; getFunc(@Query(""empresa"") String emp
                 }
                 break;
 </code></pre>
-","[java, android]",true,0,false,0,0,false,4,106,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, android]",true,0,false,0,0,false,4,106,101,0,0,1,0,0
 225199,0,1,false,null,0,Sun Jul 30 10:20:14 BRT 2017,Tue Aug 01 10:50:20 BRT 2017,0,37,Google maps: mapa não renderiza via chamada javascript/jQuery,"Tenho necessidade de embutir um mapa no meu projeto.
 
 Entretanto, a partir do tutorial da própria API, não consegui fazer funcionar, 
@@ -3267,8 +3267,8 @@ qualquer coisa.</p>
 <p>Se se abrir a área do desenvolvedor (F12), na guia 'Network', quando se clica no nome da rota 
 'abrirGoogleMaps', e também clicando na guia 'Preview', aparece o código da página 'googlemaps.php' completo,
 mostrando a que rota foi chamada, que a página na pasta views foi encontrada, mas não há, naturalmente, a renderização do mapa por causa da mensagem dentro do iFrame.</p>
-","[javascript, jquery, laravel, google-maps]",true,0,false,0,0,false,Sem comentário,1355,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225197,225198,1,false,null,0,Sun Jul 30 09:55:04 BRT 2017,Sun Jul 30 22:04:58 BRT 2017,1,24,1060 - Duplicate column name 'NULL' numa query MySQL,"Estou a tentar executar esta query, e dá-me sempre o seguinte erro:
+","[javascript, jquery, laravel, google-maps]",true,0,false,0,0,false,Sem comentário,1355,Sem resposta/comentario,0,0,0,1,0
+225197,225198,1,false,null,0,Sun Jul 30 09:55:04 BRT 2017,Sun Jul 30 22:04:58 BRT 2017,1,25,1060 - Duplicate column name 'NULL' numa query MySQL,"Estou a tentar executar esta query, e dá-me sempre o seguinte erro:
 #1060 - Duplicate column name 'NULL' 
 
     INSERT INTO ce_coins_issued (idc, idu, year, ltr, issuing, status)
@@ -3297,8 +3297,8 @@ WHERE idc   = 1 AND year = 2002 AND ltr = NULL LIMIT 1)
 Pelo que me apercebi, o que faz dár este erro é ter dois NULL's no SELECT, pois caso retire um deles, a query já executa sem problemas.</p>
 
 <p>Conseguem ajudar o porque?</p>
-","[mysql, sql, query]",true,0,false,0,0,false,Sem comentário,15,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225192,225196,1,false,null,0,Sun Jul 30 09:16:33 BRT 2017,Fri Aug 04 09:34:45 BRT 2017,9,68,Ficar criando variáveis locais o tempo todo gera custo a mais para o software?,"Fiz um programa do qual ele escreve em variáveis o tempo todo, e com isso me gerou uma dúvida, instanciar uma variável o tempo todo gera mais custo do que só atribuir o valor a uma variável já existente?
+","[mysql, sql, query]",true,0,false,0,0,false,Sem comentário,15,Sem resposta/comentario,0,0,0,1,0
+225192,225196,1,false,null,0,Sun Jul 30 09:16:33 BRT 2017,Fri Aug 04 09:34:45 BRT 2017,9,69,Ficar criando variáveis locais o tempo todo gera custo a mais para o software?,"Fiz um programa do qual ele escreve em variáveis o tempo todo, e com isso me gerou uma dúvida, instanciar uma variável o tempo todo gera mais custo do que só atribuir o valor a uma variável já existente?
 
 ###Exemplos:
 
@@ -3357,7 +3357,7 @@ while (true)
  eu precisava dessa resposta, não a achei. Caso você a encontre-a,
  sinta-se livre para marcar esta pergunta como duplicada.</p>
 </blockquote>
-","[c#, variáveis, loop, escopo-de-variáveis, declaração-de-variável]",true,0,false,0,0,false,Sem comentário,36,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[c#, variáveis, loop, escopo-de-variáveis, declaração-de-variável]",true,0,false,0,0,false,Sem comentário,36,Sem resposta/comentario,0,0,0,0,0
 225191,225193,2,false,null,0,Sun Jul 30 09:08:41 BRT 2017,null,0,21,"(Java, Android) Botão - Definir limite de Click's","Boas, alguém me pode dizer como é que se define um limite para o número de click's num botão, e ao atingir esse limite, impedir que o botão seja clicado de novo?
 
 Aqui está:
@@ -3382,8 +3382,8 @@ Obrigado se me puderem ajudar   ","<p>Boas, alguém me pode dizer como é que se
 <p>Este botão funciona como uma tecla de um teclado, ao ser clicado mostra o carater no editText. Eu queria que, primeiro, fosse obrigatório carregar no botão antes de passar a fase seguinte, mas impedir que o botão fosse clicado mais do que uma vez...</p>
 
 <p>Obrigado se me puderem ajudar   </p>
-","[java, android]",true,0,false,0,0,false,Sem comentário,11,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225190,225216,1,false,null,0,Sun Jul 30 08:20:37 BRT 2017,null,0,50,Mineração de texto com Scikit-learn,"Estou fazendo algumas pesquisas na área de análise de sentimentos, então estou fazendo alguns testes em um banco de dados de texto para obter resultados. Eu estava procurando por tutoriais entre outras formas de informação na internet e cheguei à conclusão de que é bem usado o biblioteca scikit  do python. No entanto, estou com dificuldade de colocar essa biblioteca para funcionar. Qualquer ajuda é bem vinda.
+","[java, android]",true,0,false,0,0,false,Sem comentário,11,Sem resposta/comentario,0,0,0,1,0
+225190,225216,1,false,null,0,Sun Jul 30 08:20:37 BRT 2017,null,0,58,Mineração de texto com Scikit-learn,"Estou fazendo algumas pesquisas na área de análise de sentimentos, então estou fazendo alguns testes em um banco de dados de texto para obter resultados. Eu estava procurando por tutoriais entre outras formas de informação na internet e cheguei à conclusão de que é bem usado o biblioteca scikit  do python. No entanto, estou com dificuldade de colocar essa biblioteca para funcionar. Qualquer ajuda é bem vinda.
 
 **Classe _Init_**
 
@@ -3608,8 +3608,8 @@ File ""C:\Users\Jeferson\PycharmProjects\NewProject\baseline.py"", line 42, in r
    skf = StratifiedShuffleSplit(n_splits=folds)
 TypeError: __init__() got an unexpected keyword argument 'n_splits'
 </code></pre>
-","[python, aprendizagem-de-máquina, padrão-de-texto, machine-learning]",true,0,false,0,0,false,Sem comentário,193,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225180,0,1,false,Tue Aug 08 16:59:20 BRT 2017,10,Sun Jul 30 00:30:51 BRT 2017,Fri Aug 04 09:08:11 BRT 2017,2,68,"Quantos ""case"" são possível em um ""switch""?","    Case 1
+","[python, aprendizagem-de-máquina, padrão-de-texto, machine-learning]",true,0,false,0,0,false,Sem comentário,193,Sem resposta/comentario,0,0,0,1,0
+225180,0,1,false,Tue Aug 08 16:59:20 BRT 2017,10,Sun Jul 30 00:30:51 BRT 2017,Fri Aug 04 09:08:11 BRT 2017,2,70,"Quantos ""case"" são possível em um ""switch""?","    Case 1
     Informação.Text = ""Olá Mundo!""
 
     Case 2
@@ -3649,8 +3649,8 @@ Informação.Text = ""...""
 Case 276384945
 Informação.Text = ""...""
 </code></pre>
-","[vb.net, característica-linguagem, switch]",true,0,false,0,0,false,7,30,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225176,225195,2,false,null,2,Sun Jul 30 00:03:53 BRT 2017,Sun Jul 30 09:30:09 BRT 2017,0,62,Multiplicar valor de inputs dinâmicos,"Tenho uma tabela que gera linhas ao clicar em um botão. Nessas linhas tem dois inputs (amount e price) que preciso pegar os valores inseridos, multiplicar e o resultado exibir em uma coluna de total quando o usuario clicar fora do input estando os dois preenchidos. Não estou sabendo como fazer essa multiplicação e exibir o resultado.
+","[vb.net, característica-linguagem, switch]",true,0,false,0,0,false,7,30,23,0,0,0,1,0
+225176,225195,2,false,null,2,Sun Jul 30 00:03:53 BRT 2017,Sun Jul 30 09:30:09 BRT 2017,0,69,Multiplicar valor de inputs dinâmicos,"Tenho uma tabela que gera linhas ao clicar em um botão. Nessas linhas tem dois inputs (amount e price) que preciso pegar os valores inseridos, multiplicar e o resultado exibir em uma coluna de total quando o usuario clicar fora do input estando os dois preenchidos. Não estou sabendo como fazer essa multiplicação e exibir o resultado.
 
     <table class=""table m-0"" id=""products-table"">
     <thead>
@@ -3798,7 +3798,7 @@ $(document).ready(function() {
 });
 &lt;/script&gt;
 </code></pre>
-","[javascript, jquery]",true,0,false,0,0,false,147,584,436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, jquery]",true,0,false,0,0,false,147,584,436,0,0,0,1,0
 225173,225185,2,false,null,3,Sat Jul 29 23:53:18 BRT 2017,Sun Jul 30 00:44:15 BRT 2017,2,43,Próximo Código da Sequencia 0-Z com Javascript,"Preciso criar um função JavaScript que recebe uma string de letras e números e ele retorna o próximo valor da contagem. A contagem vai de 0 a Z. Exemplo da sequencia:
 
 0 - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - A - B - C - D [...] Y - Z - 01 - 02 - 03 [...] 0Y - 0Z - 10 - 11 - 12 [...]
@@ -3909,7 +3909,7 @@ nextCode (""A4ZZ"");
 </code></pre>
 
 <p>Os resultados não dão certo e estou meio perdido...</p>
-","[javascript, funções, lógica, programação-funcional]",true,0,false,0,0,false,5,184,179,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, funções, lógica, programação-funcional]",true,0,false,0,0,false,5,184,179,0,0,0,1,0
 225167,225234,1,false,null,2,Sat Jul 29 23:11:12 BRT 2017,Sun Jul 30 10:21:04 BRT 2017,1,22,Rotas de Áreas em ASP.NET MVC?,"Estou trabalhando com `areas` porem não esta dando certo a rota e criei 2 `areas`, dentro de uma criei uma pasta chamada `Cadastros` e dentro da outra uma pasta chamada `Tabelas`. 
 
 **CadastrosAreaRegistration.cs**
@@ -4037,8 +4037,8 @@ Layout com o menu da aplicação que chama as views
   &lt;li id=""liProdutos"" role=""presentation""&gt;@Html.ActionLink(""Produtos"", ""Index"", ""Produtos"")&lt;/li&gt;
  &lt;/ul&gt;
 </code></pre>
-","[c#, asp.net, rotas, html-helpers]",true,0,false,0,0,false,776,843,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225160,225164,1,false,null,0,Sat Jul 29 22:20:20 BRT 2017,Sat Jul 29 22:54:13 BRT 2017,1,14,Como salvar uma chave estrangeira no laravel 5.3?,"Estou com dificuldades ao salvar a chave estrangeira no banco de dados. Estou trabalhando `PHP`, `Laravel 5.3` e `MySQL`, abaixo vai o código:
+","[c#, asp.net, rotas, html-helpers]",true,0,false,0,0,false,776,843,66,0,1,0,1,0
+225160,225164,1,false,null,0,Sat Jul 29 22:20:20 BRT 2017,Sat Jul 29 22:54:13 BRT 2017,1,17,Como salvar uma chave estrangeira no laravel 5.3?,"Estou com dificuldades ao salvar a chave estrangeira no banco de dados. Estou trabalhando `PHP`, `Laravel 5.3` e `MySQL`, abaixo vai o código:
 
 **Controller Produto**
 
@@ -4355,8 +4355,8 @@ class ProdutosController extends Controller
   <p>QueryException in Connection.php line 770:
   SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'categs_id' cannot be null (SQL: insert into <code>produtos</code> (<code>nome</code>, <code>descricao</code>, <code>categs_id</code>, <code>updated_at</code>, <code>created_at</code>) values (TV, led, , 2017-07-30 00:53:32, 2017-07-30 00:53:32))</p>
 </blockquote>
-","[php, mysql, laravel-eloquent]",true,0,false,0,0,false,Sem comentário,38,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225157,225170,1,false,null,0,Sat Jul 29 21:49:44 BRT 2017,null,0,27,Aparecer um modal bootstrap antes do HTML,"Tenho uma página do qual após 03 tentativas o acesso a página é bloqueada. Porém gostaria que caso a página estiver bloqueada, ao tentar acessar, aparecer um modal bootstrap com uma mensagem:
+","[php, mysql, laravel-eloquent]",true,0,false,0,0,false,Sem comentário,38,Sem resposta/comentario,0,0,0,1,0
+225157,225170,1,false,null,0,Sat Jul 29 21:49:44 BRT 2017,null,0,29,Aparecer um modal bootstrap antes do HTML,"Tenho uma página do qual após 03 tentativas o acesso a página é bloqueada. Porém gostaria que caso a página estiver bloqueada, ao tentar acessar, aparecer um modal bootstrap com uma mensagem:
 
 > Página bloqueada. Favor entrar em contato com o administrador para
 > solicitar o desbloqueio.
@@ -4387,8 +4387,8 @@ Isso é possível?
 </code></pre>
 
 <p>Isso é possível?</p>
-","[php, twitter-bootstrap]",true,0,false,0,0,false,Sem comentário,91,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225153,225166,1,false,null,0,Sat Jul 29 21:28:36 BRT 2017,Sun Jul 30 08:37:37 BRT 2017,0,43,Como remover o primeiro nó de uma lista?,"void Insere (Lista* list){	
+","[php, twitter-bootstrap]",true,0,false,0,0,false,Sem comentário,91,Sem resposta/comentario,0,0,0,1,0
+225153,225166,1,false,null,0,Sat Jul 29 21:28:36 BRT 2017,Sun Jul 30 08:37:37 BRT 2017,0,47,Como remover o primeiro nó de uma lista?,"void Insere (Lista* list){	
 	
 	DadoNo dado;
     int p = list->size;
@@ -4484,7 +4484,7 @@ if (Busca(list, dado.nome) == NULL){
         list-&gt;size--;
     }
 </code></pre>
-",[c],true,0,false,0,0,false,Sem comentário,94,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[c],true,0,false,0,0,false,Sem comentário,94,Sem resposta/comentario,0,0,0,1,0
 225152,0,1,false,null,0,Sat Jul 29 21:23:32 BRT 2017,Sat Jul 29 23:19:34 BRT 2017,0,18,"No Javascript, como ter acesso aos dados de um array, usando view PUG/Jade?","Estou usando Express no Nodejs e também uso PUG (ou Jade antigo) nas views. Numa view eu exibo os dados retirados de um banco de dados em um gráfico. Os dados já recebo em formato de array. Criei um pequeno script Javascript para gerar o gráfico.
 
 **DÚVIDA**: Como faço para estes dados do array serem acessados de dentro desse Javascript conforme indicado no meu código abaixo? Como eu passo os dados para o Javascript?
@@ -4651,8 +4651,8 @@ html
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-","[javascript, node.js]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225150,0,1,false,null,3,Sat Jul 29 21:11:33 BRT 2017,Tue Sep 12 21:11:35 BRT 2017,0,53,Data com hora php,"Gostaria de ajuda com esse codigo nao cosigo gravar data e os horarios e segquencia  .
+","[javascript, node.js]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0
+225150,0,1,false,null,3,Sat Jul 29 21:11:33 BRT 2017,Tue Sep 12 21:11:35 BRT 2017,0,56,Data com hora php,"Gostaria de ajuda com esse codigo nao cosigo gravar data e os horarios e segquencia  .
 
 segue codigo:
 
@@ -4735,8 +4735,8 @@ segue codigo:
 
   &lt;/html&gt;
 </code></pre>
-",[php],false,0,false,0,0,false,86,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225143,0,1,false,null,0,Sat Jul 29 20:38:49 BRT 2017,null,0,59,função para retornar o número inteiro,"o que estou fazendo de errado na minha função?
+",[php],false,0,false,0,0,false,86,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225143,0,1,false,null,0,Sat Jul 29 20:38:49 BRT 2017,null,0,63,função para retornar o número inteiro,"o que estou fazendo de errado na minha função?
 
     num2 = float(input(""digite um número não inteiro: ""))
     def arrend(numero):
@@ -4754,8 +4754,8 @@ def arrend(numero):
         return math.ceil(num2)
 print(""o número inteiro correspondente é: {}"".format(arrend))
 </code></pre>
-","[python, python-3.x]",true,0,false,0,0,false,Sem comentário,19,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225140,225158,3,false,Fri Aug 04 17:42:19 BRT 2017,3,Sat Jul 29 20:10:49 BRT 2017,Sat Jul 29 21:26:25 BRT 2017,1,55,Caracteres com acento é considerado como dois caracteres,"Caracteres com acento são considerados como dois(imagino que seja a quantidade de bytes), como posso corrigir isso ??
+","[python, python-3.x]",true,0,false,0,0,false,Sem comentário,19,Sem resposta/comentario,0,0,0,1,0
+225140,225158,3,false,Fri Aug 04 17:42:19 BRT 2017,3,Sat Jul 29 20:10:49 BRT 2017,Sat Jul 29 21:26:25 BRT 2017,1,60,Caracteres com acento é considerado como dois caracteres,"Caracteres com acento são considerados como dois(imagino que seja a quantidade de bytes), como posso corrigir isso ??
 
     $t = ""á"";
 	if(strlen($t) == 1){
@@ -4817,7 +4817,7 @@ echo $text{1}.""&lt;br&gt;""; //retorna ¡
 echo $text{2}.""&lt;br&gt;""; //retorna 2
 echo $text{3}.""&lt;br&gt;""; //retorna 5
 </code></pre>
-",[php],true,0,false,0,0,false,33,45,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[php],true,0,false,0,0,false,33,45,12,0,0,0,1,0
 225138,225394,1,false,null,5,Sat Jul 29 19:36:08 BRT 2017,Sat Jul 29 19:45:22 BRT 2017,1,36,Não estou conseguindo adicionar uma referência ao meu programa,"Estou precisando utilizar [esta](https://msdn.microsoft.com/en-us/library/system.numerics.vector3(v=vs.111).aspx) estrutura. O problema é que eu não estou conseguindo acha-la no .NET Framework. Já adicionei uma referência para `System.Numerics` e coloquei o `using`, mas mesmo assim não consigo usar. Tentei também adicionar uma referencia para o `System.Numerics.Vectors` e colocar `using System.Numerics.Vectors`, mas aparece que os 2 nem sequer existem.
 
 **Tentando utilizar:**
@@ -4842,15 +4842,15 @@ O que eu estou fazendo de errado? Como consertar?
 <p><a href=""https://i.stack.imgur.com/zKuoT.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/zKuoT.png"" alt=""Ilustração""></a></p>
 
 <p>O que eu estou fazendo de errado? Como consertar?</p>
-","[c#, .net]",true,0,false,0,0,false,13,2400,2387,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[c#, .net]",true,0,false,0,0,false,13,2400,2387,0,0,0,1,0
 225136,225566,1,false,null,2,Sat Jul 29 19:17:33 BRT 2017,Sat Jul 29 21:41:51 BRT 2017,0,32,"javascript, posição do mouse em um elemento","Para saber a posição do mouse em um elemento uso `elm.onmouseover(mouse)`, porém não é possível usar isso se ele já estiver em cima desse elemento, e `elm.onmousemove(mouse)`, teria que necessariamente mover o mouse, como obter a posição do mouse em relação a um elemento quando ele já está em cima dele sem usar `elm.onmousemove()`?","<p>Para saber a posição do mouse em um elemento uso <code>elm.onmouseover(mouse)</code>, porém não é possível usar isso se ele já estiver em cima desse elemento, e <code>elm.onmousemove(mouse)</code>, teria que necessariamente mover o mouse, como obter a posição do mouse em relação a um elemento quando ele já está em cima dele sem usar <code>elm.onmousemove()</code>?</p>
-","[javascript, mouse]",true,0,false,0,0,false,173,3063,2889,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225132,0,1,false,null,0,Sat Jul 29 18:24:49 BRT 2017,null,0,21,Rails link to dinâmico,"Estou com a seguinte dúvida, no meu controller tem uma variavel que pega qual o modelo que o cara está vindo e envia para  a view.
+","[javascript, mouse]",true,0,false,0,0,false,173,3063,2889,0,0,0,1,0
+225132,0,1,false,null,0,Sat Jul 29 18:24:49 BRT 2017,null,0,22,Rails link to dinâmico,"Estou com a seguinte dúvida, no meu controller tem uma variavel que pega qual o modelo que o cara está vindo e envia para  a view.
 
 Gostaria de criar um link a partir desta variavel tipo: link_to @link(variavel: @variavel), nesta parte o sistema é muito dinâmico e gostaria de poder mostrar um link de volta ao modelo que o teria invocado a criação.","<p>Estou com a seguinte dúvida, no meu controller tem uma variavel que pega qual o modelo que o cara está vindo e envia para  a view.</p>
 
 <p>Gostaria de criar um link a partir desta variavel tipo: link_to @link(variavel: @variavel), nesta parte o sistema é muito dinâmico e gostaria de poder mostrar um link de volta ao modelo que o teria invocado a criação.</p>
-","[ruby-on-rails, view, controller]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[ruby-on-rails, view, controller]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 225130,225134,1,false,null,0,Sat Jul 29 18:16:10 BRT 2017,null,3,37,Obtenho resultados diferentes quando converto de Caracter para Decimal em PHP e Java,"Quando converto `á` para decimal obtenho o resultado `225` com esse código em Java:
 
     public static int charToDec(String text){return (int) text.charAt(0);}
@@ -4876,8 +4876,8 @@ Lembrando que isso só acontece com caracteres ""especiais"".
 <p>Como posso arrumar para converter para o mesmo valor ??</p>
 
 <p>Lembrando que isso só acontece com caracteres ""especiais"".</p>
-","[php, java, decimal, caracteres]",true,0,false,0,0,false,Sem comentário,59,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225124,0,1,false,null,0,Sat Jul 29 16:50:26 BRT 2017,Sat Jul 29 17:45:18 BRT 2017,0,17,Arquivos Statics,"Alguém sabe como usar os arquivos `statics` para melhorar o desempenho e velocidade do site?
+","[php, java, decimal, caracteres]",true,0,false,0,0,false,Sem comentário,59,Sem resposta/comentario,0,0,0,0,0
+225124,0,1,false,null,0,Sat Jul 29 16:50:26 BRT 2017,Sat Jul 29 17:45:18 BRT 2017,0,18,Arquivos Statics,"Alguém sabe como usar os arquivos `statics` para melhorar o desempenho e velocidade do site?
 
 Como os grandes ecoomerces usam:
 
@@ -4899,7 +4899,7 @@ http://static1.netshoes.net/Produtos/88/N03-0046-188/N03-0046-188_zoom1.jpg?resi
 <p>Eles usam em imagens,scripts e css.</p>
 
 <p>Alguém sabe a forma correta de se utilizar essa técnica?</p>
-","[php, jquery, css, desempenho]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, jquery, css, desempenho]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
 225121,231181,1,false,null,7,Sat Jul 29 16:47:00 BRT 2017,Sat Jul 29 16:56:01 BRT 2017,4,47,Como detectar o mouse wheel?,"Preciso detectar se o usuário está rolando o scroll do mouse para baixo.
 
 Tentei com o `GetKeyState`, mas parece que não tem como passar como parâmetro a rolagem do scroll do mouse.
@@ -4940,8 +4940,8 @@ Achei também [isso](https://msdn.microsoft.com/en-us/library/system.windows.inp
 </code></pre>
 
 <p>Achei também <a href=""https://msdn.microsoft.com/en-us/library/system.windows.input.mousewheeleventargs.delta.aspx"" rel=""nofollow noreferrer"">isso</a>, mas não faço nem ideia de como usar em uma aplicação console.</p>
-",[c#],true,0,false,0,0,false,9,34359,34349,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225120,0,1,false,null,0,Sat Jul 29 16:44:33 BRT 2017,null,0,34,Loop de números randomicos,"Boa tarde, estou tentando fazer um loop dos meus números randômicos.... Tenho dois spinner, 1 com escolha de quantos números randômicos e o outro quantas vezes tem que aparecer em uma ListView... 
+",[c#],true,0,false,0,0,false,9,34359,34349,0,0,0,1,0
+225120,0,1,false,null,0,Sat Jul 29 16:44:33 BRT 2017,null,0,35,Loop de números randomicos,"Boa tarde, estou tentando fazer um loop dos meus números randômicos.... Tenho dois spinner, 1 com escolha de quantos números randômicos e o outro quantas vezes tem que aparecer em uma ListView... 
 
 o meu problema é que ele gera a quantidade de números aleatórios, mas não a quantidade de vezes. Queria saber como fazer .... Pois não estou conseguindo
 
@@ -5249,7 +5249,7 @@ public class DuplaSena extends Fragment {
 <p><a href=""https://i.stack.imgur.com/fgkN8.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/fgkN8.png"" alt=""inserir a descrição da imagem aqui""></a></p>
 
 <p>Alguém pode me ajudar? Obrigado...</p>
-","[java, android]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, android]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
 225119,225133,1,false,null,2,Sat Jul 29 16:40:48 BRT 2017,Sat Jul 29 18:36:30 BRT 2017,0,24,Como saber se uma requisição Json não retornou resultado?,"Tenho um código em `JavaScript` que faz uma busca em um banco de dados e preenche um `input` com o nome do paciente encontrado:
 
     $(""#bCns"").keypress(function (e) {
@@ -5313,8 +5313,8 @@ return Json(oPaciente, JsonRequestBehavior.AllowGet);
 <pre><code>if (!data){}
 if (data == false){}
 </code></pre>
-","[javascript, jquery, asp.net-mvc, json]",true,0,false,0,0,false,14,123,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225118,0,1,false,null,2,Sat Jul 29 16:37:12 BRT 2017,Sat Jul 29 16:46:10 BRT 2017,0,20,Loop para Somar valores de um db,"Estou fazendo um sistema de controle financeiro, e fiz um loop while para pegar os dados dos clientes de um db e mostra-los em uma tabela. O que quero fazer é pegar os valores da coluna ""PREÇO"" e somar, para dar o valor do total de saldos. Vou colocar apenas a parte do código relevante:
+","[javascript, jquery, asp.net-mvc, json]",true,0,false,0,0,false,14,123,108,0,0,0,1,0
+225118,0,1,false,null,2,Sat Jul 29 16:37:12 BRT 2017,Sat Jul 29 16:46:10 BRT 2017,0,21,Loop para Somar valores de um db,"Estou fazendo um sistema de controle financeiro, e fiz um loop while para pegar os dados dos clientes de um db e mostra-los em uma tabela. O que quero fazer é pegar os valores da coluna ""PREÇO"" e somar, para dar o valor do total de saldos. Vou colocar apenas a parte do código relevante:
 
         <?php
 							$seleciona=""select * from receitas order by nome"";
@@ -5362,8 +5362,8 @@ O que quero fazer agora é um loop para pegar os valores da variavel ""$preco"" 
 </code></pre>
 
 <p>O que quero fazer agora é um loop para pegar os valores da variavel ""$preco"" e somar para colocar o resultado da soma de todos os valores como o total de receitas.</p>
-","[php, loop, phpmyadmin]",false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225116,225562,1,false,null,9,Sat Jul 29 16:22:42 BRT 2017,Sun Jul 30 11:03:14 BRT 2017,-3,97,Como verificar se um item já foi introduzido numa lista em c#," 1. Existe a lista **turmas**
+","[php, loop, phpmyadmin]",false,0,false,0,0,false,5,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225116,225562,1,false,null,9,Sat Jul 29 16:22:42 BRT 2017,Sun Jul 30 11:03:14 BRT 2017,-3,99,Como verificar se um item já foi introduzido numa lista em c#," 1. Existe a lista **turmas**
  2. Dentro dessa lista eu coloco objectos do tipo **turma**
  3. Cada objecto possui **(string)nomeTurma.Text** & um valor numérico **(int)numericUpDown1.Value**
  4. Utilizo o método **addTurma** para colocar os objectos na lista **turmas**<br>
@@ -5410,18 +5410,18 @@ Quero apenas adicionar **objectos do tipo turma** que não tenham o mesmo nome o
 </ol>
 
 <p>Quero apenas adicionar <strong>objectos do tipo turma</strong> que não tenham o mesmo nome ou seja, verificar se  <strong>(string)nomeTurma.Text</strong> já existe na lista <strong>turmas</strong></p>
-",[c#],true,0,false,0,0,false,459,3214,2755,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+",[c#],true,0,false,0,0,false,459,3214,2755,0,0,0,1,0
 225112,0,1,false,null,0,Sat Jul 29 15:26:40 BRT 2017,null,0,21,React Native Drag and Drop Listview,"Eu preciso implementar uma funcionalidade bizarra no React Native. É o seguinte, preciso conseguir fazer um drag and drop para remover um ítem de uma ListView horizontal e adicionar em outra. A grande questão é que ele só pode iniciar o drag and drop se o usuário tiver arrastado para cima, porque como é uma listview, e é horizontal, significa que se o usuário arrastar para o lado é para scrollar a view 
 Alguém sabe como posso fazer isso ou algo parecido com isso?","<p>Eu preciso implementar uma funcionalidade bizarra no React Native. É o seguinte, preciso conseguir fazer um drag and drop para remover um ítem de uma ListView horizontal e adicionar em outra. A grande questão é que ele só pode iniciar o drag and drop se o usuário tiver arrastado para cima, porque como é uma listview, e é horizontal, significa que se o usuário arrastar para o lado é para scrollar a view 
 Alguém sabe como posso fazer isso ou algo parecido com isso?</p>
-","[javascript, react.js, react-native]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225107,225110,1,false,Wed Aug 02 12:44:27 BRT 2017,3,Sat Jul 29 14:30:11 BRT 2017,null,0,33,como deixar o video sem o fundo transparente?,"Estou usando uma transparentbox com videos do youtube dentro dela, como faço pra deixar os videos sem o fundo transparente?
+","[javascript, react.js, react-native]",false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+225107,225110,1,false,Wed Aug 02 12:44:27 BRT 2017,3,Sat Jul 29 14:30:11 BRT 2017,null,0,36,como deixar o video sem o fundo transparente?,"Estou usando uma transparentbox com videos do youtube dentro dela, como faço pra deixar os videos sem o fundo transparente?
 
 <a href=""http://www.l2afterlife.com"">meu site</a>","<p>Estou usando uma transparentbox com videos do youtube dentro dela, como faço pra deixar os videos sem o fundo transparente?</p>
 
 <p><a href=""http://www.l2afterlife.com"" rel=""nofollow noreferrer"">meu site</a></p>
-",[css],true,0,false,0,0,false,45,26,-19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225106,0,1,false,null,0,Sat Jul 29 14:29:33 BRT 2017,Sat Jul 29 20:36:46 BRT 2017,-1,22,Barra de propriedades e banco de dados para PhpStorm,"O **PhpStorm** possui **barra de propriedades** e **banco de dados** similar ao dreamweaver? Caso sim, como ativar?
+",[css],true,0,false,0,0,false,45,26,-19,0,0,0,1,0
+225106,0,1,false,null,0,Sat Jul 29 14:29:33 BRT 2017,Sat Jul 29 20:36:46 BRT 2017,-1,23,Barra de propriedades e banco de dados para PhpStorm,"O **PhpStorm** possui **barra de propriedades** e **banco de dados** similar ao dreamweaver? Caso sim, como ativar?
 
 
 
@@ -5436,8 +5436,8 @@ Alguém sabe como posso fazer isso ou algo parecido com isso?</p>
 <p><a href=""https://i.stack.imgur.com/OBXSS.gif"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/OBXSS.gif"" alt=""inserir a descrição da imagem aqui""></a></p>
 
 <p><a href=""https://i.stack.imgur.com/5d6qx.gif"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/5d6qx.gif"" alt=""inserir a descrição da imagem aqui""></a></p>
-",[phpstorm],true,0,false,0,0,false,Sem comentário,375,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225099,225101,1,false,null,0,Sat Jul 29 13:36:59 BRT 2017,null,1,25,Como compilar/buildar uma DLL?,"Fiz um programa em C# no Visual Studio 2017, mas como padrão, quando eu compilo o código, ele cria um arquivo `.exe`, mas eu gostaria que o código compilasse um arquivo `.dll`. Como posso fazer isso?
+",[phpstorm],true,0,false,0,0,false,Sem comentário,375,Sem resposta/comentario,0,0,0,1,0
+225099,225101,1,false,null,0,Sat Jul 29 13:36:59 BRT 2017,null,1,28,Como compilar/buildar uma DLL?,"Fiz um programa em C# no Visual Studio 2017, mas como padrão, quando eu compilo o código, ele cria um arquivo `.exe`, mas eu gostaria que o código compilasse um arquivo `.dll`. Como posso fazer isso?
 
 **Exemplo:**
 
@@ -5464,8 +5464,8 @@ Mas o que eu quero criar é:
 
 <pre><code>C:\Visual Studio 2017\Projects\ccleaner\ccleaner\bin\Debug\ccleaner.dll
 </code></pre>
-","[c#, visual-studio, dll]",true,0,false,0,0,false,Sem comentário,5,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225091,0,2,false,null,1,Sat Jul 29 12:32:23 BRT 2017,Tue Aug 01 11:13:49 BRT 2017,-1,63,Preciso de explicação no erro neste script em C++,"    #include <iostream>
+","[c#, visual-studio, dll]",true,0,false,0,0,false,Sem comentário,5,Sem resposta/comentario,0,0,0,1,0
+225091,0,2,false,null,1,Sat Jul 29 12:32:23 BRT 2017,Tue Aug 01 11:13:49 BRT 2017,-3,67,Preciso de explicação no erro neste script em C++,"    #include <iostream>
     #include <string>
 
     struct Brinquedos{
@@ -5538,8 +5538,8 @@ int main(){
 <blockquote>
   <p>In member function 'void Brinquedos::func(int, int, int, int)': 11:12: error: lvalue required as left operand of assignment 12:16: error: lvalue required as left operand of assignment 13:13: error: lvalue required as left operand of assignment 14:16: error: lvalue required as left operand of assignment</p>
 </blockquote>
-","[c++, struct, enums]",true,0,false,0,0,false,9124,11,-9112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225090,225114,1,false,null,2,Sat Jul 29 11:56:15 BRT 2017,Sat Jul 29 12:13:15 BRT 2017,1,41,Minha lista duplamente encadeada não esta ordenando,"Classe No Duplo
+","[c++, struct, enums]",true,0,false,0,0,false,9124,11,-9112,0,0,0,1,0
+225090,225114,1,false,null,2,Sat Jul 29 11:56:15 BRT 2017,Sat Jul 29 12:13:15 BRT 2017,1,42,Minha lista duplamente encadeada não esta ordenando,"Classe No Duplo
 
     package ListaDuplamenteEncadeada;
     
@@ -6011,8 +6011,8 @@ public class ListaDuplamenteEncadeada {
 </code></pre>
 
 <p>Ele não ta ordenando ele, não ta mudando a referencia do menor valor.</p>
-","[java, lista]",true,0,false,0,0,false,40,246,206,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225087,0,1,false,null,4,Sat Jul 29 11:40:45 BRT 2017,null,0,42,Iniciar animação css em div somente após abrir menu,"Estou com dúvidas de como iniciar animação em css somente após abrir o menu na opção +ABRIR MENU e iniciar a animação na div `<div class=""product""></div>`
+","[java, lista]",true,0,false,0,0,false,40,246,206,0,0,0,1,0
+225087,0,1,false,null,4,Sat Jul 29 11:40:45 BRT 2017,null,0,45,Iniciar animação css em div somente após abrir menu,"Estou com dúvidas de como iniciar animação em css somente após abrir o menu na opção +ABRIR MENU e iniciar a animação na div `<div class=""product""></div>`
 
 Link do exmeplo no CodePen https://codepen.io/flashpremium/pen/2b11d13707e9257c659323524eec1a2f
 
@@ -6579,10 +6579,10 @@ body {
 </div>
 </div>
 </p>
-","[javascript, html, css]",true,0,false,0,0,false,26,1411,1384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225085,225088,1,false,null,1,Sat Jul 29 11:23:34 BRT 2017,Wed Aug 02 11:37:36 BRT 2017,2,25,Como fazer com que uma função execute apenas no IE 10 e 11?,"Eu quero que um trecho de código (uma função especifica) execute apenas quando o navegador for IE 10 e 11, quando for Firefox ou Chrome por exemplo, eu quero que essa função seja ignorada. Isso é possível?","<p>Eu quero que um trecho de código (uma função especifica) execute apenas quando o navegador for IE 10 e 11, quando for Firefox ou Chrome por exemplo, eu quero que essa função seja ignorada. Isso é possível?</p>
-","[javascript, jquery, internet-explorer]",true,0,false,0,0,false,167,19,-147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225083,225089,1,false,null,0,Sat Jul 29 11:18:53 BRT 2017,Sat Jul 29 11:27:36 BRT 2017,1,20,"Apertando a tecla backspace, apagar os campos inputs anteriores","O código abaixo faz com que o usuário ao digitar em um determinado campo input, ele pula para o outro campo automaticamente:
+","[javascript, html, css]",true,0,false,0,0,false,26,1411,1384,0,0,0,1,0
+225085,225088,1,false,null,1,Sat Jul 29 11:23:34 BRT 2017,Wed Aug 02 11:37:36 BRT 2017,2,26,Como fazer com que uma função execute apenas no IE 10 e 11?,"Eu quero que um trecho de código (uma função especifica) execute apenas quando o navegador for IE 10 e 11, quando for Firefox ou Chrome por exemplo, eu quero que essa função seja ignorada. Isso é possível?","<p>Eu quero que um trecho de código (uma função especifica) execute apenas quando o navegador for IE 10 e 11, quando for Firefox ou Chrome por exemplo, eu quero que essa função seja ignorada. Isso é possível?</p>
+","[javascript, jquery, internet-explorer]",true,0,false,0,0,false,167,19,-147,0,0,0,1,0
+225083,225089,1,false,null,0,Sat Jul 29 11:18:53 BRT 2017,Sat Jul 29 11:27:36 BRT 2017,1,22,"Apertando a tecla backspace, apagar os campos inputs anteriores","O código abaixo faz com que o usuário ao digitar em um determinado campo input, ele pula para o outro campo automaticamente:
 
     <form class=""form-inline"">
      <div align=""center"">    
@@ -6622,8 +6622,8 @@ Obrigado","<p>O código abaixo faz com que o usuário ao digitar em um determina
 <p>Até aqui tudo certo, mas como eu faria para caso o usuário quisesse apagar os campos anteriores apertando a tecla Backspace?</p>
 
 <p>Obrigado</p>
-","[javascript, jquery, html5]",true,0,false,0,0,false,Sem comentário,29,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225080,225081,2,false,null,0,Sat Jul 29 10:45:08 BRT 2017,Tue Aug 01 10:59:29 BRT 2017,2,38,Pra que servem as variáveis model e Model em uma View?,"Pra que servem as variáveis `@model` e `Model` em uma *view*?
+","[javascript, jquery, html5]",true,0,false,0,0,false,Sem comentário,29,Sem resposta/comentario,0,0,0,1,0
+225080,225081,2,false,null,0,Sat Jul 29 10:45:08 BRT 2017,Tue Aug 01 10:59:29 BRT 2017,2,41,Pra que servem as variáveis model e Model em uma View?,"Pra que servem as variáveis `@model` e `Model` em uma *view*?
 
 Na minha *view* eu uso assim no início do código:
 
@@ -6693,7 +6693,7 @@ Nesse caso, como eu recebo as variáveis `listaEstabelecimento` e `teste`?","<p>
 </code></pre>
 
 <p>Nesse caso, como eu recebo as variáveis <code>listaEstabelecimento</code> e <code>teste</code>?</p>
-","[c#, asp.net-mvc, .net, razor, view]",true,0,false,0,0,false,Sem comentário,10,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[c#, asp.net-mvc, .net, razor, view]",true,0,false,0,0,false,Sem comentário,10,Sem resposta/comentario,0,0,0,1,0
 225079,225104,1,false,null,0,Sat Jul 29 10:43:40 BRT 2017,null,0,24,Problemas WebService ASMX,"Quando envio um retorno JSON e o texto tem acentuação, o JSON quebra.
 <hr>
 > Aqui está o código da requisição no Controller
@@ -6779,8 +6779,8 @@ Nesse caso, como eu recebo as variáveis `listaEstabelecimento` e `teste`?","<p>
 
 <pre><code>[{nome:'felipe',funcao:'medico',idade:23}]
 </code></pre>
-","[angularjs, ajax, asmx]",true,0,false,0,0,false,Sem comentário,219,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225070,226796,1,false,null,0,Sat Jul 29 09:41:26 BRT 2017,null,0,22,firebase hosting não entende meu dominio escolar.sjc.br,"Recentemente surgiu uma nova categoria de dominio no Brasil o sjc.br então fui e comprei escolar.sjc.br
+","[angularjs, ajax, asmx]",true,0,false,0,0,false,Sem comentário,219,Sem resposta/comentario,0,0,1,1,0
+225070,226796,1,false,null,0,Sat Jul 29 09:41:26 BRT 2017,null,0,27,firebase hosting não entende meu dominio escolar.sjc.br,"Recentemente surgiu uma nova categoria de dominio no Brasil o sjc.br então fui e comprei escolar.sjc.br
 
 mas quando tento vincular este meu dominio ao firebase hosting ele apenas entende como sjc.br
 
@@ -6793,8 +6793,8 @@ caso não seja possível adicionar o firebase hosting infelizmente vou ter que a
 <p>minha duvida é se esta nova categoria precisa ser adicionada no firebase? caso sim com fazer isso</p>
 
 <p>caso não seja possível adicionar o firebase hosting infelizmente vou ter que abandonar o serviço</p>
-","[firebase, domínio]",true,0,false,0,0,false,Sem comentário,10098,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225069,225073,2,false,null,2,Sat Jul 29 09:40:52 BRT 2017,Wed Aug 02 11:22:23 BRT 2017,0,51,Construir/iniciar objeto via parâmetro string em uma função,"Preciso iniciar objetos dinamicamente com JavaScript
+","[firebase, domínio]",true,0,false,0,0,false,Sem comentário,10098,Sem resposta/comentario,0,0,0,1,0
+225069,225073,2,false,null,2,Sat Jul 29 09:40:52 BRT 2017,Wed Aug 02 11:22:23 BRT 2017,0,53,Construir/iniciar objeto via parâmetro string em uma função,"Preciso iniciar objetos dinamicamente com JavaScript
 
 Ex: 
 
@@ -6867,8 +6867,8 @@ Existe alguma forma para sanar isso? ","<p>Preciso iniciar objetos dinamicamente
 <p><strong>Se eu fizer:</strong> <code>iniciaClasse('sayHello')</code> - Obtenho um erro porque o parâmetro passado é uma <em>string</em> (creio eu que é por isso)</p>
 
 <p>Existe alguma forma para sanar isso? </p>
-","[javascript, funções]",true,0,false,0,0,false,25,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225067,225387,4,false,null,2,Sat Jul 29 09:21:28 BRT 2017,Mon Jul 31 23:24:40 BRT 2017,0,160,"Ajax, limitar tempo mesmo dando reload na página","Tenho o código que faz o que tem que fazer, e ao terminar ele esconde o botão e mostra a mensagem de sucesso:
+","[javascript, funções]",true,0,false,0,0,false,25,28,2,0,0,0,1,0
+225067,225387,4,false,null,2,Sat Jul 29 09:21:28 BRT 2017,Mon Jul 31 23:24:40 BRT 2017,0,164,"Ajax, limitar tempo mesmo dando reload na página","Tenho o código que faz o que tem que fazer, e ao terminar ele esconde o botão e mostra a mensagem de sucesso:
 
     function getFollow() {
       $('#btnFollow').click(function(a) {
@@ -6999,8 +6999,8 @@ if ($user = $helper-&gt;signedIn()) {
     );
 }
 </code></pre>
-","[php, jquery, ajax]",true,0,false,0,0,false,4319,2997,-1322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225064,0,1,false,null,0,Sat Jul 29 08:44:55 BRT 2017,null,0,14,3 colunas bootstrap,"Tenho esse código Html em Bootstrap
+","[php, jquery, ajax]",true,0,false,0,0,false,4319,2997,-1322,0,0,0,1,0
+225064,0,1,false,null,0,Sat Jul 29 08:44:55 BRT 2017,null,0,15,3 colunas bootstrap,"Tenho esse código Html em Bootstrap
 
     <div class=""col-xs-12 col-sm-4 col-md-2 cloneditem-1"">
     <button data-rel=""uploads/pro-GLD6014.jpg""><img src=""uploads/gld6014.jpg"" class=""img-responsive""></button>
@@ -7014,8 +7014,8 @@ Ali está com 6 colunas, como eu farei para ficar com 3 colunas?","<p>Tenho esse
 </code></pre>
 
 <p>Ali está com 6 colunas, como eu farei para ficar com 3 colunas?</p>
-",[bootstrap-3],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225062,0,1,false,null,5,Sat Jul 29 07:59:07 BRT 2017,Tue Aug 08 15:56:54 BRT 2017,4,87,Debug remoto em ambientes isolados,"Trabalho em uma empresa fazendo correções de bugs. Alguns clientes implantam o sistema em computadores da sua rede interna, por isso, não é possível fazer debug remoto.
+",[bootstrap-3],false,0,false,0,0,false,Sem comentário,Sem Resposta,Sem resposta/comentario,0,0,1,0,0
+225062,0,1,false,null,5,Sat Jul 29 07:59:07 BRT 2017,Tue Aug 08 15:56:54 BRT 2017,4,88,Debug remoto em ambientes isolados,"Trabalho em uma empresa fazendo correções de bugs. Alguns clientes implantam o sistema em computadores da sua rede interna, por isso, não é possível fazer debug remoto.
 
 Os computadores dos clientes normalmente possuem acesso à Internet.
 
@@ -7029,8 +7029,8 @@ Se eu criasse um VPN com `OpenVpn`, resolveria o meu problema?
 <p>Gostaria de saber se há alguma ferramenta que permitiria fazer debug remoto. </p>
 
 <p>Se eu criasse um VPN com <code>OpenVpn</code>, resolveria o meu problema?</p>
-","[java, tomcat, debug]",true,0,false,0,0,false,6306,6240,-65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225056,225058,1,false,null,3,Sat Jul 29 01:43:41 BRT 2017,Wed Aug 02 11:10:07 BRT 2017,1,46,Como chamar um método dentro da classe?,"Estou tentando chamar o método que retorna um `unsigned char` através de outro método da mesma classe, revirei a internet toda mas não entendi como fazer isso.
+","[java, tomcat, debug]",true,0,false,0,0,false,6306,6240,-65,0,0,0,1,0
+225056,225058,1,false,null,3,Sat Jul 29 01:43:41 BRT 2017,Wed Aug 02 11:10:07 BRT 2017,1,48,Como chamar um método dentro da classe?,"Estou tentando chamar o método que retorna um `unsigned char` através de outro método da mesma classe, revirei a internet toda mas não entendi como fazer isso.
 
     byte CryrazCore::*ComputeByteArray(byte inputData[], bool decryptMode)
     {
@@ -7071,8 +7071,8 @@ byte PushChecksum();
 </blockquote>
 
 <p>Onde estou errando para chamar a função?</p>
-","[c++, método]",true,0,false,0,0,false,495,104,-390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179701,0,2,false,null,0,Tue Jan 24 20:52:02 BRT 2017,Tue Jan 24 21:36:49 BRT 2017,6,102,Como colocar um PopUp que pede autorização para usar o GPS?,"Gente, estou programando em Java (com Android Studio) e este código para pegar a posição do GPS, que funciona muito bem!
+","[c++, método]",true,0,false,0,0,false,495,104,-390,0,0,0,1,0
+179701,0,2,false,null,0,Tue Jan 24 20:52:02 BRT 2017,Tue Jan 24 21:36:49 BRT 2017,6,105,Como colocar um PopUp que pede autorização para usar o GPS?,"Gente, estou programando em Java (com Android Studio) e este código para pegar a posição do GPS, que funciona muito bem!
 
 Agora eu estou tentando aprender como **pedir autorização ao usuário** para usar o GPS, mas encontrei ""informação de mais"" no google... E nada mais parece se encaixar... 
 
@@ -7616,7 +7616,7 @@ public class PostPositionActivity extends AppCompatActivity
     }
 }
 </code></pre>
-","[java, android]",true,0,false,0,0,false,Sem comentário,82,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, android]",true,0,false,0,0,false,Sem comentário,82,Sem resposta/comentario,0,0,0,0,0
 179700,0,1,false,null,3,Tue Jan 24 20:49:51 BRT 2017,Wed Jan 25 16:01:59 BRT 2017,0,39,StackOverflowError ao usar um método,"Seguinte, estou no desenvolvimento de um aplicativo. Nele existem dois métodos de cálculo, onde na entrada de dados o usuário escolhe o método e insere os dados. Um desses métodos está funcionando perfeitamente. Já o outro causa o problema da figura a seguir. 
 
 [![inserir a descrição da imagem aqui][1]][1]
@@ -8090,8 +8090,8 @@ Disconnected from the target VM, address: 'localhost:8601', transport: 'socket'
 </div>
 </div>
 </p>
-","[java, android]",false,0,false,0,0,false,673,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179691,179702,1,false,null,0,Tue Jan 24 20:08:54 BRT 2017,Tue Jan 24 20:58:48 BRT 2017,2,175,Alterar ordem de objetos no array arrastando linhas da tabela angular JS,"Tenho um tabela e utilizando `jquery` ( `sortable` ), gostaria que quando arrastasse a linha modificando o `html` da tabela, a ordem do `array` se modificasse 
+","[java, android]",false,0,false,0,0,false,673,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+179691,179702,1,false,null,0,Tue Jan 24 20:08:54 BRT 2017,Tue Jan 24 20:58:48 BRT 2017,2,189,Alterar ordem de objetos no array arrastando linhas da tabela angular JS,"Tenho um tabela e utilizando `jquery` ( `sortable` ), gostaria que quando arrastasse a linha modificando o `html` da tabela, a ordem do `array` se modificasse 
 
 Exemplo:
 
@@ -8239,8 +8239,8 @@ $scope.conjunto = [{id:1, nome:""ana1""},{id:2, nome:""ana2""},{id:3, nome:""ana
 </div>
 </div>
 </p>
-","[javascript, jquery, html, angularjs, sortable]",true,0,false,0,0,false,Sem comentário,46,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179689,179699,1,false,null,4,Tue Jan 24 19:56:05 BRT 2017,null,1,51,Outro Tipo de checkbox,"Como que eu poderia fazer uma checkbox que a cada clique nele , seja o mesmo que um valor inserido , assim eu não precise colocar no input ao lado do meu checkbox o número desejado .
+","[javascript, jquery, html, angularjs, sortable]",true,0,false,0,0,false,Sem comentário,46,Sem resposta/comentario,0,0,0,1,0
+179689,179699,1,false,null,4,Tue Jan 24 19:56:05 BRT 2017,null,1,52,Outro Tipo de checkbox,"Como que eu poderia fazer uma checkbox que a cada clique nele , seja o mesmo que um valor inserido , assim eu não precise colocar no input ao lado do meu checkbox o número desejado .
 Caso eu não tenha sido claro comente , abaixo para me ajudar ao invés de desclassificar minha pergunta. 
 
 <!-- begin snippet: js hide: false console: true babel: false -->
@@ -8270,8 +8270,8 @@ Caso eu não tenha sido claro comente , abaixo para me ajudar ao invés de descl
 </div>
 </div>
 </p>
-",[html],true,0,false,0,0,false,2,45,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179686,179694,1,false,null,0,Tue Jan 24 19:32:32 BRT 2017,Tue Jan 24 19:44:38 BRT 2017,0,114,ConnectionStrings: Gravar no app.config ou no registro do windows?,"Minha dúvida é referente à qual a melhor maneira de manter o `ConnectionString` do meu sistema em disco para ser lido conforme a necessidade, ou seja, qual é a melhor maneira de fazer isso, gravando-o no arquivo `app.config`, ou gravando no ***registro*** do `Windows`?
+",[html],true,0,false,0,0,false,2,45,43,0,0,1,1,0
+179686,179694,1,false,null,0,Tue Jan 24 19:32:32 BRT 2017,Tue Jan 24 19:44:38 BRT 2017,0,118,ConnectionStrings: Gravar no app.config ou no registro do windows?,"Minha dúvida é referente à qual a melhor maneira de manter o `ConnectionString` do meu sistema em disco para ser lido conforme a necessidade, ou seja, qual é a melhor maneira de fazer isso, gravando-o no arquivo `app.config`, ou gravando no ***registro*** do `Windows`?
 
 Quais as vantagens e desvantagens de cada um?
 
@@ -8286,8 +8286,8 @@ Hoje estou fazendo baseado no ***registro*** do `Windows`, mas, novamente, gosta
 
 <p>Enfim, é uma dúvida aparentemente boba, mas que me deixou curioso. 
 Hoje estou fazendo baseado no <strong><em>registro</em></strong> do <code>Windows</code>, mas, novamente, gostaria de tirar a dúvida de qual é melhor.</p>
-","[c#, .net, winforms]",true,0,false,0,0,false,Sem comentário,50,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179681,179683,1,false,null,0,Tue Jan 24 18:59:20 BRT 2017,Tue Jan 24 19:21:17 BRT 2017,0,76,Fatal error: Call to a member function num_rows() on a non-object,"Estou querendo buscar o total de linhas de uma consulta porém fica dando esse erro, já tentei usar a função row(), rowCount() e até mesmo verificar se encontrou algum resultado pra retornar e mesmo assim não cheguei na solução
+","[c#, .net, winforms]",true,0,false,0,0,false,Sem comentário,50,Sem resposta/comentario,0,0,0,1,0
+179681,179683,1,false,null,0,Tue Jan 24 18:59:20 BRT 2017,Tue Jan 24 19:21:17 BRT 2017,0,85,Fatal error: Call to a member function num_rows() on a non-object,"Estou querendo buscar o total de linhas de uma consulta porém fica dando esse erro, já tentei usar a função row(), rowCount() e até mesmo verificar se encontrou algum resultado pra retornar e mesmo assim não cheguei na solução
 
 > Fatal error: Call to a member function num_rows() on a non-object in
 > C:\wamp\www\topsamp-ci\application\models\Servidor_model.php on line
@@ -8329,8 +8329,8 @@ Hoje estou fazendo baseado no <strong><em>registro</em></strong> do <code>Window
     }
 }
 </code></pre>
-","[php, mysql, codeigniter]",true,0,false,0,0,false,Sem comentário,8,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179680,179682,2,false,null,6,Tue Jan 24 18:47:41 BRT 2017,Fri Jan 27 18:32:58 BRT 2017,4,61,Otimização de Função (provavelmente com o laço for),"Estou com dificuldade de desenvolvimento quando falamos de for... O básico consigo entender agora na prática... Gente desenvolvi este código e acredito que ele possa ser reduzido para poucas linhas com for.
+","[php, mysql, codeigniter]",true,0,false,0,0,false,Sem comentário,8,Sem resposta/comentario,0,0,0,1,0
+179680,179682,2,false,null,6,Tue Jan 24 18:47:41 BRT 2017,Fri Jan 27 18:32:58 BRT 2017,4,62,Otimização de Função (provavelmente com o laço for),"Estou com dificuldade de desenvolvimento quando falamos de for... O básico consigo entender agora na prática... Gente desenvolvi este código e acredito que ele possa ser reduzido para poucas linhas com for.
 
 Repare que ele na troca do input range ele aparece botões diferentes (os determinados) e fecha as divs de botões abertos.
 Quando apertamos estes botões ele abre a div dele e fecha as demais.
@@ -8615,13 +8615,13 @@ Quando apertamos estes botões ele abre a div dele e fecha as demais.</p>
 </code></pre>
 
 <p></p>
-","[javascript, html5, input, for, css-display]",true,0,false,0,0,false,3,17,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179679,179696,1,false,Thu Jan 26 08:41:42 BRT 2017,2,Tue Jan 24 18:37:41 BRT 2017,null,0,62,"Sql Query, buscar dados a partir de ID determinado","como fazer uma consulta, buscando dados a partir do ID determinado?
+","[javascript, html5, input, for, css-display]",true,0,false,0,0,false,3,17,14,0,0,0,1,0
+179679,179696,1,false,Thu Jan 26 08:41:42 BRT 2017,2,Tue Jan 24 18:37:41 BRT 2017,null,0,64,"Sql Query, buscar dados a partir de ID determinado","como fazer uma consulta, buscando dados a partir do ID determinado?
 
 Por exemplo, minha tabela tem 1mil registros, eu quero determinar num foreach a busca dos dados a partir do registro 300.","<p>como fazer uma consulta, buscando dados a partir do ID determinado?</p>
 
 <p>Por exemplo, minha tabela tem 1mil registros, eu quero determinar num foreach a busca dos dados a partir do registro 300.</p>
-","[php, sql, query]",true,0,false,0,0,false,3,110,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, sql, query]",true,0,false,0,0,false,3,110,107,0,0,0,1,0
 179678,179684,1,false,null,0,Tue Jan 24 18:37:36 BRT 2017,Wed Jan 25 13:56:29 BRT 2017,2,47,Os botões adicionados por debaixo do ReciclerView não aparecem,"Estou usando um LinearLayout com uma ReciclerView e 3 botões debaixo dela.  
 
 Estou a fazer assim, mas a ReciclerView ocupa a tela toda e os botões não aparecem. 
@@ -8708,12 +8708,12 @@ Estou a fazer assim, mas a ReciclerView ocupa a tela toda e os botões não apar
     &lt;/LinearLayout&gt;
 &lt;/LinearLayout&gt;
 </code></pre>
-","[android, android-layout, android-recyclerview]",true,0,false,0,0,false,Sem comentário,38,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179673,0,2,false,Tue Jan 31 07:32:53 BRT 2017,5,Tue Jan 24 18:03:27 BRT 2017,Tue Jan 24 21:25:10 BRT 2017,0,81,Filtro no Google Places API,"Gostaria de saber se existe alguma maneira de filtrar os locais como por exemplo ""academias"" usando Google Places ?
+","[android, android-layout, android-recyclerview]",true,0,false,0,0,false,Sem comentário,38,Sem resposta/comentario,0,0,0,1,0
+179673,0,2,false,Tue Jan 31 07:32:53 BRT 2017,5,Tue Jan 24 18:03:27 BRT 2017,Tue Jan 24 21:25:10 BRT 2017,0,84,Filtro no Google Places API,"Gostaria de saber se existe alguma maneira de filtrar os locais como por exemplo ""academias"" usando Google Places ?
 Pois a idéia é pegar e utilizar os dados desses locais.","<p>Gostaria de saber se existe alguma maneira de filtrar os locais como por exemplo ""academias"" usando Google Places ?
 Pois a idéia é pegar e utilizar os dados desses locais.</p>
-","[android, google-maps]",false,0,false,0,0,false,83,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179672,179676,1,false,null,3,Tue Jan 24 18:02:25 BRT 2017,null,1,90,Como passar uma variavel do controller pra view?,"Preciso passar a váriavel $limit para minha view e exibir ela lá, como eu poderia fazer isso?
+","[android, google-maps]",false,0,false,0,0,false,83,Sem Resposta,Sem resposta/comentario,0,0,0,1,0
+179672,179676,1,false,null,3,Tue Jan 24 18:02:25 BRT 2017,null,1,104,Como passar uma variavel do controller pra view?,"Preciso passar a váriavel $limit para minha view e exibir ela lá, como eu poderia fazer isso?
 
     public function index() {
         // ....
@@ -8741,8 +8741,8 @@ Pois a idéia é pegar e utilizar os dados desses locais.</p>
 
 }
 </code></pre>
-","[php, mysql, codeigniter]",true,0,false,0,0,false,3,14,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179668,179692,1,false,null,0,Tue Jan 24 17:14:56 BRT 2017,Tue Jan 24 19:31:18 BRT 2017,1,100,Jquery Validate com Jquery-Price-Format,"Como deixar o campo obrigatório quando o valor for igual 0,00 usando jquery validate ?
+","[php, mysql, codeigniter]",true,0,false,0,0,false,3,14,10,0,0,0,1,0
+179668,179692,1,false,null,0,Tue Jan 24 17:14:56 BRT 2017,Tue Jan 24 19:31:18 BRT 2017,1,110,Jquery Validate com Jquery-Price-Format,"Como deixar o campo obrigatório quando o valor for igual 0,00 usando jquery validate ?
 
 Segue exemplo em imagem:
 
@@ -8856,8 +8856,8 @@ Eu uso [Jquery-Price-Format][4]. Quando digitar valor 0,00, jquery deve mostrar 
 </code></pre>
 
 <p>Eu uso <a href=""http://flaviosilveira.com/Jquery-Price-Format/"" rel=""nofollow noreferrer"">Jquery-Price-Format</a>. Quando digitar valor 0,00, jquery deve mostrar aviso. Quando for 0,01 tirar o aviso do jquery validate. Ou seja, se for igual 0,00, mostrar aviso vermelho. Alguma solução ?</p>
-","[javascript, html5, jquery-validate]",true,0,false,0,0,false,Sem comentário,177,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179667,179690,1,false,null,4,Tue Jan 24 17:13:44 BRT 2017,Tue Jan 24 19:24:02 BRT 2017,0,127,Como posso pegar valores de vários checkbox selecionados e enviar como um List para o Spring MVC?,"Tudo bem? Estou com uma dúvida, estou desenvolvendo um sistema utilizando Spring MVC e HTML 5 na View,e como renderizador estou utilizando o thymeleaf.
+","[javascript, html5, jquery-validate]",true,0,false,0,0,false,Sem comentário,177,Sem resposta/comentario,0,0,0,1,0
+179667,179690,1,false,null,4,Tue Jan 24 17:13:44 BRT 2017,Tue Jan 24 19:24:02 BRT 2017,0,143,Como posso pegar valores de vários checkbox selecionados e enviar como um List para o Spring MVC?,"Tudo bem? Estou com uma dúvida, estou desenvolvendo um sistema utilizando Spring MVC e HTML 5 na View,e como renderizador estou utilizando o thymeleaf.
 
 Estou tentando pegar todos os valores selecionados de um conjunto de checkbox que representam os dias da semana: segunda, terça até sexta e gostaria de saber como faço para pegar todos os valores desses checkbox selecionados e enviar como uma List para meu controller? Abaixo o código da View:
 
@@ -8981,8 +8981,8 @@ private String nome;
 ...
 }
 </code></pre>
-","[java-ee, spring-mvc, spring-boot]",true,0,false,0,0,false,108,164,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179659,180441,3,false,null,2,Tue Jan 24 16:40:23 BRT 2017,Tue Jan 24 23:56:37 BRT 2017,1,108,Problema ao criar script .sh para entrar em um diretório,"Estou criando um script .sh que o primeiro passo é entrar em um diretorio.
+","[java-ee, spring-mvc, spring-boot]",true,0,false,0,0,false,108,164,56,0,0,0,0,0
+179659,180441,3,false,null,2,Tue Jan 24 16:40:23 BRT 2017,Tue Jan 24 23:56:37 BRT 2017,1,118,Problema ao criar script .sh para entrar em um diretório,"Estou criando um script .sh que o primeiro passo é entrar em um diretorio.
 
 1.
 
@@ -9044,8 +9044,8 @@ pwd
 <li>Como fazer para o <code>cd</code> funcionar? </li>
 <li>Porque ele cria outro diretório com    mesmo nome com ""?"" no final?</li>
 </ul>
-","[linux, bash, shell-script, unix]",true,0,false,0,0,false,966,922,-43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179658,0,1,false,null,9,Tue Jan 24 16:39:44 BRT 2017,Tue Jan 24 16:54:50 BRT 2017,1,31,Background-size (Mozilla Firefox),"Tenho o seguinte código
+","[linux, bash, shell-script, unix]",true,0,false,0,0,false,966,922,-43,0,0,0,1,0
+179658,0,1,false,null,9,Tue Jan 24 16:39:44 BRT 2017,Tue Jan 24 16:54:50 BRT 2017,1,34,Background-size (Mozilla Firefox),"Tenho o seguinte código
 
     background-image: url(#minha0imagem#); 
     background-size: contain; 
@@ -9069,8 +9069,8 @@ background-repeat: no-repeat;
 <p>Já tentei -moz, -webkit, já atualizei meu firefox.</p>
 
 <p>Parece que a forma como o firefox trabalha com redimensionamento de imagem é diferente do chrome e mesmo usando CSS3 e HTML5 puro não consigo replicar os efeitos.</p>
-","[css, firefox]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179657,179664,2,false,null,1,Tue Jan 24 16:37:07 BRT 2017,null,1,68,Como fazer uma classe que está dentro de outra herdar uma variável instanciada desta ultima em python?,"Veja o seguinte script python:
+","[css, firefox]",false,0,false,0,0,false,8,Sem Resposta,Sem resposta/comentario,0,0,1,1,0
+179657,179664,2,false,null,1,Tue Jan 24 16:37:07 BRT 2017,null,1,71,Como fazer uma classe que está dentro de outra herdar uma variável instanciada desta ultima em python?,"Veja o seguinte script python:
 
     class a:
             def __init__(self,n):
@@ -9100,8 +9100,8 @@ print(inst.show())
 </code></pre>
 
 <p>A classe ""b"" está dentro da classe ""a"". A classe ""a"" tem um argumento(além de self) e a classe ""b"" não tem nenhum. Gostaria de saber como faço para a classe ""b"" herdar a variável ""self.n"" da classe ""a"" para que ela possa ser usada no método ""show"". O objetivo é que este script mostre o número 3.</p>
-","[python, python-3.x, classes]",true,0,false,0,0,false,959,26,-932,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179655,0,1,false,null,3,Tue Jan 24 16:31:23 BRT 2017,Tue Jan 24 16:35:29 BRT 2017,0,58,Como executar SQL com Entity Framework?,"Tentei executar um comando `SQL` pelo `Entity Framework`, tentei das seguintes formas:
+","[python, python-3.x, classes]",true,0,false,0,0,false,959,26,-932,0,0,0,0,0
+179655,0,1,false,null,3,Tue Jan 24 16:31:23 BRT 2017,Tue Jan 24 16:35:29 BRT 2017,0,60,Como executar SQL com Entity Framework?,"Tentei executar um comando `SQL` pelo `Entity Framework`, tentei das seguintes formas:
 
     string cmd = ""UPDATE t0071_compra SET t0071_status = 'Enviado' WHERE t0071_id_compra = 4 AND t0020_id_empresa = 1"";
     context.Database.SqlQuery<string>(cmd);
@@ -9130,8 +9130,8 @@ context.SaveChanges();
 </code></pre>
 
 <p>mas em nenhum das formas funcionou, estou usando Mysql, o que esta errado ai?</p>
-","[mysql, entity-framework]",true,0,false,0,0,false,3,10,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179653,179783,1,false,null,4,Tue Jan 24 16:28:51 BRT 2017,null,0,90,Xamarin Mac Agent Limited,"Estou tentando programar para iOS usando Xamarin, mas já estou começando a ficar frustado. 
+","[mysql, entity-framework]",true,0,false,0,0,false,3,10,7,0,0,0,1,0
+179653,179783,1,false,null,4,Tue Jan 24 16:28:51 BRT 2017,null,0,91,Xamarin Mac Agent Limited,"Estou tentando programar para iOS usando Xamarin, mas já estou começando a ficar frustado. 
 Quando abro o Xamarin Studio no MAC, consigo visualizar normalmente o design do meu layout, mas, quando tento visualizar usando Visual Studio no Windows, tenho a seguinte mensagem:
 
 > **Something went wrong**
@@ -9171,8 +9171,8 @@ Quando abro o Xamarin Studio no MAC, consigo visualizar normalmente o design do 
 <p><strong>Imagem:</strong></p>
 
 <p><a href=""https://i.stack.imgur.com/1QZgo.jpg"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/1QZgo.jpg"" alt=""inserir a descrição da imagem aqui""></a></p>
-","[c#, ios, xamarin]",true,0,false,0,0,false,909,1015,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179642,179646,1,false,null,0,Tue Jan 24 16:03:41 BRT 2017,Tue Jan 24 16:29:35 BRT 2017,3,62,Alinhar ícone com texto verticalmente,"Como faço para deixar o ícone alinhado com o texto?
+","[c#, ios, xamarin]",true,0,false,0,0,false,909,1015,106,0,0,0,1,0
+179642,179646,1,false,null,0,Tue Jan 24 16:03:41 BRT 2017,Tue Jan 24 16:29:35 BRT 2017,3,64,Alinhar ícone com texto verticalmente,"Como faço para deixar o ícone alinhado com o texto?
 
 <!-- begin snippet: js hide: false console: true babel: false -->
 
@@ -9254,8 +9254,8 @@ Quando abro o Xamarin Studio no MAC, consigo visualizar normalmente o design do 
 </div>
 </div>
 </p>
-",[css],true,0,false,0,0,false,Sem comentário,11,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179635,179640,1,false,null,1,Tue Jan 24 15:30:51 BRT 2017,Tue Jan 24 15:55:35 BRT 2017,4,66,Destruir(Logout) Session_ID Codeigniter,"Através do código abaixo eu recupero todos os usuários logados no sistema e os exibo numa tabela.
+",[css],true,0,false,0,0,false,Sem comentário,11,Sem resposta/comentario,0,0,0,1,0
+179635,179640,1,false,null,1,Tue Jan 24 15:30:51 BRT 2017,Tue Jan 24 15:55:35 BRT 2017,4,67,Destruir(Logout) Session_ID Codeigniter,"Através do código abaixo eu recupero todos os usuários logados no sistema e os exibo numa tabela.
 
     <?php
             $dados = array(
@@ -9354,7 +9354,7 @@ Então, como faço para destruir somente a sessão do `id` que ***desloguei***?"
 </code></pre>
 
 <p>Então, como faço para destruir somente a sessão do <code>id</code> que <strong><em>desloguei</em></strong>?</p>
-","[php, codeigniter]",true,0,false,0,0,false,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, codeigniter]",true,0,false,0,0,false,16,17,0,0,0,1,1,0
 179623,0,2,false,null,0,Tue Jan 24 15:11:05 BRT 2017,Tue Jan 24 16:28:44 BRT 2017,2,81,Consulta SQL retornando valor nulo,"Simulação do BD no SQL Fiddle: http://sqlfiddle.com/#!9/3f62be/1
 
 JavaScript:
@@ -9472,8 +9472,8 @@ $query-&gt;bindValue(':id_nfe',$nNFe,PDO::PARAM_STR);
 $query-&gt;execute();
 $resultado = $query-&gt;fetchAll(PDO::FETCH_ASSOC);
 </code></pre>
-","[php, javascript, mysql]",true,0,false,0,0,false,Sem comentário,12,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179621,0,1,false,null,3,Tue Jan 24 15:10:03 BRT 2017,Tue Jan 24 20:40:54 BRT 2017,-2,101,obter dados com PHP + codeigniter ao clicar em um botao,"Boa tarde galera segue uma duvida 
+","[php, javascript, mysql]",true,0,false,0,0,false,Sem comentário,12,Sem resposta/comentario,0,0,0,1,0
+179621,0,1,false,null,3,Tue Jan 24 15:10:03 BRT 2017,Tue Jan 24 20:40:54 BRT 2017,-2,108,obter dados com PHP + codeigniter ao clicar em um botao,"Boa tarde galera segue uma duvida 
 
 Possuo uma lista conforme abaixo:
 [![inserir a descrição da imagem aqui][1]][1]
@@ -9507,8 +9507,8 @@ Nesta pagina esta sendo exibido todos os comentários feitos para o cliente supe
 <p>Vejam que na pagina para adicionar um novo comentário o campo cliente deve ser preenchido.</p>
 
 <p>O que eu gostaria de saber é como posso fazer para que este campo seja preenchido automaticamente com o cliente, por exemplo se estamos visualizando o histórico de comentários do cliente superar, ao clicar em novo comentário o campo cliente seja preenchido com o cliente superar.</p>
-","[php, codeigniter, crud]",true,0,false,0,0,false,38,34,-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179620,179627,1,false,null,3,Tue Jan 24 15:03:59 BRT 2017,Thu Jan 26 10:32:40 BRT 2017,3,225,Fazer comparação usando String.Contains() desconsiderando acentos e case,"Preciso verificar como fazer uma comparação entre *strings*, em C#, utilizando o método `Contains()` que desconsidere tanto a **sensibilidade de acentos e a de *case*** de uma *string*.
+","[php, codeigniter, crud]",true,0,false,0,0,false,38,34,-3,0,0,0,1,0
+179620,179627,1,false,null,3,Tue Jan 24 15:03:59 BRT 2017,Thu Jan 26 10:32:40 BRT 2017,3,250,Fazer comparação usando String.Contains() desconsiderando acentos e case,"Preciso verificar como fazer uma comparação entre *strings*, em C#, utilizando o método `Contains()` que desconsidere tanto a **sensibilidade de acentos e a de *case*** de uma *string*.
 
 Exemplo:
 
@@ -9528,7 +9528,7 @@ mainStr.Contains(""ACENTUAção"");
 </code></pre>
 
 <p>Ambas chamadas deveriam retornar true no caso</p>
-","[c#, .net, string, acentuação, comparação]",true,0,false,0,0,false,7,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[c#, .net, string, acentuação, comparação]",true,0,false,0,0,false,7,11,3,0,0,0,1,0
 179617,179662,1,false,Tue Jan 24 17:18:59 BRT 2017,4,Tue Jan 24 14:57:25 BRT 2017,Tue Jan 24 16:56:24 BRT 2017,-1,73,Como usar uma function PHP dentro de uma function JS,"Eu tenho uma função em PHP(eu li que era recomendado fazer modificações no banco de dados em PHP e não em JS)
 
     function insertTable()
@@ -9564,7 +9564,7 @@ Eu li que o PHP é executado no servidor e o JS e executado no navegador, a unic
 <p>E na minha função em JS(ela esta na <code>action</code> de um botão) eu quero chamar a função <code>insertTable()</code>.</p>
 
 <p>Eu li que o PHP é executado no servidor e o JS e executado no navegador, a unica forma que achei foi quando a função em PHP esta em um arquivo separado, assim usando AJAX, porem eu quero fazer isso com as duas funções no mesmo arquivo.</p>
-","[php, javascript]",true,0,false,0,0,false,1,117,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[php, javascript]",true,0,false,0,0,false,1,117,115,0,0,0,1,0
 179616,0,1,false,null,2,Tue Jan 24 14:57:09 BRT 2017,null,0,44,Como transformar o reultado (FindIterable) de uma consulta no banco (mongoDB) para uma lista de objetos do tipo DTO.,"> Estrutura no banco:
 
     >db.produtos.find().pretty();
@@ -9700,8 +9700,8 @@ public class MongoConection {
 <pre><code>{ ""_id"" : { ""$oid"" : ""58879057e53276e2f7bf43be"" }, ""descricao"" : ""Bisnaguinha"", ""preco"" : 4.8 }
 { ""_id"" : { ""$oid"" : ""58879067e53276e2f7bf43bf"" }, ""descicao"" : ""Nutella"", ""preco"" : 12.4 }
 </code></pre>
-","[java, mongodb, back-end]",true,0,false,0,0,false,1399,2454,1055,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179613,180456,1,false,null,6,Tue Jan 24 14:28:35 BRT 2017,Tue Jan 24 17:29:58 BRT 2017,1,351,Consumir Web Service SGS Banco Central Brasil - Cotação dólar,"Consegui gerar o (java) cliente no Eclipse, a patir do WSDL disponível em https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl.
+","[java, mongodb, back-end]",true,0,false,0,0,false,1399,2454,1055,0,0,0,0,0
+179613,180456,1,false,null,6,Tue Jan 24 14:28:35 BRT 2017,Tue Jan 24 17:29:58 BRT 2017,1,373,Consumir Web Service SGS Banco Central Brasil - Cotação dólar,"Consegui gerar o (java) cliente no Eclipse, a patir do WSDL disponível em https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl.
 
 Foram geradas as seguintes classes:
 
@@ -9780,7 +9780,7 @@ public static void main(String[] args) throws ServiceException {
 <p>}</p>
 
 <p>Porem isto não funciona.</p>
-","[java, web-service, soap]",true,0,false,0,0,false,45,4330,4285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[java, web-service, soap]",true,0,false,0,0,false,45,4330,4285,0,0,0,0,0
 179608,179609,2,false,null,0,Tue Jan 24 13:53:35 BRT 2017,Mon Mar 06 17:53:31 BRT 2017,0,40,JavaScript para cada registro em minha view,"Tenho uma *VIEW* em que exibo uma tabela com 15 registros (15 linhas) e 5 colunas, mas o que interessa mesmo é uma coluna, ""Ações"". Nela tenho 1 botão, ""Visualizar"", que ao clicar, ***quero abrir uma janela com uma mensagem, para testes***.
 
 Porém, apenas o primeiro registro, ao clicar no botão ""Visualizar"", exibe a janela com a mensagem, os demais 14 registros não.
@@ -9866,14 +9866,14 @@ Segue abaixo código:
     });
 &lt;/script&gt;
 </code></pre>
-","[javascript, html5, asp.net-mvc-4]",true,0,false,0,0,false,Sem comentário,2,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179607,180725,1,false,null,5,Tue Jan 24 13:53:15 BRT 2017,Tue Jan 24 14:24:26 BRT 2017,4,109,É possível executar um PHP diferente em determinada pasta?,"Eu estou com um problema:
+","[javascript, html5, asp.net-mvc-4]",true,0,false,0,0,false,Sem comentário,2,Sem resposta/comentario,0,0,0,1,0
+179607,180725,1,false,null,5,Tue Jan 24 13:53:15 BRT 2017,Tue Jan 24 14:24:26 BRT 2017,4,123,É possível executar um PHP diferente em determinada pasta?,"Eu estou com um problema:
 
 O servidor utiliza o PHP 5.3, que é muito antigo, mas não pode ser alterado. Tenho um script que requer o PHP 5.4 +, é o websocket Ratchet. É possível instalar um PHP separado para ser utilizado somente na pasta em que se encontra este script? ","<p>Eu estou com um problema:</p>
 
 <p>O servidor utiliza o PHP 5.3, que é muito antigo, mas não pode ser alterado. Tenho um script que requer o PHP 5.4 +, é o websocket Ratchet. É possível instalar um PHP separado para ser utilizado somente na pasta em que se encontra este script? </p>
-","[php, apache]",true,0,false,0,0,false,3,7388,7385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179604,179630,2,false,null,7,Tue Jan 24 13:49:41 BRT 2017,Wed Jan 25 05:34:39 BRT 2017,0,106,Como fazer funçao PROCV (excel) em javascript,"Como fazer a função Procv do excel no javascript; 
+","[php, apache]",true,0,false,0,0,false,3,7388,7385,0,0,0,1,0
+179604,179630,2,false,null,7,Tue Jan 24 13:49:41 BRT 2017,Wed Jan 25 05:34:39 BRT 2017,0,115,Como fazer funçao PROCV (excel) em javascript,"Como fazer a função Procv do excel no javascript; 
 
 Ex: 
 
@@ -9947,8 +9947,8 @@ Tiago   120
             {""Numero"":8907,""Nome"":'Paulo'},
             {""Numero"":340,""Nome"":'Maria'}]
 </code></pre>
-","[javascript, excel]",true,0,false,0,0,false,1,92,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179599,0,2,false,null,1,Tue Jan 24 13:43:38 BRT 2017,Thu Jan 26 10:27:20 BRT 2017,1,102,Pode ocorrer vazamento de memória em Java?,"Na linguagem C, por exemplo, os vazamentos de memória são comuns porque a responsabilidade de desalocar a memória fica sob responsabilidade do programador. No exemplo abaixo (retirado da Wikipedia) podemos verificar uma situação clássica de vazamento de memória.
+","[javascript, excel]",true,0,false,0,0,false,1,92,91,0,0,0,1,0
+179599,0,2,false,null,1,Tue Jan 24 13:43:38 BRT 2017,Thu Jan 26 10:27:20 BRT 2017,1,117,Pode ocorrer vazamento de memória em Java?,"Na linguagem C, por exemplo, os vazamentos de memória são comuns porque a responsabilidade de desalocar a memória fica sob responsabilidade do programador. No exemplo abaixo (retirado da Wikipedia) podemos verificar uma situação clássica de vazamento de memória.
 
     #include <stdlib.h>
 
@@ -9985,8 +9985,8 @@ int main(void) {
 </code></pre>
 
 <p>Uma vez que em Java temos o garbage collector e a responsabilidade de liberar a memória não fica com o programador, quão seguro é dizer que aplicações em Java são livres de vazamento de memória? Eles existem? Caso sim, há algum precaução específico para evitar o problema?</p>
-","[java, memória, garbage-collector, memory-leaks]",true,0,false,0,0,false,5529,4,-5524,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179592,179606,3,false,Wed Jan 25 09:58:11 BRT 2017,0,Tue Jan 24 13:32:01 BRT 2017,null,4,114,Como fazer download de arquivo sem back-end,"Quero forçar o download de um arquivo e estou tentando dessas duas maneiras.
+","[java, memória, garbage-collector, memory-leaks]",true,0,false,0,0,false,5529,4,-5524,0,0,0,1,0
+179592,179606,3,false,Wed Jan 25 09:58:11 BRT 2017,0,Tue Jan 24 13:32:01 BRT 2017,null,4,119,Como fazer download de arquivo sem back-end,"Quero forçar o download de um arquivo e estou tentando dessas duas maneiras.
 
 **baixando na mesma página:** 
 
@@ -10028,4 +10028,4 @@ O problema desse método é que ele abre o arquivo em uma nova janela (pop-up), 
 </code></pre>
 
 <p>O problema desse método é que ele abre o arquivo em uma nova janela (pop-up), e como os navegadores bloqueam pop-ups por padrão, o usuário teria que permitir o carregamento dessa janela o que acabaria fazendo com que alguns usuários não vissem.</p>
-","[javascript, jquery, html, front-end]",true,0,false,0,0,false,Sem comentário,1,Sem resposta/comentario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+","[javascript, jquery, html, front-end]",true,0,false,0,0,false,Sem comentário,1,Sem resposta/comentario,0,0,0,1,0

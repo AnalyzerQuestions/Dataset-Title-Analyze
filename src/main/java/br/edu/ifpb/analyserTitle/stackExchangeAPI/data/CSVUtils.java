@@ -59,15 +59,22 @@ public class CSVUtils {
     	
     	"TÍTULO TOTALMENTE EM CAIXA ALTA",
 		"TÍTULO PARCIALMENTE EM CAIXA ALTA",
+		"TÍTULO CURTO (Até 3 palavras)", 
+		"TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras)",
+		"TÍTULO CONTEM 'AJUDA' OU 'URGENTE'",
+	};
+    
+    /*
+     * "TÍTULO TOTALMENTE EM CAIXA ALTA",
+		"TÍTULO PARCIALMENTE EM CAIXA ALTA",
 		"TÍTULO QUE RESUMA O PROBLEMA",
 		"TÍTULO CURTO (Até 3 palavras)", 
 		"TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras)",
 		"TÍTULO COERENTE COM A DESCRIÇÃO",
 		"TÍTULO OBJETIVO", 
 		"TÍTULO CLARO",
-		"TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA",
-	};
-    
+		"TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA"
+     */
     
     public void getQuestions(List<QuestionPojo> questions){
     	
@@ -119,7 +126,7 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColumnDateBetwenCommentAnswer() == -1 ? "Sem resposta/comentario":q.getColumnDateBetwenCommentAnswer()));
 				
 
-				recordQuestions.add(String.valueOf(q.getColumnObjetividade()));
+				/*recordQuestions.add(String.valueOf(q.getColumnObjetividade()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestionUnique()));
 				recordQuestions.add(String.valueOf(q.getColumnDescricaoCurta()));
 				
@@ -132,16 +139,23 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColumnPergBemDefinida()));
 				recordQuestions.add(String.valueOf(q.getColumnExemplo()));
 				recordQuestions.add(String.valueOf(q.getColummLink()));
-				recordQuestions.add(String.valueOf(q.getCombLink()));
-				recordQuestions.add(String.valueOf(q.getColumnMuchCode()));
+				recordQuestions.add(String.valueOf(q.getCombLink()));*/
+				
+				recordQuestions.add(String.valueOf(q.getColumnTotallyUpperCase()));
+				recordQuestions.add(String.valueOf(q.getColumnParciallyUpperCase()));
+				recordQuestions.add(String.valueOf(q.getColumnSmallSizeTitle()));
+				recordQuestions.add(String.valueOf(q.getColumnMediumSizeTitle()));
+				recordQuestions.add(String.valueOf(q.getColumnContainsHelpOrUrgent()));
+				
+				/*recordQuestions.add(String.valueOf(q.getColumnMuchCode()));
 				
 				
 				recordQuestions.add(String.valueOf(q.getColumnEducacao()));
 				recordQuestions.add(String.valueOf(q.getColumnEvPerguntaDuplicada()));
 				recordQuestions.add(String.valueOf(q.getColumnEvPergSobreTrabAcademicos()));
 				recordQuestions.add(String.valueOf(q.getColumnAgradecimento()));
-				recordQuestions.add(String.valueOf(q.getColumnUsoNormaCultaLingua()));
-
+				recordQuestions.add(String.valueOf(q.getColumnUsoNormaCultaLingua()));*/
+				
 				csvPrinter.printRecord(recordQuestions);
 			}
 			

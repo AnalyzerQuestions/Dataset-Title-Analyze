@@ -65,20 +65,28 @@ public class GenerateReults {
 				
 				QuestionPojo qp = new QuestionPojo();
 				
-					/**
-					 * metadados SO request to API
-					 */
-					qp.setColumnQuestion(question);
-					
-					/**
-					 * metadados of time asks
-					 */
-					qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
-					qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
-					qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
-					
+				/**
+				 * metadados SO request to API
+				 */
+				qp.setColumnQuestion(question);
 				
-					questionPojos.add(qp);
+				/**
+				 * metadados of time asks
+				 */
+				qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
+				qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
+				qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
+				
+				/**
+				 * Analizers of titles of questions
+				 */
+				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
+				qp.setColumnParciallyUpperCase(analyzer.isPartiallyUpperCase(question.getTitle()));
+				qp.setColumnSmallSizeTitle(analyzer.isSmallSizeTitle(question.getTitle()));
+				qp.setColumnMediumSizeTitle(analyzer.isMediumSizeTitle(question.getTitle()));
+				qp.setColumnContainsHelpOrUrgent(analyzer.containsHelpOrUrgent(question.getTitle()));
+				
+				questionPojos.add(qp);
 			}
 		}
 		
@@ -103,20 +111,28 @@ public class GenerateReults {
 				
 				QuestionPojo qp = new QuestionPojo();
 				
-					/**
-					 * metadados SO request to API
-					 */
-					qp.setColumnQuestion(question);
-					
-					/**
-					 * metadados of time asks
-					 */
-					qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
-					qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
-					qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
-					
+				/**
+				 * metadados SO request to API
+				 */
+				qp.setColumnQuestion(question);
 				
-					questionPojos.add(qp);
+				/**
+				 * metadados of time asks
+				 */
+				qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
+				qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
+				qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
+				
+				/**
+				 * Analizers of titles of questions
+				 */
+				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
+				qp.setColumnParciallyUpperCase(analyzer.isPartiallyUpperCase(question.getTitle()));
+				qp.setColumnSmallSizeTitle(analyzer.isSmallSizeTitle(question.getTitle()));
+				qp.setColumnMediumSizeTitle(analyzer.isMediumSizeTitle(question.getTitle()));
+				qp.setColumnContainsHelpOrUrgent(analyzer.containsHelpOrUrgent(question.getTitle()));
+				
+				questionPojos.add(qp);
 			}
 		}
 		
