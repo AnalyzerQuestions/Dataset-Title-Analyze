@@ -10,6 +10,8 @@ import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.pojos.QuestionPojo;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.types.Answer;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.types.Comment;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.entities.types.Question;
+import br.edu.ifpb.analyserTitle.util.StringTokenizerUtils;
+import br.edu.ifpb.analyserTitle.util.StringUtil;
 
 
 /**
@@ -73,9 +75,9 @@ public class GenerateReults {
 				/**
 				 * metadados of time asks
 				 */
-				qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
+				//qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
 				qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
-				qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
+				//qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
 				
 				/**
 				 * Analizers of titles of questions
@@ -84,7 +86,9 @@ public class GenerateReults {
 				qp.setColumnParciallyUpperCase(analyzer.isPartiallyUpperCase(question.getTitle()));
 				qp.setColumnSmallSizeTitle(analyzer.isSmallSizeTitle(question.getTitle()));
 				qp.setColumnMediumSizeTitle(analyzer.isMediumSizeTitle(question.getTitle()));
-				qp.setColumnContainsHelpOrUrgent(analyzer.containsHelpOrUrgent(question.getTitle()));
+				qp.setColumnContainsHelp(analyzer.containsHelp(question.getTitle()));
+				qp.setColumnContainsUrgent(analyzer.containsUrgent(question.getTitle()));
+				qp.setColumnContainsSocorro(analyzer.containsSocorro(question.getTitle()));
 				
 				questionPojos.add(qp);
 			}
@@ -159,7 +163,7 @@ public class GenerateReults {
 	 * @param question
 	 * @return
 	 */
-	private Long dateBetwenQuestionComment(Question question){
+/*	private Long dateBetwenQuestionComment(Question question){
 		Long minutes = -1l;
 		Comment comment = null;
 		
@@ -169,7 +173,7 @@ public class GenerateReults {
 			minutes = this.minutesBetewn(question.getCreationDate(), comment.getCreationDate());
 		}
 		return minutes;
-	}
+	}*/
 	
 	/**
 	 * 
@@ -198,7 +202,7 @@ public class GenerateReults {
 	 * @param question
 	 * @return
 	 */
-	private Long dateBetwenCommentAnswer(Question question){
+	/*private Long dateBetwenCommentAnswer(Question question){
 		Long minutes = -1l;
 		
 		
@@ -210,7 +214,7 @@ public class GenerateReults {
 			minutes = this.minutesBetewn(comment.getCreationDate(), answer.getCreationDate());
 		}
 		return minutes;
-	}
+	}*/
 	
 	/**
 	 * 
@@ -238,7 +242,16 @@ public class GenerateReults {
 	}
 	
 	private boolean isAnwend(Question question){
+
 		return question.isAnswered();
 		
+	}
+	
+	public Integer numberWords(String title) {
+		String str = StringUtil.removeConnective(title);
+		str = StringUtil.removeCharacterSpecial(str);
+		String[] strPart = StringTokenizerUtils.parseToken(str);
+		
+		return strPart.length;
 	}
 }

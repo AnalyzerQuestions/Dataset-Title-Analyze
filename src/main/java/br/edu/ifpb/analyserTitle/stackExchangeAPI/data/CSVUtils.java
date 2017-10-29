@@ -37,31 +37,19 @@ public class CSVUtils {
     	"QUANTIDADE DE RESPOSTAS",
     	"FECHADA", 
     	"DATA FECHAMENTO", 
-    	"QUANTIDADE COMENTÁRIO", 
     	"DATA CRIAÇÃO", 
-    	"ÚLTIMA DATA DE EDIÇÃO", 
-    	"PONTOS", 
     	"QUANTIDADE DE VISUALIZAÇÕES",
-    	"TITLE", 
+    	"TITULO", 
     	"DESCRIÇAO", 
-    	"DESCRICAO HTML",
-    	"TAGS",
     	"FOI RESPONDIDA",
-    	"QUANTIDADADE DE VOTOS (down)",
-    	"FOI VOTADA (down)",
-    	"QUANTIDADE DE VOTOS (up)", 
-    	"QUANTIDADE DE VOTOS DELETADOS",
-    	"FOI VOTADA (up)",
     	
-    	"TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO",
     	"TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA",
-    	"TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA",
+    	"TÍTULO PARCIALMENTE EM CAIXA ALTA --------------------> PORCENTAGEM DE PALAVRAS EM CAIXA ALTA",
+    	"TÍTULO CURTO (Até 3 palavras) --------------------> TAMANHO DO TÍTULO", 
+    	"TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras) --------------------> TAMANHO DO TÍTULO",
     	
     	"TÍTULO TOTALMENTE EM CAIXA ALTA",
-		"TÍTULO PARCIALMENTE EM CAIXA ALTA",
-		"TÍTULO CURTO (Até 3 palavras)", 
-		"TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras)",
-		"TÍTULO CONTEM 'AJUDA' OU 'URGENTE'",
+		"TÍTULO CONTEM 'AJUDA', 'URGENTE', SOCORRO --------------------> SEPARAR AS 3",
 	};
     
     /*
@@ -74,6 +62,18 @@ public class CSVUtils {
 		"TÍTULO OBJETIVO", 
 		"TÍTULO CLARO",
 		"TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA"
+	    "ÚLTIMA DATA DE EDIÇÃO", 
+	    "PONTOS", 
+	    "DESCRICAO HTML",
+	    "TAGS",
+	    "QUANTIDADADE DE VOTOS (down)",
+	    "TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO",
+	    "TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA",
+	    "FOI VOTADA (down)",
+	    "QUANTIDADE DE VOTOS (up)", 
+	    "QUANTIDADE COMENTÁRIO", 
+	    "QUANTIDADE DE VOTOS DELETADOS",
+	    "FOI VOTADA (up)",
      */
     
     public void getQuestions(List<QuestionPojo> questions){
@@ -105,25 +105,25 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getAnswerCount()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().isCanClosed()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getClosedDate()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getCommentCount()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getCommentCount()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getCreationDate()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getLastEditDate()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getScore()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getLastEditDate()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getScore()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getViewCount()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getTitle()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getBodyMarkdown()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getBodyMarkdown()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getBody()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getTags()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getTags()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().isAnswered()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getDownVoteCount()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().isDownVoted()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getUpVoteCount()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().getDeleteVoteCount()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestion().isUpVoted()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getDownVoteCount()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().isDownVoted()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getUpVoteCount()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getDeleteVoteCount()));
+				//recordQuestions.add(String.valueOf(q.getColumnQuestion().isUpVoted()));
 				
-				recordQuestions.add(String.valueOf(q.getColumnDateBetwenQuestionComment() == -1 ? "Sem comentário":q.getColumnDateBetwenQuestionComment()));
+				//recordQuestions.add(String.valueOf(q.getColumnDateBetwenQuestionComment() == -1 ? "Sem comentário":q.getColumnDateBetwenQuestionComment()));
 				recordQuestions.add(String.valueOf(q.getColumnDateBetwenQuestionAnswer() == -1 ? "Sem Resposta":q.getColumnDateBetwenQuestionAnswer()));
-				recordQuestions.add(String.valueOf(q.getColumnDateBetwenCommentAnswer() == -1 ? "Sem resposta/comentario":q.getColumnDateBetwenCommentAnswer()));
+				//recordQuestions.add(String.valueOf(q.getColumnDateBetwenCommentAnswer() == -1 ? "Sem resposta/comentario":q.getColumnDateBetwenCommentAnswer()));
 				
 
 				/*recordQuestions.add(String.valueOf(q.getColumnObjetividade()));
@@ -141,10 +141,11 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColummLink()));
 				recordQuestions.add(String.valueOf(q.getCombLink()));*/
 				
-				recordQuestions.add(String.valueOf(q.getColumnTotallyUpperCase()));
 				recordQuestions.add(String.valueOf(q.getColumnParciallyUpperCase()));
 				recordQuestions.add(String.valueOf(q.getColumnSmallSizeTitle()));
 				recordQuestions.add(String.valueOf(q.getColumnMediumSizeTitle()));
+				
+				recordQuestions.add(String.valueOf(q.getColumnTotallyUpperCase()));
 				recordQuestions.add(String.valueOf(q.getColumnContainsHelpOrUrgent()));
 				
 				/*recordQuestions.add(String.valueOf(q.getColumnMuchCode()));

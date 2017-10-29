@@ -19,9 +19,9 @@ public class QuestionPojo {
 
 	private Question columnQuestion;
 
-	private Long columnDateBetwenQuestionComment;
+	//private Long columnDateBetwenQuestionComment;
 	private Long columnDateBetwenQuestionAnswer;
-	private Long columnDateBetwenCommentAnswer;
+	//private Long columnDateBetwenCommentAnswer;
 
 	/*private int columnCoerenciaTeD;
 	private int columnTituloBemDefinido;
@@ -42,10 +42,14 @@ public class QuestionPojo {
 	private int columnLink;
 	private int combLink;
 	private int columnTotallyUpperCase;
-	private int columnParciallyUpperCase;
-	private int columnContainsHelpOrUrgent;
-	private int columnMediumSizeTitle;
-	private int columnSmallSizeTitle;
+	private int columnPercentageUpperCase;
+	private int columnContainsHelp;
+	private int columnContainsUrgent;
+	private int columnContainsSocorro;
+	private int columnSizeTitle;
+	private int columnProperLinguage;
+	//private int columnMediumSizeTitle;
+	//private int columnSmallSizeTitle;
 
 	public QuestionPojo() {
 	}
@@ -74,28 +78,12 @@ public class QuestionPojo {
 		this.columnQuestion = columnQuestion;
 	}
 
-	public Long getColumnDateBetwenQuestionComment() {
-		return columnDateBetwenQuestionComment;
-	}
-
-	public void setColumnDateBetwenQuestionComment(Long columnDateBetwenQuestionComment) {
-		this.columnDateBetwenQuestionComment = columnDateBetwenQuestionComment;
-	}
-
 	public Long getColumnDateBetwenQuestionAnswer() {
 		return columnDateBetwenQuestionAnswer;
 	}
 
 	public void setColumnDateBetwenQuestionAnswer(Long columnDateBetwenQuestionAnswer) {
 		this.columnDateBetwenQuestionAnswer = columnDateBetwenQuestionAnswer;
-	}
-
-	public Long getColumnDateBetwenCommentAnswer() {
-		return columnDateBetwenCommentAnswer;
-	}
-
-	public void setColumnDateBetwenCommentAnswer(Long columnDateBetwenCommentAnswer) {
-		this.columnDateBetwenCommentAnswer = columnDateBetwenCommentAnswer;
 	}
 
 	public int getColumnTotallyUpperCase() {
@@ -106,6 +94,62 @@ public class QuestionPojo {
 		this.columnTotallyUpperCase = columnTotallyUpperCase;
 	}
 
+	public int getColumnPercentageUpperCase() {
+		return columnPercentageUpperCase;
+	}
+
+	public void setColumnPercentageUpperCase(int columnPercentageUpperCase) {
+		this.columnPercentageUpperCase = columnPercentageUpperCase;
+	}
+
+	public int getColumnContainsHelp() {
+		return columnContainsHelp;
+	}
+
+	public void setColumnContainsHelp(int columnContainsHelp) {
+		this.columnContainsHelp = columnContainsHelp;
+	}
+
+	public int getColumnContainsUrgent() {
+		return columnContainsUrgent;
+	}
+
+	public void setColumnContainsUrgent(int columnContainsUrgent) {
+		this.columnContainsUrgent = columnContainsUrgent;
+	}
+
+	public int getColumnContainsSocorro() {
+		return columnContainsSocorro;
+	}
+
+	public void setColumnContainsSocorro(int columnContainsSocorro) {
+		this.columnContainsSocorro = columnContainsSocorro;
+	}
+
+	public int getColumnSizeTitle() {
+		return columnSizeTitle;
+	}
+
+	public void setColumnSizeTitle(int columnSizeTitle) {
+		this.columnSizeTitle = columnSizeTitle;
+	}
+	
+	/*public Long getColumnDateBetwenQuestionComment() {
+		return columnDateBetwenQuestionComment;
+	}
+	
+	public void setColumnDateBetwenQuestionComment(Long columnDateBetwenQuestionComment) {
+		this.columnDateBetwenQuestionComment = columnDateBetwenQuestionComment;
+	}
+	
+	public Long getColumnDateBetwenCommentAnswer() {
+		return columnDateBetwenCommentAnswer;
+	}
+	
+	public void setColumnDateBetwenCommentAnswer(Long columnDateBetwenCommentAnswer) {
+		this.columnDateBetwenCommentAnswer = columnDateBetwenCommentAnswer;
+	}
+	
 	public int getColumnParciallyUpperCase() {
 		return columnParciallyUpperCase;
 	}
@@ -138,7 +182,7 @@ public class QuestionPojo {
 		this.columnSmallSizeTitle = columnSmallSizeTitle;
 	}
 	
-	/*public int getColumnAgradecimento() {
+	public int getColumnAgradecimento() {
 		return columnAgradecimento;
 	}
 
