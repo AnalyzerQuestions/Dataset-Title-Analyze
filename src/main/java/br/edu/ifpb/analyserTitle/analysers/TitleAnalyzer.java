@@ -26,7 +26,7 @@ public class TitleAnalyzer {
 		
 		boolean result = title.equals(title.toUpperCase());
 		
-		if(result == true){
+		if(result){
 			return 1;
 		}
 		
@@ -48,38 +48,22 @@ public class TitleAnalyzer {
 
 	public Integer containsHelp(String title){
 						
-		if(title.toLowerCase().contains("ajuda")){
-			return 1;
-		}
-		
-		return 0;
+		return containsWord(title,"ajuda");
 	}
 	
 	public Integer containsUrgent(String title){
 						
-		if(title.toLowerCase().contains("urgente")){
-			return 1;
-		}
-		
-		return 0;
+		return containsWord(title,"urgente");
 	}
 	
 	public Integer containsSocorro(String title){
 		
-		if(title.toLowerCase().contains("socorro")){
-			return 1;
-		}
-		
-		return 0;
+		return containsWord(title,"socorro");
 	}
 	
 	public Integer containsPlease(String title){
 		
-		if(title.toLowerCase().contains("por favor")){
-			return 1;
-		}
-		
-		return 0;
+		return containsWord(title, "por favor");
 	}
 	
 	public Integer endsWithQuestionMark(String title){
@@ -165,10 +149,17 @@ public class TitleAnalyzer {
 		return 0; //Não contem palavra entre simbolos
 	}
 	
-	
+	private Integer containsWord(String title, String word) {
+		
+		if(title.toLowerCase().contains(word)){
+			return 1;
+		}
+		
+		return 0;
+	}
 	
 	public static void main(String[] args) {
-		System.out.println(new TitleAnalyzer().isUsingProperLanguage("Testando o método funciona"));
+		System.out.println(new TitleAnalyzer().isUsingProperLanguage("Testando o método"));
 	}
 	
 }

@@ -41,7 +41,6 @@ public class QuestionPojo {
 	private int columnClareza;*/
 	private int columnLink;
 	private int combLink;
-	private int columnNumberWords;
 	private int columnSizeTitle;
 	private double columnPercentageUpperCase;
 	
@@ -153,14 +152,6 @@ public class QuestionPojo {
 
 	public void setColumnProperLinguage(int columnProperLinguage) {
 		this.columnProperLinguage = columnProperLinguage;
-	}
-
-	public int getColumnNumberWords() {
-		return columnNumberWords;
-	}
-
-	public void setColumnNumberWords(int columnNumberWords) {
-		this.columnNumberWords = columnNumberWords;
 	}
 
 	public int getColumnCoherentBodyAndTitle() {

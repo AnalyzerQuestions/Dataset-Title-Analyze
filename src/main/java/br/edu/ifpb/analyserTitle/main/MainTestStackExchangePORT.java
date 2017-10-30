@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.edu.ifpb.analyserTitle.GenerateReults;
+import br.edu.ifpb.analyserTitle.GenerateResults;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.Response;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeApi;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeSite;
@@ -79,7 +79,7 @@ public class MainTestStackExchangePORT {
 		System.out.println("------------------------------------------------> "+itemsQuestions.size()+" COUNT LIST");
 		System.out.println("------------------------------------------------> Analyzing ...");
 
-		GenerateReults generateReults = new GenerateReults();
+		GenerateResults generateReults = new GenerateResults();
 		CSVUtils csvUtils = new CSVUtils();
 		
 		//para coletar perguntas respondidas você deve muda esse método para ---> generateAnswedQuestions e mudar o nome do file .csv 

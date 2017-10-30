@@ -31,7 +31,7 @@ import br.edu.ifpb.analyserTitle.util.StringUtil;
 
  *
  */
-public class GenerateReults {
+public class GenerateResults {
 	
 	/**
 	 * 
@@ -44,7 +44,7 @@ public class GenerateReults {
 	/**
 	 * 
 	 */
-	public GenerateReults() {
+	public GenerateResults() {
 		this.analyzer = new TitleAnalyzer();
 	}
 	
@@ -58,11 +58,11 @@ public class GenerateReults {
 		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
 		
 		for (Question question : questions) {
-			if(question.getAnswerCount() <= 0){
+			/*if(question.getAnswerCount() <= 0){
 				
 				if(questionPojos.size() == questionAmount ){
 					return questionPojos;
-				}
+				}*/
 				
 				
 				QuestionPojo qp = new QuestionPojo();
@@ -83,7 +83,7 @@ public class GenerateReults {
 				 * Analizers of titles of questions
 				 */
 				qp.setColumnPercentageUpperCase(this.percentageUpperCaseUpperCase(question.getTitle()));
-				qp.setColumnNumberWords(this.numberWords(question.getTitle()));
+				qp.setColumnSizeTitle(this.numberWords(question.getTitle()));
 
 				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
 				qp.setColumnCoherentBodyAndTitle(analyzer.isCoherentBodyAndTitle(question.getTitle(), question.getBody()));
@@ -96,7 +96,7 @@ public class GenerateReults {
 				
 				questionPojos.add(qp);
 			}
-		}
+		//}
 		
 		return questionPojos;
 	}
@@ -271,11 +271,11 @@ public class GenerateReults {
 			}
 		}
 
-		return (100.0 / (strPart.length / quantUpperCase));
+		return (100.0 / (strPart.length / quantUpperCase)); //100.0 / 
 	}
 	
 	public static void main(String[] args) {
-
+		System.out.println(Math.round(new GenerateResults().percentageUpperCaseUpperCase("CSS para mensagens A e B")));
 	}
 	
 	

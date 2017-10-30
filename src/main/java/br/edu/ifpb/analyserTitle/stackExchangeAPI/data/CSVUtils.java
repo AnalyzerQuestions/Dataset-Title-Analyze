@@ -44,12 +44,15 @@ public class CSVUtils {
     	"FOI RESPONDIDA",
     	
     	"TEMPO (minutos) ENTRE PERGUNTA E 1ª RESPOSTA",
-    	"TÍTULO PARCIALMENTE EM CAIXA ALTA --------------------> PORCENTAGEM DE PALAVRAS EM CAIXA ALTA",
-    	"TÍTULO CURTO (Até 3 palavras) --------------------> TAMANHO DO TÍTULO", 
-    	"TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras) --------------------> TAMANHO DO TÍTULO",
+    	"PORCENTAGEM DE PALAVRAS EM CAIXA ALTA",
+    	"TAMANHO DO TÍTULO", 
     	
+    	"TÍTULO USA NORMA CULTA DA LÍNGUA",
     	"TÍTULO TOTALMENTE EM CAIXA ALTA",
-		"TÍTULO CONTEM 'AJUDA', 'URGENTE', SOCORRO --------------------> SEPARAR AS 3",
+		"TÍTULO CONTÉM 'AJUDA'",
+		"TÍTULO CONTÉM 'URGENTE'",
+		"TÍTULO CONTÉM 'SOCORRO'",
+		"TÍTULO CONTÉM 'POR FAVOR'"
 	};
     
     /*
@@ -141,12 +144,16 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColummLink()));
 				recordQuestions.add(String.valueOf(q.getCombLink()));*/
 				
-				recordQuestions.add(String.valueOf(q.getColumnParciallyUpperCase()));
-				recordQuestions.add(String.valueOf(q.getColumnSmallSizeTitle()));
-				recordQuestions.add(String.valueOf(q.getColumnMediumSizeTitle()));
+				recordQuestions.add(String.valueOf(q.getColumnPercentageUpperCase()));
+				recordQuestions.add(String.valueOf(q.getColumnSizeTitle()));
 				
+				recordQuestions.add(String.valueOf(q.getColumnProperLinguage()));
 				recordQuestions.add(String.valueOf(q.getColumnTotallyUpperCase()));
-				recordQuestions.add(String.valueOf(q.getColumnContainsHelpOrUrgent()));
+				recordQuestions.add(String.valueOf(q.getColumnContainsHelp()));
+				recordQuestions.add(String.valueOf(q.getColumnContainsUrgent()));
+				recordQuestions.add(String.valueOf(q.getColumnContainsSocorro()));
+				recordQuestions.add(String.valueOf(q.getColumnContainsPlease()));
+				recordQuestions.add(String.valueOf(q.getColumnCoherentBodyAndTitle()));
 				
 				/*recordQuestions.add(String.valueOf(q.getColumnMuchCode()));
 				

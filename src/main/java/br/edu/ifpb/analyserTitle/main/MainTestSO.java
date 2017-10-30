@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.edu.ifpb.analyserTitle.GenerateReults;
+import br.edu.ifpb.analyserTitle.GenerateResults;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.Response;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeApi;
 import br.edu.ifpb.analyserTitle.stackExchangeAPI.StackExchangeSite;
@@ -33,7 +33,7 @@ public class MainTestSO {
 
 		Map<String, String> dates = new HashMap<String, String>();
 
-		dates.put("1388534400", "1391212800");
+		/*dates.put("1388534400", "1391212800");
 		dates.put("1391212800", "1393632000");
 		dates.put("1393632000", "1396310400");
 		dates.put("1396310400", "1398902400");
@@ -100,8 +100,12 @@ public class MainTestSO {
 		dates.put("1484438400", "1485302400"); // 2017-01-25 <- parou aqui
 		dates.put("1485907200", "1493510400");// April
 		dates.put("1493596800", "1501459200");// july
-		dates.put("1501545600", "1504656000");// agust
-
+		dates.put("1501545600", "1504656000");// agust*/
+		
+		dates.put("1451606400", "1454198400"); // jan/2016
+		dates.put("1454284800", "1456704000"); // fev/2016
+		dates.put("1456790400", "1459382400"); // mar/2016
+		
 		StackExchangeSite siteService = api.getSiteService(StackExchangeSite.STACK_OVERFLOW);
 		Response<Question> response = null;
 		List<Question> itemsQuestions = new ArrayList<Question>();
@@ -117,17 +121,16 @@ public class MainTestSO {
 			}
 		}
 		
-		System.out.println("-----------------------------------------------> 200 OK");
 		System.out
 				.println("------------------------------------------------> " + itemsQuestions.size() + " COUNT LIST");
 		System.out.println("------------------------------------------------> Analyzing ...");
 
-		GenerateReults generateReults = new GenerateReults();
+		GenerateResults generateReults = new GenerateResults();
 		CSVUtils csvUtils = new CSVUtils();
 
-		System.out.println("--------------------------------------PERGUNTAS NÃO RESPONDIDAS------------------------------------------");
+		//System.out.println("--------------------------------------PERGUNTAS NÃO RESPONDIDAS------------------------------------------");
 		
-		csvUtils.getQuestions(generateReults.generateQuestions(itemsQuestions, 100));
+		csvUtils.getQuestions(generateReults.generateQuestions(itemsQuestions, itemsQuestions.size()));
 
 		System.out.println("------------------------------------------------> writing ...");
 
