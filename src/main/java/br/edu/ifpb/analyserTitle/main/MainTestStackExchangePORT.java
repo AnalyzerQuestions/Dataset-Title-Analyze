@@ -83,7 +83,7 @@ public class MainTestStackExchangePORT {
 		CSVUtils csvUtils = new CSVUtils();
 		
 		//para coletar perguntas respondidas você deve muda esse método para ---> generateAnswedQuestions e mudar o nome do file .csv 
-		csvUtils.getQuestions(generateReults.generateNotAnsweredQuestions(itemsQuestions, 200));
+		csvUtils.getQuestions(generateReults.generateQuestions(itemsQuestions, 200));
 		
 		System.out.println("------------------------------------------------> writing ...");
 		

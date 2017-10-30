@@ -41,13 +41,18 @@ public class QuestionPojo {
 	private int columnClareza;*/
 	private int columnLink;
 	private int combLink;
+	private int columnNumberWords;
+	private int columnSizeTitle;
+	private double columnPercentageUpperCase;
+	
 	private int columnTotallyUpperCase;
-	private int columnPercentageUpperCase;
 	private int columnContainsHelp;
 	private int columnContainsUrgent;
 	private int columnContainsSocorro;
-	private int columnSizeTitle;
+	private int columnContainsPlease;
 	private int columnProperLinguage;
+	private int columnCoherentBodyAndTitle;
+	private int columnEndsWithQuestionMark;
 	//private int columnMediumSizeTitle;
 	//private int columnSmallSizeTitle;
 
@@ -94,11 +99,11 @@ public class QuestionPojo {
 		this.columnTotallyUpperCase = columnTotallyUpperCase;
 	}
 
-	public int getColumnPercentageUpperCase() {
+	public double getColumnPercentageUpperCase() {
 		return columnPercentageUpperCase;
 	}
 
-	public void setColumnPercentageUpperCase(int columnPercentageUpperCase) {
+	public void setColumnPercentageUpperCase(double columnPercentageUpperCase) {
 		this.columnPercentageUpperCase = columnPercentageUpperCase;
 	}
 
@@ -132,6 +137,46 @@ public class QuestionPojo {
 
 	public void setColumnSizeTitle(int columnSizeTitle) {
 		this.columnSizeTitle = columnSizeTitle;
+	}
+
+	public int getColumnContainsPlease() {
+		return columnContainsPlease;
+	}
+
+	public void setColumnContainsPlease(int columnContainsPlease) {
+		this.columnContainsPlease = columnContainsPlease;
+	}
+
+	public int getColumnProperLinguage() {
+		return columnProperLinguage;
+	}
+
+	public void setColumnProperLinguage(int columnProperLinguage) {
+		this.columnProperLinguage = columnProperLinguage;
+	}
+
+	public int getColumnNumberWords() {
+		return columnNumberWords;
+	}
+
+	public void setColumnNumberWords(int columnNumberWords) {
+		this.columnNumberWords = columnNumberWords;
+	}
+
+	public int getColumnCoherentBodyAndTitle() {
+		return columnCoherentBodyAndTitle;
+	}
+
+	public void setColumnCoherentBodyAndTitle(int columnCoherentBodyAndTitle) {
+		this.columnCoherentBodyAndTitle = columnCoherentBodyAndTitle;
+	}
+
+	public int getColumnEndsWithQuestionMark() {
+		return columnEndsWithQuestionMark;
+	}
+
+	public void setColumnEndsWithQuestionMark(int columnEndsWithQuestionMark) {
+		this.columnEndsWithQuestionMark = columnEndsWithQuestionMark;
 	}
 	
 	/*public Long getColumnDateBetwenQuestionComment() {

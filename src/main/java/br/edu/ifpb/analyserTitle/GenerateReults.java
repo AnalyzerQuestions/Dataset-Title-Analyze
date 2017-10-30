@@ -53,7 +53,7 @@ public class GenerateReults {
 	 * @param questions
 	 * @return
 	 */
-	public List<QuestionPojo> generateNotAnsweredQuestions(List<Question> questions, int questionAmount){
+	public List<QuestionPojo> generateQuestions(List<Question> questions, int questionAmount){
 		
 		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
 		
@@ -82,13 +82,17 @@ public class GenerateReults {
 				/**
 				 * Analizers of titles of questions
 				 */
+				qp.setColumnPercentageUpperCase(this.percentageUpperCaseUpperCase(question.getTitle()));
+				qp.setColumnNumberWords(this.numberWords(question.getTitle()));
+
 				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
-				qp.setColumnParciallyUpperCase(analyzer.isPartiallyUpperCase(question.getTitle()));
-				qp.setColumnSmallSizeTitle(analyzer.isSmallSizeTitle(question.getTitle()));
-				qp.setColumnMediumSizeTitle(analyzer.isMediumSizeTitle(question.getTitle()));
+				qp.setColumnCoherentBodyAndTitle(analyzer.isCoherentBodyAndTitle(question.getTitle(), question.getBody()));
 				qp.setColumnContainsHelp(analyzer.containsHelp(question.getTitle()));
 				qp.setColumnContainsUrgent(analyzer.containsUrgent(question.getTitle()));
 				qp.setColumnContainsSocorro(analyzer.containsSocorro(question.getTitle()));
+				qp.setColumnContainsPlease(analyzer.containsPlease(question.getTitle()));
+				qp.setColumnEndsWithQuestionMark(analyzer.endsWithQuestionMark(question.getTitle()));
+				qp.setColumnProperLinguage(analyzer.isUsingProperLanguage(question.getTitle()));//CORRIGIR
 				
 				questionPojos.add(qp);
 			}
@@ -102,7 +106,7 @@ public class GenerateReults {
 	 * @param questions
 	 * @return
 	 */
-	public List<QuestionPojo> generateAnswedQuestions(List<Question> questions, int questionAmount){
+	/*public List<QuestionPojo> generateAnswedQuestions(List<Question> questions, int questionAmount){
 		
 		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
 		
@@ -115,21 +119,21 @@ public class GenerateReults {
 				
 				QuestionPojo qp = new QuestionPojo();
 				
-				/**
-				 * metadados SO request to API
-				 */
+				
+				//metadados SO request to API
+				 
 				qp.setColumnQuestion(question);
 				
-				/**
-				 * metadados of time asks
-				 */
+				
+				//metadados of time asks
+				
 				qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
 				qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
 				qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
 				
-				/**
-				 * Analizers of titles of questions
-				 */
+				
+				//Analizers of titles of questions
+				
 				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
 				qp.setColumnParciallyUpperCase(analyzer.isPartiallyUpperCase(question.getTitle()));
 				qp.setColumnSmallSizeTitle(analyzer.isSmallSizeTitle(question.getTitle()));
@@ -141,7 +145,7 @@ public class GenerateReults {
 		}
 		
 		return questionPojos;
-	}
+	}*/
 	
 	/**
 	 * Parse list of comments of pojo @Comment to list String
@@ -242,9 +246,7 @@ public class GenerateReults {
 	}
 	
 	private boolean isAnwend(Question question){
-
 		return question.isAnswered();
-		
 	}
 	
 	public Integer numberWords(String title) {
@@ -254,4 +256,35 @@ public class GenerateReults {
 		
 		return strPart.length;
 	}
+	
+	public double percentageUpperCaseUpperCase(String title){
+		
+		String str = StringUtil.removeConnective(title);
+		str = StringUtil.removeCharacterSpecial(str);
+		String[] strPart = StringTokenizerUtils.parseToken(str);
+
+		double quantUpperCase = 0;
+		
+		for(String s: strPart) {
+			if(s.toUpperCase().equals(s)) {
+				quantUpperCase+=1;
+			}
+		}
+
+		return (100.0 / (strPart.length / quantUpperCase));
+	}
+	
+	public static void main(String[] args) {
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
