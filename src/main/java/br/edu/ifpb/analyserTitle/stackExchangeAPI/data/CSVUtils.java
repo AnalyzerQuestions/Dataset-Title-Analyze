@@ -53,32 +53,14 @@ public class CSVUtils {
 		"TÍTULO CONTÉM 'URGENTE'",
 		"TÍTULO CONTÉM 'SOCORRO'",
 		"TÍTULO CONTÉM 'POR FAVOR'",
-		"TÍTULO COERENTE COM A DESCRIÇÃO"
+		"TÍTULO COERENTE COM A DESCRIÇÃO",
+		"TÍTULO CONTÉM PALAVRA ENTRE PARENTESES",
+		"TÍTULO CONTÉM PALAVRA ENTRE COLCHETES",
+		"TÍTULO CONTÉM PALAVRA ENTRE CHAVES",
+		"TÍTULO TERMINA COM INTERROGAÇÃO"
 	};
     
-    /*
-     * "TÍTULO TOTALMENTE EM CAIXA ALTA",
-		"TÍTULO PARCIALMENTE EM CAIXA ALTA",
-		"TÍTULO QUE RESUMA O PROBLEMA",
-		"TÍTULO CURTO (Até 3 palavras)", 
-		"TÍTULO TAMANHO MÉDIO (de 4 a 8 palavras)",
-		"TÍTULO COERENTE COM A DESCRIÇÃO",
-		"TÍTULO OBJETIVO", 
-		"TÍTULO CLARO",
-		"TÍTULO ESCRITO USANDO A NORMA CULTA DA LÍNGUA"
-	    "ÚLTIMA DATA DE EDIÇÃO", 
-	    "PONTOS", 
-	    "DESCRICAO HTML",
-	    "TAGS",
-	    "QUANTIDADADE DE VOTOS (down)",
-	    "TEMPO (minutos) ENTRE PERGUNTA E 1º COMENTARIO",
-	    "TEMPO (minutos) ENTRE 1º COMENTARIO E 1ª RESPOSTA",
-	    "FOI VOTADA (down)",
-	    "QUANTIDADE DE VOTOS (up)", 
-	    "QUANTIDADE COMENTÁRIO", 
-	    "QUANTIDADE DE VOTOS DELETADOS",
-	    "FOI VOTADA (up)",
-     */
+    
     
     public void getQuestions(List<QuestionPojo> questions){
     	
@@ -109,42 +91,13 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getAnswerCount()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().isCanClosed()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getClosedDate()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getCommentCount()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getCreationDate()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getLastEditDate()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getScore()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getViewCount()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getTitle()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getBodyMarkdown()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().getBody()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getTags()));
 				recordQuestions.add(String.valueOf(q.getColumnQuestion().isAnswered()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getDownVoteCount()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().isDownVoted()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getUpVoteCount()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().getDeleteVoteCount()));
-				//recordQuestions.add(String.valueOf(q.getColumnQuestion().isUpVoted()));
 				
-				//recordQuestions.add(String.valueOf(q.getColumnDateBetwenQuestionComment() == -1 ? "Sem comentário":q.getColumnDateBetwenQuestionComment()));
 				recordQuestions.add(String.valueOf(q.getColumnDateBetwenQuestionAnswer() == -1 ? "Sem Resposta":q.getColumnDateBetwenQuestionAnswer()));
-				//recordQuestions.add(String.valueOf(q.getColumnDateBetwenCommentAnswer() == -1 ? "Sem resposta/comentario":q.getColumnDateBetwenCommentAnswer()));
-				
-
-				/*recordQuestions.add(String.valueOf(q.getColumnObjetividade()));
-				recordQuestions.add(String.valueOf(q.getColumnQuestionUnique()));
-				recordQuestions.add(String.valueOf(q.getColumnDescricaoCurta()));
-				
-				
-				recordQuestions.add(String.valueOf(q.getColumnClareza()));
-				recordQuestions.add(String.valueOf(q.getColumnCoerenciaTeD()));
-				recordQuestions.add(String.valueOf(q.getColumnEvidentProbleam()));
-
-				
-				recordQuestions.add(String.valueOf(q.getColumnPergBemDefinida()));
-				recordQuestions.add(String.valueOf(q.getColumnExemplo()));
-				recordQuestions.add(String.valueOf(q.getColummLink()));
-				recordQuestions.add(String.valueOf(q.getCombLink()));*/
-				
 				recordQuestions.add(String.valueOf(q.getColumnPercentageUpperCase()));
 				recordQuestions.add(String.valueOf(q.getColumnSizeTitle()));
 				
@@ -155,15 +108,10 @@ public class CSVUtils {
 				recordQuestions.add(String.valueOf(q.getColumnContainsSocorro()));
 				recordQuestions.add(String.valueOf(q.getColumnContainsPlease()));
 				recordQuestions.add(String.valueOf(q.getColumnCoherentBodyAndTitle()));
-				
-				/*recordQuestions.add(String.valueOf(q.getColumnMuchCode()));
-				
-				
-				recordQuestions.add(String.valueOf(q.getColumnEducacao()));
-				recordQuestions.add(String.valueOf(q.getColumnEvPerguntaDuplicada()));
-				recordQuestions.add(String.valueOf(q.getColumnEvPergSobreTrabAcademicos()));
-				recordQuestions.add(String.valueOf(q.getColumnAgradecimento()));
-				recordQuestions.add(String.valueOf(q.getColumnUsoNormaCultaLingua()));*/
+				recordQuestions.add(String.valueOf(q.getColumnWordIntoParenthesis()));
+				recordQuestions.add(String.valueOf(q.getColumnWordIntoBracket()));
+				recordQuestions.add(String.valueOf(q.getColumnWordIntoBrace()));
+				recordQuestions.add(String.valueOf(q.getColumnEndsWithQuestionMark()));
 				
 				csvPrinter.printRecord(recordQuestions);
 			}

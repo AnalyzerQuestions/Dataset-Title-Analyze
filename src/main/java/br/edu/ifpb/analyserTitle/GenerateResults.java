@@ -38,9 +38,6 @@ public class GenerateResults {
 	 */
 	private TitleAnalyzer analyzer;
 	
-
-	
-	
 	/**
 	 * 
 	 */
@@ -58,94 +55,41 @@ public class GenerateResults {
 		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
 		
 		for (Question question : questions) {
-			/*if(question.getAnswerCount() <= 0){
-				
-				if(questionPojos.size() == questionAmount ){
-					return questionPojos;
-				}*/
-				
-				
-				QuestionPojo qp = new QuestionPojo();
-				
-				/**
-				 * metadados SO request to API
-				 */
-				qp.setColumnQuestion(question);
-				
-				/**
-				 * metadados of time asks
-				 */
-				//qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
-				qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
-				//qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
-				
-				/**
-				 * Analizers of titles of questions
-				 */
-				qp.setColumnPercentageUpperCase(this.percentageUpperCase(question.getTitle()));
-				qp.setColumnSizeTitle(this.numberWords(question.getTitle()));
+			QuestionPojo qp = new QuestionPojo();
+			
+			/**
+			 * metadados SO request to API
+			 */
+			qp.setColumnQuestion(question);
+			
+			/**
+			 * metadados of time asks
+			 */
+			qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
+			
+			/**
+			 * Analizers of titles of questions
+			 */
+			qp.setColumnPercentageUpperCase(this.percentageUpperCase(question.getTitle()));
+			qp.setColumnSizeTitle(this.numberWords(question.getTitle()));
 
-				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
-				qp.setColumnCoherentBodyAndTitle(analyzer.isCoherentBodyAndTitle(question.getTitle(), question.getBody()));
-				qp.setColumnContainsHelp(analyzer.containsHelp(question.getTitle()));
-				qp.setColumnContainsUrgent(analyzer.containsUrgent(question.getTitle()));
-				qp.setColumnContainsSocorro(analyzer.containsSocorro(question.getTitle()));
-				qp.setColumnContainsPlease(analyzer.containsPlease(question.getTitle()));
-				qp.setColumnEndsWithQuestionMark(analyzer.endsWithQuestionMark(question.getTitle()));
-				qp.setColumnProperLinguage(analyzer.isUsingProperLanguage(question.getTitle()));//CORRIGIR
-				
-				questionPojos.add(qp);
-			}
-		//}
-		
-		return questionPojos;
-	}
-	
-	/**
-	 * 
-	 * @param questions
-	 * @return
-	 */
-	/*public List<QuestionPojo> generateAnswedQuestions(List<Question> questions, int questionAmount){
-		
-		List<QuestionPojo> questionPojos = new ArrayList<QuestionPojo>();
-		
-		for (Question question : questions) {
-			if(question.getAnswerCount() > 0 && question.getAnswers() != null){
-				
-				if(questionPojos.size() == questionAmount ){
-					return questionPojos;
-				}
-				
-				QuestionPojo qp = new QuestionPojo();
-				
-				
-				//metadados SO request to API
-				 
-				qp.setColumnQuestion(question);
-				
-				
-				//metadados of time asks
-				
-				qp.setColumnDateBetwenQuestionComment(this.dateBetwenQuestionComment(question));
-				qp.setColumnDateBetwenQuestionAnswer(this.dateBetwenQuestionAnswer(question));
-				qp.setColumnDateBetwenCommentAnswer(this.dateBetwenCommentAnswer(question));
-				
-				
-				//Analizers of titles of questions
-				
-				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
-				qp.setColumnParciallyUpperCase(analyzer.isPartiallyUpperCase(question.getTitle()));
-				qp.setColumnSmallSizeTitle(analyzer.isSmallSizeTitle(question.getTitle()));
-				qp.setColumnMediumSizeTitle(analyzer.isMediumSizeTitle(question.getTitle()));
-				qp.setColumnContainsHelpOrUrgent(analyzer.containsHelpOrUrgent(question.getTitle()));
-				
-				questionPojos.add(qp);
-			}
+			qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
+			qp.setColumnCoherentBodyAndTitle(analyzer.isCoherentBodyAndTitle(question.getTitle(), question.getBody()));
+			qp.setColumnContainsHelp(analyzer.containsHelp(question.getTitle()));
+			qp.setColumnContainsUrgent(analyzer.containsUrgent(question.getTitle()));
+			qp.setColumnContainsSocorro(analyzer.containsSocorro(question.getTitle()));
+			qp.setColumnContainsPlease(analyzer.containsPlease(question.getTitle()));
+			qp.setColumnEndsWithQuestionMark(analyzer.endsWithQuestionMark(question.getTitle()));
+			qp.setColumnProperLinguage(analyzer.isUsingProperLanguage(question.getTitle()));
+			qp.setColumnWordIntoBrace(analyzer.containsWordIntoBrace(question.getTitle()));
+			qp.setColumnWordIntoBracket(analyzer.containsWordIntoBracket(question.getTitle()));
+			qp.setColumnWordIntoParenthesis(analyzer.containsWordIntoParenthesis(question.getTitle()));
+			
+			questionPojos.add(qp);
 		}
 		
 		return questionPojos;
-	}*/
+	}
 	
 	/**
 	 * Parse list of comments of pojo @Comment to list String
@@ -161,23 +105,6 @@ public class GenerateResults {
 		}
 		return bodys;
 	}
-	
-	/**
-	 * 
-	 * @param question
-	 * @return
-	 */
-/*	private Long dateBetwenQuestionComment(Question question){
-		Long minutes = -1l;
-		Comment comment = null;
-		
-		if(isCommented(question)){
-			comment = question.getComments().get(0);
-			
-			minutes = this.minutesBetewn(question.getCreationDate(), comment.getCreationDate());
-		}
-		return minutes;
-	}*/
 	
 	/**
 	 * 
@@ -201,24 +128,6 @@ public class GenerateResults {
 		return minutes;
 	}
 
-	/**
-	 * 
-	 * @param question
-	 * @return
-	 */
-	/*private Long dateBetwenCommentAnswer(Question question){
-		Long minutes = -1l;
-		
-		
-		
-		if(isAnwend(question) && isCommented(question)){
-			Answer answer = question.getAnswers().get(0);
-			Comment comment = question.getComments().get(0);
-			
-			minutes = this.minutesBetewn(comment.getCreationDate(), answer.getCreationDate());
-		}
-		return minutes;
-	}*/
 	
 	/**
 	 * 
@@ -254,7 +163,7 @@ public class GenerateResults {
 		str = StringUtil.removeCharacterSpecial(str);
 		String[] strPart = StringTokenizerUtils.parseToken(str);
 
-		float quantUpperCase = 0;
+		int quantUpperCase = 0;
 		
 		for(String s: strPart) {
 			if(s.toUpperCase().equals(s)) {
@@ -262,7 +171,15 @@ public class GenerateResults {
 			}
 		}
 
+		if(quantUpperCase == 0){
+			return 0;
+		}
+		
 		return Math.round(100 / (strPart.length / quantUpperCase)); //Math.round( 
 	}
+	
+	/*public static void main(String[] args){
+		System.out.println(new GenerateResults().percentageUpperCase("Tratar retorno do AJAX (responseText)"));
+	}*/
 	
 }

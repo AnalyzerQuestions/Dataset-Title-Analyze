@@ -128,8 +128,6 @@ public class MainTestSO2016 {
 		GenerateResults generateReults = new GenerateResults();
 		CSVUtils csvUtils = new CSVUtils();
 
-		//System.out.println("--------------------------------------PERGUNTAS NÃO RESPONDIDAS------------------------------------------");
-
 		csvUtils.getQuestions(generateReults.generateQuestions(itemsQuestions, 5000));
 
 		System.out.println("------------------------------------------------> writing ...");
@@ -137,26 +135,6 @@ public class MainTestSO2016 {
 		csvUtils.writeCSV("perguntas-2016-SO-PT.csv");
 
 		System.out.println("------------------------------------------------> ESCRITA CSV OK");
-
-		/*System.out.println("-----------------------------------------------> 200 OK");
-		System.out
-				.println("------------------------------------------------> " + itemsQuestions.size() + " COUNT LIST");
-		System.out.println("------------------------------------------------> Analyzing ...");
-
-
-		System.out.println("-----------------------------------------------------------------------------------------------------");
-
-
-		System.out.println("--------------------------------------PERGUNTAS RESPONDIDAS------------------------------------------");
-
-
-		csvUtils.getQuestions(generateReults.generateAnswedQuestions(itemsQuestions, 100));
-
-		System.out.println("------------------------------------------------> writing ...");
-
-		csvUtils.writeCSV("perguntas-respondidas-SO-PT.csv");
-
-		System.out.println("------------------------------------------------> ESCRITA CSV OK"); */
 
 		System.out.println("-----------------------------------------------------------------------------------------------------");
 
