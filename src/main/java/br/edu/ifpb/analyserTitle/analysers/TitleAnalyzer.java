@@ -2,9 +2,12 @@ package br.edu.ifpb.analyserTitle.analysers;
 
 import java.util.Stack;
 
+import br.edu.ifpb.analyserTitle.util.CoGrooUtils;
 import br.edu.ifpb.analyserTitle.util.LanguageToolUtils;
 import br.edu.ifpb.analyserTitle.util.StringUtil;
 import br.edu.ifpb.analyserTitle.util.similarity.ScoreSimilarity;
+import br.edu.ifpb.analyserTitle.util.data.ReaderFile;
+import br.edu.ifpb.analyserTitle.util.StringTokenizerUtils;
 
 /**
  * 
@@ -20,7 +23,14 @@ import br.edu.ifpb.analyserTitle.util.similarity.ScoreSimilarity;
  */
 public class TitleAnalyzer {
 	
+	private String javaClasses;
+	private String javaClassesException;
 	private static final Float VALUE_SIMILARITY = 0.05f;
+
+	public TitleAnalyzer(){
+		this.setClassesJava();
+		this.setClassesJavaExceptions();
+	}
 	
 	public Integer isTotallyUpperCase(String title){
 		
@@ -77,28 +87,55 @@ public class TitleAnalyzer {
 	
 	/**
 	 * <p>
-	 * Analisa o uso da língua adequando no título
+	 * Analisa o uso da língua adequando na descrição
 	 * </p>
 	 * 
-	 * Verifica se o título está gramaticamente e ortograficamente correto
+	 * Verifica se a descrição está gramaticamente e ortograficamente correta
 	 * 
 	 * @param description
-	 *            titulo da pergunta a ser análisado
+	 *            descrição da pergunta a ser análisada
 	 * @return 1/0
 	 */
 	public Integer isUsingProperLanguage(String title) {
-		
 		String s0 = StringUtil.removerTagsHtml(title.toLowerCase());
+		s0 = this.removeAllCode(s0);
 		s0 = StringUtil.removeCharacterSpecial(s0);
 		String s2 = StringUtil.trim(s0);
 
-		if (!LanguageToolUtils.textIsValid(s2, 0)) {
-			return 0;
-		} 
-		else {
-			return 1;
+
+		if (frenquencyOfCode(title, 2) == 0) {
+			if (!LanguageToolUtils.textIsValid(s2, 0)) {
+				return 0;
+			} else {
+				return 1;
+			}
 		}
-		
+		if (frenquencyOfCode(title, 2) > 10
+				&& frenquencyOfCode(title, 2) < 60) {
+			if (!LanguageToolUtils.textIsValid(s2, 80)) {
+				return 0;
+			} else {
+				return 1;
+			}
+		} else if (frenquencyOfCode(title, 2) >= 5) {
+			if (!LanguageToolUtils.textIsValid(s2, 12)) {
+				return 0;
+			} else {
+				return 1;
+			}
+		} else if (frenquencyOfCode(title, 2) < 5) {
+			if (!LanguageToolUtils.textIsValid(s2, 5)) {
+				return 0;
+			} else {
+				return 1;
+			}
+		} else {
+			if (!LanguageToolUtils.textIsValid(s2, 400)) {
+				return 0;
+			} else {
+				return 1;
+			}
+		}
 	}
 	
 	public Integer containsWordIntoParenthesis(String title) {
@@ -158,8 +195,83 @@ public class TitleAnalyzer {
 		return 0;
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(new TitleAnalyzer().isUsingProperLanguage("Testando o método"));
+	/**
+	 * <p>
+	 * Verifica a frequência de código em um texto
+	 * </p>
+	 * 
+	 * @param description texto
+	 * @return a frequẽncia do texto passado
+	 */
+	private int frenquencyOfCode(String description, Integer type) {
+
+		int flag = 0;
+
+		String[] tJavaClasses = StringTokenizerUtils.parseToken(javaClasses
+				.toLowerCase());
+		String[] strSplited = StringTokenizerUtils.parseToken(description
+				.toLowerCase());
+
+		if (type == 1) {
+			for (int j = 0; j < strSplited.length; j++) {
+				for (int i = 0; i < tJavaClasses.length; i++) {
+
+					if (strSplited[j].equals(tJavaClasses[i])) {
+						flag++;
+					}
+				}
+			}
+		} else {
+			for (int j = 0; j < strSplited.length; j++) {
+				for (int i = 0; i < tJavaClasses.length; i++) {
+
+					if (strSplited[j].contains(tJavaClasses[i])) {
+						flag++;
+					}
+				}
+			}
+
+		}
+		return flag;
 	}
 	
+	private String removeAllCode(String description) {
+		String result = "";
+		String tStr[] = StringTokenizerUtils.parseToken(description
+				.toLowerCase());
+		String[] tJavaClasses = StringTokenizerUtils.parseToken(javaClasses
+				.toLowerCase());
+
+		for (int i = 0; i < tStr.length; i++) {
+
+			for (int j = 0; j < tJavaClasses.length; j++) {
+				if (tStr[i].contains(tJavaClasses[j])) {
+					tStr[i] = "";
+				}
+			}
+		}
+
+		for (String string : tStr) {
+			result += string + " ";
+		}
+
+		return StringUtil.trim(result);
+	}
+	
+	/**
+	 * método auxiliar para carregar os nomes das classes do java. Deve ser
+	 * executado antes para não ter que fazer conexão com a pagina toda vez.
+	 */
+	private void setClassesJava() {
+		javaClasses = ReaderFile.readerTxt("classJava.txt").toLowerCase();
+	}
+
+	/**
+	 * método auxiliar para carregar os nomes das classes exception do java. Deve ser
+	 * executado antes para não ter que fazer conexão com a pagina toda vez.
+	 */
+	private void setClassesJavaExceptions(){
+		javaClassesException = ReaderFile.readerTxt("classOnlyExceptionJava.txt");
+	}
+
 }

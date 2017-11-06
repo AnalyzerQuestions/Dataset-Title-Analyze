@@ -52,7 +52,8 @@ public class CSVUtils {
 		"TÍTULO CONTÉM 'AJUDA'",
 		"TÍTULO CONTÉM 'URGENTE'",
 		"TÍTULO CONTÉM 'SOCORRO'",
-		"TÍTULO CONTÉM 'POR FAVOR'"
+		"TÍTULO CONTÉM 'POR FAVOR'",
+		"TÍTULO COERENTE COM A DESCRIÇÃO"
 	};
     
     /*

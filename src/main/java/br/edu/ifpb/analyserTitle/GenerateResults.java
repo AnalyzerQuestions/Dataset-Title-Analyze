@@ -82,7 +82,7 @@ public class GenerateResults {
 				/**
 				 * Analizers of titles of questions
 				 */
-				qp.setColumnPercentageUpperCase(this.percentageUpperCaseUpperCase(question.getTitle()));
+				qp.setColumnPercentageUpperCase(this.percentageUpperCase(question.getTitle()));
 				qp.setColumnSizeTitle(this.numberWords(question.getTitle()));
 
 				qp.setColumnTotallyUpperCase(analyzer.isTotallyUpperCase(question.getTitle()));
@@ -236,15 +236,6 @@ public class GenerateResults {
 		return minutes;
 	}
 	
-	/**
-	 * 
-	 * @param question
-	 * @return
-	 */
-	private boolean isCommented(Question question){
-		return question.getCommentCount() > 0; 
-	}
-	
 	private boolean isAnwend(Question question){
 		return question.isAnswered();
 	}
@@ -257,13 +248,13 @@ public class GenerateResults {
 		return strPart.length;
 	}
 	
-	public double percentageUpperCaseUpperCase(String title){
+	public int percentageUpperCase(String title){
 		
 		String str = StringUtil.removeConnective(title);
 		str = StringUtil.removeCharacterSpecial(str);
 		String[] strPart = StringTokenizerUtils.parseToken(str);
 
-		double quantUpperCase = 0;
+		float quantUpperCase = 0;
 		
 		for(String s: strPart) {
 			if(s.toUpperCase().equals(s)) {
@@ -271,20 +262,7 @@ public class GenerateResults {
 			}
 		}
 
-		return (100.0 / (strPart.length / quantUpperCase)); //100.0 / 
+		return Math.round(100 / (strPart.length / quantUpperCase)); //Math.round( 
 	}
-	
-	public static void main(String[] args) {
-		System.out.println(Math.round(new GenerateResults().percentageUpperCaseUpperCase("CSS para mensagens A e B")));
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
